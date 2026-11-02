@@ -1,0 +1,13 @@
+source:
+  citation: sutton2019
+  url: http://www.incompleteideas.net/IncIdeas/BitterLesson.html
+  local: sources/sutton_2019_bitter_lesson.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  lesson:
+    quotes:
+    - exact: general methods that leverage computation are ultimately the most effective, and by a large
+        margin
+  discover:
+    quotes:
+    - exact: We want AI agents that can discover like we can, not which contain what we have discovered.

@@ -1,0 +1,10 @@
+source:
+  citation: mayo2019_notes
+  url: https://errorstatistics.com/wp-content/uploads/2019/01/notes-on-excursion-1-2019-jan-21-.pdf
+  local: sources/mayo_2019_sist_excursion1_notes.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  necessary_not_sufficient:
+    quotes:
+    - exact: Error control is necessary but not sufficient for severity.
+      section: Excursion 1 Tour II summary

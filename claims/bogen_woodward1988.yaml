@@ -1,0 +1,11 @@
+source:
+  citation: bogen_woodward1988
+  doi: 10.2307/2185445
+  url: https://sites.pitt.edu/~hpsdept//people/fac_pages/bogen/saving.pdf
+  local: sources/bogen_woodward_1988_ocr.txt
+  note: OCR text (macOS Vision, 200 dpi) of the scanned PDF at the url; the PDF has no text layer.
+claims:
+  bearish:
+    quotes:
+    - exact: bearish on perception and bullish on data-analysis
+      section: XIII

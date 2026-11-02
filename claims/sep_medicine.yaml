@@ -1,0 +1,39 @@
+source:
+  citation: sep_medicine
+  url: https://plato.stanford.edu/entries/medicine/
+  local: sources/sep_medicine.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  rct:
+    quotes:
+    - exact: the RCT can only establish that the treatment is effective in the test population
+      section: 5. Randomized Controlled Trials and Evidence-Based Medicine
+  differ:
+    quotes:
+    - exact: Typical test populations differ from the target populations
+      section: 5. Randomized Controlled Trials and Evidence-Based Medicine
+  similar:
+    quotes:
+    - exact: What is true of a model can be presumed to be true of the target only to the extent that
+        the model is similar to the target in relevant respects.
+      section: 6. Animal Models
+  circle:
+    quotes:
+    - exact: To do so, we would have to investigate whether the target is relevantly similar to the model;
+        but if we could do so, there would be no reason to study the model in the first place.
+      section: 6. Animal Models
+  tracing:
+    quotes:
+    - exact: comparative process tracing avoids the extrapolator’s circle by demanding processes to be
+        compared only at stages where they are likely to differ
+      section: 6. Animal Models
+  capacity:
+    quotes:
+    - exact: If C has a causal capacity to bring about E, then C causes E in a somewhat stable or invariant
+        manner.
+      section: 6. Animal Models
+  nogeneral:
+    quotes:
+    - exact: there is no general answer to the question whether or not animal studies are valuable from
+        a purely epistemic (as opposed to ethical, economic, or combined) view
+      section: 6. Animal Models

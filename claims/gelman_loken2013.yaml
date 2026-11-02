@@ -1,0 +1,26 @@
+source:
+  citation: gelman_loken2013
+  url: https://sites.stat.columbia.edu/gelman/research/unpublished/p_hacking.pdf
+  local: sources/gelman_loken_2013_garden_forking_paths.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  single:
+    quotes:
+    - exact: Researcher degrees of freedom can lead to a multiple comparisons problem, even in settings
+        where researchers perform only a single analysis on their data.
+      section: Abstract
+      page: 1
+  otheranalyses:
+    quotes:
+    - exact: had the data turned out differently, they could have done other analyses that were just as
+        reasonable in those circumstances
+      page: 1
+  lookhard:
+    quotes:
+    - exact: it’s easy to find a p < .05 comparison even if nothing is going on, if you look hard enough
+      page: 1
+  nofishing:
+    quotes:
+    - exact: without the researcher performing any conscious procedure of fishing or examining multiple
+        p-values
+      page: 1

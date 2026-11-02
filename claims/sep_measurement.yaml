@@ -1,0 +1,35 @@
+source:
+  citation: sep_measurement
+  url: https://plato.stanford.edu/entries/measurement-science/
+  local: sources/sep_measurement-science.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  bridgman:
+    quotes:
+    - exact: we mean by any concept nothing more than a set of operations; the concept is synonymous with
+        the corresponding set of operations.
+      section: 4. Operationalism and Conventionalism
+  chang:
+    quotes:
+    - exact: Chang argues that constructing a quantity-concept and standardizing its measurement are co-dependent
+        and iterative tasks.
+      section: 8.1 Standardization and scientific progress
+  borsboom:
+    quotes:
+    - exact: a test is valid for measuring an attribute if and only if a) the attribute exists, and b)
+        variations in the attribute causally produce variations in the outcomes of the measurement procedure
+      section: 7.3 Psychometric models and construct validity
+  fit_not_validity:
+    quotes:
+    - exact: A good fit between item responses and a statistical model does not yet determine what the
+        questionnaire is measuring.
+      section: 7.3 Psychometric models and construct validity
+  theory_laden:
+    quotes:
+    - exact: some level of theory-ladenness is a prerequisite for measurements to have any evidential
+        power
+      section: 8.2 Theory-ladenness of measurement
+  ballung:
+    quotes:
+    - exact: Such concepts are too multifaceted to be measured on a single metric without loss of meaning
+      section: 7.3 Psychometric models and construct validity

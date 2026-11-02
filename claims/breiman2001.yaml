@@ -1,0 +1,22 @@
+source:
+  citation: breiman2001
+  doi: 10.1214/ss/1009213726
+  url: https://www2.math.uu.se/~thulin/mm/breiman.pdf
+  local: sources/breiman_2001_statistical_modeling_two_cultures.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  accuracy_mechanism:
+    quotes:
+    - exact: Higher predictive accuracy is associated with more reliable information about the underlying
+        data mechanism.
+      section: 11. Information from a Black Box
+  rashomon:
+    quotes:
+    - exact: there is often a multitude of different descriptions [equations f(x)] in a class of functions
+        giving about the same minimum error rate.
+      section: 8. Rashomon and the Multiplicity of Good Models
+  two_goals:
+    quotes:
+    - exact: The goals in statistics are to use data to predict and to get information about the underlying
+        data mechanism.
+      section: 12. Final Remarks

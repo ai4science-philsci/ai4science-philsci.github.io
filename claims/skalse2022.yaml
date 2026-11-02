@@ -1,0 +1,15 @@
+source:
+  citation: skalse2022
+  url: https://arxiv.org/pdf/2209.13085
+  local: sources/skalse_2022_reward_hacking.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  def:
+    quotes:
+    - exact: a phenomenon where optimizing an imperfect proxy reward function
+      page: 1
+  unhackable:
+    quotes:
+    - exact: We say that a proxy is unhackable if increasing the expected proxy return can never decrease
+        the expected true return.
+      page: 1

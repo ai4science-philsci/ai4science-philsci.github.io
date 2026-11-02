@@ -1,0 +1,20 @@
+source:
+  citation: sep_popper
+  url: https://plato.stanford.edu/entries/popper/
+  local: sources/sep_popper.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  refutation_beforehand:
+    quotes:
+    - exact: real support can be obtained only from observations undertaken as tests (by ‘attempted refutations’);
+        and for this purpose criteria of refutation have to be laid down beforehand
+      section: 2. Backdrop to Popper's Thought
+  risky:
+    quotes:
+    - exact: should count scientifically only if it is the positive result of a genuinely “risky” prediction,
+        which might conceivably have been false
+      section: 3. The Problem of Demarcation
+  not_single_instance:
+    quotes:
+    - exact: a single conflicting or counter-instance is never sufficient methodologically for falsification
+      section: 4. Basic Statements, Falsifiability and Convention

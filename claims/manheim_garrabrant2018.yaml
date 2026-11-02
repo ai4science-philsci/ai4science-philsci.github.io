@@ -1,0 +1,37 @@
+source:
+  citation: manheim_garrabrant2018
+  url: https://arxiv.org/pdf/1803.04585
+  local: sources/manheim_garrabrant_2018_goodhart_variants.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  goodhart:
+    quotes:
+    - exact: any observed statistical regularity will tend to collapse once pressure is placed upon it
+        for control purposes.
+      page: 1
+  effect:
+    quotes:
+    - exact: optimization causes a collapse of the statistical relationship between a goal which the optimizer
+        intends and the proxy used for that goal
+      page: 1
+  regressional:
+    quotes:
+    - exact: When selecting for a proxy measure, you select not only for the true goal, but also for the
+        difference between the proxy and the goal.
+      page: 2
+  unavoidable:
+    quotes:
+    - exact: an inexact metric necessarily leads to a divergence between the goal and the metric in the
+        tail
+      page: 2
+  campbell:
+    quotes:
+    - exact: The more any quantitative social indicator is used for social decision-making, the more subject
+        it will be to corruption pressures and the more apt it will be to distort and corrupt the social
+        processes it is intended to monitor.
+      page: 8
+  power:
+    quotes:
+    - exact: The importance of Goodhart effects depends on the amount of power directed towards optimizing
+        the proxy
+      page: 1

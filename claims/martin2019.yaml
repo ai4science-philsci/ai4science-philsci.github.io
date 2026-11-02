@@ -1,0 +1,11 @@
+source:
+  citation: martin2019
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6563838/
+  local: sources/martin_2019_prs_europepmc.txt
+  extract_cmd: cat {}
+  note: Abstract text from the Europe PMC record for PMID 30926966
+claims:
+  gap:
+    quotes:
+    - exact: several times more accurate in individuals of European ancestry than other ancestries
+      section: Abstract

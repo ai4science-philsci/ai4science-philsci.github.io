@@ -1,0 +1,19 @@
+{
+  "name": "ai4science-philsci",
+  "version": "1.0.0",
+  "description": "AI for Science × Philosophy of Science",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^5.0.6",
+    "@astrojs/starlight": "^0.39.2",
+    "astro": "^6.3.3",
+    "rehype-katex": "^7.0.1",
+    "remark-gfm": "^4.0.1",
+    "remark-math": "^6.0.0",
+    "starlight-image-zoom": "^0.14.2"
+  }
+}

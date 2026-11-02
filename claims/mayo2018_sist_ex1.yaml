@@ -1,0 +1,13 @@
+source:
+  citation: mayo2018_sist_ex1
+  doi: 10.1017/9781107286184
+  url: https://errorstatistics.com/wp-content/uploads/2018/09/0-ex1-ti_sist_mayo_share.pdf
+  local: sources/mayo_2018_sist_excursion1_tour1.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  severity_weak:
+    quotes:
+    - exact: One does not have evidence for a claim if nothing has been done to rule out ways the claim
+        may be false.
+      section: 1.1 Severity Requirement
+      page: 5

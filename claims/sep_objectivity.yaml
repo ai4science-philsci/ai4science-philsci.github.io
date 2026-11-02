@@ -1,0 +1,42 @@
+source:
+  citation: sep_objectivity
+  url: https://plato.stanford.edu/entries/scientific-objectivity/
+  local: sources/sep_scientific-objectivity.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  rudner:
+    quotes:
+    - exact: a function of the importance, in the typically ethical sense, of making a mistake in accepting
+        or rejecting a hypothesis
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  hempel:
+    quotes:
+    - exact: Contextual values influence scientific methods by determining the acceptable amount of inductive
+        risk
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  levi:
+    quotes:
+    - exact: These community standards may eliminate any room for contextual ethical judgment on behalf
+        of the scientist
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  douglasplaces:
+    quotes:
+    - exact: Many decisions in the process of scientific inquiry may conceal implicit value judgments
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  indirect:
+    quotes:
+    - exact: helping to decide what should count as a sufficient reason for a choice
+      section: 3.3 Science, Policy and the Value-Free Ideal
+  reasons:
+    quotes:
+    - exact: Values should, however, not be “reasons in themselves”, that is, evidence or defeaters for
+        evidence
+      section: 3.3 Science, Policy and the Value-Free Ideal
+  longino:
+    quotes:
+    - exact: objective to the degree that it permits transformative criticism
+      section: 5.2 Feminist and Standpoint Epistemology
+  uptake:
+    quotes:
+    - exact: criticism must be able to transform scientific practice in the long run
+      section: 5.2 Feminist and Standpoint Epistemology

@@ -1,0 +1,20 @@
+source:
+  citation: sep_lakatos
+  url: https://plato.stanford.edu/entries/lakatos/
+  local: sources/sep_lakatos.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  born_refuted:
+    quotes:
+    - exact: All theories, in this sense, are born refuted and die refuted.
+      section: 2.2 Improving on Popper in the Philosophy of Science
+  newton_marx:
+    quotes:
+    - exact: The Newtonian programme led to novel facts; the Marxian lagged behind the facts and has been
+        running fast to catch up with them.
+      section: 2.2 Improving on Popper in the Philosophy of Science
+  appraisal_not_advice:
+    quotes:
+    - exact: The Demarcation Criterion can evaluate the current state of play but it does not tell anyone
+        what to do about it.
+      section: '4. Mincemeat Unmade: Lakatos versus Feyerabend'

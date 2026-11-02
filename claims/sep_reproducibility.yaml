@@ -1,0 +1,34 @@
+source:
+  citation: sep_reproducibility
+  url: https://plato.stanford.edu/entries/scientific-reproducibility/
+  local: sources/sep_scientific-reproducibility.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  drawer:
+    quotes:
+    - exact: researchers relegate failed statistically non-significant studies to their file drawers,
+        hidden from public view
+      section: 2.2 Publication Bias, Low Statistical Power and Inflated False Positive Rates
+  simmons:
+    quotes:
+    - exact: how engaging in such practices inflates the false positive error rate of the published literature
+      section: 2.3 Questionable Research Practices
+  phack:
+    quotes:
+    - exact: deciding whether to exclude data points (e.g., outliers) only after checking the impact on
+        statistical significance and not reporting the impact of the data exclusion
+      section: 2.3 Questionable Research Practices
+  harking:
+    quotes:
+    - exact: presenting ad hoc and/or unexpected findings as though they had been predicted all along
+      section: 2.3 Questionable Research Practices
+  cherry:
+    quotes:
+    - exact: failing to report conditions or treatments that did not reach statistical significance or
+        other threshold
+      section: 2.3 Questionable Research Practices
+  notfraud:
+    quotes:
+    - exact: the Questionable Research Practices above are not typically counted as “fraud” or even “scientific
+        misconduct” despite their ethically dubious status
+      section: 2.5 Scientific Fraud

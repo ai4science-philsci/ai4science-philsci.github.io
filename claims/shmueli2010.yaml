@@ -1,0 +1,12 @@
+source:
+  citation: shmueli2010
+  doi: 10.1214/10-STS330
+  url: https://arxiv.org/pdf/1101.0891
+  local: sources/shmueli_2010_to_explain_or_to_predict.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  explain_not_predict:
+    quotes:
+    - exact: While explanatory power provides information about the strength of an underlying causal relationship,
+        it does not imply its predictive power.
+      section: 1.4 The Scientific Value of Predictive Modeling

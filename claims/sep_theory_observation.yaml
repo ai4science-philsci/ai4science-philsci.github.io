@@ -1,0 +1,28 @@
+source:
+  citation: sep_theory_observation
+  url: https://plato.stanford.edu/entries/science-theory-observation/
+  local: sources/sep_science-theory-observation.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  infer_phenomena:
+    quotes:
+    - exact: investigators use data to infer facts about phenomena, i.e., events, regularities, processes,
+        etc. whose instances are uniform and uncomplicated enough to make them susceptible to systematic
+        prediction and explanation
+      section: 2.3 Data and phenomena
+  data_travel:
+    quotes:
+    - exact: it is not just claims about the phenomena that can travel, data travel too.
+      section: 2.3 Data and phenomena
+  cherry_picking:
+    quotes:
+    - exact: Ignoring outliers without good epistemic reasons is just cherry-picking data
+      section: 2.3 Data and phenomena
+  millikan_publish:
+    quotes:
+    - exact: he wrote “Publish” next to the data in his lab notebook
+      section: 2.3 Data and phenomena
+  millikan_wont:
+    quotes:
+    - exact: writing “Won’t work” next to the calculation
+      section: 2.3 Data and phenomena

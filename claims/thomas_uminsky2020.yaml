@@ -1,0 +1,16 @@
+source:
+  citation: thomas_uminsky2020
+  url: https://arxiv.org/pdf/2002.08512
+  local: sources/thomas_uminsky_2020_problem_with_metrics.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  proxy:
+    quotes:
+    - exact: Any metric is just a proxy for what you really care about
+      page: 1
+  strathern:
+    quotes:
+    - exact: When a measure becomes a target, it ceases to be a good measure
+      prefix: goodhart's law, "
+      suffix: '" (goodhart 2015'
+      page: 1

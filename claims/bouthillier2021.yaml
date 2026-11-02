@@ -1,0 +1,12 @@
+source:
+  citation: bouthillier2021
+  url: https://arxiv.org/pdf/2103.03098
+  local: sources/bouthillier_2021_variance_ml_benchmarks.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  variance:
+    quotes:
+    - exact: variance due to data sampling, parameter initialization and hyperparameter choice impact
+        markedly the results
+      section: Abstract
+      page: 1

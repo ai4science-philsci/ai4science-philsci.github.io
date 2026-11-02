@@ -1,0 +1,18 @@
+source:
+  citation: pearl_bareinboim2014
+  url: https://arxiv.org/abs/1503.01603
+  local: sources/pearl_bareinboim_2014_transportability.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  license:
+    quotes:
+    - exact: a license to transfer causal effects learned in experimental studies to a new population,
+        in which only observational studies can be conducted
+      section: Abstract
+      page: 1
+  prior:
+    quotes:
+    - exact: whether causal effects in the target population can be inferred from experimental findings
+        in the study population
+      section: Abstract
+      page: 1

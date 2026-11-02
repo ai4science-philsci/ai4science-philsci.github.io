@@ -1,0 +1,38 @@
+source:
+  citation: sep_mechanisms
+  url: https://plato.stanford.edu/entries/science-mechanisms/
+  local: sources/sep_science-mechanisms.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  minimal:
+    quotes:
+    - exact: A mechanism for a phenomenon consists of entities (or parts) whose activities and interactions
+        are organized so as to be responsible for the phenomenon.
+      section: 2. What Is a Mechanism?
+  correlational:
+    quotes:
+    - exact: Correlational patterns are not mechanisms.
+      section: 2.3 What Are Not Mechanisms
+  phenomenal:
+    quotes:
+    - exact: a model, M, is a phenomenal model of a mechanism if and only if it describes the inputs to,
+        modulators of, and outputs from a mechanism without describing its relevant internal causal structure.
+      section: 3.3 Purely Phenomenal Models
+  howpossibly:
+    quotes:
+    - exact: A how-possibly model is a hypothesis about how the mechanism works.
+      section: 3.5.2 Correctness
+  russo:
+    quotes:
+    - exact: the correlational evidence establishes that there is a difference-making relation between
+        some cause and some effect, while the mechanistic evidence establishes how exactly the cause produces
+        its effect
+      section: 4.2 Mechanistic Evidence and Medical Discoveries
+  notreduct:
+    quotes:
+    - exact: Appeal to mechanisms is not necessarily reductionistic.
+      section: 2.2 What Mechanisms Are Not
+  notmetaphor:
+    quotes:
+    - exact: Mechanisms are not just fictions/metaphors.
+      section: 2.2 What Mechanisms Are Not

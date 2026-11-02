@@ -1,0 +1,16 @@
+source:
+  citation: fda_biomarker2018
+  url: https://www.fda.gov/media/119271/download
+  local: sources/fda_biomarker_qualification_framework.pdf
+  extract_cmd: pdftotext {} -
+  note: Draft guidance, December 2018
+claims:
+  cou:
+    quotes:
+    - exact: the circumstances under which the drug development tool is to be used in drug development
+        and regulatory review
+      page: 7
+  single:
+    quotes:
+    - exact: Each biomarker qualification effort should identify a single COU
+      page: 8

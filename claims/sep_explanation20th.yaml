@@ -1,0 +1,14 @@
+source:
+  citation: sep_explanation20th
+  url: https://plato.stanford.edu/entries/scientific-explanation-20th/
+  local: sources/sep_scientific-explanation-20th.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  not_expectability:
+    quotes:
+    - exact: Explaining an outcome isn’t just a matter of showing that it is nomically expectable.
+      section: 2.5 Explanatory Understanding and Nomic Expectability
+  flagpole_salmon:
+    quotes:
+    - exact: the shadow does not cause the flagpole and consequently cannot explain its height.
+      section: 2.5 Explanatory Understanding and Nomic Expectability
