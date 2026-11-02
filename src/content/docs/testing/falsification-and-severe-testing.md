@@ -5,7 +5,11 @@ description: "When does a result that agrees with a hypothesis count as evidence
 
 This page asks one question: **when does a result that agrees with a hypothesis count as evidence for it?**
 
-When an AI system reports that an analysis supports its hypothesis, philosophers of science have asked three questions about results like this: whether the analysis could have come out the other way, whether the hypothesis was fixed before the results came in, and how many analyses were run before this one was reported. Each names a failure familiar from machine learning: an evaluation that could not have failed, a method tuned after seeing the test set, and the unreported runs behind a reported score.
+An AI system reports that an analysis supports its hypothesis. The agreement is evidence only if three things hold:
+
+1. **The prediction could have failed.** What would have counted against the hypothesis was fixed before the run. *In ML: an evaluation that could not have failed.*
+2. **The revisions predict something new.** A hypothesis adjusted to fit the results has been fitted, not tested. *In ML: a method tuned after seeing the test set.*
+3. **The procedure could have found the flaw.** Every analysis tried counts, not only the one reported. *In ML: the unreported runs behind a reported score.*
 
 ## From falsification to severity
 
@@ -15,7 +19,7 @@ When an AI system reports that an analysis supports its hypothesis, philosophers
 >
 > — Popper (1963), quoted in [Thornton, "Karl Popper," SEP, §2](https://plato.stanford.edu/entries/popper/#BackPoppThou)
 
-**Lakatos: the revisions predict something new.** Imre Lakatos replied that no single test refutes a theory, because a failed prediction implicates the theory together with its auxiliary assumptions. Scientists keep a core of claims and adjust the assumptions around it, and they are often right to. When Neptune was found where Newtonian calculations put it, the result was hailed as a test passed. Lakatos asked what would have happened had it not been found: astronomers would have blamed the telescope or a hidden obstruction, not Newton. What separates good research from bad is the direction of the adjustments. A research programme is progressive when its revisions predict new, surprising facts that come true, and degenerating when it explains results only after the fact.
+**Lakatos: the revisions predict something new.** Imre Lakatos replied that no single test refutes a theory, because a failed prediction implicates the theory together with its auxiliary assumptions. Scientists keep a core of claims and adjust the assumptions around it, and they are often right to. His example is an imaginary planet that strays from its Newtonian orbit. The astronomer does not give up Newton; he proposes an unseen smaller planet pulling on it, and when a bigger telescope finds nothing, a cloud of cosmic dust hiding the smaller planet, and when a satellite finds no cloud, a fault in the satellite's instruments. What separates good research from bad is the direction of the adjustments. A research programme is progressive when its revisions predict new, surprising facts that come true, and degenerating when it explains results only after the fact.
 
 > The Newtonian programme led to novel facts; the Marxian lagged behind the facts and has been running fast to catch up with them.
 >
@@ -29,50 +33,19 @@ When an AI system reports that an analysis supports its hypothesis, philosophers
 
 A method practically guaranteed to find agreement gives what she calls bad evidence, no test. Her example is the Texas marksman, who fires at a barn and then paints bull's-eyes where the holes cluster. Selection does the same to data: picking the best of many analyses, adjusting after the fact, or trying again until something works can make a method likely to produce an impressive fit from noise. Replication does not fix it on its own. Observational studies of hormone replacement therapy repeatedly found benefits, and repeatedly had little ability to detect that healthier women were more likely to take it.
 
-The three disagree. Popper looked for critical tests; Lakatos denied there are any. Mayo holds that how a result was found, including every analysis tried and when the search stopped, changes what it shows. On the likelihood principle, held by many Bayesian and likelihood statisticians, the evidence depends only on the data observed.
-
-## AI for Science
-
-An AI system that explores many analyses, revises its hypothesis between runs and reports the analyses that worked is the case all three accounts were written to judge.
-
-- **Popper** asks whether the way the result could have failed was fixed before the run. A failure condition written after the results is not a test.
-- **Lakatos** asks whether the system's revisions predicted anything new, or only fit what it had already seen.
-- **Mayo** asks whether, counting every analysis the system tried, the procedure could have found the flaw. On her account the unreported runs are part of the evidence; on the likelihood principle they are not.
-
 <details class="worked-example">
-<summary>Illustrative example: an agent looking for a drug-response gene</summary>
+<summary>Objections and replies</summary>
 
-An agent is given a public gene-expression dataset and asked whether gene G predicts response to a drug. It runs one analysis per combination of outcome definition and covariate set, forty in all. The first few find nothing. After the third run it narrows the hypothesis to response in patients over sixty, where one analysis reaches significance, and it reports that analysis.
+**Lakatos to Popper.** No single test refutes a theory, because a failed prediction implicates the theory together with its auxiliary assumptions, so which programme won shows only in hindsight.
 
-**Popper.** Nothing fixed in advance what result would have counted against "G predicts response." The narrowed hypothesis was written after the data showed where the signal was, so the reported analysis could not have failed the hypothesis it ended up testing.
+**Mayo to both.** The requirement belongs to the method rather than the theory: how a result was found, including every analysis tried and when the search stopped, changes what it shows.
 
-**Lakatos.** Narrowing to patients over sixty adjusts an auxiliary assumption to save the core claim. It is progress only if it predicts something new that is then checked, such as the same subgroup effect in a second dataset the agent has not seen. Fitting the first dataset better is not.
-
-**Mayo.** The procedure was forty analyses followed by selection. If the forty were independent, the chance that at least one reaches significance at the 5% level with no real effect would be about 87%. The reported result passed a test of low severity, and its weight depends on the thirty-nine analyses not reported.
-
+**The likelihood principle to Mayo.** On the likelihood principle, held by many Bayesian and likelihood statisticians, the evidence depends only on the data observed, so the analyses not reported do not change it.
 
 </details>
 
-## In current practice
-
-| Idea | Where practitioners already do it | What it doesn't cover |
-|---|---|---|
-| Popper: fix the failure condition first | [Preregistration](https://www.pnas.org/doi/10.1073/pnas.1708274114); prespecified analyses in trials | Whether the hypothesis drifts between rounds |
-| Lakatos: revisions must predict something new | Held-out test sets; [external validation on new data](https://www.acpjournals.org/doi/10.7326/M14-0697) | How many times the held-out set was consulted |
-| Mayo: count the whole search | Multiple-comparisons correction; [reusable-holdout methods](https://arxiv.org/abs/1506.02629) | Searches that were never recorded |
-
-## Evidence patterns
-
-| Evidence pattern | What it establishes | Statement |
-|---|---|---|
-| Failure condition written before the run; result could have failed and did not | A test passed, in Popper's sense | "The prediction, fixed before the analysis, could have failed and did not." |
-| Hypothesis revised after seeing results; revised version fits | Accommodation, not a test | "The revised hypothesis fits the observed results; it has not been tested against new data." |
-| Revision predicts a new result, checked afterwards and confirmed | A progressive step, in Lakatos's sense | "The revision predicted X before X was measured." |
-| Best of many analyses reported, others not | Severity unknown | "One of N analyses is reported; the others are listed in the run record." |
-| Result replicated by studies sharing the same bias | Replication without severity | "The result replicates; the studies share the confounder Y and could not detect it." |
-
 <details class="worked-example">
-<summary>Common misreadings</summary>
+<summary>Misreadings</summary>
 
 **"Falsifiable means dropping a theory at its first failure."** Popper allowed that scientists keep theories despite anomalies, and that deciding whether an observation really refutes a theory is itself a judgment.
 
@@ -93,6 +66,45 @@ An agent is given a public gene-expression dataset and asked whether gene G pred
 > — [Mayo, notes on Excursion 1 (2019), p. 1](https://errorstatistics.com/wp-content/uploads/2019/01/notes-on-excursion-1-2019-jan-21-.pdf#page=1)
 
 </details>
+
+## AI for Science
+
+An AI system that explores many analyses, revises its hypothesis between runs and reports the analyses that worked is the case all three accounts were written to judge.
+
+- **Popper** asks whether the way the result could have failed was fixed before the run. A failure condition written after the results is not a test.
+- **Lakatos** asks whether the system's revisions predicted anything new, or only fit what it had already seen.
+- **Mayo** asks whether, counting every analysis the system tried, the procedure could have found the flaw. On her account the unreported runs are part of the evidence; on the likelihood principle they are not.
+
+<details class="worked-example">
+<summary>Illustrative example: an agent looking for a drug-response gene</summary>
+
+An agent is given a public gene-expression dataset and asked whether gene G predicts response to a drug. It runs one analysis per combination of outcome definition and covariate set, forty in all. The first few find nothing. After the third run it narrows the hypothesis to response in patients over sixty, where one analysis reaches significance, and it reports that analysis.
+
+**Popper.** Nothing fixed in advance what result would have counted against "G predicts response." The narrowed hypothesis was written after the data showed where the signal was, so the reported analysis could not have failed the hypothesis it ended up testing.
+
+**Lakatos.** Narrowing to patients over sixty adjusts an auxiliary assumption to save the core claim. It is progress only if it predicts something new that is then checked, such as the same subgroup effect in a second dataset the agent has not seen. Fitting the first dataset better is not.
+
+**Mayo.** The procedure was forty analyses followed by selection. If the forty were independent, the chance that at least one reaches significance at the 5% level with no real effect would be about 87%. The reported result passed a test of low severity, and its weight depends on the thirty-nine analyses not reported.
+
+</details>
+
+## In current practice
+
+| Idea | Where practitioners already do it | What it doesn't cover |
+|---|---|---|
+| Popper: fix the failure condition first | [Preregistration](https://www.pnas.org/doi/10.1073/pnas.1708274114); prespecified analyses in trials | Whether the hypothesis drifts between rounds |
+| Lakatos: revisions must predict something new | Held-out test sets; [external validation on new data](https://www.acpjournals.org/doi/10.7326/M14-0697) | How many times the held-out set was consulted |
+| Mayo: count the whole search | Multiple-comparisons correction; [reusable-holdout methods](https://arxiv.org/abs/1506.02629) | Searches that were never recorded |
+
+## Evidence patterns
+
+| Evidence pattern | What it establishes | Statement |
+|---|---|---|
+| Failure condition written before the run; result could have failed and did not | A test passed, in Popper's sense | "The prediction, fixed before the analysis, could have failed and did not." |
+| Hypothesis revised after seeing results; revised version fits | Accommodation, not a test | "The revised hypothesis fits the observed results; it has not been tested against new data." |
+| Revision predicts a new result, checked afterwards and confirmed | A progressive step, in Lakatos's sense | "The revision predicted X before X was measured." |
+| Best of many analyses reported, others not | Severity unknown | "One of N analyses is reported; the others are listed in the run record." |
+| Result replicated by studies sharing the same bias | Replication without severity | "The result replicates; the studies share the confounder Y and could not detect it." |
 
 ## Limitations
 

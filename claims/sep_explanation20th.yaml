@@ -12,3 +12,11 @@ claims:
     quotes:
     - exact: the shadow does not cause the flagpole and consequently cannot explain its height.
       section: 2.5 Explanatory Understanding and Nomic Expectability
+  tower_objection:
+    quotes:
+    - exact: the height of the tower is “explained” by the fact that it was designed to cast a shadow of a certain length
+      section: 6.2 Constructive Empiricism and the Pragmatic Theory of Explanation
+  tower_reply:
+    quotes:
+    - exact: it is (something like) the desire for a shadow of length S (rather than S itself) that explains (or at least causally explains) the height (or the choice of height) for the tower.
+      section: 6.2 Constructive Empiricism and the Pragmatic Theory of Explanation
