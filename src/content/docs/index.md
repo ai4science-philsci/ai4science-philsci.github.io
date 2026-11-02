@@ -1,6 +1,9 @@
 ---
 title: AI for Science × Philosophy of Science
-description: Ideas from the philosophy of science, read for AI systems that run experiments, test hypotheses and report results.
+description: AI for science through the lens of philosophy of science.
+head:
+  - tag: title
+    content: AI for Science × Philosophy of Science
 ---
 
 AI systems now run experiments, revise hypotheses and report results. Philosophy of science has long asked what makes such results count: what a test is, what a measurement is, when an explanation explains. Each page here takes one of those questions, follows the answers philosophers gave with their own cases, and sets out what the answers ask of AI for science and where the analogy stops.

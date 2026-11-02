@@ -27,11 +27,12 @@ export default defineConfig({
       plugins: [starlightImageZoom()],
       title: 'AI for Science × Philosophy of Science',
       lastUpdated: false,
-      description: 'Ideas from the philosophy of science, read for AI systems that run experiments, test hypotheses and report results.',
+      description: 'AI for science through the lens of philosophy of science.',
       customCss: ['./src/styles/custom.css'],
       components: {
         Pagination: './src/components/PageFooter.astro',
         ThemeSelect: './src/components/ThemeSelect.astro',
+        SiteTitle: './src/components/SiteTitle.astro',
       },
       sidebar: [
         { label: 'Home', link: '/' },
