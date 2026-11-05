@@ -1,0 +1,33 @@
+source:
+  citation: leonelli2009
+  doi: 10.1086/605804
+  url: https://ore.exeter.ac.uk/repository/handle/10871/9429
+  sha256: f3b82de025af033c43dd652022779766f04966616ec03043e6d51a9f6717d487
+  note: author's copy downloaded by hand from the Open Research Exeter record above (file LocalityDataPSA2009.pdf); the repository refuses automated requests, so the direct file address was not recorded
+  local: sources/leonelli_2009_locality_of_data.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  packaged:
+    quotes:
+    - exact: data need to be appropriately packaged to be circulated and used as evidence for new claims
+      section: 1. Introduction
+  embedded:
+    quotes:
+    - exact: B&W characterise data as unavoidably embedded in one experimental context
+      section: 1. Introduction
+  reliability:
+    quotes:
+    - exact: the reliability of facts can only be assessed by reference to how they are produced
+      section: 2. Making Facts About Organisms Travel (ii. Circulation)
+  nonlocal:
+    quotes:
+    - exact: data can in fact be made non-local
+      section: 4. On the Locality of Data and Claims
+  provenance:
+    quotes:
+    - exact: They travel in a package that includes information about their provenance, but they can be consulted independently of that information.
+      section: 4. On the Locality of Data and Claims
+  local_again:
+    quotes:
+    - exact: 'Thus, data judged to be reliable become local once again: what changes is the research context that appropriates them.'
+      section: 4. On the Locality of Data and Claims

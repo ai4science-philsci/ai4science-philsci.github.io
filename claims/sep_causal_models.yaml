@@ -1,0 +1,27 @@
+source:
+  citation: sep_causal_models
+  url: https://plato.stanford.edu/entries/causal-models/
+  local: sources/sep_causal-models.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  markov_equivalence:
+    quotes:
+    - exact: In general, given a probability distribution P on \(\bV\), it is only possible to identify
+        a Markov equivalence class of causal structures.
+      section: 4.4 Identifiability of Causal Structure
+  override:
+    quotes:
+    - exact: when we intervene, we override the normal causal structure, forcing a variable to take a
+        value it might not have taken if the system were left alone
+      section: 4.7 Interventions
+  wright:
+    quotes:
+    - exact: Causal modeling is an interdisciplinary field that has its origin in the statistical revolution
+        of the 1920s, especially in the work of the American biologist and statistician Sewall Wright
+        (1921).
+      section: 1. Introduction
+  potential_outcomes:
+    quotes:
+    - exact: Counterfactuals play a central role in the potential outcome framework for causal models
+        pioneered by Neyman (1923), and developed by Rubin (1974) and Robins (1986), among others.
+      section: 4.10 Counterfactuals

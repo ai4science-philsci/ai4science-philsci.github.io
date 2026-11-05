@@ -1,0 +1,19 @@
+source:
+  citation: katz2016
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC4966283/
+  local: sources/katz_2016_dissociated_functional_significance_europepmc.txt
+  extract_cmd: cat {}
+claims:
+  no_measurable_impact:
+    quotes:
+    - exact: inactivation in LIP had no measurable impact on decision-making performance, despite having
+        silenced the very clusters that exhibited strong decision-related activity
+      section: Abstract
+  dissociation:
+    quotes:
+    - exact: a dissociation between decision correlation and causation
+      section: Abstract
+  epiphenomenal:
+    quotes:
+    - exact: strong neuron-decision correlations may reflect secondary or epiphenomenal signals
+      section: Abstract

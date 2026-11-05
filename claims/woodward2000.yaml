@@ -1,0 +1,11 @@
+source:
+  citation: woodward2000
+  url: https://www.journals.uchicago.edu/doi/10.1093/bjps/51.2.197
+  local: sources/woodward_2000_explanation_and_invariance.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  domain_imprecision:
+    quotes:
+    - exact: this sort of imprecision is allowable in the specification of the domain over which an explanatory
+        generalization holds but not acceptable when specifying the generalization itself
+      page: 235

@@ -1,0 +1,146 @@
+source:
+  citation: mari_wilson_maul2023
+  doi: 10.1007/978-3-031-22448-5_4
+  url: https://link.springer.com/content/pdf/10.1007/978-3-031-22448-5_4.pdf
+  local: sources/mari_wilson_maul_2023_measurement_across_sciences_ch4.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  messick_definition:
+    quotes:
+    - exact: validity is an integrated evaluative judgment of the degree to which empirical evidence and
+        theoretical rationales support the adequacy and appropriateness of inferences and actions based
+        on test scores
+      section: 4.3.3 An Argument-Based Approach to Validity
+      page: 100
+  kane_argument:
+    quotes:
+    - exact: validation should consist of the construction and evaluation of an argument (or set of arguments)
+        aimed at defending the appropriateness of a test for a particular, well-specified use
+      section: 4.3.3 An Argument-Based Approach to Validity
+      page: 101
+  legalistic:
+    quotes:
+    - exact: the degree of support for any proposition is logically independent of the truth of that proposition,
+        and thus the conception of validity could be regarded as essentially legalistic rather than scientific
+      section: 4.3.3 An Argument-Based Approach to Validity
+      page: 102
+  borsboom_compatible:
+    quotes:
+    - exact: Borsboom and colleagues' perspective on validity is also the most compatible with the framework
+        presented in this volume
+      section: 4.3.4 Causal Perspectives on Validity
+      page: 103
+  outside_mainstream:
+    quotes:
+    - exact: Borsboom and colleagues' view still stands outside the mainstream of thinking and discourse
+        about validity
+      section: 4.3.4 Causal Perspectives on Validity
+      page: 103
+  standards_definition:
+    quotes:
+    - exact: the degree to which evidence and theory support the interpretations of test scores for proposed
+        uses of tests
+      section: 4.3.3 An Argument-Based Approach to Validity
+      page: 101
+  convergent:
+    quotes:
+    - exact: results of measurements made with different instruments but of the same property should exhibit
+        high levels of agreement with one another
+      section: 4.3.2 Construct Validity
+      page: 100
+  discriminant:
+    quotes:
+    - exact: the results of measurements of different properties should not be too highly correlated with
+        one another, even if they used similar kinds of instrumentation
+      section: 4.3.2 Construct Validity
+      page: 100
+  new_use_new_argument:
+    quotes:
+    - exact: if tests are used for purposes other than those originally intended, this requires a reexamination
+        of the argument or the development of an entirely new argument
+      section: 4.3.3 An Argument-Based Approach to Validity
+      page: 101
+  convince_the_jury:
+    quotes:
+    - exact: they have to convince the jury. This bears all the marks of a licensing procedure
+      section: 4.3.3 An Argument-Based Approach to Validity, footnote 16
+      page: 102
+  measurement_buried:
+    quotes:
+    - exact: as the concept of validity has expanded, the concept of measurement has arguably been buried
+      section: 4.3.3 An Argument-Based Approach to Validity
+      page: 102
+  correlation_blurs:
+    quotes:
+    - exact: speaking of such a correlation as definitional of validity blurs the distinction between
+        what we know and how we know it
+      section: 4.3.1 Early Perspectives on Validity, footnote 12
+      page: 98
+  linear_ordering:
+    quotes:
+    - exact: properties are presumed to induce a linear ordering of people because [test scores] do
+      section: 4.2.2 Operationalist Perspectives on Measurement
+      page: 92
+  realism_bullet:
+    quotes:
+    - exact: it accepts from realism the position that some properties do exist in the world and are not
+        just human constructs, but rejects the metaphysical claim that values of properties exist independently
+        of our models
+      section: '4.5 A Preliminary Synthesis: Model-Dependent Realism'
+      page: 116
+  lens:
+    quotes:
+    - exact: what we see is jointly determined by the actual state of affairs and how we have chosen,
+        explicitly or implicitly, to model (at least) the general property, the measurand, the environment,
+        and the measurement process
+      section: '4.5 A Preliminary Synthesis: Model-Dependent Realism'
+      page: 114
+  naive_realist_box:
+    quotes:
+    - exact: measurement is analogous to a transmission process, which in the ideal case identically transfers
+        the true value of the measurand to the measured value provided by the measuring instrument
+      section: 4.2.1 Naive Realist Perspectives on Measurement
+      page: 90
+  operationalist_box:
+    quotes:
+    - exact: measurement is a model-free, purely procedural empirical process, which only provides information
+        about the property with which the measuring instrument interacts
+      section: 4.2.2 Operationalist Perspectives on Measurement
+      page: 93
+  frankenstein:
+    quotes:
+    - exact: I feel that I have created a Frankenstein
+      section: 4.2.2 Operationalist Perspectives on Measurement
+      page: 92
+  transferability:
+    quotes:
+    - exact: by defining what is measured by a given instrument as just the property that interacted here-and-now
+        with the measuring instrument, it is not obvious on what basis the information obtained could
+        be used in reference to anything other than the current conditions
+      section: 4.2.2 Operationalist Perspectives on Measurement
+      page: 92
+  pluralism_not_relativism:
+    quotes:
+    - exact: 'conceptual pluralism is not the same as relativism: responsible science requires awareness
+        and acknowledgment of the roles that conceptual frameworks, methodological approaches, and statistical
+        models play in shaping investigations'
+      section: '4.5 A Preliminary Synthesis: Model-Dependent Realism'
+      page: 115
+  no_single_true_model:
+    quotes:
+    - exact: The acknowledgment that there is no single “true model”— that is, that models (and theories)
+        are always underdetermined by facts—does not preclude the possibility of comparing models in terms
+        of their quality
+      section: '4.5 A Preliminary Synthesis: Model-Dependent Realism'
+      page: 115
+  output_not_input:
+    quotes:
+    - exact: in a measurement process, the values of properties are the output, not the input
+      section: 4.2.1 Naive Realist Perspectives on Measurement
+      page: 87
+  kane_practical:
+    quotes:
+    - exact: Kane’s argument-based approach is targeted to the practical problem of validation and not
+        a new theory about validity itself
+      section: 4.3.3 An Argument-Based Approach to Validity
+      page: 101

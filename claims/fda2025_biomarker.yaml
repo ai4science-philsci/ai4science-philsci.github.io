@@ -1,0 +1,16 @@
+source:
+  citation: fda2025_biomarker
+  url: https://www.fda.gov/media/119271/download
+  local: sources/fda_2025_biomarker_qualification_evidentiary_framework.pdf
+  extract_cmd: pdftotext -layout {} -
+claims:
+  cou_definition:
+    quotes:
+    - exact: the circumstances under which the drug development tool is to be used in drug development
+        and regulatory review
+  single_cou:
+    quotes:
+    - exact: Each biomarker qualification effort should identify a single COU
+  limited_scope:
+    quotes:
+    - exact: qualify a biomarker for a COU that is limited in scope

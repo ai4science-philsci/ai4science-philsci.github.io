@@ -1,0 +1,21 @@
+source:
+  citation: nosek2022
+  doi: 10.1146/annurev-psych-020821-114157
+  url: https://osf.io/ksfvq/download
+  local: sources/nosek_2022_replicability_robustness_reproducibility_psyarxiv.pdf
+  sha256: 2b55ebf92b3861010e3ad615f78df170997458b8e3e7750a052f3f090c68b2f7
+  extract_cmd: pdftotext {} -
+  note: PsyArXiv preprint (DOI 10.31234/osf.io/ksfvq) of Annual Review of Psychology 73 719-748.
+claims:
+  replication_def:
+    quotes:
+    - exact: Replication refers to testing the reliability of a prior finding with different data.
+      section: What are reproducibility, robustness, and replicability?
+  believed_irrelevant:
+    quotes:
+    - exact: A study is a replication when the innumerable differences from the original study are believed to be irrelevant for obtaining the evidence about the same finding.
+      section: What are reproducibility, robustness, and replicability?
+  generalizability:
+    quotes:
+    - exact: every replication is a test of generalizability, but the reverse is not true
+      section: What are reproducibility, robustness, and replicability?

@@ -1,0 +1,46 @@
+source:
+  citation: hernan_robins2025
+  url: https://miguelhernan.org/whatifbook
+  local: sources/hernan_robins_2025-01-02_causal_inference_what_if.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  seriously:
+    quotes:
+    - exact: We only take our effect estimates as seriously as we take the conditions that are needed
+        to endow them with a causal interpretation
+      section: '13.5'
+      page: 177
+  discovery_knowledge:
+    quotes:
+    - exact: the validity of causal discovery from observational data relies heavily on a priori subject-matter
+        knowledge
+      section: Technical Point 10.7
+      page: 144
+  triangulation:
+    quotes:
+    - exact: Causal inference relies on transparency of assumptions and on triangulation of results from
+        methods that depend on different sets of assumptions
+      section: '16.5'
+      page: 217
+  not_testable:
+    quotes:
+    - exact: are not empirically testable because we lack of data on the distribution of the counterfactual
+        outcomes
+      section: '13.5'
+      page: 177
+  confounding_not_apply:
+    quotes:
+    - exact: the concept of confounding does not even apply
+      section: '18.1'
+      page: 235
+  by_design:
+    quotes:
+    - exact: in ideal randomized experiments the identifiability conditions hold by design
+      section: 3.1 Identifiability conditions
+      page: 28
+  two_elements:
+    quotes:
+    - exact: 'Causal inference from observational data requires two elements: data and identifiability
+        conditions.'
+      section: 3.1 Identifiability conditions
+      page: 28

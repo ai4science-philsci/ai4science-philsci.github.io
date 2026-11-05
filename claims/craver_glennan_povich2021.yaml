@@ -1,0 +1,17 @@
+source:
+  citation: craver_glennan_povich2021
+  url: https://link.springer.com/article/10.1007/s11229-021-03183-8
+  local: sources/craver_glennan_povich_2021_constitutive_relevance_revisited.txt
+  extract_cmd: cat {}
+claims:
+  mie:
+    quotes:
+    - exact: we amend MM into a refined epistemic criterion, the “matched interlevel experiments” (MIE)
+        account
+      section: Abstract
+  betweenness:
+    quotes:
+    - exact: constitutive relevance is causal betweenness
+      prefix: 'metaphysical thesis that '
+      suffix: . 1 2 1. introduction
+      section: Abstract

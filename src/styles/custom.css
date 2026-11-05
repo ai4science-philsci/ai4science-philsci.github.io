@@ -68,7 +68,7 @@ details.worked-example > summary::marker {
 #starlight__sidebar li li summary .large,
 #starlight__sidebar li li summary span {
   font-size: var(--sl-text-sm) !important;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 /* Citation tooltips */
@@ -113,7 +113,7 @@ details.worked-example > summary::marker {
   display: none;
 }
 .content-panel:has(> .sl-container:not(:has(*))) + .content-panel {
-  border-top: none;
+  border-top: none !important;
 }
 
 /* Splash page hero */
@@ -137,4 +137,18 @@ header .social-icons::after {
 /* Quotations from sources, marked by src/plugins/remark-source-quotes.mjs */
 .source-quote {
   font-style: italic;
+}
+
+
+/* No divider between a page's title and its content, on every page */
+.content-panel + .content-panel {
+  border-top: none !important;
+}
+
+/* Tighten the gap between a page title and its content (default 1.5rem below + 1.5rem above) */
+.content-panel:has(h1#_top) {
+  padding-bottom: 0.5rem !important;
+}
+.content-panel:has(h1#_top) + .content-panel {
+  padding-top: 0.5rem !important;
 }

@@ -1,0 +1,20 @@
+source:
+  citation: sep_abduction
+  url: https://plato.stanford.edu/entries/abduction/
+  local: sources/sep_abduction.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  ibe_name:
+    quotes:
+    - exact: In the latter sense, abduction is also often called “Inference to the Best Explanation.”
+      section: Introduction
+  bad_lot:
+    quotes:
+    - exact: it must hold that at least typically the absolutely best explanation of the evidence is to
+        be found among the candidate explanations we have come up with, for else ABD1 may well lead us
+        to believe “the best of a bad lot” (van Fraassen 1989, 143)
+      section: 2. Explicating Abduction
+  diagnosis:
+    quotes:
+    - exact: physicians tend to go for the hypothesis that best explains the patient’s symptoms
+      section: 1.2 The ubiquity of abduction

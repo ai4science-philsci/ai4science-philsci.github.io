@@ -1,0 +1,10 @@
+source:
+  citation: borsboom2008
+  doi: 10.1002/jclp.20503
+  local: sources/borsboom_2008_psychometric_perspectives_diagnostic_systems.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  causal_systems:
+    quotes:
+    - exact: a causal systems perspective, which holds that disorders are causal networks consisting of symptoms and direct causal relations between them
+      section: Abstract

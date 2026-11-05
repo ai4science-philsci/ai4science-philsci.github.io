@@ -8,3 +8,12 @@ claims:
     quotes:
     - exact: Error control is necessary but not sufficient for severity.
       section: Excursion 1 Tour II summary
+  optional_stopping:
+    quotes:
+    - exact: If a tester tries and tries again until significance is reached–optional stopping–significance
+        will be attained erroneously with high probability.
+      page: 1
+  lp_stopping:
+    quotes:
+    - exact: According to the LP, the stopping rule doesn’t alter evidence.
+      page: 1

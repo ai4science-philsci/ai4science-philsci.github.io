@@ -1,0 +1,15 @@
+source:
+  citation: robins_guze1970
+  doi: 10.1176/ajp.126.7.983
+  local: sources/robins_guze_1970_diagnostic_validity.txt
+  sha256: e2688b4dde2b3afaece0ff6c5786eb83e5459ff941fab6c745dd378a660b94e3
+  extract_cmd: cat {}
+claims:
+  five_phases:
+    quotes:
+    - exact: 'validity in psychiatric illness is described, consisting of five phases: clinical description, laboratory study, exclusion of other disorders, follow-up study, and family study.'
+      section: Abstract
+  interact:
+    quotes:
+    - exact: phases interact with one another so that new findings in any one of the phases
+      section: The Five Phases

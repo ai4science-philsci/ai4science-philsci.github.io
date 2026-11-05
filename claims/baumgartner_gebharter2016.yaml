@@ -1,0 +1,13 @@
+source:
+  citation: baumgartner_gebharter2016
+  url: https://m-baum.github.io/docs/Mechanisms.pdf
+  local: sources/baumgartner_2016_constitutive_relevance_fat_handedness.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  dilemma:
+    quotes:
+    - exact: it either undermines the mechanistic research paradigm by entailing that there do not exist
+        relationships of constitutive relevance or it gives rise to the unwanted consequence that constitution
+        is a form of causation
+      section: Abstract
+      page: 1

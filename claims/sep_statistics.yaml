@@ -1,0 +1,31 @@
+source:
+  citation: sep_statistics
+  url: https://plato.stanford.edu/entries/statistics/
+  local: sources/sep_statistics.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  lp_def:
+    quotes:
+    - exact: This principle has it that the likelihoods of hypotheses for the observed data completely
+        fix the evidential impact of those data on the hypotheses.
+      section: 3.2.2
+  same_data:
+    quotes:
+    - exact: Both researchers then have the exact same data of five successes and one failure, and the
+        likelihoods for these data are the same for the two researchers too. However, while the diligent
+        researcher cannot reject the null hypothesis, the impatient researcher can.
+      section: 3.2.2
+  intentions:
+    quotes:
+    - exact: the intentions and plans of the researcher are irrelevant to the evidential value of the
+        data
+      section: 3.2.2
+  not_guaranteed:
+    quotes:
+    - exact: persistent experimentation is not guaranteed to yield any desired outcome, as long as we
+        make sure to align the procedures with the appropriate evidence conception
+      section: 3.2.2
+  continues:
+    quotes:
+    - exact: And so the controversy over the relevance of the stopping rule continues
+      section: '3.2.3 Excursion: optional stopping'

@@ -1,0 +1,19 @@
+source:
+  citation: lawlor2016
+  url: https://academic.oup.com/ije/article/45/6/1866/2930550
+  local: sources/lawlor_2016_triangulation.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  definition:
+    quotes:
+    - exact: Triangulation is the practice of obtaining more reliable answers to research questions through
+        integrating results from several different approaches, where each approach has different key sources
+        of potential bias that are unrelated to each other.
+      section: Abstract
+      page: 1
+  opposite:
+    quotes:
+    - exact: This is particularly the case when the key sources of bias of some of the approaches would
+        predict that findings would point in opposite directions if they were due to such biases.
+      section: Abstract
+      page: 1

@@ -1,0 +1,35 @@
+source:
+  citation: waters2007
+  url: https://philsci-archive.pitt.edu/3833/
+  local: sources/waters_2007_causes_that_make_a_difference.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  mere_cause:
+    quotes:
+    - exact: identifying a mere cause (a potential difference maker) and identifying the cause that makes
+        the actual difference (the actual difference maker)
+      section: 1 Introduction
+      page: 4
+  must_be_a_difference:
+    quotes:
+    - exact: in order for there to be a difference maker there must be a difference
+      section: 5. The concept of the actual difference maker
+      page: 14
+  difference_in_population:
+    quotes:
+    - exact: the actual effect is not a single property in a single token, it is a difference of a property
+        in a population
+      section: 5. The concept of the actual difference maker
+      page: 15
+  not_actually_differ:
+    quotes:
+    - exact: they did not actually differ and hence it was not differences in them that brought about
+        the actual differences in the population
+      section: 5. The concept of the actual difference maker
+      page: 15
+  missing_from_woodward:
+    quotes:
+    - exact: The concept missing from Woodward’s theory of cause and causal explanation, and indeed missing
+        from the philosophical literature in general, is that of an actual difference making cause.
+      section: 5. The concept of the actual difference maker
+      page: 14

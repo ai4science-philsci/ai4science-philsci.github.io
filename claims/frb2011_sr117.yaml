@@ -1,0 +1,14 @@
+source:
+  citation: frb2011_sr117
+  url: https://www.federalreserve.gov/boarddocs/srletters/2011/sr1107a1.pdf
+  local: sources/frb_2011_sr11-7_model_risk_management.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  sound_but_misapplied:
+    quotes:
+    - exact: Even a fundamentally sound model producing accurate outputs consistent with the design objective
+        of the model may exhibit high model risk if it is misapplied or misused.
+  outside_environment:
+    quotes:
+    - exact: This is even more of a concern if a model is used outside the environment for which it was
+        designed.

@@ -1,0 +1,29 @@
+source:
+  citation: chang2004
+  doi: 10.1093/0195171276.001.0001
+  local: sources/chang_2004_inventing_temperature.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  start_with_respect:
+    quotes:
+    - exact: we start by adopting an existing system of knowledge, with some respect for it but without
+        any firm assurance that it is correct; on the basis of that initially affirmed system we launch
+        inquiries that result in the refinement and even correction of the original system
+      section: Introduction
+      page: 6
+  iteration_defined:
+    quotes:
+    - exact: Epistemic iteration is a process in which successive stages of knowledge, each building on
+        the preceding one, are created in order to enhance the achievement of certain epistemic goals
+      prefix: 'mathematical iteration. '
+      suffix: . it differs crucially
+      section: 1, The Iterative Improvement of Standards
+      page: 45
+  respect_and_progress:
+    quotes:
+    - exact: Each link is based on the principle of respect and the imperative of progress, and the whole
+        chain exhibits innovative progress within a continuous tradition
+      prefix: 'straightforward sense. '
+      suffix: . certain realists
+      section: 1, The Iterative Improvement of Standards
+      page: 46

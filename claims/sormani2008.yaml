@@ -1,0 +1,22 @@
+source:
+  citation: sormani2008
+  doi: 10.1002/ana.21464
+  url: https://pubmed.ncbi.nlm.nih.gov/18688811/
+  local: sources/sormani_2008_will_rogers_ms_pubmed_abstract.txt
+  sha256: 159441aa7cd77edd523443f47d47d84794beb1a71f8f63f14649c1f37083a261
+  extract_cmd: cat {}
+  note: PubMed record (title, abstract, metadata) of Annals of Neurology 64(4) 428-433; quotations are checked against the abstract only.
+claims:
+  cohort:
+    quotes:
+    - exact: 309 patients were studied for a median period of 84 months. After 1 year, 16% of patients had MS according to Poser and 44% according to McDonald criteria.
+      section: Abstract
+  rates:
+    quotes:
+    - exact: it was 46% in MS patients according to Poser and 27% acccording to McDonald criteria
+      section: Abstract
+      note: '"acccording" is the source''s spelling.'
+  spurious:
+    quotes:
+    - exact: The use of different diagnostic criteria may generate spurious improvements in the medium-term prognosis of MS.
+      section: Abstract

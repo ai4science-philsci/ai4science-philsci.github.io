@@ -1,0 +1,21 @@
+source:
+  citation: hickok2009
+  doi: 10.1162/jocn.2009.21189
+  url: https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=2773693
+  local: sources/hickok_2009_eight_problems_mirror_neurons_pmc.txt
+  sha256: 40e781ffc9fcea729a7a43817da63c83e49b510d3cab541668dacbe7548e85b9
+  extract_cmd: cat {}
+  note: plain text of the PMC2773693 XML body (tags stripped), the author manuscript of Journal of Cognitive Neuroscience 21(7) 1229-1243.
+claims:
+  two_species:
+    quotes:
+    - exact: the species that has been shown to possess mirror neurons does not, to our knowledge, possess any of these higher order cognitive processes, and the species that possesses the higher order cognitive processes, has not been shown conclusively to possess mirror neurons
+      section: Problem 4
+  no_validation:
+    quotes:
+    - exact: the system has been generalized to humans without systematic validation
+      section: Problem 4
+  cannot_assume:
+    quotes:
+    - exact: One therefore cannot assume that monkey data will hold in the human system.
+      section: Problem 4

@@ -5,47 +5,51 @@ description: "When does a result found in one setting hold in another? External 
 
 This page asks one question: **when does a result found in one setting hold in another?**
 
-AI systems for science produce results in one setting that are meant to be used in another: a drug effect found in cell lines and applied to patients, a model validated in one hospital and deployed in a second, a benchmark score read as a capability in the world. Philosophers of science and medicine have asked three questions about results like these: whether the population studied resembles the target in the respects that matter, how anyone could know that without studying the target directly, and what knowledge about the two settings would license moving the result between them. Each names a problem familiar from machine learning: a held-out test set drawn from the training population and read as evidence about deployment, a proxy setting chosen because the real one is hard to study, and a distribution shift whose cause nobody has specified.
+AI systems for science produce results in one setting that are meant to be used in another: a drug effect found in cell lines and applied to patients, a model validated in one hospital and deployed in a second, a benchmark score read as a capability in the world. Three things stand between a result and the setting it is used in:
+
+1. **The result holds where it was tested.** A test establishes the effect in the population tested, and nothing beyond it. *In ML: a held-out split from the training population.*
+2. **The extrapolator's circle.** Knowing that the proxy resembles the target would mean studying the target. *In ML: a proxy setting chosen because the real one is hard to study.*
+3. **Transfer is licensed by stable capacities or known differences.** A result moves when its cause acts the same way across backgrounds, or when the differences between the settings are known and the effect can be derived across them. *In ML: a shift carried across with no account of what changed between the settings.*
 
 ## From test population to target
 
-**External validity: the result holds where it was tested.** A randomized trial is the standard of evidence in medicine, and philosophers of medicine point out how little it establishes about anyone outside it.
+**External validity (Campbell, 1957): the result holds where it was tested.** The social scientist Donald Campbell introduced the term for the reach of an experimental result beyond the population and setting in which it was obtained. A randomized trial is the standard of evidence in medicine, and philosophers of medicine point out how little it establishes about anyone outside it.
 
 > the RCT can only establish that the treatment is effective in the test population
 >
-> — [Reiss and Ankeny, "Philosophy of Medicine," SEP, §5](https://plato.stanford.edu/entries/medicine/#RandContTriaEvidBaseMedi)
+> — [Reiss and Ankeny (2016), "Philosophy of Medicine," SEP, §5](https://plato.stanford.edu/entries/medicine/#RandContTriaEvidBaseMedi)
 
 The entry's examples are ordinary. Trials often exclude elderly patients and patients with other conditions, and the treatment is then marketed to them. The inference from the trial to the people who receive the treatment rests on a claim about similarity that the trial does not test.
 
 > Typical test populations differ from the target populations
 >
-> — [SEP, §5](https://plato.stanford.edu/entries/medicine/#RandContTriaEvidBaseMedi)
+> — [Reiss and Ankeny (2016), "Philosophy of Medicine," SEP, §5](https://plato.stanford.edu/entries/medicine/#RandContTriaEvidBaseMedi)
 
-**Steel: the extrapolator's circle.** Daniel Steel stated the problem for animal models, and it applies to any model studied in place of a target.
+**Steel (2008): the extrapolator's circle.** The philosopher Daniel Steel stated the problem for animal models, and it applies to any model studied in place of a target.
 
 > What is true of a model can be presumed to be true of the target only to the extent that the model is similar to the target in relevant respects.
 >
-> — [SEP, §6](https://plato.stanford.edu/entries/medicine/#AnimMode)
+> — [Reiss and Ankeny (2016), "Philosophy of Medicine," SEP, §6](https://plato.stanford.edu/entries/medicine/#AnimMode)
 
 The difficulty is that the model is studied because the target is hard to study. Checking the similarity directly would mean studying the target.
 
 > To do so, we would have to investigate whether the target is relevantly similar to the model; but if we could do so, there would be no reason to study the model in the first place.
 >
-> — [SEP, §6](https://plato.stanford.edu/entries/medicine/#AnimMode)
+> — [Reiss and Ankeny (2016), "Philosophy of Medicine," SEP, §6](https://plato.stanford.edu/entries/medicine/#AnimMode)
 
 Steel's way out is comparative process tracing: compare the causal process in model and target only at the stages where they are likely to differ, on the assumption that differences matter only downstream of where they occur.
 
 > comparative process tracing avoids the extrapolator’s circle by demanding processes to be compared only at stages where they are likely to differ
 >
-> — [SEP, §6](https://plato.stanford.edu/entries/medicine/#AnimMode)
+> — [Reiss and Ankeny (2016), "Philosophy of Medicine," SEP, §6](https://plato.stanford.edu/entries/medicine/#AnimMode)
 
-**Cartwright: capacities.** Nancy Cartwright's alternative grounds transfer in stable causal powers. A cause with a capacity keeps contributing to its effect when other factors interfere, so evidence that it has the capacity is some reason to expect it to act in a new population.
+**Cartwright (1989), and Pearl and Bareinboim (2014): transfer is licensed by stable capacities or known differences.** The philosopher Nancy Cartwright grounds transfer in stable causal powers. A cause with a capacity keeps contributing to its effect when other factors interfere, so evidence that it has the capacity is some reason to expect it to act in a new population.
 
 > If C has a causal capacity to bring about E, then C causes E in a somewhat stable or invariant manner.
 >
-> — [SEP, §6](https://plato.stanford.edu/entries/medicine/#AnimMode)
+> — [Reiss and Ankeny (2016), "Philosophy of Medicine," SEP, §6](https://plato.stanford.edu/entries/medicine/#AnimMode)
 
-**Pearl and Bareinboim: transportability.** Judea Pearl and Elias Bareinboim gave the problem a formal treatment. They define transportability as
+The computer scientists Judea Pearl and Elias Bareinboim gave the problem a formal treatment. They define transportability as
 
 > a license to transfer causal effects learned in experimental studies to a new population, in which only observational studies can be conducted
 >
@@ -57,14 +61,39 @@ Their method encodes what is known about how two populations differ in a selecti
 >
 > — [Pearl and Bareinboim (2014), p. 1](https://arxiv.org/pdf/1503.01603#page=1)
 
-The accounts disagree about how much can be transferred. Hugh LaFollette and Niall Shanks argue that animal models can serve only as sources of hypotheses to be tested in humans. Steel replies that their condition is too strict and that the answer depends on how strong a claim is being exported: a qualitative claim that a substance is poisonous travels further than a percentage. Pearl and Bareinboim make transfer a derivation from assumptions about differences, while the capacity and process-tracing accounts rest it on knowledge of mechanisms that may not be available.
+<details class="worked-example">
+<summary>Objections and replies</summary>
+
+**LaFollette and Shanks (1997) to Steel.** Hugh LaFollette and Niall Shanks argue that animal models can serve only as sources of hypotheses to be tested in humans. Steel replies that their condition is too strict and that the answer depends on how strong a claim is being exported: a qualitative claim that a substance is poisonous travels further than a percentage.
+
+**Pearl and Bareinboim against the mechanism accounts.** Pearl and Bareinboim make transfer a derivation from assumptions about differences, while the capacity and process-tracing accounts rest it on knowledge of mechanisms that may not be available.
+
+</details>
+
+<details class="worked-example">
+<summary>Misreadings</summary>
+
+**"A held-out test set shows the result generalizes."** A test set drawn from the same population as the training data checks the result in that population. The question of the target remains.
+
+> the RCT can only establish that the treatment is effective in the test population
+>
+> — [Reiss and Ankeny (2016), "Philosophy of Medicine," SEP, §5](https://plato.stanford.edu/entries/medicine/#RandContTriaEvidBaseMedi)
+
+**"Transfer requires the target to be identical to the model."** Steel's process tracing requires comparison only where the two are likely to differ, and Pearl and Bareinboim's method allows known differences, provided they are encoded and the effect can still be derived.
+
+**"There is a general rule for when model studies count."** The SEP entry concludes that the value of animal models must be judged case by case.
+
+> there is no general answer to the question whether or not animal studies are valuable from a purely epistemic (as opposed to ethical, economic, or combined) view
+>
+> — [Reiss and Ankeny (2016), "Philosophy of Medicine," SEP, §6](https://plato.stanford.edu/entries/medicine/#AnimMode)
+
+</details>
 
 ## AI for Science
 
 - **External validity** asks whether a result was tested in the population it will be used on, or only in the one that produced it.
 - **Steel** asks how the similarity between a proxy setting and the target is known, and whether the proxy and target were compared at the stages where they are likely to differ.
-- **Cartwright** asks whether the factor behind a result has a stable capacity, or produces its effect only against a particular background.
-- **Pearl and Bareinboim** ask what differences between the two settings are known, and whether those differences permit the result to be carried over.
+- **Cartwright, and Pearl and Bareinboim** ask whether the factor behind a result has a stable capacity or produces its effect only against a particular background, and what differences between the two settings are known and whether they permit the result to be carried over.
 
 <details class="worked-example">
 <summary>Illustrative example: an agent extrapolating from cell lines to patients</summary>
@@ -99,28 +128,19 @@ An agent analyzes a large screen of cancer cell lines and finds that a drug kill
 | Result measured again in the target | Transfer tested, for that target | "In Q, the effect was X, against Y in P." |
 | A stated context of use | A declared scope | "This result is validated for use U only." |
 
-<details class="worked-example">
-<summary>Common misreadings</summary>
-
-**"A held-out test set shows the result generalizes."** A test set drawn from the same population as the training data checks the result in that population. The question of the target remains.
-
-> the RCT can only establish that the treatment is effective in the test population
->
-> — [SEP, §5](https://plato.stanford.edu/entries/medicine/#RandContTriaEvidBaseMedi)
-
-**"Transfer requires the target to be identical to the model."** Steel's process tracing requires comparison only where the two are likely to differ, and Pearl and Bareinboim's method allows known differences, provided they are encoded and the effect can still be derived.
-
-**"There is a general rule for when model studies count."** The SEP entry concludes that the value of animal models must be judged case by case.
-
-> there is no general answer to the question whether or not animal studies are valuable from a purely epistemic (as opposed to ethical, economic, or combined) view
->
-> — [SEP, §6](https://plato.stanford.edu/entries/medicine/#AnimMode)
-
-</details>
-
 ## Limitations
 
-These accounts were developed for causal claims about organisms and people: treatments, toxins and exposures. A benchmark score is a measurement over a distribution of tasks, and whether the population and target of a predictive score stand in the relation the causal accounts assume is open. Pearl and Bareinboim's method also requires a causal diagram of how the settings differ, which for many AI applications nobody can write down.
+These accounts were developed for causal claims about organisms and people: treatments, toxins and exposures. A benchmark score is a measurement over a distribution of tasks, and whether the population and target of a predictive score stand in the relation the causal accounts assume is open. Pearl and Bareinboim's method also requires a causal diagram of how the settings differ, which for many AI applications nobody can write down. All of these accounts also assume that the variables mean the same thing in both settings; whether they do is the question of [Identity Across Systems](/identity/identity-across-systems/).
+
+---
+
+## Textbook chapters
+
+Hernán and Robins, *Causal Inference: What If* (Chapman & Hall/CRC, 2020), written for epidemiologists and health researchers. Free PDF from the authors: [the book's page](https://miguelhernan.org/whatifbook).
+
+| Chapter | Topics | Principle |
+|---|---|---|
+| 4.3, "Why care about effect modification?" and Fine Point 4.2, "Transportability" | Effect modifiers; versions of treatment; interference; reconstructing an effect in a target population from stratum-specific effects | **An unverifiable assumption**: an effect carries to another population only if the two are alike in these respects, and that likeness rests on subject-matter knowledge |
 
 ## Sources
 
@@ -132,5 +152,6 @@ These accounts were developed for causal claims about organisms and people: trea
 | [U.S. Food and Drug Administration, *Biomarker Qualification: Evidentiary Framework* (draft guidance)](https://www.fda.gov/media/119271/download) | 2018 | Regulatory science | **Context of use**: an assay qualified for one stated use |
 | [Koh et al., "WILDS: A Benchmark of in-the-Wild Distribution Shifts"](https://arxiv.org/abs/2012.07421) | 2020 | Machine learning | **Distribution shift**: evaluation on held-out hospitals, regions and time periods |
 | [Zech et al., "Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs," *PLOS Medicine*](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002683) | 2018 | Medical imaging | **Site effects**: performance measured within hospitals can fall at a new hospital |
-| Steel, *Across the Boundaries: Extrapolation in Biology and Social Science*, Oxford University Press | 2008 | Philosophy of science | Original account of the extrapolator's circle and comparative process tracing |
-| Cartwright, *Nature's Capacities and Their Measurement*, Oxford University Press | 1989 | Philosophy of science | Original account of causal capacities |
+| [Steel, *Across the Boundaries: Extrapolation in Biology and Social Science*, Oxford University Press](https://academic.oup.com/book/5931) | 2008 | Philosophy of science | Original account of the extrapolator's circle and comparative process tracing. DOI [10.1093/acprof:oso/9780195331448.001.0001](https://academic.oup.com/book/5931) |
+| [Cartwright, *Nature's Capacities and Their Measurement*, Oxford University Press](https://academic.oup.com/book/27760) | 1989 | Philosophy of science | Original account of causal capacities. DOI [10.1093/0198235070.001.0001](https://academic.oup.com/book/27760) |
+| [Campbell, "Factors Relevant to the Validity of Experiments in Social Settings," *Psychological Bulletin* 54](https://psycnet.apa.org/doi/10.1037/h0040950) | 1957 | Psychology | Original statement of external validity as the generalizability of an effect to other populations and settings. DOI [10.1037/h0040950](https://psycnet.apa.org/doi/10.1037/h0040950) |

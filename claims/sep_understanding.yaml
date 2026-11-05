@@ -1,0 +1,30 @@
+source:
+  citation: sep_understanding
+  url: https://plato.stanford.edu/entries/understanding/
+  local: sources/sep_understanding.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  humphreys_vehicle:
+    quotes:
+    - exact: Scientific understanding provides a far richer terrain than does scientific explanation and
+        the latter is best viewed as a vehicle to understanding, rather than an end in itself.
+      section: 4.1 Explanation and Understanding
+  feeling:
+    quotes:
+    - exact: just as a mistaken explanation can generate a “feeling” of understanding in some people,
+        so too an accurate explanation might leave people cold
+      section: 4.1 Explanation and Understanding
+  non_factive:
+    quotes:
+    - exact: Understanding is the epistemic benefit we receive from idealizations, and understanding and
+        truth can come apart.
+      section: 4.2 Understanding and Idealization
+  khalifa:
+    quotes:
+    - exact: Understanding therefore amounts to knowing a correct explanation.
+      section: 4.1 Explanation and Understanding
+  strevens:
+    quotes:
+    - exact: idealizations enable understanding because they draw attention to the difference makers that
+        bring about the thing to be explained
+      section: 4.2 Understanding and Idealization

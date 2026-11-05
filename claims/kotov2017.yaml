@@ -1,0 +1,11 @@
+source:
+  citation: kotov2017
+  doi: 10.1037/abn0000258
+  local: sources/kotov_2017_hitop.pdf
+  sha256: 4c178b82068b866785c7487dcdb973c1827f582f1508e6c99860e5080dc970d1
+  extract_cmd: pdftotext {} -
+claims:
+  covariation:
+    quotes:
+    - exact: It constructs psychopathological syndromes and their components/subtypes based on the observed covariation of symptoms
+      section: Abstract

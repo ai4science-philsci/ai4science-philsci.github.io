@@ -1,0 +1,48 @@
+source:
+  citation: sep_simulations_science
+  url: https://plato.stanford.edu/entries/simulations-science/
+  local: sources/sep_simulations-science.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  humphreys_opacity:
+    quotes:
+    - exact: A process is epistemically opaque relative to a cognitive agent X at time t just in case
+        X does not know at t all of the epistemically relevant elements of the process.
+      section: 2.5 Epistemic Opacity and Computational Reliabilism
+  autonomous:
+    quotes:
+    - exact: the knowledge produced by simulation cannot be sanctioned entirely by comparison with observation
+      section: 2.1 Models, Experiment, and Novelty
+  verification:
+    quotes:
+    - exact: Verification is said to be the process of determining whether the output of the simulation
+        approximates the true solutions to the differential equations of the original model.
+      section: 2.2 Verification and Validation
+  validation:
+    quotes:
+    - exact: Validation, on the other hand, is said to be the process of determining whether the chosen
+        model is a good-enough representation of the target-system for the purpose of the simulation.
+      section: 2.2 Verification and Validation
+  not_separable:
+    quotes:
+    - exact: verification and validation are not independent and separable activities
+      section: 2.2 Verification and Validation
+  reliabilism:
+    quotes:
+    - exact: because there is a reliable process (i.e. the algorithm) that yields, most of the time, trustworthy
+        results.
+      section: 2.5.1 Computational reliabilism
+  ml_distinct:
+    quotes:
+    - exact: machine learning methods are often deployed for problems in which such causal relationships
+        are not known or are simply not present
+      section: 1.2.5 Computer Simulations, Machine Learning and Generative AI
+  frigg_reiss:
+    quotes:
+    - exact: they argued that computer simulation could not possibly raise new epistemological issues
+      section: 2.1 Models, Experiment, and Novelty
+  how_fails:
+    quotes:
+    - exact: opacity, he argues, in these contexts matters most when an agent is attempting to know how
+        something fails and not just how something works
+      section: 2.5.1 Computational reliabilism

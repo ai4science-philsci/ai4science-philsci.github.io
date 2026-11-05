@@ -1,0 +1,25 @@
+source:
+  citation: sep_causation_mani
+  url: https://plato.stanford.edu/entries/causation-mani/
+  local: sources/sep_causation-mani.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  cook_campbell:
+    quotes:
+    - exact: The paradigmatic assertion in causal relationships is that manipulation of a cause will result
+        in the manipulation of an effect.
+      section: 1. Introduction
+  surgical:
+    quotes:
+    - exact: the change in \(B\), if any, that is produced by the manipulation of \(A\) should be produced
+        only via a causal route that goes through \(A\)
+      section: 4. Interventions
+  moon_tides:
+    quotes:
+    - exact: think of the causal relationship between the gravitational attraction of the moon and the
+        tides or causal relationships in the very early universe
+      section: 1. Introduction
+  monolithic:
+    quotes:
+    - exact: Cartwright contends that the interventionist account is “monolithic”
+      section: 13. Some Criticisms of Interventionist Accounts

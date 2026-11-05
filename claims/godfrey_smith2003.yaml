@@ -1,0 +1,17 @@
+source:
+  citation: godfrey_smith2003
+  isbn: 0-226-30063-3
+  local: sources/godfrey_smith_2003_theory_and_reality.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  bromberger_credit:
+    quotes:
+    - exact: This objection to the covering law theory was famously given (using a slightly different
+        example) by Sylvain Bromberger (1966)
+      section: 13.2 The Rise and Fall of the Covering Law Theory of Explanation
+      page: 193
+  symptoms_predict:
+    quotes:
+    - exact: Symptoms can be used to predict, but they cannot be used to explain
+      section: 13.2 The Rise and Fall of the Covering Law Theory of Explanation
+      page: 193

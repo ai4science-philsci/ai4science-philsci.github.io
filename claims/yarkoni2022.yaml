@@ -1,0 +1,17 @@
+source:
+  citation: yarkoni2022
+  doi: 10.1017/S0140525X20001685
+  url: https://osf.io/jqw35/download
+  local: sources/yarkoni_2022_generalizability_crisis_psyarxiv.pdf
+  sha256: 9de654ccba290044c41d133c51a492c8c40018b3498608db50295cd2d4660ffa
+  extract_cmd: pdftotext {} -
+  note: PsyArXiv preprint of Behavioral and Brain Sciences 45 e1 (2022).
+claims:
+  sweeping:
+    quotes:
+    - exact: draw sweeping verbal generalizations that lack a meaningful connection to the statistical quantities they are putatively based on
+      section: Abstract
+  strict_conclusion:
+    quotes:
+    - exact: there is at least one particular video containing one particular face that, when followed by one particular lineup of faces, is more difficult for participants to identify
+      section: Case study, Verbal overshadowing

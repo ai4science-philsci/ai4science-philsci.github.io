@@ -1,0 +1,20 @@
+source:
+  citation: sep_causation_counterfactual
+  url: https://plato.stanford.edu/entries/causation-counterfactual/
+  local: sources/sep_causation-counterfactual.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  hume_cf:
+    quotes:
+    - exact: Or, in other words, where, if the first object had not been, the second never had existed
+      section: Introduction
+  lewis_dependence:
+    quotes:
+    - exact: Where c and e are two distinct actual events, e causally depends on c if and only if, if
+        c were not to occur e would not occur.
+      section: 1.1 Counterfactuals and Causal Dependence
+  backtracking:
+    quotes:
+    - exact: if c had not occurred, then d would not have occurred; and if d had not occurred, e would
+        not have occurred
+      section: 1.1 Counterfactuals and Causal Dependence

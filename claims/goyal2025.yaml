@@ -1,0 +1,20 @@
+source:
+  citation: goyal2025
+  doi: 10.1016/j.dsx.2025.103207
+  local: sources/goyal_2025_gdm_criteria_agreement.txt
+  sha256: a7475d580701ffedefe38a54d1387e5a39208b4fb064bf42f7ccb2f55add008c
+  extract_cmd: cat {}
+  note: text render (pdftotext -layout) of Diabetes and Metabolic Syndrome 19:103207, two columns interleaved; fragments pinned.
+claims:
+  fifty_five:
+    quotes:
+    - exact: A total of 55 pair-wise comparisons were performed
+      section: 3.2
+  kappa:
+    quotes:
+    - exact: Cohen's kappa coefficient
+      section: 2.4
+  conclusion:
+    quotes:
+    - exact: There is a marked variation in the prevalence of GDM, with a significant degree of disagreement
+      section: Abstract

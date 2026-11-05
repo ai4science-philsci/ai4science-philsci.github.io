@@ -1,0 +1,24 @@
+source:
+  citation: humphreys2004
+  url: https://global.oup.com/academic/product/extending-ourselves-9780195158700
+  local: sources/humphreys_2004_extending_ourselves.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  loss_of_understanding:
+    quotes:
+    - exact: This opacity can result in a loss of understanding because in most traditional static models
+        our understanding is based upon the ability to decompose the process between model inputs and
+        outputs into modular steps
+      section: 5.3 Epistemic Opacity
+      page: 148
+  abandon_transparency:
+    quotes:
+    - exact: we must abandon the insistence on epistemic transparency for computational science
+      section: 5.3 Epistemic Opacity
+      page: 150
+  let_system_evolve:
+    quotes:
+    - exact: the most efficient procedure for calculating the future states of the system is to let the
+        system itself evolve
+      section: 5.3 Epistemic Opacity
+      page: 149

@@ -1,0 +1,51 @@
+source:
+  citation: kane2013
+  doi: 10.1111/jedm.12000
+  local: sources/kane_2013_validating_interpretations_uses_test_scores.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  bridge_spans:
+    quotes:
+    - exact: The inferences can be envisioned as the spans of a bridge leading from the test performances
+        to the conclusions and decisions included in the proposed interpretation and use; if one span
+        falls, the bridge is out, even if the other spans are strongly supported
+      section: IUA
+      page: 13
+  scoring:
+    quotes:
+    - exact: A scoring inference takes us from the observed performances to an observed score
+      section: IUA
+      page: 10
+  decision:
+    quotes:
+    - exact: The decision inference takes us from a person’s score to a decision about the person
+      section: IUA
+      page: 11
+  extrapolation_leap:
+    quotes:
+    - exact: The extrapolation inference does not involve a simple statistical generalization, but rather
+        a more-ambitious leap from claims about test performances to claims about the full range of performance
+        in the target domain, including nontest performances in nontest contexts
+      section: Extrapolation to the target domain
+      page: 28
+  generalization_expands:
+    quotes:
+    - exact: The generalization inference may or may not change the numerical value of the score, but
+        it greatly expands its implications
+      section: IUA
+      page: 11
+  extrapolation_new_domains:
+    quotes:
+    - exact: These extrapolation inferences extend the interpretation into new performance domains
+      section: IUA
+      page: 11
+  decision_consequences:
+    quotes:
+    - exact: Decision inferences generally rely on assumptions about the consequences of different decisions
+        for individuals with different scores.
+      section: IUA
+      page: 11
+  decision_evidence:
+    quotes:
+    - exact: Score-based decision procedures require evidence that the procedure achieves its goals without
+        unacceptable negative consequences.

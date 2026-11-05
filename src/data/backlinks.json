@@ -1,11 +1,53 @@
 {
   "/data/data-and-phenomena/": [
     {
+      "slug": "/cases/alphafold/",
+      "title": "AlphaFold at CASP14"
+    },
+    {
+      "slug": "/checklist/",
+      "title": "Checklist"
+    },
+    {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"
     }
   ],
-  "/measurement/measurement-and-validity/": [
+  "/measurement/validity/": [
+    {
+      "slug": "/cases/alphafold/",
+      "title": "AlphaFold at CASP14"
+    },
+    {
+      "slug": "/checklist/",
+      "title": "Checklist"
+    },
+    {
+      "slug": "/fields/psychometrics/",
+      "title": "Psychometrics"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/measurement/measurement/",
+      "title": "Measurement"
+    },
+    {
+      "slug": "/scope/scope-and-licensing/",
+      "title": "Scope and Licensing"
+    }
+  ],
+  "/optimization/optimization-and-its-targets/": [
+    {
+      "slug": "/cases/alphafold/",
+      "title": "AlphaFold at CASP14"
+    },
+    {
+      "slug": "/checklist/",
+      "title": "Checklist"
+    },
     {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"
@@ -13,11 +55,53 @@
   ],
   "/testing/falsification-and-severe-testing/": [
     {
+      "slug": "/cases/alphafold/",
+      "title": "AlphaFold at CASP14"
+    },
+    {
+      "slug": "/checklist/",
+      "title": "Checklist"
+    },
+    {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/measurement/measurement/",
+      "title": "Measurement"
+    },
+    {
+      "slug": "/stopping/stopping-and-evidence/",
+      "title": "Stopping and Evidence"
+    }
+  ],
+  "/forking/forking-paths/": [
+    {
+      "slug": "/cases/alphafold/",
+      "title": "AlphaFold at CASP14"
+    },
+    {
+      "slug": "/checklist/",
+      "title": "Checklist"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/stopping/stopping-and-evidence/",
+      "title": "Stopping and Evidence"
     }
   ],
   "/explanation/prediction-and-explanation/": [
+    {
+      "slug": "/cases/alphafold/",
+      "title": "AlphaFold at CASP14"
+    },
+    {
+      "slug": "/checklist/",
+      "title": "Checklist"
+    },
     {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"
@@ -25,29 +109,201 @@
   ],
   "/mechanism/mechanism/": [
     {
+      "slug": "/cases/alphafold/",
+      "title": "AlphaFold at CASP14"
+    },
+    {
+      "slug": "/checklist/",
+      "title": "Checklist"
+    },
+    {
+      "slug": "/fields/causal-inference/",
+      "title": "Causal Inference"
+    },
+    {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/measurement/validity/",
+      "title": "Validity"
     }
   ],
   "/transfer/transfer-and-scope/": [
     {
+      "slug": "/cases/alphafold/",
+      "title": "AlphaFold at CASP14"
+    },
+    {
+      "slug": "/checklist/",
+      "title": "Checklist"
+    },
+    {
+      "slug": "/fields/causal-inference/",
+      "title": "Causal Inference"
+    },
+    {
+      "slug": "/fields/psychometrics/",
+      "title": "Psychometrics"
+    },
+    {
+      "slug": "/identity/identity-across-systems/",
+      "title": "Identity Across Systems"
+    },
+    {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/scope/scope-and-licensing/",
+      "title": "Scope and Licensing"
     }
   ],
   "/values/values-and-evidence/": [
     {
-      "slug": "/index/",
-      "title": "AI for Science × Philosophy of Science"
-    }
-  ],
-  "/optimization/optimization-and-its-targets/": [
+      "slug": "/cases/alphafold/",
+      "title": "AlphaFold at CASP14"
+    },
+    {
+      "slug": "/checklist/",
+      "title": "Checklist"
+    },
     {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"
     }
   ],
-  "/forking/forking-paths/": [
+  "/mechanism/intervention-and-use/": [
+    {
+      "slug": "/causation/causation-and-intervention/",
+      "title": "Causation and Intervention"
+    },
+    {
+      "slug": "/fields/causal-inference/",
+      "title": "Causal Inference"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/mechanism/mechanism/",
+      "title": "Mechanism"
+    },
+    {
+      "slug": "/mechanism/parts-of-a-mechanism/",
+      "title": "Parts of a Mechanism"
+    }
+  ],
+  "/fields/causal-inference/": [
+    {
+      "slug": "/causation/causation-and-intervention/",
+      "title": "Causation and Intervention"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    }
+  ],
+  "/mechanism/models-of-mechanisms/": [
+    {
+      "slug": "/causation/causation-and-intervention/",
+      "title": "Causation and Intervention"
+    },
+    {
+      "slug": "/fields/causal-inference/",
+      "title": "Causal Inference"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/mechanism/mechanism/",
+      "title": "Mechanism"
+    }
+  ],
+  "/causation/causation-and-intervention/": [
+    {
+      "slug": "/fields/causal-inference/",
+      "title": "Causal Inference"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    }
+  ],
+  "/mechanism/parts-of-a-mechanism/": [
+    {
+      "slug": "/fields/causal-inference/",
+      "title": "Causal Inference"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/mechanism/mechanism/",
+      "title": "Mechanism"
+    }
+  ],
+  "/measurement/measurement/": [
+    {
+      "slug": "/fields/psychometrics/",
+      "title": "Psychometrics"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/measurement/validity/",
+      "title": "Validity"
+    }
+  ],
+  "/identity/identity-criteria/": [
+    {
+      "slug": "/identity/identity-across-systems/",
+      "title": "Identity Across Systems"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    }
+  ],
+  "/identity/identity-across-systems/": [
+    {
+      "slug": "/identity/identity-criteria/",
+      "title": "Identity Criteria"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/transfer/transfer-and-scope/",
+      "title": "Transfer and Scope"
+    }
+  ],
+  "/stopping/stopping-and-evidence/": [
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    }
+  ],
+  "/simulation/simulation-and-understanding/": [
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    }
+  ],
+  "/scope/scope-and-licensing/": [
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    }
+  ],
+  "/fields/psychometrics/": [
     {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"

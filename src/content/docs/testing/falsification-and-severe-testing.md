@@ -13,19 +13,19 @@ An AI system reports that an analysis supports its hypothesis. The agreement is 
 
 ## From falsification to severity
 
-**Popper: the prediction could have failed.** Karl Popper held that evidence for almost any theory is easy to find, so agreement counts only when it comes from a prediction that might have been false. His example was Einstein's prediction that light passing the sun would bend, which Newtonian physics made improbable and which the 1919 eclipse observations could have refuted. He contrasted it with psychoanalysis as he saw it, a theory that could explain any behavior and so could not be refuted by any. He also fixed when the test has to be defined:
+**Popper (1959): the prediction could have failed.** The philosopher of science Karl Popper held that evidence for almost any theory is easy to find, so agreement counts only when it comes from a prediction that might have been false. His example was Einstein's prediction that light passing the sun would bend, which Newtonian physics made improbable and which the 1919 eclipse observations could have refuted. He contrasted it with psychoanalysis as he saw it, a theory that could explain any behavior and so could not be refuted by any. He also fixed when the test has to be defined:
 
 > real support can be obtained only from observations undertaken as tests (by ‘attempted refutations’); and for this purpose criteria of refutation have to be laid down beforehand
 >
 > — Popper (1963), quoted in [Thornton, "Karl Popper," SEP, §2](https://plato.stanford.edu/entries/popper/#BackPoppThou)
 
-**Lakatos: the revisions predict something new.** Imre Lakatos replied that no single test refutes a theory, because a failed prediction implicates the theory together with its auxiliary assumptions. Scientists keep a core of claims and adjust the assumptions around it, and they are often right to. His example is an imaginary planet that strays from its Newtonian orbit. The astronomer does not give up Newton; he proposes an unseen smaller planet pulling on it, and when a bigger telescope finds nothing, a cloud of cosmic dust hiding the smaller planet, and when a satellite finds no cloud, a fault in the satellite's instruments. What separates good research from bad is the direction of the adjustments. A research programme is progressive when its revisions predict new, surprising facts that come true, and degenerating when it explains results only after the fact.
+**Lakatos (1970): the revisions predict something new.** The philosopher of science Imre Lakatos replied that no single test refutes a theory, because a failed prediction implicates the theory together with its auxiliary assumptions. Scientists keep a core of claims and adjust the assumptions around it, and they are often right to. His example is an imaginary planet that strays from its Newtonian orbit. The astronomer does not give up Newton; he proposes an unseen smaller planet pulling on it, and when a bigger telescope finds nothing, a cloud of cosmic dust hiding the smaller planet, and when a satellite finds no cloud, a fault in the satellite's instruments. What separates good research from bad is the direction of the adjustments. A research program is progressive when its revisions predict new, surprising facts that come true, and degenerating when it explains results only after the fact.
 
 > The Newtonian programme led to novel facts; the Marxian lagged behind the facts and has been running fast to catch up with them.
 >
 > — Lakatos (1978), quoted in [Musgrave and Pigden, "Imre Lakatos," SEP, §2.2](https://plato.stanford.edu/entries/lakatos/#ImprPoppScie)
 
-**Mayo: the procedure could have found the flaw.** Deborah Mayo moved the requirement from the theory to the method. Data that agree with a claim are evidence only if the procedure that produced them was capable of revealing the claim's flaws.
+**Mayo (2018): the procedure could have found the flaw.** The philosopher of science Deborah Mayo moved the requirement from the theory to the method. Data that agree with a claim are evidence only if the procedure that produced them was capable of revealing the claim's flaws.
 
 > One does not have evidence for a claim if nothing has been done to rule out ways the claim may be false.
 >
@@ -36,11 +36,31 @@ A method practically guaranteed to find agreement gives what she calls bad evide
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Lakatos to Popper.** No single test refutes a theory, because a failed prediction implicates the theory together with its auxiliary assumptions, so which programme won shows only in hindsight.
+**Lakatos to Popper.** No observation refutes a theory by itself, because a failed prediction implicates the theory together with its auxiliary assumptions, and a scientist can always blame an assumption instead. Popper agreed that a test ends in a decision, not a proof:
 
-**Mayo to both.** The requirement belongs to the method rather than the theory: how a result was found, including every analysis tried and when the search stopped, changes what it shows.
+> Every test of a theory, whether resulting in its corroboration or falsification, must stop at some basic statement or other which we decide to accept.
+>
+> — Popper (1959), quoted in [Thornton, "Karl Popper," SEP, §4](https://plato.stanford.edu/entries/popper/#BasiStatFalsConv)
 
-**The likelihood principle to Mayo.** On the likelihood principle, held by many Bayesian and likelihood statisticians, the evidence depends only on the data observed, so the analyses not reported do not change it.
+His reply was that this makes falsification a rule scientists commit to, not one that logic forces on them: decide in advance what would count against the theory, and keep to it.
+
+**Feyerabend to Lakatos.** The philosopher Paul Feyerabend objected that Lakatos gives no rule for when to abandon a degenerating program, so his method permits holding on to any theory forever. Lakatos replied that his criterion grades research and was never meant to direct it:
+
+> The Demarcation Criterion can evaluate the current state of play but it does not tell anyone what to do about it.
+>
+> — [Musgrave and Pigden (2026), "Imre Lakatos," SEP, §4](https://plato.stanford.edu/entries/lakatos/#MincUnmaLakaVersFeye)
+
+A scientist may keep working on a degenerating program, but should say that it is degenerating.
+
+**Mill (1843) and Keynes (1921) to Lakatos.** If a theory fits the evidence, it should not matter whether the theory came before the evidence or after. John Stuart Mill thought the preference for prediction was a popular superstition:
+
+> (s)uch predictions and their fulfilment are, indeed, well calculated to impress the ignorant vulgar, whose faith in science rests solely upon similar coincidences between its prophecies and what comes to pass.
+>
+> — Mill (1843), quoted in [Barnes, "Prediction versus Accommodation," SEP, §1](https://plato.stanford.edu/entries/prediction-accommodation/#HistIntr)
+
+The reply that ML readers will recognize comes from Christopher Hitchcock and Elliott Sober (2004). Data are noisy, so a theory built to fit them may fit the noise. A theory that predicted the data before seeing them cannot have been tuned to their noise, which is why a held-out test set counts for more than a good fit.
+
+**Bayesian statisticians to Mayo.** Many Bayesian statisticians hold the likelihood principle: the evidence depends only on the data observed, so the analyses not reported, and the plan for when to stop, do not change what the data show. Mayo replies with the case of a researcher who keeps collecting data and testing until the result is significant. On the likelihood principle the stopping rule does not matter, yet the procedure will reach significance with high probability even when there is no effect. What the likelihood principle counts as an asset, ignoring the stopping rule, the severe tester counts as its failure.
 
 </details>
 
@@ -51,13 +71,7 @@ A method practically guaranteed to find agreement gives what she calls bad evide
 
 > a single conflicting or counter-instance is never sufficient methodologically for falsification
 >
-> — [Thornton, "Karl Popper," SEP, §4](https://plato.stanford.edu/entries/popper/#BasiStatFalsConv)
-
-**"Lakatos licenses holding on to any theory."** That was Feyerabend's charge. Lakatos's reply was that his criterion grades research without directing it, and that people working on a degenerating programme should say so.
-
-> The Demarcation Criterion can evaluate the current state of play but it does not tell anyone what to do about it.
->
-> — [Musgrave and Pigden, "Imre Lakatos," SEP, §4](https://plato.stanford.edu/entries/lakatos/#MincUnmaLakaVersFeye)
+> — [Thornton (2026), "Karl Popper," SEP, §4](https://plato.stanford.edu/entries/popper/#BasiStatFalsConv)
 
 **"A severe test is a significant p-value."** Mayo uses error probabilities to assess severity, but a method with good error rates can still be applied in a way that could not have found the flaw.
 
@@ -108,18 +122,32 @@ An agent is given a public gene-expression dataset and asked whether gene G pred
 
 ## Limitations
 
-Lakatos judged research programmes over years, across many theories and many scientists, and Popper wrote about theories rather than analyses. Applying either to a single system's loop of revisions is an analogy. Mayo's account transfers most directly, since it was built for statistical procedures and selection effects.
+Lakatos judged research programs over years, across many theories and many scientists, and Popper wrote about theories rather than analyses. Applying either to a single system's loop of revisions is an analogy. Mayo's account transfers most directly, since it was built for statistical procedures and selection effects.
+
+---
+
+## Textbook chapters
+
+Godfrey-Smith, *Theory and Reality: An Introduction to the Philosophy of Science* (University of Chicago Press, 2003 edition), written for readers outside philosophy. The second edition (2021) renumbers the chapters; titles are given so that either edition can be used.
+
+| Chapter | Topics | Principle |
+|---|---|---|
+| 4, "Popper: Conjecture and Refutation" | Falsifiability as demarcation; confirmation as a myth; auxiliary assumptions and the decision to accept an observation report; probabilistic theories; corroboration versus confirmation | **Riskiness**: a theory has contact with observation only where some result could refute it; a theory exposed to no risk has pseudo-contact |
+| 7, §7.2, "Lakatos and Research Programs" | Hard core and protective belt; progressive and degenerating programs; no rule for when to abandon a degenerating program | **Progress is predictive**: changes to a program are progressive when they extend it to new cases and raise its predictive power, degenerating when they only cover existing problems |
+| 14, "Bayesianism and Modern Theories of Evidence" | Confirmation as raised probability; priors, coherence and conditionalization; eliminative inference; procedural naturalism, with the ravens problem resolved by sampling | **Evidence depends on procedure**: the same observation is or is not evidence according to the procedure that produced it; coherence constrains a prior only to be consistent with the rest |
 
 ## Sources
 
 | Source | Year | Field | Principle |
 |---|---|---|---|
 | [Thornton, "Karl Popper," *Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/entries/popper/) | rev. 2026 | Philosophy of science | **Falsifiability**: agreement counts only from a prediction that could have failed, with refutation criteria fixed beforehand |
-| [Musgrave and Pigden, "Imre Lakatos," *Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/entries/lakatos/) | rev. 2026 | Philosophy of science | **Research programmes**: progressive when revisions predict novel facts, degenerating when they only accommodate |
+| [Musgrave and Pigden, "Imre Lakatos," *Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/entries/lakatos/) | rev. 2026 | Philosophy of science | **Research programs**: progressive when revisions predict novel facts, degenerating when they only accommodate |
 | [Mayo, *Statistical Inference as Severe Testing*, Excursion 1, Tour I (author's copy)](https://errorstatistics.com/wp-content/uploads/2018/09/0-ex1-ti_sist_mayo_share.pdf) | 2018 | Philosophy of statistics | **Severe testing**: agreement is evidence only if the procedure could have revealed the claim's flaws |
 | [Mayo, notes on Excursion 1](https://errorstatistics.com/wp-content/uploads/2019/01/notes-on-excursion-1-2019-jan-21-.pdf) | 2019 | Philosophy of statistics | **Selection effects**: stopping rules and selective reporting change a test's severity, against the likelihood principle |
-| Popper, *Conjectures and Refutations* (DOI 10.4324/9780203538074) | 1963 | Philosophy of science | Original source of the falsifiability criterion as quoted above |
-| Lakatos, "Falsification and the Methodology of Scientific Research Programmes" (DOI 10.1017/CBO9781139171434.009) | 1970 | Philosophy of science | Original statement of progressive and degenerating programmes |
+| Popper, *Conjectures and Refutations* (DOI [10.4324/9780203538074](https://www.taylorfrancis.com/books/9780203538074)) | 1963 | Philosophy of science | Original source of the falsifiability criterion as quoted above |
+| [Popper, *The Logic of Scientific Discovery*, Hutchinson (the author's translation of *Logik der Forschung*, 1935)](https://www.taylorfrancis.com/books/9781134470020) | 1959 | Philosophy of science | Original statement of falsifiability. DOI [10.4324/9780203994627](https://www.taylorfrancis.com/books/9781134470020) (Routledge edition) |
+| Lakatos, "Falsification and the Methodology of Scientific Research Programmes" (DOI [10.1017/CBO9781139171434.009](https://www.cambridge.org/core/product/identifier/CBO9781139171434A014/type/book_part)) | 1970 | Philosophy of science | Original statement of progressive and degenerating programs |
 | [Nosek et al., "The preregistration revolution," *PNAS*](https://www.pnas.org/doi/10.1073/pnas.1708274114) | 2018 | Metascience | **Preregistration**: fixing hypotheses and analyses before the data are seen |
 | [Collins et al., "TRIPOD Statement," *Annals of Internal Medicine*](https://www.acpjournals.org/doi/10.7326/M14-0697) | 2015 | Clinical prediction | **External validation**: evaluating a prediction model on data from a different setting |
 | [Dwork et al., "Generalization in adaptive data analysis and holdout reuse"](https://arxiv.org/abs/1506.02629) | 2015 | Machine learning | **Reusable holdout**: repeated adaptive use of a holdout set erodes its validity unless access is controlled |
+| [Barnes, "Prediction versus Accommodation," *Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/entries/prediction-accommodation/) | rev. 2022 | Philosophy of science | **Predictivism**: whether a prediction counts for more than a fit, and the overfitting argument that it does |

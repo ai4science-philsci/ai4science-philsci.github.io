@@ -1,0 +1,15 @@
+source:
+  citation: zimmerman2015
+  doi: 10.1016/j.comppsych.2014.09.007
+  local: sources/zimmerman_2015_mdd_criteria_combinations.txt
+  sha256: 2fc0da8b2aca96f1107ff3ed6b35029b6ced871e61b9ebf3859265b91c7ba453
+  extract_cmd: cat {}
+claims:
+  ways_227:
+    quotes:
+    - exact: Altogether, there are 227 different ways to meet the symptom criteria for MDD, and it is possible for 2 patients diagnosed with MDD to have no symptoms in common.
+      section: 1. Introduction
+  observed_170:
+    quotes:
+    - exact: The patients met the MDD symptom criteria in 170 different ways.
+      section: Abstract

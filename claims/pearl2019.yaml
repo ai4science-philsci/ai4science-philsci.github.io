@@ -1,0 +1,18 @@
+source:
+  citation: pearl2019
+  url: https://ftp.cs.ucla.edu/pub/stat_ser/r481-reprint.pdf
+  local: sources/pearl_2019_seven_tools_causal_inference.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  levels:
+    quotes:
+    - exact: I call the levels 1. Association, 2. Intervention, and 3. Counterfactual, to match their
+        usage.
+      section: The Causal Hierarchy
+      page: 56
+  not_from_observation:
+    quotes:
+    - exact: Interventional expressions cannot be inferred from passive observations alone, regardless
+        of how big the data.
+      section: The Causal Hierarchy
+      page: 56

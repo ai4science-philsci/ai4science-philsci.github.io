@@ -1,0 +1,39 @@
+source:
+  citation: hall2004
+  url: https://mitpress.mit.edu/9780262532563/causation-and-counterfactuals/
+  local: sources/hall_2004_two_concepts_of_causation.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  produce:
+    quotes:
+    - exact: we evoke it when we say of an event c that it helps to generate or bring about or produce
+        another event e
+      section: 1 Introduction
+      page: 225
+  production_without_dependence:
+    quotes:
+    - exact: These cases uniformly exhibit production without dependence
+      section: 6 Two Concepts
+      page: 253
+  dependence_without_production:
+    quotes:
+    - exact: These cases uniformly exhibit dependence without production
+      section: 6 Two Concepts
+      page: 253
+  dependence_def:
+    quotes:
+    - exact: had c not occurred, e would not have occurred
+      prefix: ', just in case, '
+      suffix: . the second variety
+      section: 1 Introduction
+      page: 225
+  one_sense:
+    quotes:
+    - exact: Counterfactual dependence is causation in one sense
+      section: 6 Two Concepts
+      page: 253
+  nonsense:
+    quotes:
+    - exact: Nonsense; counterfactual dependence is too causation
+      section: 6 Two Concepts
+      page: 253

@@ -1,0 +1,19 @@
+source:
+  citation: graur2013
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC3622293/
+  local: sources/graur_2013_immortality_of_television_sets_europepmc.txt
+  extract_cmd: cat {}
+claims:
+  ahistorical:
+    quotes:
+    - exact: the “causal role” concept is ahistorical and nonevolutionary
+      section: “Selected Effect” and “Causal Role” Functions
+  destroy:
+    quotes:
+    - exact: a function can be assigned to a DNA sequence if and only if it is possible to destroy it
+      section: “Selected Effect” and “Causal Role” Functions
+  binding_no_transcription:
+    quotes:
+    - exact: transcription factor binding to the second sequence does not result in transcription, that
+        is, it has no adaptive or maladaptive consequence
+      section: “Selected Effect” and “Causal Role” Functions

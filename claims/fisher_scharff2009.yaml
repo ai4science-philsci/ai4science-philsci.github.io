@@ -1,0 +1,20 @@
+source:
+  citation: fisher_scharff2009
+  doi: 10.1016/j.tig.2009.03.002
+  url: https://pure.mpg.de/rest/items/item_529308_5/component/file_529309/content
+  local: sources/fisher_scharff_2009_foxp2_molecular_window.pdf
+  sha256: 12372aa6b4ac5d0a4a8dbd12eaa184270335ce7ec3b77b967fbce2ba80c9666c
+  extract_cmd: pdftotext {} -
+claims:
+  monogenic:
+    quotes:
+    - exact: Rare mutations of the FOXP2 transcription factor gene cause a monogenic syndrome characterized by impaired speech development and linguistic deficits
+      section: Abstract
+  hundreds:
+    quotes:
+    - exact: Each study uncovered several hundred potential targets.
+      section: Downstream targets
+  not_sole:
+    quotes:
+    - exact: these are unlikely to be the sole or major driving force behind the appearance of spoken language
+      section: Evolutionary perspectives

@@ -1,0 +1,20 @@
+source:
+  citation: sep_causation_regularity
+  url: https://plato.stanford.edu/entries/causation-regularity/
+  local: sources/sep_causation-regularity.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  hume_def:
+    quotes:
+    - exact: all events of type \(C\) are followed by an event of type \(E\)
+      section: 1.1 Humean Regularity Theory
+  constant_conjunction:
+    quotes:
+    - exact: In the world, there is—to use Hume’s phrase—just a “constant conjunction” between cause and
+        effect.
+      section: 1.1 Humean Regularity Theory
+  no_necessity:
+    quotes:
+    - exact: causation does not involve a necessary connection, a productive relation, causal powers,
+        or the like
+      section: 1.1 Humean Regularity Theory

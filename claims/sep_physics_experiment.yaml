@@ -1,0 +1,17 @@
+source:
+  citation: sep_physics_experiment
+  url: https://plato.stanford.edu/entries/physics-experiment/
+  local: sources/sep_physics-experiment.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  regress:
+    quotes:
+    - exact: What scientists take to be a correct result is one obtained with a good, that is, properly
+        functioning, experimental apparatus. But a good experimental apparatus is simply one that gives
+        correct results.
+      section: 2.2.1 The Experimenters’ Regress
+  calibrated:
+    quotes:
+    - exact: They had also calibrated their apparatuses by injecting pulses of known energy and observing
+        the output.
+      section: 2.2.1 The Experimenters’ Regress

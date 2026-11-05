@@ -1,0 +1,16 @@
+source:
+  citation: dsm_iii1980
+  doi: 10.1176/appi.books.9780890420188
+  local: sources/dsm_iii_1980_frontmatter.txt
+  sha256: a9f0c8437b73ff5a53aad5645c9750101031e7737dcce9ce12cbfdcc3914742a
+  extract_cmd: cat {}
+  note: text render of the DSM-III introduction (print pp. 1-12).
+claims:
+  agree_without_etiology:
+    quotes:
+    - exact: clinicians can agree on the identification of mental disorders on the basis of their clinical manifestations without agreeing on how the disturbances come about.
+      section: Introduction, Descriptive Approach
+  reliability:
+    quotes:
+    - exact: DSM-III provides specific diagnostic criteria as guides for making each diagnosis since such criteria enhance interjudge diagnostic reliability.
+      section: Introduction, Diagnostic Criteria

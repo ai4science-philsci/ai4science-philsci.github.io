@@ -36,3 +36,70 @@ claims:
     quotes:
     - exact: Mechanisms are not just fictions/metaphors.
       section: 2.2 What Mechanisms Are Not
+  glennan_law:
+    quotes:
+    - exact: One cannot even identify a mechanism without saying what it is that the mechanism does
+      section: 5.1 Mechanisms Are Defined Relative to Phenomena
+  mm_basis:
+    quotes:
+    - exact: The account was based in the experimental manipulations used to test interlevel relations
+        in practice.
+      section: 3.4.2 Constitutive Relevance as Mutual Manipulability
+  mm_sufficient:
+    quotes:
+    - exact: it offers only a sufficient condition
+      section: 3.4.2 Constitutive Relevance as Mutual Manipulability
+  all_and_only:
+    quotes:
+    - exact: the mechanism contains all and only the relevant parts, properties, activities, and organizational
+        features for the phenomenon in question
+      section: 3.5.1 Completeness
+  inhibitory:
+    quotes:
+    - exact: one might intervene to remove a putative component to see if and how the mechanism functions
+        in its absence (inhibitory experiments)
+      section: 4.1 Strategies of Discovery
+  sketch:
+    quotes:
+    - exact: A mechanism sketch, in contrast, is an incomplete representation of a mechanism that specifies
+        some of the relevant entities, activities, and organizational features but leaves gaps that cannot
+        yet be filled.
+      section: 3.5.1 Completeness
+  three_m:
+    quotes:
+    - exact: the variables in the model correspond to components, activities, properties, and organizational
+        features of the target mechanism that produces, maintains or underlies the phenomenon
+      section: 3.3 Purely Phenomenal Models
+  caricature:
+    quotes:
+    - exact: this objection appears to be directed at a common caricature of the mechanist rather than
+        at anything any new mechanist has asserted
+      section: 3.5.1 Completeness
+  fat_handed:
+    quotes:
+    - exact: An intervention is fat-handed to the extent that alters more than one causally relevant variable
+        at once
+      section: 3.4.2 Constitutive Relevance as Mutual Manipulability
+  how_actually:
+    quotes:
+    - exact: A how-actually-enough schema describes how entities and activities are in fact (or close
+        enough) organized to produce the phenomenon.
+      section: 3.5.2 Correctness
+  not_independent:
+    quotes:
+    - exact: Because x’s \(\phi\)-ing and S’s \(\psi\)-ing are related as part to whole, they are not
+        independent
+      section: 3.4.2 Constitutive Relevance as Mutual Manipulability
+  not_arbitrary:
+    quotes:
+    - exact: the choice of phenomenon is not entirely arbitrary
+      section: 5.1 Mechanisms Are Defined Relative to Phenomena
+  reconstituting:
+    quotes:
+    - exact: mechanism discovery typically involves “reconstituting the phenomenon”, shifting our understanding
+        of what we are trying to explain as we learn more about it
+      section: 5.1 Mechanisms Are Defined Relative to Phenomena
+  too_dichotomous:
+    quotes:
+    - exact: The distinction between sketches and schemas is perhaps too dichotomous
+      section: 3.5.1 Completeness

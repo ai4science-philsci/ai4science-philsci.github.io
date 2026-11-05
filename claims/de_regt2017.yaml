@@ -1,0 +1,26 @@
+source:
+  citation: de_regt2017
+  url: https://global.oup.com/academic/product/understanding-scientific-understanding-9780190652913
+  local: sources/de_regt_2017_understanding_scientific_understanding.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  cup:
+    quotes:
+    - exact: 'CUP: A phenomenon P is understood scientifically if and only if there is an explanation
+        of P that is based on an intelligible theory T and conforms to the basic epistemic values of empirical
+        adequacy and internal consistency.'
+      section: '4.1'
+      page: 92
+  cit:
+    quotes:
+    - exact: is intelligible for scientists (in context C) if they can recognize qualitatively characteristic
+        consequences of T without performing exact calculations
+      section: '4.2'
+      page: 102
+  ut:
+    quotes:
+    - exact: 'UT: understanding a theory = being able to use the theory'
+      prefix: 'aha! experience) '
+      suffix: ' up: understanding'
+      section: '2.2'
+      page: 23

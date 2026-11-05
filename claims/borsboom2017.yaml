@@ -1,0 +1,14 @@
+source:
+  citation: borsboom2017
+  doi: 10.1002/wps.20375
+  local: sources/borsboom_2017_network_theory_mental_disorders.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  direct_interactions:
+    quotes:
+    - exact: mental disorders arise from direct interactions between symptoms
+      section: Abstract
+  stable_states:
+    quotes:
+    - exact: alternative stable states of strongly connected symptom networks
+      section: Abstract

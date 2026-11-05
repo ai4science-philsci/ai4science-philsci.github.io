@@ -1,0 +1,16 @@
+source:
+  citation: dinstein2007
+  doi: 10.1152/jn.00238.2007
+  url: https://journals.physiology.org/doi/pdf/10.1152/jn.00238.2007
+  local: sources/dinstein_2007_brain_areas_observed_executed_movements.pdf
+  sha256: e6428669f1d3bce338ac2a060036d0bf5de6c970bc5eb04a944c8e33fc06cd1e
+  extract_cmd: pdftotext {} -
+claims:
+  may_contain:
+    quotes:
+    - exact: We propose that all six areas contain neurons that respond selectively to observed and executed movements and may contain mirror neurons
+      section: Introduction
+  no_strong_conclusions:
+    quotes:
+    - exact: we would not want to base any strong conclusions regarding the physiology of mirror neurons on the lack of cross-modal adaptation
+      section: Discussion

@@ -33,3 +33,37 @@ claims:
     quotes:
     - exact: Such concepts are too multifaceted to be measured on a single metric without loss of meaning
       section: 7.3 Psychometric models and construct validity
+  michell:
+    quotes:
+    - exact: psychometricians have not made serious attempts to test whether the attributes they purport
+        to measure have quantitative structure, and instead adopted an overly loose conception of measurement
+        that disguises this neglect
+      section: 7.3 Psychometric models and construct validity
+  irt_reply:
+    quotes:
+    - exact: Item Response Theory provides probabilistic tests of the quantifiability of attributes
+      section: 7.3 Psychometric models and construct validity
+  alexandrova:
+    quotes:
+    - exact: This defeats the purpose of construct validation and turns it into a narrow, technical exercise
+      section: 7.3 Psychometric models and construct validity
+  construct_validation:
+    quotes:
+    - exact: One way of validating a psychometric instrument is to test whether different procedures that
+        are intended to measure the same latent attribute provide consistent results
+      section: 7.3 Psychometric models and construct validity
+  psychometric_models:
+    quotes:
+    - exact: psychometric theory relies predominantly on the development of abstract models that are meant
+        to predict subjects’ performance in certain tasks
+      section: 7.3 Psychometric models and construct validity
+  validation_def:
+    quotes:
+    - exact: The process of establishing that a procedure measures the intended psychological attribute
+        is known as “validation”.
+      section: 7.3 Psychometric models and construct validity
+  rasch_first_step:
+    quotes:
+    - exact: The sort of statistical calibration (or “scaling”) provided by Rasch models yields repeatable
+        results, but it is often only a first step towards full-fledged psychological measurement.
+      section: 7.3 Psychometric models and construct validity

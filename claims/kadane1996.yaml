@@ -1,0 +1,21 @@
+source:
+  citation: kadane1996
+  url: https://www.cmu.edu/dietrich/philosophy/docs/seidenfeld/Reasoning%20to%20a%20Foregone%20Conclusion.pdf
+  local: sources/kadane_1996_reasoning_to_a_foregone_conclusion.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  bounds:
+    quotes:
+    - exact: In short, there are bounds on how high the probability can be of sampling until the posterior
+        probability reaches a specified level.
+      page: 1234
+  sufficient_conditions:
+    quotes:
+    - exact: We discuss an elementary result that establishes sufficient conditions under which this reasoning
+        to a foregone conclusion cannot occur.
+      section: Abstract
+      page: 1228
+  no_experiment:
+    quotes:
+    - exact: there can be no experiment with outcome X designed
+      page: 1229

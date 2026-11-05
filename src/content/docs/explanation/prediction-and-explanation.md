@@ -13,7 +13,7 @@ AI systems for science are judged by how well they predict. Three things predict
 
 ## From prediction to explanation
 
-**The flagpole: explanation runs from cause to effect.** Carl Hempel held that to explain an event is to show it had to happen, given the laws of nature and the circumstances. On that view, explaining and predicting are the same calculation, done after or before the event. The flagpole is the best-known counterexample. A flagpole 10 meters tall, with the sun at 45 degrees, casts a shadow 10 meters long. The same trigonometry gives the shadow from the height and the angle, and the height from the shadow and the angle. Both derivations predict correctly. Only the first explains: the pole's height and the sun's position produce the shadow, and the shadow produces nothing about the pole, which is as tall as it was built.
+**The flagpole (1966): explanation runs from cause to effect.** The philosopher of science Carl Hempel held that to explain an event is to show it had to happen, given the laws of nature and the circumstances. On that view, explaining and predicting are the same calculation, done after or before the event. The flagpole is the best-known counterexample; the objection was first made, with a slightly different example, by Sylvain Bromberger in 1966. A flagpole 10 meters tall, with the sun at 45 degrees, casts a shadow 10 meters long. The same trigonometry gives the shadow from the height and the angle, and the height from the shadow and the angle. Both derivations predict correctly. Only the first explains: the pole's height and the sun's position produce the shadow, and the shadow produces nothing about the pole, which is as tall as it was built.
 
 > the shadow does not cause the flagpole and consequently cannot explain its height.
 >
@@ -21,9 +21,9 @@ AI systems for science are judged by how well they predict. Three things predict
 
 > Explaining an outcome isn’t just a matter of showing that it is nomically expectable.
 >
-> — [Woodward and Ross, SEP, §2.5](https://plato.stanford.edu/entries/scientific-explanation-20th/#ExplUndeNomiExpeCounSuff)
+> — [Woodward and Ross (2025), "20th Century Theories of Scientific Explanation," SEP, §2.5](https://plato.stanford.edu/entries/scientific-explanation-20th/#ExplUndeNomiExpeCounSuff)
 
-**Breiman: many models fit equally well.** Leo Breiman described two cultures in statistics: one that assumes a model of how the data were generated, and one that treats the process as unknown and judges models by how well they predict. In the same paper he described what he called the Rashomon effect, after Kurosawa's film in which witnesses agree on the facts and disagree on the story.
+**Breiman (2001): many models fit equally well.** The statistician Leo Breiman described two cultures in statistics: one that assumes a model of how the data were generated, and one that treats the process as unknown and judges models by how well they predict. In the same paper he described what he called the Rashomon effect, after Kurosawa's film in which witnesses agree on the facts and disagree on the story.
 
 > there is often a multitude of different descriptions [equations f(x)] in a class of functions giving about the same minimum error rate.
 >
@@ -31,7 +31,7 @@ AI systems for science are judged by how well they predict. Three things predict
 
 His first example is three linear regressions on the same data, with about the same error and different variables in each, and he says each one tells a different story about which variables are important. He also ran a small neural network a hundred times on the same data and found 32 distinct solutions with about equal test error, each giving a different picture. Accuracy alone could not say which story was true.
 
-**Shmueli: report predictive and explanatory power separately.** Galit Shmueli treated explanatory power and predictive power as separate qualities that a model has in different amounts, to be reported separately.
+**Shmueli (2010): report predictive and explanatory power separately.** The statistician Galit Shmueli treated explanatory power and predictive power as separate qualities that a model has in different amounts, to be reported separately.
 
 > While explanatory power provides information about the strength of an underlying causal relationship, it does not imply its predictive power.
 >
@@ -42,17 +42,17 @@ Her example runs the other way too: Ptolemaic astronomy predicted well enough to
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Van Fraassen: the shadow can explain the height.** Bas van Fraassen told the flagpole story with a tower built to cast a shadow of a chosen length. In that setting,
+**Van Fraassen (1980): the shadow can explain the height.** Bas van Fraassen told the flagpole story with a tower built to cast a shadow of a chosen length. In that setting,
 
 > the height of the tower is “explained” by the fact that it was designed to cast a shadow of a certain length
 >
-> — [Woodward and Ross, SEP, §6.2](https://plato.stanford.edu/entries/scientific-explanation-20th/#ConsEmpiPragTheoExpl)
+> — [Woodward and Ross (2025), "20th Century Theories of Scientific Explanation," SEP, §6.2](https://plato.stanford.edu/entries/scientific-explanation-20th/#ConsEmpiPragTheoExpl)
 
-so which way explanation runs would depend on what the audience is interested in. Philip Kitcher and Wesley Salmon replied that the shadow still explains nothing:
+so which way explanation runs would depend on what the audience is interested in. The philosophers Philip Kitcher and Wesley Salmon (1987) replied that the shadow still explains nothing:
 
 > it is (something like) the desire for a shadow of length S (rather than S itself) that explains (or at least causally explains) the height (or the choice of height) for the tower.
 >
-> — [Woodward and Ross, SEP, §6.2](https://plato.stanford.edu/entries/scientific-explanation-20th/#ConsEmpiPragTheoExpl)
+> — [Woodward and Ross (2025), "20th Century Theories of Scientific Explanation," SEP, §6.2](https://plato.stanford.edu/entries/scientific-explanation-20th/#ConsEmpiPragTheoExpl)
 
 The builder's wish is a cause of the height; the shadow is an effect of it.
 
@@ -63,6 +63,14 @@ The builder's wish is a cause of the height; the shadow is an effect of it.
 > — [Breiman (2001), §11, p. 214](https://projecteuclid.org/journals/statistical-science/volume-16/issue-3/Statistical-Modeling--The-Two-Cultures-with-comments-and-a/10.1214/ss/1009213726.full)
 
 The flagpole and his own Rashomon effect show prediction succeeding in the wrong direction or with the wrong story. Shmueli keeps the two goals apart and asks for both to be measured.
+
+**Van Fraassen (1989) to inference to the best explanation.** If explaining is a separate aim from predicting, a natural rule follows: accept the hypothesis that best explains the evidence. Philosophers call this abduction, or inference to the best explanation, and physicians use it whenever they settle on the diagnosis that best fits the symptoms. Van Fraassen objected that the rule compares only the hypotheses someone thought of. For it to be reliable,
+
+> it must hold that at least typically the absolutely best explanation of the evidence is to be found among the candidate explanations we have come up with, for else ABD1 may well lead us to believe “the best of a bad lot” (van Fraassen 1989, 143)
+>
+> — [Douven (2025), "Abduction," SEP, §2](https://plato.stanford.edu/entries/abduction/#ExpAbd)
+
+The defenders' reply is to weaken the conclusion: the best of the candidates is accepted as better than its rivals, not as true. An agent that generates five hypotheses and ranks them has found the best of five, and the quality of the winner depends on the quality of the five.
 
 </details>
 
@@ -119,6 +127,23 @@ An agent trains models on electronic health records to predict which patients re
 
 The flagpole shows that causal explanation has a direction; philosophers also recognize explanations that are not causal, such as mathematical ones, which this page does not cover. Breiman's evidence came from the models of 2001, and Shmueli wrote mainly about statistical modeling in the social sciences. Applying any of them to a large trained model is an extension of their arguments, not something they tested.
 
+---
+
+## Textbook chapters
+
+Godfrey-Smith, *Theory and Reality: An Introduction to the Philosophy of Science* (University of Chicago Press, 2003 edition), written for readers outside philosophy. The second edition (2021) renumbers the chapters; titles are given so that either edition can be used.
+
+| Chapter | Topics | Principle |
+|---|---|---|
+| 13, "Explanation" | The covering law model; the asymmetry problem, with the flagpole and symptoms; causal and unificationist theories of explanation; standards of explanation that differ by field | **Explanation has a direction**: a derivation can run both ways and stay valid, but explanation runs only from cause to effect; symptoms predict and do not explain |
+
+Hernán and Robins, *Causal Inference: What If* (Chapman & Hall/CRC, 2020), written for researchers in the health and social sciences. Free PDF from the authors: [miguelhernan.org/whatifbook](https://miguelhernan.org/whatifbook).
+
+| Chapter | Topics | Principle |
+|---|---|---|
+| 1, "A definition of causal effect" | Counterfactual outcomes; individual and average causal effects; consistency; association as distinct from causation | **Causation is a what-if contrast**: an effect compares one population under two treatments; an association compares two groups under the treatments they received |
+| 3, "Observational studies" | Exchangeability, positivity and consistency; well-defined interventions; the target trial; prediction when no causal question can be posed | **Well-defined interventions**: a causal question names the intervention it is about; where none can be named, the data still support prediction, and the report says so |
+
 ## Sources
 
 | Source | Year | Field | Principle |
@@ -128,4 +153,8 @@ The flagpole shows that causal explanation has a direction; philosophers also re
 | [Shmueli, "To Explain or to Predict?," *Statistical Science*](https://arxiv.org/abs/1101.0891) | 2010 | Statistics | **Two dimensions**: explanatory and predictive power are separate and reported separately |
 | [Kapoor and Narayanan, "Leakage and the Reproducibility Crisis in ML-based Science," *Patterns*](https://arxiv.org/abs/2207.07048) | 2023 | Machine learning | **Leakage**: features that carry information about the outcome inflate accuracy in published ML-based science |
 | [D'Amour et al., "Underspecification Presents Challenges for Credibility in Modern Machine Learning"](https://arxiv.org/abs/2011.03395) | 2020 | Machine learning | **Underspecification**: equally accurate models behave differently outside the test data |
-| Hempel and Oppenheim, "Studies in the Logic of Explanation," *Philosophy of Science* (DOI 10.1086/286983) | 1948 | Philosophy of science | Original statement of the deductive-nomological model |
+| Hempel and Oppenheim, "Studies in the Logic of Explanation," *Philosophy of Science* (DOI [10.1086/286983](https://www.cambridge.org/core/product/identifier/S003182480002273X/type/journal_article)) | 1948 | Philosophy of science | Original statement of the deductive-nomological model |
+| [Godfrey-Smith, *Theory and Reality*, University of Chicago Press](https://press.uchicago.edu/ucp/books/book/chicago/T/bo37447570.html) | 2003 | Philosophy of science | Textbook statement of the asymmetry problem; credits the objection to Bromberger (1966). DOI [10.7208/chicago/9780226300610.001.0001](https://www.bibliovault.org/BV.landing.epl?ISBN=9780226300610) |
+| [Bromberger, "Why-Questions," in Colodny (ed.), *Mind and Cosmos*, University of Pittsburgh Press](https://archive.org/details/mindcosmosessays0000colo) | 1966 | Philosophy of science | Original statement of the asymmetry objection to the covering-law model, as credited by Godfrey-Smith |
+| [Douven, "Abduction," *Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/entries/abduction/) | rev. 2025 | Philosophy | **Inference to the best explanation** and the bad-lot objection |
+| [Van Fraassen, *Laws and Symmetry*, Oxford University Press](https://academic.oup.com/book/12448) | 1989 | Philosophy of science | The best of a bad lot. DOI [10.1093/0198248601.001.0001](https://academic.oup.com/book/12448) |

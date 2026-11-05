@@ -1,0 +1,72 @@
+source:
+  citation: craver_darden2013
+  url: https://press.uchicago.edu/ucp/books/book/chicago/I/bo16125886.html
+  local: sources/craver_darden_2013_in_search_of_mechanisms.txt
+  extract_cmd: cat {}
+claims:
+  three_aims:
+    quotes:
+    - exact: 'Biologists look for mechanisms because they serve the three central aims of science: prediction,
+        explanation, and control.'
+      section: Chapter 1
+  sketch:
+    quotes:
+    - exact: a mechanism sketch is an incomplete representation of a mechanism. It characterizes some
+        parts, activities, and features of the mechanism’s organization, but it has gaps.
+      section: Chapter 3
+  filler_terms:
+    quotes:
+    - exact: Terms such as activate, cause, encode, inhibit, produce, process, and represent are often
+        used to indicate a kind of activity in a mechanism without providing any detail about how that
+        activity is carried out.
+      section: Chapter 3
+  how_possibly:
+    quotes:
+    - exact: How-possibly schemas are loosely constrained conjectures about how the mechanism works.
+      section: Chapter 3
+  sieve:
+    quotes:
+    - exact: Nonstandard tests are frequently the sieve through which how-possibly is sorted from how-actually.
+      section: Chapter 4
+  interference:
+    quotes:
+    - exact: Interference experiments are bottom-up, inhibitory experiments.
+      section: Chapter 8
+  stimulation:
+    quotes:
+    - exact: Stimulation experiments are bottom-up, excitatory experiments.
+      section: Chapter 8
+  foiled:
+    quotes:
+    - exact: Such experiments might be foiled by redundant parts or by compensatory responses in the system
+        in question
+      section: Chapter 8
+  byproduct:
+    quotes:
+    - exact: if the part in question is an inconsequential by-product of the working of the mechanism
+      section: Chapter 8
+  all_and_only:
+    quotes:
+    - exact: includes all and only the entities, activities, and organizational features in the target
+      section: Chapter 1
+  activation:
+    quotes:
+    - exact: if a part is a component in the mechanism for a given phenomenon, then the part should change
+        in some way depending on whether the phenomenon is or is not manifest
+      section: Chapter 8
+  glass_box:
+    quotes:
+    - exact: One crucial task in the discovery process is to transform black boxes (for which neither
+        components nor functions are known) into gray boxes (for which component functions are specified)
+        into glass boxes.
+      section: Chapter 3
+  hh_independent:
+    quotes:
+    - exact: Hodgkin and Huxley had independent evidence that the values and relations in the model in
+        fact corresponded to the magnitudes and regularities observed in this mechanism
+      section: Chapter 3
+  idealized:
+    quotes:
+    - exact: mechanism schemas frequently contain idealized (that is, false) assumptions about the entities,
+        activities, and organizational features of the mechanism
+      section: Chapter 3

@@ -1,0 +1,21 @@
+source:
+  citation: sep_prediction_accommodation
+  url: https://plato.stanford.edu/entries/prediction-accommodation/
+  local: sources/sep_prediction-accommodation.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  mill:
+    quotes:
+    - exact: (s)uch predictions and their fulfilment are, indeed, well calculated to impress the ignorant
+        vulgar, whose faith in science rests solely upon similar coincidences between its prophecies and
+        what comes to pass.
+      section: 1. Historical Introduction
+  keynes:
+    quotes:
+    - exact: The peculiar virtue of prediction or predesignation is altogether imaginary
+      section: 1. Historical Introduction
+  overfit:
+    quotes:
+    - exact: if we know a theorist built her theory to accommodate data, we may well worry that she has
+        overfit the data and thus constructed a flawed theory
+      section: 6.7 The Akaike Approach

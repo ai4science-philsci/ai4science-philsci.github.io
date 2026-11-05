@@ -1,0 +1,11 @@
+source:
+  citation: insel2010
+  doi: 10.1176/appi.ajp.2010.09091379
+  local: sources/insel_2010_rdoc.txt
+  sha256: 0e7b32003fc43d02341cab995706abe68ace446fb2c277f2c129db40df82bcd6
+  extract_cmd: cat {}
+claims:
+  brain_disorders:
+    quotes:
+    - exact: the RDoC framework conceptualizes mental illnesses as brain disorders
+      section: body

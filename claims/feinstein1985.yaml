@@ -1,0 +1,16 @@
+source:
+  citation: feinstein1985
+  doi: 10.1056/NEJM198506203122504
+  local: sources/feinstein_1985_will_rogers_nejm.txt
+  sha256: 120ba28c5b5a16c966231211eb0fdb7f37e7fb2b065b85beb4d3cdcdbd07188c
+  extract_cmd: cat {}
+  note: text render of the NEJM article; the abstract is set in two columns and the render interleaves them, so quotations are pinned as the fragments that survive the interleaving.
+claims:
+  no_change_in_outcomes:
+    quotes:
+    - exact: in each group without any change in individual outcomes
+      section: Abstract
+  good_to_bad_stage:
+    quotes:
+    - exact: ly would have been classified in a "good" stage were as-
+      section: Abstract

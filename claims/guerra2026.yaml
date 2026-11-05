@@ -1,0 +1,21 @@
+source:
+  citation: guerra2026
+  doi: 10.1007/s00415-026-13716-1
+  url: https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12971826/fullTextXML
+  local: sources/guerra_2026_hermes_registry_europepmc.txt
+  sha256: 45d77598f77f9c99806a2a6f77dac4d45d34b97501c044436323d6cf9e7e3984
+  extract_cmd: cat {}
+  note: text render of the Europe PMC full-text XML of Journal of Neurology 273:193.
+claims:
+  two_counts:
+    quotes:
+    - exact: Among 20,306 patients, 866 (4.26%) were classified as SPMS by ND and 1603 (7.89%) by HERCULES criteria.
+      section: Abstract
+  accuracy:
+    quotes:
+    - exact: The overall accuracy was 91.1%
+      section: Results
+  reference_choice:
+    quotes:
+    - exact: In the absence of a universally accepted gold standard for SPMS diagnosis, we decided to apply neurologist-defined (ND) SPMS as a pragmatic reference classification reflecting real-world clinical labeling
+      section: Methods

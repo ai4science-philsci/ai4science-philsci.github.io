@@ -1,0 +1,12 @@
+source:
+  citation: kendler2012
+  doi: 10.1093/med/9780199642205.003.0015
+  local: sources/kendler_2012_epistemic_iteration_ch15.txt
+  sha256: 49fffba0bd69a932122f7fcdc6f6138198758ca4fe2bdfcc9a3b7feffae84055
+  extract_cmd: cat {}
+  note: chapter 15 of Philosophical Issues in Psychiatry II (Kendler and Parnas, eds.), text render.
+claims:
+  true_disorder:
+    quotes:
+    - exact: we expect that the true disorder will perform better on our key validators
+      section: 15.5

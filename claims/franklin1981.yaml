@@ -1,0 +1,29 @@
+source:
+  citation: franklin1981
+  doi: 10.2307/27757478
+  url: https://www.jstor.org/stable/27757478
+  local: sources/franklin_1981_millikan_oil_drops_hsps.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  tinkering_reduces_error:
+    quotes:
+    - exact: the result of his tinkering is to reduce the statistical error rather than to change the
+        mean value of e
+      section: 2. Selective analysis of data
+      page: 198
+  only_evident_reason:
+    quotes:
+    - exact: His only evident reason for rejecting these five events is that their values did not agree
+        with his expectations
+      section: 2. Selective analysis of data
+      page: 195
+  two_percent_departure:
+    quotes:
+    - exact: If he had included these events he would have had to allow a 2% departure
+      section: 2. Selective analysis of data
+      page: 196
+  small_effect:
+    quotes:
+    - exact: The small effect of his selectivity is shown in figure 4
+      section: 2. Selective analysis of data
+      page: 196

@@ -1,0 +1,14 @@
+source:
+  citation: birnbaum1962
+  url: https://errorstatistics.com/wp-content/uploads/2016/07/birnbaum_1962_foundations_statistical_inference2.pdf
+  local: sources/birnbaum_1962_foundations_of_statistical_inference.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  equivalence:
+    quotes:
+    - exact: (S) and (C) together are mathematically equivalent to (L)
+      page: 271
+  lemma2:
+    quotes:
+    - exact: Lemma2. (L) implies,and is impliedby,(S) and (C).
+      page: 284

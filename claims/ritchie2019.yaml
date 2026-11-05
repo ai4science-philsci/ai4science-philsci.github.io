@@ -1,0 +1,17 @@
+source:
+  citation: ritchie2019
+  url: https://philsci-archive.pitt.edu/12915/
+  local: sources/ritchie_2019_decoding_the_brain.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  dictum:
+    quotes:
+    - exact: if information can be decoded from patterns of neural activity, then this provides strong
+        evidence about what information those patterns represent
+      section: Abstract
+      page: 1
+  poor_guide:
+    quotes:
+    - exact: decodability is a poor guide for revealing the content of neural representations
+      section: Abstract
+      page: 1

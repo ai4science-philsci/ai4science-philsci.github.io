@@ -1,0 +1,15 @@
+source:
+  citation: hardwig1985
+  url: https://www.jstor.org/stable/2026523
+  local: sources/hardwig1985_dependence.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  number_not_known:
+    quotes:
+    - exact: many of the authors of an article like this will not even know how a given number in the
+        article was arrived at
+      page: 347
+  chain_ends:
+    quotes:
+    - exact: must end with someone who possesses the necessary evidence
+      page: 337

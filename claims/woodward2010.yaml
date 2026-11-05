@@ -1,0 +1,15 @@
+source:
+  citation: woodward2010
+  url: https://philsci-archive.pitt.edu/4813/
+  local: sources/woodward_2010_causation_in_biology.txt
+  extract_cmd: cat {}
+claims:
+  distinguish_among:
+    quotes:
+    - exact: features that should be used to distinguish among causal relationships
+      section: Introduction
+  criteria_for_causation:
+    quotes:
+    - exact: it is common in the biological literature (particularly in epidemiology- e.g. Hill, 1965)
+        to refer to these features as “criteria for causation”
+      section: Introduction

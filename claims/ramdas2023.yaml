@@ -1,0 +1,41 @@
+source:
+  citation: ramdas2023
+  url: https://arxiv.org/pdf/2210.01948
+  local: sources/ramdas_2023_game_theoretic_statistics_anytime_valid.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  delusion:
+    quotes:
+    - exact: The same delusion arises in science, where sampling until a significant result is obtained
+        is an important source of irreproducibility.
+      section: 1. Introduction
+      page: 1
+  prior_peeking:
+    quotes:
+    - exact: Bayesian inference with a prior defined by a statistician’s beliefs before seeing any of
+        the data is not affected by (planned) peeking.
+      section: 1. Introduction
+      page: 1
+  accommodate:
+    quotes:
+    - exact: we need to go beyond disapproval of peeking, and we instead should give researchers tools
+        to fully accommodate it
+      section: 1. Introduction
+      page: 1
+  survey56:
+    quotes:
+    - exact: found 56% admitting to “deciding whether to collect more data after looking to see whether
+        the results were significant”
+      section: 1. Introduction
+      page: 1
+  anytime:
+    quotes:
+    - exact: we can repeatedly decide whether to collect more data based on the current e-value without
+        invalidating later assessments, stopping whenever and for any reason whatsoever
+      section: 1. Introduction
+      page: 2
+  price:
+    quotes:
+    - exact: there may (or may not) be tradeoffs between safety and power
+      section: 1. Introduction
+      page: 2

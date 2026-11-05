@@ -18,3 +18,8 @@ claims:
     quotes:
     - exact: a single conflicting or counter-instance is never sufficient methodologically for falsification
       section: 4. Basic Statements, Falsifiability and Convention
+  basic_statement_decision:
+    quotes:
+    - exact: Every test of a theory, whether resulting in its corroboration or falsification, must stop
+        at some basic statement or other which we decide to accept.
+      section: 4. Basic Statements, Falsifiability and Convention

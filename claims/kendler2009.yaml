@@ -1,0 +1,19 @@
+source:
+  citation: kendler2009
+  doi: 10.1017/S0033291709005753
+  local: sources/kendler_2009_historical_framework.txt
+  sha256: cedb8b7437460b591612e2605edaa36df1f0dbce2ec9a2d4ad57f70b91c7f547
+  extract_cmd: cat {}
+claims:
+  spiral:
+    quotes:
+    - exact: a spiral of improvement
+      section: Epistemic iteration
+  power_struggle:
+    quotes:
+    - exact: It will not work if our nosologic revisions reflect largely a power struggle between different branches of psychiatry, each with its own essentialist views of the true nature of mental illness
+      section: Epistemic iteration
+  improvement_condition:
+    quotes:
+    - exact: Iteration only works if the broad thrust of this process is improvement
+      section: Conclusion

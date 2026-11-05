@@ -1,0 +1,18 @@
+source:
+  citation: winsberg2010
+  url: https://press.uchicago.edu/ucp/books/book/chicago/S/bo9003670.html
+  local: sources/winsberg_2010_science_in_the_age_of_computer_simulation.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  all_at_once:
+    quotes:
+    - exact: The sanctioning of simulations does not cleanly divide into verification and validation.
+        In fact, simulation results are sanctioned all at once
+      section: 2. Sanctioning Models
+      page: 23
+  confluence:
+    quotes:
+    - exact: it is the simultaneous confluence of these efforts, rather than the establishment of each
+        one separately, that ultimately gives us confidence in the results
+      section: 2. Sanctioning Models
+      page: 23
