@@ -13,105 +13,49 @@ This page asks one question: **what evidence shows that a name used in a new sys
 
 ## From one system to another
 
-**Hickok (2009): coarse evidence refutes a finer identity claim and never establishes it.** Identity criteria differ in how much they ask. That two systems produce the same behavior asks less than that they do so by the same parts. When a finer criterion refines a coarser one, evidence calibrated to the coarser criterion can show that two things differ, since a difference in behavior is a difference, but it cannot show that they are the same at the finer level, because many different constructions produce one behavior. The neuroscientist Gregory Hickok's case is mirror neurons: cells recorded one at a time in macaque premotor cortex that fire both when the monkey acts and when it watches an action, and a "mirror system" in humans inferred from brain imaging and used to explain imitation, language and empathy.
+**Hickok (2009): coarse evidence refutes a finer identity claim and never establishes it.** Identity criteria differ in how much they ask. That two systems produce the same behavior asks less than that they do so with the same parts. Evidence at the coarser level can show two things differ, since a difference in behavior is a difference. It cannot show they are the same at the finer level, because many constructions produce one behavior. The neuroscientist Gregory Hickok's case is mirror neurons: cells recorded one at a time in the macaque that fire both when the monkey acts and when it watches, and a "mirror system" in humans, inferred from brain imaging and used to explain imitation, language and empathy.
 
 > the species that has been shown to possess mirror neurons does not, to our knowledge, possess any of these higher order cognitive processes, and the species that possesses the higher order cognitive processes, has not been shown conclusively to possess mirror neurons
 >
 > — [Hickok (2009), "Eight Problems for the Mirror Neuron Theory," *Journal of Cognitive Neuroscience*](https://direct.mit.edu/jocn/article/21/7/1229/4778/Eight-Problems-for-the-Mirror-Neuron-Theory-of)
 
-Single-cell recording fixes which cells are meant in the monkey. Imaging in humans cannot see cells, so the human evidence was calibrated to a coarser criterion, a region that is active during both execution and observation, and the finer claim, that the same kind of cell is doing the same work, was never in evidence across the species boundary.
+Imaging cannot see single cells, so the human evidence showed only a region active during both doing and watching. The claim that the same kind of cell does the same work in both species was never tested, and Hickok concludes the system was generalized to humans without validation. The asymmetry also runs the other way in his argument: human lesion data that separate understanding an action from performing it count against the identity, because a difference at any level is a difference.
 
-> the system has been generalized to humans without systematic validation
->
-> — [Hickok (2009)](https://direct.mit.edu/jocn/article/21/7/1229/4778/Eight-Problems-for-the-Mirror-Neuron-Theory-of)
-
-The same asymmetry runs the other way in his argument: human lesion and dissociation data that separate action understanding from motor function count against the identity claim, because a difference found at any level is a difference.
-
-**Fisher and Scharff (2009): a name can sit at the wrong level in a single system.** FOXP2 is popularly "the language gene." The geneticist Simon Fisher and the behavioral biologist Constance Scharff describe what the evidence reaches:
-
-> Rare mutations of the FOXP2 transcription factor gene cause a monogenic syndrome characterized by impaired speech development and linguistic deficits
->
-> — [Fisher and Scharff (2009), "FOXP2 as a molecular window into speech and language," *Trends in Genetics*](https://linkinghub.elsevier.com/retrieve/pii/S0168952509000432)
-
-A transcription factor regulates other genes, and screens for the genes FOXP2 regulates found that
+**Fisher and Scharff (2009): a name can sit at the wrong level in a single system.** FOXP2 is popularly "the language gene." The geneticist Simon Fisher and the behavioral biologist Constance Scharff describe what the evidence reaches. Rare mutations in FOXP2 cause a syndrome of impaired speech and language, but FOXP2 is a transcription factor, a gene that regulates other genes:
 
 > Each study uncovered several hundred potential targets.
 >
-> — [Fisher and Scharff (2009)](https://linkinghub.elsevier.com/retrieve/pii/S0168952509000432)
+> — [Fisher and Scharff (2009), "FOXP2 as a molecular window into speech and language," *Trends in Genetics*](https://linkinghub.elsevier.com/retrieve/pii/S0168952509000432)
 
-The label names a component; the evidence reaches a role in a regulatory cascade with the phenotype far downstream.
+The label names a component. The evidence reaches a role near the top of a regulatory cascade, with language far downstream.
 
-**Yarkoni (2022) and Nosek (2022): a failed replication may be a reference failure.** The psychologist Tal Yarkoni's case is verbal overshadowing. A 1990 experiment found that describing a face in words made it harder to recognize later; a 31-site replication in 2014 used the same single video and the same lineup and reported a robust effect. Yarkoni holds that the design licenses only a narrow claim:
-
-> there is at least one particular video containing one particular face that, when followed by one particular lineup of faces, is more difficult for participants to identify
->
-> — [Yarkoni (2022), "The generalizability crisis," *Behavioral and Brain Sciences*](https://www.cambridge.org/core/product/identifier/S0140525X20001685/type/journal_article)
-
-The name "verbal overshadowing" was carried to a general effect that neither study had measured. When a later study with other faces fails, the original and the replication are both sound within their designs; the term did not refer to the same thing in the third. The psychologist Brian Nosek and colleagues make the point from the other side: whether a second study is a replication of the first is a judgment about identity.
+**Yarkoni (2022) and Nosek (2022): a failed replication may be a reference failure.** The psychologist Tal Yarkoni's case is verbal overshadowing. A 1990 experiment found that describing a face in words made it harder to recognize later, and a 31-site replication in 2014 found the same, using the same single video and the same lineup. Yarkoni argues that the design licenses only a claim about that one video and that one lineup. The name "verbal overshadowing" was carried to a general effect neither study measured, so a later study with other faces that fails need not mean either earlier study was wrong. The psychologist Brian Nosek and colleagues make the point from the other side:
 
 > A study is a replication when the innumerable differences from the original study are believed to be irrelevant for obtaining the evidence about the same finding.
 >
 > — [Nosek et al. (2022), "Replicability, Robustness, and Reproducibility in Psychological Science," *Annual Review of Psychology*](https://www.annualreviews.org/doi/10.1146/annurev-psych-020821-114157)
 
-A failed replication can therefore mean that the finding is false, or that the differences believed irrelevant were not, which is a failure of the name to carry rather than of the original result.
+A failed replication can mean the finding is false, or that the differences believed irrelevant were not. The second is a failure of the name to carry, not of the original result.
 
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Dinstein and colleagues (2007) to the mirror-system claim.** The imaging studies said themselves what imaging can and cannot show. Ilan Dinstein and colleagues, using a protocol built to find selectivity for both observed and executed movements,
+**Dinstein and colleagues (2007) to the mirror-system claim.** The imaging studies were not naive about their limits. Ilan Dinstein and colleagues, with a protocol built to find areas selective for both seen and performed movements, concluded only that six areas "may contain mirror neurons," and declined to draw strong conclusions about the cells themselves. The reply is that this is Hickok's point: the instrument's own authors drew the line that later users crossed.
 
-> propose that all six areas contain neurons that respond selectively to observed and executed movements and may contain mirror neurons
->
-> — [Dinstein et al. (2007), "Brain Areas Selective for Both Observed and Executed Movements," *Journal of Neurophysiology*](https://www.physiology.org/doi/10.1152/jn.00238.2007)
-
-and, finding no adaptation across the two modalities, add that
-
-> we would not want to base any strong conclusions regarding the physiology of mirror neurons on the lack of cross-modal adaptation
->
-> — [Dinstein et al. (2007)](https://www.physiology.org/doi/10.1152/jn.00238.2007)
-
-"May contain" is what a coarse instrument can say about a fine claim; the instrument's own authors drew the line that later users crossed.
-
-**Transportability is a different question.** Judea Pearl and Elias Bareinboim's (2014) transportability (see [Transfer and Scope](/transfer/transfer-and-scope/)) is
-
-> a license to transfer causal effects learned in experimental studies to a new population, in which only observational studies can be conducted
->
-> — [Pearl and Bareinboim (2014), p. 1](https://arxiv.org/pdf/1503.01603#page=1)
-
-It fixes the variables and asks whether an effect carries. Reusing a term assumes neither the units nor the criterion that makes them the same, so it is the question that has to be settled before transportability can be posed.
+**Pearl and Bareinboim (2014): this is just transportability.** Carrying a result to a new population is what [Transfer and Scope](/transfer/transfer-and-scope/) covers. The difference is that transportability fixes the variables and asks whether an effect carries. Reusing a name assumes the variables mean the same thing in both systems, which is the question that has to be settled first.
 
 </details>
 
 <details class="worked-example">
 <summary>Misreadings</summary>
 
-**"A failed replication means the original was wrong."** On Nosek and colleagues' definition a replication rests on a belief that the differences between studies are irrelevant. When that belief is wrong, both results can stand and the term fails to carry. Their definition of the exercise is deliberately narrow:
+**"A failed replication means the original was wrong."** A replication rests on a belief that the differences between studies are irrelevant. When that belief is wrong, both results can stand, and the name fails to carry. Yarkoni's general charge is that researchers draw broad verbal conclusions that the statistics behind them do not support.
 
-> Replication refers to testing the reliability of a prior finding with different data.
->
-> — [Nosek et al. (2022)](https://www.annualreviews.org/doi/10.1146/annurev-psych-020821-114157)
+**"More behavioral evidence will settle whether it is the same mechanism."** More evidence of one kind cannot draw distinctions that kind is blind to. A hundred behavioral matches establish a behavioral match.
 
-Yarkoni's charge is the general form: researchers
+**"The language gene explains language."** Fisher and Scharff judge the evolutionary changes in FOXP2 unlikely to be the sole or main driver of spoken language. A name at the level of one component invites a claim the evidence at that level cannot carry.
 
-> draw sweeping verbal generalizations that lack a meaningful connection to the statistical quantities they are putatively based on
->
-> — [Yarkoni (2022), abstract](https://www.cambridge.org/core/product/identifier/S0140525X20001685/type/journal_article)
-
-**"More behavioral evidence will settle whether it is the same mechanism."** More evidence of the same kind cannot draw distinctions that kind of evidence is blind to. A hundred behavioral matches establish a behavioral match.
-
-**"The language gene explains language."** On the evolutionary changes to FOXP2, Fisher and Scharff hold that
-
-> these are unlikely to be the sole or major driving force behind the appearance of spoken language
->
-> — [Fisher and Scharff (2009)](https://linkinghub.elsevier.com/retrieve/pii/S0168952509000432)
-
-A name at the level of a component invites a claim the evidence at that level cannot carry.
-
-**"Reference failure is a philosophers' problem."** Hickok's eight problems are empirical: dissociations, lesion data and species differences, each of which bears on whether one term names one thing.
-
-> One therefore cannot assume that monkey data will hold in the human system.
->
-> — [Hickok (2009)](https://direct.mit.edu/jocn/article/21/7/1229/4778/Eight-Problems-for-the-Mirror-Neuron-Theory-of)
+**"Reference failure is a philosophers' problem."** Hickok's eight problems are empirical: dissociations, lesion data and species differences, each bearing on whether one name picks out one thing.
 
 </details>
 

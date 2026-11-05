@@ -13,133 +13,58 @@ AI systems for science count cases: how many cells are of one type, how many pat
 
 ## From one rule to another
 
-**Feinstein (1985) and Sormani (2008): changing the rule moves the numbers while nothing in the world changes.** The clinical epidemiologist Alvan Feinstein and colleagues compared lung-cancer cohorts treated before and after new imaging methods came into use. The newer methods found metastases the older ones had missed, so patients who would once have been classified in a "good" stage were assigned to a "bad" one. Because those patients had a worse prognosis than the rest of the good-stage group and a better one than the rest of the bad-stage group, survival rose
+**Feinstein (1985) and Sormani (2008): changing the rule moves the numbers while nothing in the world changes.** The clinical epidemiologist Alvan Feinstein and colleagues compared lung-cancer cohorts treated before and after new imaging came into use. The new imaging found metastases the old had missed, so patients once staged as "good" were moved to "bad." Those patients had a worse prognosis than the rest of the good stage and a better one than the rest of the bad stage, so survival rose in both stages with no patient's outcome changed. They named it after Will Rogers's remark that the Okies who left Oklahoma for California raised the average intelligence of both states.
 
-> in each group without any change in individual outcomes
->
-> — [Feinstein, Sosin and Wells (1985), "The Will Rogers Phenomenon," *New England Journal of Medicine*](https://www.nejm.org/doi/10.1056/NEJM198506203122504)
-
-They named it after Will Rogers's remark that the Okies who left Oklahoma for California raised the average intelligence of both states. The biostatistician Maria Pia Sormani and colleagues found the same effect from a change of diagnostic rule alone. Two sets of criteria for multiple sclerosis, Poser's and the 2001 McDonald criteria, were applied to one cohort of patients a year after a first attack:
-
-> 309 patients were studied for a median period of 84 months. After 1 year, 16% of patients had MS according to Poser and 44% according to McDonald criteria.
->
-> — [Sormani et al. (2008), "Will Rogers phenomenon in multiple sclerosis," *Annals of Neurology*](https://onlinelibrary.wiley.com/doi/10.1002/ana.21464)
-
-The probability of reaching moderate disability within the diagnosed group
-
-> was 46% in MS patients according to Poser and 27% acccording to McDonald criteria
->
-> — [Sormani et al. (2008)](https://onlinelibrary.wiley.com/doi/10.1002/ana.21464)
-
-No patient's course changed; the newly diagnosed patients, with a prognosis between the two groups they had been moved between, improved the average of one and the other. The authors draw the consequence:
+The biostatistician Maria Pia Sormani and colleagues found the same effect from a change of diagnostic rule alone. Applied to one cohort of 309 patients a year after a first attack, the older Poser criteria diagnosed 16% with multiple sclerosis and the 2001 McDonald criteria 44%. The share of the diagnosed group reaching moderate disability fell from 46% to 27%, though no patient's course had changed:
 
 > The use of different diagnostic criteria may generate spurious improvements in the medium-term prognosis of MS.
 >
-> — [Sormani et al. (2008)](https://onlinelibrary.wiley.com/doi/10.1002/ana.21464)
+> — [Sormani et al. (2008), "Will Rogers phenomenon in multiple sclerosis," *Annals of Neurology*](https://onlinelibrary.wiley.com/doi/10.1002/ana.21464)
 
 A rate is a property of a class, and the class is made by the rule.
 
-**Spitzer (1980) to Borsboom (2017): sameness under one kind of rule does not carry to another.** Psychiatric classification has four research programs, and each counts two patients as having the same disorder by a different relation. The DSM's rule is membership in a stated symptom set. Its third edition, whose task force Robert Spitzer chaired, adopted that rule for reliability:
-
-> clinicians can agree on the identification of mental disorders on the basis of their clinical manifestations without agreeing on how the disturbances come about.
->
-> — [American Psychiatric Association (1980), *DSM-III*, Introduction](https://psychiatryonline.org/doi/book/10.1176/appi.books.9780890420188)
-
-The rule is polythetic, so it admits many ways to qualify. The psychiatrist Mark Zimmerman and colleagues counted them for major depressive disorder:
+**Spitzer (1980) to Borsboom (2017): sameness under one kind of rule does not carry to another.** Psychiatric classification has four research programs, and each counts two patients as having the same disorder by a different relation. The DSM, from its third edition, whose task force Robert Spitzer chaired, counts membership in a stated symptom set, chosen so that clinicians could agree on a diagnosis without agreeing on its cause. The rule admits many ways to qualify. The psychiatrist Mark Zimmerman and colleagues counted them for major depression:
 
 > Altogether, there are 227 different ways to meet the symptom criteria for MDD, and it is possible for 2 patients diagnosed with MDD to have no symptoms in common.
 >
 > — [Zimmerman et al. (2015), "How many different ways do patients meet the diagnostic criteria for major depressive disorder?," *Comprehensive Psychiatry*](https://linkinghub.elsevier.com/retrieve/pii/S0010440X14002442)
 
-The Research Domain Criteria sort by a different relation. Thomas Insel and colleagues at the National Institute of Mental Health state that
+The other three programs sort by other relations. The National Institute of Mental Health's Research Domain Criteria treat mental illnesses as brain disorders, so two patients are alike when the same circuit is impaired. The Hierarchical Taxonomy of Psychopathology builds syndromes from how symptoms covary, so two patients are alike by their position in that structure. On Denny Borsboom's network theory, a disorder is a stable state of a symptom network, so two patients are alike when their symptoms hold each other in the same state. Two patients who meet the DSM rule and share no symptom are one disorder under the first relation and, on the network reading, two. Evidence gathered under one relation bears on another only through an argument that the two pick out the same patients, and that argument is rarely made.
 
-> the RDoC framework conceptualizes mental illnesses as brain disorders
->
-> — [Insel et al. (2010), "Research Domain Criteria (RDoC)," *American Journal of Psychiatry*](https://psychiatryonline.org/doi/10.1176/appi.ajp.2010.09091379)
+**Guerra (2026) and Goyal (2025): an agreement statistic hides whether two rules nest or cross.** When two rules are applied to one population, the result is a two-by-two table: cases both accept, cases each accepts alone, and cases neither accepts. Studies usually print a summary instead. The Italian multiple sclerosis register applied a neurologists' label and an algorithmic definition of secondary progression to 20,306 patients and reported an overall accuracy of 91.1%. The study also printed its table:
 
-so two patients are alike when the same circuit is impaired. The Hierarchical Taxonomy of Psychopathology sorts by position in a statistical structure: Roman Kotov and colleagues write that it
+| | Algorithm: yes | Algorithm: no |
+|---|---|---|
+| Neurologists: yes | 326 | 540 |
+| Neurologists: no | 1,277 | 18,163 |
 
-> constructs psychopathological syndromes and their components/subtypes based on the observed covariation of symptoms
->
-> — [Kotov et al. (2017), "The Hierarchical Taxonomy of Psychopathology (HiTOP)," *Journal of Abnormal Psychology*](https://psycnet.apa.org/doi/10.1037/abn0000258)
-
-And on the network theory of mental disorders, on which disorders "arise from direct interactions between symptoms" and are "alternative stable states of strongly connected symptom networks" ([Borsboom (2017)](https://onlinelibrary.wiley.com/doi/10.1002/wps.20375)), two patients are alike when their symptoms are held in the same self-sustaining state. Two patients who both meet the DSM rule and share no symptom are the same disorder under the first relation and, on the network reading, different states. Evidence collected under one rule bears on another only through an argument that the two relations pick out the same patients, and that argument is rarely made.
-
-**Guerra (2026) and Goyal (2025): an agreement statistic hides whether two rules nest or cross.** When two rules are applied to one population, the result is a two-by-two table: cases both rules accept, cases each accepts alone, and cases neither accepts. Studies usually print a summary of it instead. The Italian multiple sclerosis register applied a neurologists' label and an algorithmic definition of secondary progression to the same patients:
-
-> Among 20,306 patients, 866 (4.26%) were classified as SPMS by ND and 1603 (7.89%) by HERCULES criteria.
->
-> — [Guerra et al. (2026), "HerMeS: a registry-based evaluation of the HERCULES criteria," *Journal of Neurology*](https://link.springer.com/10.1007/s00415-026-13716-1)
-
-Taking the neurologists' label as the reference, they report that
-
-> The overall accuracy was 91.1%
->
-> — [Guerra et al. (2026)](https://link.springer.com/10.1007/s00415-026-13716-1)
-
-The study also prints its table: 326 patients labeled by both definitions, 540 by the neurologists alone, 1,277 by the algorithm alone, and 18,163 by neither. The 91.1% is carried by the 18,163 patients both definitions leave alone. Of the 2,143 patients either definition identifies, 326 are identified by both, about one in seven. The two definitions cross: each picks out hundreds of patients the other does not, so neither is a refinement of the other, and a reader given only the accuracy would not learn it. Where the table is not printed, the coefficient cannot recover it. The endocrinologist Alpesh Goyal and colleagues applied eleven diagnostic criteria for gestational diabetes to one cohort of 353 women:
-
-> A total of 55 pair-wise comparisons were performed
->
-> — [Goyal et al. (2025), "Agreement and disagreement between diagnostic criteria for gestational diabetes," *Diabetes and Metabolic Syndrome*](https://linkinghub.elsevier.com/retrieve/pii/S1871402125000931)
-
-reporting each pair's agreement by Cohen's kappa coefficient and a disagreement percentage, with no cross-classification. Two pairs can print the same kappa while one pair nests and the other crosses, and whether adopting a new criterion only adds cases or also removes them is what a center changing criteria needs to know.
+The 91.1% is carried by the 18,163 patients both definitions leave alone. Of the 2,143 patients either one identifies, only 326, about one in seven, are identified by both. The definitions cross: each picks out hundreds the other does not. Where the table is not printed, the coefficient cannot recover it. The endocrinologist Alpesh Goyal and colleagues compared eleven criteria for gestational diabetes on one cohort, 55 pairs in all, and reported each pair as a kappa with no table. Two pairs can share a kappa while one nests and the other crosses, and whether a new criterion only adds cases or also drops them is what a clinic changing criteria needs to know.
 
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Robins and Guze (1970) to the whole page: one rule is the right one, and research finds it.** Eli Robins and Samuel Guze proposed a method for establishing that a psychiatric diagnosis is valid,
-
-> validity in psychiatric illness is described, consisting of five phases: clinical description, laboratory study, exclusion of other disorders, follow-up study, and family study.
->
-> — [Robins and Guze (1970), "Establishment of Diagnostic Validity in Psychiatric Illness," *American Journal of Psychiatry*](https://psychiatryonline.org/doi/10.1176/ajp.126.7.983)
-
-in which the
-
-> phases interact with one another so that new findings in any one of the phases
->
-> — [Robins and Guze (1970)](https://psychiatryonline.org/doi/10.1176/ajp.126.7.983)
-
-may revise the others. On this view the rules are rival approximations to a true class, and the validators decide between them. The psychiatrist Kenneth Kendler (2009) reads the history that way, as epistemic iteration toward
-
-> a spiral of improvement
->
-> — [Kendler (2009), "An historical framework for psychiatric nosology," *Psychological Medicine*](https://www.cambridge.org/core/product/identifier/S0033291709005753/type/journal_article)
-
-and later (2012) states the expectation that makes it work:
-
-> we expect that the true disorder will perform better on our key validators
->
-> — [Kendler (2012), "Epistemic iteration as a historical model for psychiatric nosology," in *Philosophical Issues in Psychiatry II*](https://academic.oup.com/book/24538/chapter/187643862)
-
-The reply is Kendler's own condition. Iteration converges only if the validators stay fixed across revisions:
+**Robins and Guze (1970) to the whole page.** One rule is the right one, and research finds it. Eli Robins and Samuel Guze proposed five validators for a psychiatric diagnosis, from clinical description to family study, and the psychiatrist Kenneth Kendler reads the history since as epistemic iteration: each revision tested against the validators, spiraling toward the true disorder. The reply is Kendler's own condition, that iteration converges only if the validators stay fixed:
 
 > It will not work if our nosologic revisions reflect largely a power struggle between different branches of psychiatry, each with its own essentialist views of the true nature of mental illness
 >
-> — [Kendler (2009)](https://www.cambridge.org/core/product/identifier/S0033291709005753/type/journal_article)
+> — [Kendler (2009), "An historical framework for psychiatric nosology," *Psychological Medicine*](https://www.cambridge.org/core/product/identifier/S0033291709005753/type/journal_article)
 
-The four programs above apply different validators, so on his own account the realist route is open only within a program, and the question between programs stands.
+The four programs apply different validators, so on his account the realist route is open only within a program.
 
-**"This is inter-rater reliability under another name."** DSM-III adopted explicit criteria because
-
-> DSM-III provides specific diagnostic criteria as guides for making each diagnosis since such criteria enhance interjudge diagnostic reliability.
->
-> — [American Psychiatric Association (1980), *DSM-III*, Introduction](https://psychiatryonline.org/doi/book/10.1176/appi.books.9780890420188)
-
-Reliability is agreement between raters applying one rule; two raters can agree perfectly on who meets the DSM rule and perfectly on who meets a circuit-based rule while the two rules sort the patients differently. The quantity on this page is agreement between rules, and a rule can be reliable and still cross another.
+**"This is inter-rater reliability under another name."** Reliability is agreement between raters applying one rule. Two raters can agree perfectly on who meets the DSM rule, and two others perfectly on who meets a circuit rule, while the two rules sort the patients differently. A rule can be reliable and still cross another.
 
 </details>
 
 <details class="worked-example">
 <summary>Misreadings</summary>
 
-**"A high agreement figure means the two rules agree on who is a case."** In the registry comparison above, overall accuracy is 91.1% and the two definitions share 326 of the 2,143 patients either one identifies. Agreement figures are dominated by the cases both rules reject; the share of positives in common is a separate number.
+**"A high agreement figure means the two rules agree on who is a case."** In the registry comparison, accuracy is 91.1% and the two definitions share 326 of the 2,143 patients either identifies. Agreement figures are dominated by the cases both rules reject.
 
-**"A criterion change is a refinement."** A refinement splits classes without crossing them: every case the new rule accepts, the old rule accepted. The registry's algorithmic definition accepted 1,277 patients the neurologists did not and rejected 540 they accepted. The two rules cross, and a result found under one does not transfer to the other by subsetting.
+**"A criterion change is a refinement."** A refinement only splits classes: every case the new rule accepts, the old rule accepted. The registry's algorithm accepted 1,277 patients the neurologists did not and missed 540 they accepted. The rules cross, and a result found under one does not carry to the other by subsetting.
 
-**"The rates changed, so the patients changed."** In the multiple sclerosis cohort the same 309 patients were classified twice. The disability rate inside the diagnosed group fell from 46% to 27% because the rule moved patients between classes, not because anyone's disability changed.
+**"The rates changed, so the patients changed."** In the multiple sclerosis cohort the same 309 patients were classified twice. The disability rate fell from 46% to 27% because the rule moved patients between classes.
 
-**"The DSM rule is one way of being ill."** The rule admits 227 ways to qualify for major depressive disorder, and the sample met it in 170 of them; two patients can share the diagnosis and no symptom.
+**"The DSM rule is one way of being ill."** It admits 227 ways to qualify for major depression, and two patients can share the diagnosis and no symptom.
 
 </details>
 
