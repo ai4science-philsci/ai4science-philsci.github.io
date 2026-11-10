@@ -1,0 +1,302 @@
+source:
+  citation: lakatos1970
+  doi: 10.1017/CBO9781139171434.009
+  local: sources/lakatos_1970_falsification_mrp_excerpt_ocr.txt
+  extract_cmd: cat {}
+  note: OCR text (macOS Vision, 200 dpi) of sources/lakatos_1970_falsification_mrp_excerpt.pdf, a 27-page
+    scanned anthology reprint (pp. 170-196, running head "Part 3 The Validation of Scientific Knowledge")
+    of sections 1-3 of Lakatos (1970), Criticism and the Growth of Knowledge, pp. 91-92, 94-125, 127-138,
+    189-195; the PDF has no text layer. Pages are the reprint's printed pages, not the 1970 pagination.
+claims:
+  story_intro:
+    quotes:
+    - exact: The story is about an imaginary case of planetary misbehaviour. A physicist of the pre-Einsteinian
+        era takes Newton's mechanics and his law of gravitation (N), the accepted initial conditions,
+        l, and calculates, with their help, the path of a newly discovered small planet, p. But the planet
+        deviates from the calculated path.
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 174
+  story_no_refutation:
+    quotes:
+    - exact: Does our Newtonian physicist consider that the deviation was forbidden by Newton's theory
+        and therefore that, once established, it refutes the theory N? No. He suggests that there must
+        be a hitherto unknown planet p' which perturbs the path of p. He calculates the mass, orbit, etc.,
+        of this hypothetical planet and then asks an experimental astronomer to test his hypothesis.
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 174
+  story_telescope:
+    quotes:
+    - exact: 'The planet p'' is so small that even the biggest available telescopes cannot possibly observe
+        it: The experimental astronomer applies for a research grant to build yet a bigger one.'
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 174
+  story_telescope_fails:
+    quotes:
+    - exact: In three years' time the new telescope is ready. Were the unknown planet p' to be discovered,
+        it would be hailed as a new victory of Newtonian science. But it is not.
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 174
+  story_dust_cloud:
+    quotes:
+    - exact: Does our scientist abandon Newton's theory and his idea of the perturbing planet? No. He
+        suggests that a cloud of cosmic dust hides the planet from us. He calculates the location and
+        properties of this cloud and asks for a research grant to send up a satellite to test his calculations.
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 174
+  story_satellite_fails:
+    quotes:
+    - exact: Were the satellite's instruments (possibly new ones, based on a little-tested theory) to
+        record the existence of the conjectural cloud, the result would be hailed as an outstanding victory
+        for Newtonian science. But the cloud is not found.
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 174
+  story_magnetic_field:
+    quotes:
+    - exact: there is some magnetic field in that region of the universe which disturbed the instruments
+        of the satellite. A new satellite is sent up. Were the magnetic field to be found, Newtonians
+        would celebrate a sensational victory. But it is not.
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 175
+  story_ending:
+    quotes:
+    - exact: Is this regarded as a refutation of Newtonian science? No. Either yet another ingenious auxiliary
+        hypothesis is proposed or... the whole story is buried in the dusty volumes of periodicals and
+        the story never mentioned again.
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 175
+  story_moral:
+    quotes:
+    - exact: This story strongly suggests that even a most respected scientific theory, like Newton's
+        dynamics and theory of gravitation, may fail to forbid any observable state of affairs.
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 175
+  ceteris_paribus_retained:
+    quotes:
+    - exact: is inconsequential for the specific theory under test because by replacing the ceteris paribus
+        clause by a different one the specific theory can always be retained whatever the tests say.
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 175
+  popper_criteria_beforehand:
+    quotes:
+    - exact: 'Criteria of refutation have to be laid down beforehand: It must be agreed which observable
+        situations, if actually observed, mean that the theory is refuted'
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 172
+  mf_conventionalism:
+    quotes:
+    - exact: Methodological falsificationism is a brand of conventionalism
+      section: Methodological Falsificationism. The Empirical Basis
+      page: 176
+  mf_aware_of_risks:
+    quotes:
+    - exact: the methodological falsificationist is not a justificationist, he has no illusions about
+        "experimental proofs" and is fully aware of the fallibility of his decisions and the risks he
+        is taking.
+      section: Methodological Falsificationism. The Empirical Basis
+      page: 178
+  popper_way:
+    quotes:
+    - exact: This is Popper's way, and the one I intend follow.
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 182
+  sophisticated_acceptable:
+    quotes:
+    - exact: For the sophisticated falsificationist a theory is "acceptable" or "scientific" only if it
+        has corroborated excess empirical content over its predecessor (or rival), that is, only if it
+        leads to the discovery of novel facts.
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 182
+  no_result_kills:
+    quotes:
+    - exact: 'no experimental result can ever kill a theory: any theory can be saved from counterinstances
+        either by some auxiliary hypothesis or by a suitable reinterpretation of its terms.'
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 182
+  postdiction:
+    quotes:
+    - exact: use "prediction" in a wide sense that includes "postdiction."
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 182
+  popper_auxiliaries:
+    quotes:
+    - exact: Popper agrees with the conventionalists that theories and factual propositions can always
+        be harmonized with the help of auxiliary hypotheses
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 183
+  progressive_defined:
+    quotes:
+    - exact: Let us say that such a series of theories is theoretically progressive (or "constitutes a
+        theoretically progressive problemshift") if each new theory has some excess empirical content
+        over its predecessor; that is, if it predicts some novel, hitherto unexpected fact.
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 183
+  empirically_progressive:
+    quotes:
+    - exact: Let us say that a theoretically progressive series of theories is also empirically progressive
+        (or "constitutes an empirically progressive problemshift") if some of this excess empirical content
+        is also corroborated, that is, if each new theory leads us to the actual discovery of some new
+        fact.
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 183
+  degenerating_defined:
+    quotes:
+    - exact: Finally, let us call a problemshift progressive if it is both theoretically and empirically
+        progressive, and degenerating if it is not
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 183
+  new_fact_improbable:
+    quotes:
+    - exact: A new fact must be improbable or even impossible in the light of previous knowledge.
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 183
+  series_not_theory:
+    quotes:
+    - exact: Not an isolated theory, but only a series of theories can be said to be scientific or unscientific
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 184
+  no_falsification_before_better:
+    quotes:
+    - exact: Contrary to naive falsificationism, no experiment, experimental report, observation statement
+        or well-corroborated low-level falsifying hypothesis alone can lead to falsification. ... There
+        is no falsification before the emergence of a better theory.
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 184
+  theories_after_counterevidence:
+    quotes:
+    - exact: some of the theories which bring about falsification are frequently proposed after the "counterevidence."
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 184
+  mf_code_of_honour:
+    quotes:
+    - exact: consists in specifying, in advance, an experiment such that if the result contradicts the
+        theory, the theory has to be given up.
+      section: Methodological Falsificationism. The Empirical Basis
+      page: 180
+  mill_complaint:
+    quotes:
+    - exact: Mill, for instance, complains in 1843 in horror that "it seems to be thought that an hypothesis.
+        .. is entitled to a more favourable reception, if besides accounting for all the facts previously
+        known, it has led to the anticipation and prediction of others which experience afterwards verified."
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 186
+  keynes_timing_2:
+    quotes:
+    - exact: and not upon whether the evidence was produced before or after the theory.
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 187
+  leibniz:
+    quotes:
+    - exact: It is the greatest commendation of an hypothesis (next to [proven] truth) if by its help
+        predictions can be made even about phenomena or experiments not tried.
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 186
+  hard_core_belt:
+    quotes:
+    - exact: The negative heuristic of the programme forbids us to direct the modus tollens at this "hard
+        core." Instead, we must use our ingenuity to articulate or even invent "auxiliary hypotheses,"
+        which form a protective belt around this core, and we must redirect the modus tollens to these.
+      section: 'Negative Heuristic: The "Hard Core" of the Programme'
+      page: 191
+  programme_success:
+    quotes:
+    - exact: A research programme is successful if all this leads to a progressive problemshift, unsuccessful
+        if it leads to a degenerating problemshift.
+      section: 'Negative Heuristic: The "Hard Core" of the Programme'
+      page: 191
+  core_irrefutable_by_decision:
+    quotes:
+    - exact: 'This "core" is "irrefutable" by the methodological decision of its protagonists: Anomalies
+        must lead to changes only in the "protective" belt of auxiliary, "observational" hypotheses and
+        initial conditions.'
+      section: 'Negative Heuristic: The "Hard Core" of the Programme'
+      page: 192
+  story_progressive:
+    quotes:
+    - exact: I have given a contrived micro-example of a progressive Newtonian problemshift.
+      section: 'Negative Heuristic: The "Hard Core" of the Programme'
+      page: 192
+  story_each_link:
+    quotes:
+    - exact: 'If we analyse it, it turns out that each successive link in this exercise predicts some
+        new fact; each step represents an increase in empirical content: The example constitutes a consistently
+        progressive theoretical shift. Also, each prediction is in the end verified; although on three
+        subsequent occasions they may have seemed momentarily to be "refuted."'
+      section: 'Negative Heuristic: The "Hard Core" of the Programme'
+      page: 192
+  intermittently:
+    quotes:
+    - exact: We do not demand that each step produce immediately an observed new fact. Our term intermittently
+        gives sufficient rational scope for dogmatic adherence to a programme in face of prima facie "refutations."
+      section: 'Negative Heuristic: The "Hard Core" of the Programme'
+      page: 192
+  rational_tenacity:
+    quotes:
+    - exact: We may rationally decide not to allow "refutations" to transmit falsity to the hard core
+        as long as the corroborated empirical content of the protecting belt of auxiliary hypotheses increases.
+      section: 'Negative Heuristic: The "Hard Core" of the Programme'
+      page: 192
+  core_may_crumble:
+    quotes:
+    - exact: 'we maintain that if and when the programme ceases to anticipate novel facts, its hard core
+        might have to be abandoned: that is, our hard core, unlike Poincaré''s, may crumble under certain
+        conditions.'
+      section: 'Negative Heuristic: The "Hard Core" of the Programme'
+      page: 192
+  heuristic_power:
+    quotes:
+    - exact: 'We may appraise research programmes, even after their "elimination," for their heuristic
+        power: How many new facts did they produce, how great was "their capacity to explain their refutations
+        in the course of their growth"?'
+      section: 'Positive Heuristic: The Construction of the "Protective Belt" and the Relative Autonomy
+        of Theoretical Science'
+      page: 194
+  feyerabend_camp:
+    quotes:
+    - exact: Feyerabend, who contributed probably more than anybody else to the spread of Popper's ideas,
+        seems now to have joined the enemy camp.
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 182
+  keynes_timing:
+    quotes:
+    - exact: evidence cannot possibly be influenced, as Keynes pointed out, by when the evidence was produced
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 187
+  long_series_refutations:
+    quotes:
+    - exact: series of "refutations" before ingenious and lucky content-increasing auxiliary hypotheses
+        turn a chain of defeats—with hindsight—into a resounding success story, either by revising some
+        false "facts" or by adding novel auxiliary hypotheses.
+      section: 'Negative Heuristic: The "Hard Core" of the Programme'
+      page: 192
+  popper_conflation:
+    quotes:
+    - exact: Popper's conflation of "theories" and "series of theories" prevented him from getting the
+        basic ideas of sophisticated falsificationism across more successfully.
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 184
+  naive_mf_popper:
+    quotes:
+    - exact: in this section I discuss the "naive" variant of Popper's methodological falsificationism.
+      section: Methodological Falsificationism. The Empirical Basis
+      page: 178
+  fail_to_forbid:
+    quotes:
+    - exact: may fail to forbid any observable state of affairs

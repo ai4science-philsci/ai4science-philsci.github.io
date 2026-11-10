@@ -7,13 +7,13 @@ This page asks one question: **when does optimizing a score bring you closer to 
 
 AI systems for science are built and run by optimization: a model trained to lower a loss, an agent rewarded for a benchmark score, a design search that maximizes a predicted property. Three things optimization does to a score:
 
-1. **A measure under pressure stops tracking its goal.** Once a score is selected on, the regularity between it and the goal collapses. *In ML: top candidates disappointing on retest.*
-2. **Proxies fail in four ways.** Noise in the selected tail, a region never validated, a cut link, or an agent exploiting the proxy. *In ML: selection on the proxy's noise.*
-3. **Almost every proxy can be raised while the goal falls.** A proxy that cannot be is, in general, a constant. *In ML: reward hacking.*
+1. **A regularity tends to collapse once pressure is placed on it.** For a score, the regularity is its relation to the goal it stands for, and the pressure is using the score for control.
+2. **Proxies fail in at least four ways.** Selecting on an imperfect proxy also selects for its noise, and selection can reach regions where the proxy's observed relation to the goal fails. Intervening on a proxy with an indirect link to the goal can change that link, and an agent whose goals differ from the optimizer's can cause the collapse.
+3. **Over all policies, only trivial or equivalent proxies are unhackable.** Over the set of all stochastic policies, a proxy and the true reward are unhackable only if one gives every policy the same return or both order the policies the same way. Over finite sets of policies, nontrivial unhackable pairs that order them differently always exist.
 
 ## From indicators to proxies
 
-**Goodhart (1975) and Campbell (1979): a measure under pressure stops tracking its goal.** The economist Charles Goodhart observed, about monetary targets, that
+**Goodhart (1975) and Campbell (1979): a regularity tends to collapse once pressure is placed on it.** The economist Charles Goodhart observed, about monetary targets, that
 
 > any observed statistical regularity will tend to collapse once pressure is placed upon it for control purposes.
 >
@@ -31,7 +31,7 @@ The version usually quoted is the anthropologist Marilyn Strathern's.
 >
 > — Strathern (1997), quoted in [Thomas and Uminsky (2020), p. 1](https://arxiv.org/pdf/2002.08512#page=1)
 
-**Manheim and Garrabrant (2018): proxies fail in four ways.** The policy researcher David Manheim and the AI researcher Scott Garrabrant separate the mechanisms behind the law. They define a Goodhart effect as the case where
+**Manheim and Garrabrant (2018): proxies fail in at least four ways.** The policy researcher David Manheim and the AI researcher Scott Garrabrant separate the mechanisms behind the law. They define a Goodhart effect as the case where
 
 > optimization causes a collapse of the statistical relationship between a goal which the optimizer intends and the proxy used for that goal
 >
@@ -51,18 +51,15 @@ They call this regressional Goodhart and hold that it cannot be avoided, since
 
 The other three mechanisms are extremal, where optimization pushes into a region where the proxy's relation to the goal was never observed; causal, where intervening to raise the proxy breaks its link to the goal; and adversarial, where another agent exploits the proxy.
 
-**Skalse et al. (2022): almost every proxy can be raised while the goal falls.** The computer scientist Joar Skalse and colleagues give the machine-learning version a formal definition.
+**Skalse et al. (2022): over all policies, only trivial or equivalent proxies are unhackable.** The computer scientist Joar Skalse and colleagues give the machine-learning version a formal definition.
 
 > We say that a proxy is unhackable if increasing the expected proxy return can never decrease the expected true return.
 >
 > — [Skalse et al. (2022), p. 1](https://arxiv.org/pdf/2209.13085#page=1)
 
-They show that the condition is very strong: for the full set of stochastic policies, two reward functions can be unhackable only if one of them is constant.
+They show that the condition is very strong: for the full set of stochastic policies, two reward functions can be unhackable only if one of them is constant or both order the policies the same way.
 
-<details class="worked-example">
-<summary>Objections and replies</summary>
-
-**Sutton (2019): the Bitter Lesson.** Rich Sutton draws a different lesson from seventy years of AI research: methods built on human knowledge of a domain lose, in the long run, to search and learning at scale.
+**Sutton (2019): the Bitter Lesson, and the reply.** The computer scientist Rich Sutton draws a different lesson from seventy years of AI research: methods built on human knowledge of a domain lose, in the long run, to search and learning at scale.
 
 > general methods that leverage computation are ultimately the most effective, and by a large margin
 >
@@ -74,13 +71,11 @@ His cases are chess, Go, speech recognition and computer vision, where the objec
 >
 > — [Sutton (2019)](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 
-**Manheim and Garrabrant to Sutton.** The two lines of argument answer different questions. Sutton's concerns which methods reach an objective. Goodhart's and Campbell's concern whether reaching the measured objective reaches the intended one. Manheim and Garrabrant connect them: the more optimization power is applied, the more the gap matters.
+The two lines of argument answer different questions. Sutton's concerns which methods reach an objective. Goodhart's and Campbell's concern whether reaching the measured objective reaches the intended one. Manheim and Garrabrant connect them: the more optimization power is applied, the more the gap matters.
 
 > The importance of Goodhart effects depends on the amount of power directed towards optimizing the proxy
 >
 > — [Manheim and Garrabrant (2018), p. 1](https://arxiv.org/pdf/1803.04585#page=1)
-
-</details>
 
 <details class="worked-example">
 <summary>Misreadings</summary>

@@ -7,9 +7,9 @@ This page asks one question: **what is a result's scope, and what decisions does
 
 A benchmark score is used to decide which model to deploy. An interpretability finding on one model is cited for another. A validated predictor is applied to a new hospital's patients. In each case the result was obtained under conditions, and the use assumes those conditions still hold. Three ideas govern that step:
 
-1. **The domain is stated separately from the result.** A result with vague caveats built into it has not been bounded; a result stated plainly, with its conditions recorded beside it, can be checked. *In ML: a score hedged as sensitive to prompts, with no conditions stated.*
-2. **A decision is its own inference.** A score can be accurate and still not support the decision made with it; the decision needs evidence of its own. *In ML: a model chosen for deployment because it ranked first on a benchmark built to compare models.*
-3. **A result is licensed for a context of use.** Regulators qualify a measurement for one stated use, and its standing changes outside it. *In ML: a result validated for one purpose and relied on for another.*
+1. **The domain is stated separately from the result.** The domain over which a generalization holds may be specified imprecisely. The generalization itself may not, since vague restrictions built into it leave it without definite content.
+2. **A decision is its own inference.** A score can be accurate and still not support the decision made with it; the decision needs evidence of its own.
+3. **A result is licensed for a context of use.** The FDA qualifies a biomarker as reliable within a stated context of use, and asks each qualification effort to identify a single one. A biomarker qualified for a limited context can later be qualified for an expanded one as evidence accumulates.
 
 ## From a result to its use
 
@@ -44,9 +44,9 @@ and the guidance asks that "Each biomarker qualification effort should identify 
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**The endless list, to Woodward.** No one can list every condition a result depends on, so stating the domain seems impossible. Woodward's distinction answers it: the domain may be stated imprecisely, because its limits are often unknown, and only the result itself must be precise. A partial, honest list of conditions is still something a new setting can be checked against.
+**The endless-list objection to Woodward (2000).** No one can list every condition a result depends on, so stating the domain seems impossible. Woodward's distinction answers it: the domain may be stated imprecisely, because its limits are often unknown, and only the result itself must be precise. A partial, honest list of conditions is still something a new setting can be checked against.
 
-**Slowing science, to context of use.** Licensing a result for one use seems to forbid using it for anything new. The FDA's answer is that scope grows with evidence: the guidance allows a sponsor to "qualify a biomarker for a COU that is limited in scope" and to qualify it for an expanded scope as evidence accumulates. The restriction is on using the result beyond its evidence, not on extending the evidence.
+**The slowing-science objection to context of use.** Licensing a result for one use seems to forbid using it for anything new. The FDA's answer is that scope grows with evidence: the guidance allows a sponsor to "qualify a biomarker for a COU that is limited in scope" and to qualify it for an expanded scope as evidence accumulates. The restriction is on using the result beyond its evidence, not on extending the evidence.
 
 </details>
 

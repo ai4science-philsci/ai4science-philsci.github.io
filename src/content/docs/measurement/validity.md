@@ -7,9 +7,9 @@ This page asks one question: **what does a score license you to infer and do?**
 
 The [Measurement](/measurement/measurement/) page asks whether a score measures the thing it is named for. This page asks the next question. A benchmark score is reported, and a decision follows from it: which model to deploy, which result to trust, which capability to claim. The score licenses that decision only if three things hold:
 
-1. **Measures of the same attribute agree; measures of different attributes come apart.** Two instruments for one capability should give consistent results, and instruments for two capabilities should not be interchangeable. *In ML: two benchmarks for the same capability that disagree, or a benchmark score that tracks an unrelated one exactly.*
-2. **A score is valid for a use, not in itself.** Evidence has to support each inference from the score to the use at hand, and a new use needs a new argument. *In ML: a benchmark score used for a decision it was never validated for.*
-3. **The attribute exists and causes the scores.** Whatever evidence has been gathered, the score measures the capability only if differences in the capability produce the differences in scores. *In ML: benchmark items in the training data, so recall produces the score.*
+1. **Measures of the same attribute agree; measures of different attributes come apart.** Results from different instruments for one attribute should agree closely. Results for different attributes should not correlate so highly that the attributes cannot be told apart, even when the instruments are similar.
+2. **A score is valid for a use, not in itself.** Evidence has to support each inference from the score to the proposed use. A use other than the one intended requires the argument to be reexamined or a new one to be developed.
+3. **The attribute exists and causes the scores.** Whatever evidence has been gathered, the score measures the capability only if differences in the capability produce the differences in scores.
 
 Each answer was given in reply to the one before it: validity as a correlation, then as an argument about a use, then as a fact about what causes the score.
 
@@ -78,7 +78,7 @@ Where the parts of a construct cause one another, there is no attribute behind t
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Messick and Kane to Borsboom.** The reply from the argument-based side is that validation is a practical task done with the evidence a validator has, and truth is not something that can be collected. Mari, Wilson and Maul note that
+**The argument-based reply to Borsboom.** The reply from the argument-based side is that validation is a practical task done with the evidence a validator has, and truth is not something that can be collected. Mari, Wilson and Maul note that
 
 > Kane’s argument-based approach is targeted to the practical problem of validation and not a new theory about validity itself
 >

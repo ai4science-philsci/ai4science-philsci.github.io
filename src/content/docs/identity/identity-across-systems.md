@@ -1,19 +1,19 @@
 ---
 title: "Identity Across Systems"
-description: "What evidence shows that a name used in a new system picks out the same thing? The asymmetry between coarse and fine evidence, names at the wrong level, and replication read as a question of reference, for AI systems that reuse names across models, organisms and datasets."
+description: "What evidence shows that a name used in a new system picks out the same thing? The asymmetry between coarse and fine evidence, names at the wrong level, and failed replications read as a name failing to carry, for AI systems that reuse names across models, organisms and datasets."
 ---
 
 This page asks one question: **what evidence shows that a name used in a new system picks out the same thing?**
 
 [Identity Criteria](/identity/identity-criteria/) asks what changes when the rule for counting two cases as the same changes. Nothing found in the new system settles it until it is stated what "same" means: an identity criterion, such as the same parts or the same function. Once that is stated it is an ordinary empirical question, and usually an untested one. AI for science carries names from one system to another, from species to species and from people to models, and three ideas drawn from cases in neuroscience, genetics and psychology say what the evidence can show:
 
-1. **Coarse evidence refutes a finer identity claim and never establishes it.** Evidence that two things act alike cannot show they are built alike; evidence that they act differently shows they are not the same at any finer level. *In ML: a behavioral match reported as a mechanism match.*
-2. **A name can sit at the wrong level in a single system.** A label that names a component while the evidence reaches a role far upstream of the outcome misstates what was found. *In ML: a feature named for the outcome it predicts rather than for what it is.*
-3. **A failed replication may be a reference failure.** Both studies can be sound and the name can still fail to carry across the boundary between them. *In ML: a method that does not reproduce on a new benchmark, with no account of what the two benchmarks measure.*
+1. **Coarse evidence can refute a finer identity claim but cannot settle it.** Where a finer identity criterion entails a coarser one, a difference at the coarse level rules out identity at the finer level. A match at the coarse level is compatible with many finer structures and does not settle identity there.
+2. **A name can sit at the wrong level in a single system.** A label that names a component while the evidence reaches a role far upstream of the outcome misstates what was found.
+3. **A failed replication may be a failure of the name to carry.** A study counts as a replication when its differences from the original are believed irrelevant. When that belief is false, both studies can be sound while the name of the finding fails to cover both settings.
 
 ## From one system to another
 
-**Hickok (2009): coarse evidence refutes a finer identity claim and never establishes it.** Identity criteria differ in how much they ask. That two systems produce the same behavior asks less than that they do so with the same parts. Evidence at the coarser level can show two things differ, since a difference in behavior is a difference. It cannot show they are the same at the finer level, because many constructions produce one behavior. The neuroscientist Gregory Hickok's case is mirror neurons: cells recorded one at a time in the macaque that fire both when the monkey acts and when it watches, and a "mirror system" in humans, inferred from brain imaging and used to explain imitation, language and empathy.
+**Hickok (2009): the mirror-neuron case.** Identity criteria differ in how much they ask. That two systems produce the same behavior asks less than that they do so with the same parts. Evidence at the coarser level can show two things differ, since a difference in behavior is a difference. It cannot show they are the same at the finer level, because many constructions produce one behavior. The neuroscientist Gregory Hickok's case is mirror neurons: cells recorded one at a time in the macaque that fire both when the monkey acts and when it watches, and a "mirror system" in humans, inferred from brain imaging and used to explain imitation, language and empathy.
 
 > the species that has been shown to possess mirror neurons does not, to our knowledge, possess any of these higher order cognitive processes, and the species that possesses the higher order cognitive processes, has not been shown conclusively to possess mirror neurons
 >
@@ -29,7 +29,7 @@ Imaging cannot see single cells, so the human evidence showed only a region acti
 
 The label names a component. The evidence reaches a role near the top of a regulatory cascade, with language far downstream.
 
-**Yarkoni (2022) and Nosek (2022): a failed replication may be a reference failure.** The psychologist Tal Yarkoni's case is verbal overshadowing. A 1990 experiment found that describing a face in words made it harder to recognize later, and a 31-site replication in 2014 found the same, using the same single video and the same lineup. Yarkoni argues that the design licenses only a claim about that one video and that one lineup. The name "verbal overshadowing" was carried to a general effect neither study measured, so a later study with other faces that fails need not mean either earlier study was wrong. The psychologist Brian Nosek and colleagues make the point from the other side:
+**Yarkoni (2022) and Nosek (2022): a failed replication may be a failure of the name to carry.** The psychologist Tal Yarkoni's case is verbal overshadowing. A 1990 experiment found that describing a face in words made it harder to recognize later, and a 31-site replication in 2014 found the same, using the same single video and the same lineup. Yarkoni argues that the design licenses only a claim about that one video and that one lineup. The name "verbal overshadowing" was carried to a general effect neither study measured, so a later study with other faces that fails need not mean either earlier study was wrong. The psychologist Brian Nosek and colleagues make the point from the other side:
 
 > A study is a replication when the innumerable differences from the original study are believed to be irrelevant for obtaining the evidence about the same finding.
 >
@@ -55,7 +55,7 @@ A failed replication can mean the finding is false, or that the differences beli
 
 **"The language gene explains language."** Fisher and Scharff judge the evolutionary changes in FOXP2 unlikely to be the sole or main driver of spoken language. A name at the level of one component invites a claim the evidence at that level cannot carry.
 
-**"Reference failure is a philosophers' problem."** Hickok's eight problems are empirical: dissociations, lesion data and species differences, each bearing on whether one name picks out one thing.
+**"A name failing to carry is a philosophers' problem."** Hickok's eight problems are empirical: dissociations, lesion data and species differences, each bearing on whether one name picks out one thing.
 
 </details>
 
@@ -84,7 +84,7 @@ An agent is given gene-expression data from a fungus and asked whether the stres
 |---|---|---|
 | Coarse evidence does not establish fine identity | Lesion, knockout and perturbation studies that test a proposed component rather than correlating activity with behavior | Which level the perturbation result speaks to |
 | A name at the right level | Gene nomenclature that names a gene by its product or sequence rather than by a phenotype | Labels given downstream, in reviews and press, after the gene is named |
-| A failed replication may be a reference failure | Registered replication reports that fix in advance what counts as the same design, as in [Nosek et al.](https://www.annualreviews.org/doi/10.1146/annurev-psych-020821-114157) | Replications across systems the original never covered |
+| A failed replication may be a failure of the name to carry | Registered replication reports that fix in advance what counts as the same design, as in [Nosek et al.](https://www.annualreviews.org/doi/10.1146/annurev-psych-020821-114157) | Replications across systems the original never covered |
 
 ## Evidence patterns
 

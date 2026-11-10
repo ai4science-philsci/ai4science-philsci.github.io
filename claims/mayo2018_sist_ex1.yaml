@@ -11,3 +11,30 @@ claims:
         may be false.
       section: 1.1 Severity Requirement
       page: 5
+  bent:
+    quotes:
+    - exact: If data x agree with a claim C but the method used is practically guaranteed to find such
+        agreement, and had little or no capability of finding flaws with C even if they exist, then we
+        have bad evidence, no test (BENT).
+      section: 1.1 Severity Requirement
+      page: 5
+  hrt_bias:
+    quotes:
+    - exact: The observational studies on HRT, despite reproducibly showing a benefit, had little capacity
+        to unearth biases due to “the healthy women’s syndrome.”
+      page: 21
+  hrt_rct:
+    quotes:
+    - exact: when a large randomized controlled trial (RCT) was finally done, it revealed statistically
+        significant increased risks of heart disease, breast cancer, and other diseases that HRT was to
+        have helped prevent
+      page: 21
+  hrt_healthier:
+    quotes:
+    - exact: they were healthier, better educated, and less obese than women not taking HRT
+      page: 21
+  texas_marksman:
+    quotes:
+    - exact: He shoots all his bullets any old way into the side of a barn and then paints a bull’s-eye
+        in spots where the bullet holes are clustered.
+      page: 19

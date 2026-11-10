@@ -18,3 +18,24 @@ claims:
     - exact: The Demarcation Criterion can evaluate the current state of play but it does not tell anyone
         what to do about it.
       section: '4. Mincemeat Unmade: Lakatos versus Feyerabend'
+  einstein_novel:
+    quotes:
+    - exact: This programme made the stunning prediction that if one measures the distance between two
+        stars in the night and if one measures the distance between them during the day (when they are
+        visible during an eclipse of the sun), the two measurements will be different. Nobody had thought
+        to make such an observation before Einstein’s programme.
+      section: 2.2 Improving on Popper in the Philosophy of Science
+  progressive_novel_facts:
+    quotes:
+    - exact: Thus, in progressive research programme, theory leads to the discovery of hitherto unknown
+        novel facts.
+      section: 2.2 Improving on Popper in the Philosophy of Science
+  honesty_persist:
+    quotes:
+    - exact: the adherents of degenerating research programmes should own up to their methodological shortcomings,
+        such as the lack of novel predictions or the falsification of the predictions that they have made
+      section: '4. Mincemeat Unmade: Lakatos versus Feyerabend'
+  open_problem:
+    quotes:
+    - exact: it is still, very much, an open problem
+      section: '4. Mincemeat Unmade: Lakatos versus Feyerabend'

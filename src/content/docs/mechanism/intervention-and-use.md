@@ -7,9 +7,9 @@ This page asks one question: **does a knockout show that the system uses the par
 
 Remove a component and the output changes. The sentence that reports this usually says more: that the system relies on the component when it runs on its own. The two can come apart, and the gap between them has a philosophy. Three ideas mark it:
 
-1. **Dependence and production.** That the effect would not have happened without the part is one relation; that the part brought the effect about is another. *In ML: an ablation effect reported as what the model does on ordinary inputs.*
-2. **Potential and actual difference makers.** A part that would change the outcome if you changed it is one thing; a part whose variation accounts for the variation that actually occurs is another. *In ML: a component that changes the output when edited, reported as what drives the output across real inputs.*
-3. **Decodable is not used.** That you can read a variable off a part's activity does not show that anything downstream reads it. *In ML: a probe that recovers a variable from activations, reported as the model using it.*
+1. **Dependence and production.** That the effect would not have happened without the part is one relation; that the part brought the effect about is another.
+2. **Potential and actual difference makers.** A part that would change the outcome if you changed it is one thing; a part whose variation accounts for the variation that actually occurs is another.
+3. **Decodable is not used.** That you can read a variable off a part's activity does not show that anything downstream reads it.
 
 ## From a knockout to a role
 
@@ -40,9 +40,9 @@ They argue that it is false, and that decodability is a poor guide to what the a
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**The counterfactual theorist to Hall.** If the effect would not have happened without the cause, the cause is a cause. Hall grants this: dependence is causation in one sense. His point is that the word names two relations, and evidence for one is not evidence for the other.
+**The counterfactual theorist to Hall (2004).** If the effect would not have happened without the cause, the cause is a cause. Hall grants this: dependence is causation in one sense. His point is that the word names two relations, and evidence for one is not evidence for the other.
 
-**Waters to Woodward (2003).** Interventionism says what it is for a variable to be a cause, but not which of many causes made the difference that occurred. Waters offers the actual difference maker as the missing concept, added inside Woodward's framework rather than replacing it.
+**Waters (2007) to Woodward (2003).** Interventionism says what it is for a variable to be a cause, but not which of many causes made the difference that occurred. Waters offers the actual difference maker as the missing concept, added inside Woodward's framework rather than replacing it.
 
 </details>
 

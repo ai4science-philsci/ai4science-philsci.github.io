@@ -7,9 +7,9 @@ This page asks one question: **when does a model of a mechanism describe how it 
 
 A model can fit a system's behavior perfectly and say nothing about its parts. A diagram can name the parts and leave every arrow unexplained. A proposed mechanism can be one of many that would produce the same data. Three distinctions separate these cases:
 
-1. **Phenomenal models.** A model can describe what goes in and what comes out without describing the causal structure in between. *In ML: an accurate model read as an account of the system.*
-2. **Sketches and schemas.** A description of a mechanism has gaps, and the gaps can be hidden behind words like "activate" or "regulate." *In ML: a pathway diagram whose arrows say "regulates" and nothing more.*
-3. **How-possibly and how-actually.** A proposed mechanism is a hypothesis about how the mechanism works until it is tested where rival mechanisms would behave differently. *In ML: a proposed mechanism never tested under conditions where the alternatives come apart.*
+1. **Phenomenal models.** A model can describe what goes in and what comes out without describing the causal structure in between.
+2. **Sketches and schemas.** A schema describes a mechanism with placeholders that can be filled in with known parts and activities. A sketch is incomplete, and its gaps can be marked by black boxes or masked by terms that name an activity without saying how it is carried out.
+3. **How-possibly, how-plausibly, how-actually.** Schemas range from how-possibly, a loosely constrained conjecture, through how-plausibly, consistent with the known evidence, to how-actually, a description of how the mechanism in fact works. Nonstandard tests, under which rival schemas diverge, are frequently what sorts them.
 
 ## From a model that fits to a model of how it works
 

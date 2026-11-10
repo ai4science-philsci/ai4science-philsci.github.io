@@ -7,9 +7,9 @@ This page asks one question: **can a model nobody can follow still give understa
 
 Simulation enters science in two ways. In the first, it is an instrument for checking methods: a simulated system whose causes are known in advance lets a causal method be tested against the truth. In the second, it is a source of knowledge about the world: a climate model, a molecular dynamics run or a trained network is used to learn what the real system will do. The second use raises three questions that philosophy of science has worked on since the 1990s:
 
-1. **Epistemic opacity.** A computation can be too large for anyone to know all the steps that matter. *In ML: a prediction trusted because the model is accurate, with no account of when it fails.*
-2. **Verification and validation.** Checking that the code solves the model and checking that the model fits the world are two tasks that cannot be cleanly separated. *In ML: a model validated on held-out data from the same source and reported as validated for the world.*
-3. **Understanding.** A correct prediction is not the same as understanding why it is correct, and the feeling of understanding is not the same as having it. *In ML: an explanation of a model's output accepted because it reads well.*
+1. **Epistemic opacity.** A computation can be too large for anyone to know all the steps that matter.
+2. **Verification and validation.** Checking that the code solves the model and checking that the model fits the world are two tasks that cannot be cleanly separated.
+3. **Understanding.** De Regt separates the feeling of understanding from understanding a phenomenon, which requires an empirically adequate and consistent explanation based on an intelligible theory. A theory is intelligible to scientists who can recognize its qualitatively characteristic consequences without exact calculation.
 
 ## From calculation to knowledge
 
@@ -29,7 +29,7 @@ He named two sources. A computation can be too fast to follow, as in a computer-
 
 Model equations are often chosen to cancel numerical errors, and the simulation is tuned against data the way a new instrument is calibrated. Confidence comes from theory, mathematics, intuition and data agreeing at once, not from each being settled in turn. A simulation that matches observations may match them because it was fitted to them.
 
-**De Regt (2017) and Elgin (2017): understanding.** Carl Hempel kept understanding out of the theory of explanation because it seemed to be a feeling: a wrong explanation can feel satisfying, and a right one can leave people cold. The philosopher of science Henk de Regt replied by separating the feeling of understanding from understanding a theory, which is a skill, and from understanding a phenomenon. He gives a test for the skill that does not depend on anyone's feelings:
+**De Regt (2017) and Elgin (2017): understanding.** The philosopher of science Carl Hempel kept understanding out of the theory of explanation because it seemed to be a feeling: a wrong explanation can feel satisfying, and a right one can leave people cold. The philosopher of science Henk de Regt replied by separating the feeling of understanding from understanding a theory, which is a skill, and from understanding a phenomenon. He gives a test for the skill that does not depend on anyone's feelings:
 
 > is intelligible for scientists (in context C) if they can recognize qualitatively characteristic consequences of T without performing exact calculations
 >
@@ -40,11 +40,11 @@ A model whose consequences can be found only by running it fails this test for w
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Frigg and Reiss (2009) to Winsberg and Humphreys.** Roman Frigg and Julian Reiss argued that simulation raises no new questions: every question splits into one about the model, which is old, and one about the solution, which is mathematics. Winsberg replied that the split fails when equations are chosen to suit the solver and tuned against data.
+**Frigg and Reiss (2009) on the novelty of simulation.** The philosophers of science Roman Frigg and Julian Reiss argued that simulation raises no new questions: every question splits into one about the model, which is old, and one about the solution, which is mathematics. Winsberg replied that the split fails when equations are chosen to suit the solver and tuned against data.
 
-**Computational reliabilism to Humphreys.** Juan Durán and Nico Formanek argue that opacity need not block trust. A result can be trusted because the process that produced it has a good record, shown by outside signs such as track record and expert competence. Ramón Alvarado replies that a record says how often a process succeeds, not where it will fail next.
+**Computational reliabilism to Humphreys (2004).** Juan Durán and Nico Formanek argue that opacity need not block trust. A result can be trusted because the process that produced it has a good record, shown by outside signs such as track record and expert competence. Ramón Alvarado replies that a record says how often a process succeeds, not where it will fail next.
 
-**Khalifa (2017) to de Regt.** Kareem Khalifa argues that understanding is just knowing a correct explanation. On his view an opaque model raises the old question, whether it explains correctly, and no new one.
+**Khalifa (2017) to de Regt (2017).** The philosopher Kareem Khalifa argues that understanding is just knowing a correct explanation. On his view an opaque model raises the old question, whether it explains correctly, and no new one.
 
 </details>
 

@@ -15,7 +15,7 @@ Between data and a scientific conclusion sit four questions, each worked out by 
 - **Mechanism** *(philosophy of science, causal inference)*: what parts and activities produce it?
 - **Transfer** *(causal inference)*: when does a finding in one population or system hold in another?
 
-No single textbook covers all four questions; answering them requires methods spread across many fields. Current research in machine learning and AI for science often crosses all four questions while checking only some of them. AI evaluations commonly address **evidence**: measurement and validity, whereas mechanistic interpretability commonly addresses **mechanism** and **explanation**. **Transfer** is often assumed but not tested: results are carried to new models, datasets and settings without a check that they hold.
+No single textbook covers all four questions; answering them requires methods spread across many fields. Current research in machine learning and AI for science often crosses all four questions while checking only some of them. AI evaluations commonly address **evidence**: measurement and validity, whereas mechanistic interpretability commonly addresses **mechanism** and **explanation**. **Transfer** is less often tested: results are often carried to new models, datasets and settings without a check that they hold. AI systems are now used throughout the scientific research process, from proposing hypotheses to interpreting results. This makes research methodology increasingly important.
 
 This site's chapters quote the Stanford Encyclopedia of Philosophy extensively, applying its concepts toward machine learning and AI for science research. Together, the chapters unify the fields above into a common vocabulary for empirical research methodology.
 
@@ -66,6 +66,10 @@ Beyond the philosophy of science, the chapters rely on two additional foundation
 |---|---|
 | [Psychometrics](/fields/psychometrics/) | Reliability, item response theory, factor analysis and validity, and which textbook teaches it |
 | [Causal Inference](/fields/causal-inference/) | The kinds of causal question, what each assumes, and which textbook teaches it |
+
+**Sources and quotations**
+
+Quotations are verified against their source text using the [`citations`](https://reproducible.science/tools/citations/) CLI tool, visible in the repository's [claims folder](https://github.com/ai4science-philsci/ai4science-philsci.github.io/tree/main/claims).
 
 **Limitations**
 

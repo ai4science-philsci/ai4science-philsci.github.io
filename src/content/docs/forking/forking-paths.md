@@ -7,9 +7,9 @@ This page asks one question: **how many analyses stand behind the one reported?*
 
 An AI system for science can run more analyses in an afternoon than a laboratory runs in a year: other datasets, other exclusion rules, other models, other seeds. Three things can stand behind the one analysis reported:
 
-1. **The file drawer.** Analyses that found nothing go unreported, so the record overstates what was found. *In ML: the best configuration reported without the others.*
-2. **Researcher degrees of freedom.** Analysis choices made after seeing the results inflate the false positive rate. *In ML: hyperparameters and exclusions fixed after seeing results.*
-3. **The garden of forking paths.** A single analysis chosen in light of the data has the same problem as many. *In ML: a dataset, metric and cutoff chosen after a first look.*
+1. **The file drawer.** Studies that fail to reach significance tend to stay unpublished, which distorts the published record and the meta-analyses built on it.
+2. **Researcher degrees of freedom.** Undisclosed flexibility in how data are collected and analyzed inflates the false positive rate. Simmons, Nelson and Simonsohn showed this by simulation.
+3. **The garden of forking paths.** A single analysis chosen in light of the data has the same problem as many.
 
 ## From the file drawer to the garden
 
@@ -60,7 +60,7 @@ The authors relied on each other for results none of them could check alone. Whe
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Gelman and Loken to Simmons, Nelson and Simonsohn.** The accounts differ on where the fault lies. Simmons, Nelson and Simonsohn, and the surveys the SEP entry reports, describe practices researchers choose and could stop. Gelman and Loken regret the terms "fishing" and "p-hacking" because they imply a conscious search, and they place the problem in any analysis whose details depend on the data, which preregistration addresses and good intentions do not.
+**Gelman and Loken (2013) to Simmons, Nelson and Simonsohn (2011).** The accounts differ on where the fault lies. Simmons, Nelson and Simonsohn, and the surveys the SEP entry reports, describe practices researchers choose and could stop. Gelman and Loken regret the terms "fishing" and "p-hacking" because they imply a conscious search, and they place the problem in any analysis whose details depend on the data, which preregistration addresses and good intentions do not.
 
 </details>
 

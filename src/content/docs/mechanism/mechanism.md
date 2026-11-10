@@ -7,9 +7,9 @@ This page asks one question: **when does a model say how something works, rather
 
 AI systems for science increasingly report discoveries: a gene that drives a disease, a pathway that explains a response, a protein that controls a trait. Biologists want mechanisms, Carl Craver and Lindley Darden write, because knowing one serves prediction, explanation and control. Three things separate a mechanism from a pattern in the data:
 
-1. **Entities and activities, organized.** A mechanism names the parts whose activities produce the phenomenon; a correlational pattern does not. *In ML: an association reported as a discovery.*
-2. **A mechanism is the mechanism for a phenomenon.** You cannot say what the mechanism is until you have said what it does, and a loosely described phenomenon leaves the mechanism undetermined. *In ML: a mechanism reported for a disease, with no statement of which feature of the disease it explains.*
-3. **Two kinds of evidence.** That the factor makes a difference, and how it does. *In ML: a pathway story that is never tested.*
+1. **Entities and activities, organized.** A mechanism for a phenomenon consists of entities whose activities and interactions are organized so as to be responsible for the phenomenon. A correlational pattern is not a mechanism.
+2. **A mechanism is the mechanism for a phenomenon.** Mechanisms are defined only relative to the phenomenon they cause, underlie or explain. Discovering a mechanism typically revises the description of that phenomenon.
+3. **Two kinds of evidence.** Russo and Williamson argued that a causal claim typically requires evidence that the cause makes a difference and evidence of how it produces the effect.
 
 The next three pages take the questions this one opens: [what a model of a mechanism can be](/mechanism/models-of-mechanisms/), [how to tell whether a part belongs to one](/mechanism/parts-of-a-mechanism/), and [whether an intervention shows that the system uses the part](/mechanism/intervention-and-use/).
 
@@ -48,9 +48,9 @@ The mechanism for a disease is not one thing. The mechanism for its onset, for i
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Evidence-based medicine to Russo and Williamson.** Evidence-based medicine ranks randomized trials and meta-analyses above mechanistic evidence, while Russo, Williamson and others argue the two kinds are on a par and should be combined.
+**Evidence-based medicine to Russo and Williamson (2007).** Evidence-based medicine ranks randomized trials and meta-analyses above mechanistic evidence, while Russo, Williamson and others argue the two kinds are on a par and should be combined.
 
-**The perspectivalist to Glennan.** If a mechanism is defined only relative to a phenomenon, and which phenomena interest us is up to us, then what counts as the mechanism is up to us too. The entry grants the first step and denies the conclusion. The phenomenon has to exist and have effects, and the search for its mechanism can show that it was carved wrongly.
+**The perspectivalist to Glennan (1996).** If a mechanism is defined only relative to a phenomenon, and which phenomena interest us is up to us, then what counts as the mechanism is up to us too. The entry grants the first step and denies the conclusion. The phenomenon has to exist and have effects, and the search for its mechanism can show that it was carved wrongly.
 
 </details>
 

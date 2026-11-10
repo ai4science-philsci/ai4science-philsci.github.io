@@ -7,9 +7,9 @@ This page asks one question: **when does a difference in the data show that one 
 
 AI systems for science report causes: a drug that lowers risk, a gene that drives a trait, an exposure that harms. Philosophers have given three main answers to what such a claim means, and each answer says what evidence would support it:
 
-1. **Regularity.** A cause is regularly followed by its effect. *In ML: an association in the data reported as a cause.*
-2. **Counterfactual dependence.** A cause is something without which the effect would not have happened. *In ML: a counterfactual claim made from a model that was never checked against an intervention.*
-3. **Intervention.** A cause is something that, when changed by an intervention, changes the effect. *In ML: an effect estimated from observational data, with the conditions that would make it causal never stated.*
+1. **Regularity.** A cause precedes its effect and is contiguous with it, and events like the cause are always followed by events like the effect. On this theory causation involves nothing more.
+2. **Counterfactual dependence.** One event depends causally on another when, had the second not occurred, the first would not have occurred. Lewis defined causation as a chain of such dependences.
+3. **Intervention.** A variable X causes Y when some intervention that sets X, and reaches Y only through X, would change Y.
 
 ## From association to intervention
 
@@ -50,7 +50,7 @@ A randomized experiment is an intervention, which is why its association can be 
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**The anthropocentrism objection to Woodward.** If causation is what manipulation would change, causes seem to need someone to manipulate them, yet the moon causes the tides. Woodward replies that an intervention is defined by its structure, not by whether anyone could carry it out. The claim is about what would happen to the tides if the moon's mass were changed surgically.
+**The anthropocentrism objection to Woodward (2003).** If causation is what manipulation would change, causes seem to need someone to manipulate them, yet the moon causes the tides. Woodward replies that an intervention is defined by its structure, not by whether anyone could carry it out. The claim is about what would happen to the tides if the moon's mass were changed surgically.
 
 **Cartwright to Woodward.** The philosopher Nancy Cartwright calls the account monolithic: it lets one mark of causation, usefulness for manipulation, override the others, such as contact or the transfer of energy. [Intervention and Use](/mechanism/intervention-and-use/) takes up one form of this objection, Hall's argument that "cause" names two relations.
 

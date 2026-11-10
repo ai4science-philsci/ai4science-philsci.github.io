@@ -7,9 +7,9 @@ This page asks one question: **does the evidence depend on when an experiment st
 
 An AI system can check its result after every batch of data, every training step or every evaluation item, and stop as soon as the result looks good. What turns out to matter is not only when it stopped but the plan it was following: two researchers with identical data can hold different evidence because they planned to stop differently. Statistics has argued about this for eighty years, and there are three positions:
 
-1. **The stopping rule changes the evidence.** A result reached by stopping when it looked good is weaker than the same result from a fixed plan. *In ML: an evaluation stopped as soon as the comparison came out significant.*
-2. **Only the data observed count.** Two researchers with the same data have the same evidence, whatever each one planned. *In ML: a Bayesian analysis with a prior chosen after the data, reported as immune to peeking.*
-3. **Evidence can be made valid at any stopping time.** Some measures of evidence stay valid however often the data are checked. *In ML: a continuously monitored comparison reported with p-values built for a fixed sample.*
+1. **The stopping rule changes the evidence.** A result reached by stopping when it looked good is weaker than the same result from a fixed plan.
+2. **Only the data observed count.** Two researchers with the same data have the same evidence, whatever each one planned.
+3. **Evidence can be made valid at any stopping time.** Some measures of evidence stay valid however often the data are checked.
 
 ## From the stopping rule to anytime validity
 
@@ -40,9 +40,9 @@ The approach gives error control without depending on the stopping rule, which g
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Bayesian statisticians to Mayo.** The foregone conclusion is a property of p-values. Kadane and colleagues (1996) showed that, under standard assumptions, persistent sampling is not guaranteed to reach a chosen result when the evidence is computed the Bayesian or likelihood way. Mayo replies that the likelihood principle still makes opportunistic data collection invisible to the reader, who sees only the data and not the plan.
+**Bayesian statisticians to Mayo (2018).** The foregone conclusion is a property of p-values. Kadane and colleagues (1996) showed that, under standard assumptions, persistent sampling is not guaranteed to reach a chosen result when the evidence is computed the Bayesian or likelihood way. Mayo replies that the likelihood principle still makes opportunistic data collection invisible to the reader, who sees only the data and not the plan.
 
-**Ramdas and colleagues to the Bayesians.** A prior fixed before any data are seen is indeed unaffected by peeking. The trouble, they write, comes with the default or pragmatic priors used in practice, especially priors that depend on the sample size or other features of the data. Those priors lose the protection the principle promised.
+**Ramdas and colleagues (2023) to the Bayesians.** A prior fixed before any data are seen is indeed unaffected by peeking. The trouble, they write, comes with the default or pragmatic priors used in practice, especially priors that depend on the sample size or other features of the data. Those priors lose the protection the principle promised.
 
 **The stopping rule as information.** Romeijn's entry notes a case where even Bayesians agree the stopping rule matters: when the reason for stopping depends on the thing being studied. A researcher who stops because the student's guesses are boring her has learned something about the student. The entry concludes that the controversy continues.
 

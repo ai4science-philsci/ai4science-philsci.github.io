@@ -1,0 +1,13 @@
+source:
+  citation: sep_bayesian_epistemology
+  url: https://plato.stanford.edu/entries/epistemology-bayesian/
+  local: sources/sep_epistemology-bayesian.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  conditionalization:
+    quotes:
+    - exact: According to the second norm, called the Principle of Conditionalization, the possibility
+        incompatible with E (i.e., the rightmost possibility) should have its credence dropped down to
+        0, and to satisfy Probabilism, the remaining credences should be scaled up—rescaled to sum to
+        1.
+      section: 1.1 A Case Study

@@ -7,9 +7,9 @@ This page asks one question: **how do you tell whether a part belongs to the mec
 
 A knockout changes the phenotype. A stimulated region produces the behavior. A gene's expression rises while the response unfolds. Each is offered as evidence that the part is a component of the mechanism, and each falls short in a known way. Three ideas organize the tests:
 
-1. **Mutual manipulability.** A part belongs when changing it changes the phenomenon and producing the phenomenon changes it; one direction alone is not enough. *In ML: a component declared part of the mechanism because it is active when the behavior occurs.*
-2. **Three interlevel experiments.** Interfere with the part, stimulate the part, or activate the whole and watch the part; each can be fooled by redundancy, compensation or by-products. *In ML: a knockout with no effect read as showing the part does nothing.*
-3. **Criteria for causation are distinctions among causes.** Necessity and sufficiency make a part a cause of the phenomenon; stability, specificity and level say what kind of cause it is. *In ML: a component that affects every output reported as the component for one of them.*
+1. **Mutual manipulability.** A part within the system belongs to the mechanism if some intervention on the part changes the phenomenon and some intervention on the phenomenon changes the part. Craver offered this as a sufficient condition only.
+2. **Three interlevel experiments.** Interference and stimulation experiments act on the part, and activation experiments produce the phenomenon and watch the part. Known failures include redundancy or compensation for interference, spread to other parts or compensation for stimulation, and by-products for activation.
+3. **Criteria for causation are distinctions among causes.** On Woodward's minimal notion, X causes Y if, in some background circumstances, an intervention on X alone would change Y or its probability. Stability, specificity and the choice of level distinguish among causal relationships, and a relationship can lack them and still be causal.
 
 ## From a knockout to a component
 
@@ -42,14 +42,14 @@ Together the three ideas give four tests, each with a source and a known gap:
 | Test | Experiment | Source | What it leaves open |
 |---|---|---|---|
 | Necessity | Interfere with the part; the phenomenon changes | Craver and Darden (2013), interference experiments | Redundant parts and compensation hide a necessary part |
-| Sufficiency | Stimulate the part; the phenomenon appears or changes | Craver and Darden (2013), stimulation experiments | The stimulation may drive the system through states it never visits on its own |
+| Sufficiency | Stimulate the part; the phenomenon appears or changes | Craver and Darden (2013), stimulation experiments | The stimulation may spread to other parts, or the system may compensate for the added load |
 | Minimality | The model includes the parts that make a difference and no others | Craver and Kaplan (2020), "all and only the relevant parts" | Relevance is relative to the phenomenon chosen |
 | Specificity | Many states of the part map onto many states of the phenomenon | Woodward (2010) | A nonspecific cause is still a cause |
 
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Baumgartner and Gebharter (2016) to Craver.** A part and the whole it belongs to are not independent, so an intervention on the whole always changes the part too. Interventions like this are called fat-handed. Michael Baumgartner and Alexander Gebharter conclude that mutual manipulability, stated in Woodward's terms, either finds no components at all or turns being a part into being a cause.
+**Baumgartner and Gebharter (2016) to Craver (2007).** A part and the whole it belongs to are not independent, so an intervention on the whole always changes the part too. Interventions like this are called fat-handed. Michael Baumgartner and Alexander Gebharter conclude that mutual manipulability, stated in Woodward's terms, either finds no components at all or turns being a part into being a cause.
 
 **Craver, Glennan and Povich (2021) in reply.** Craver, Stuart Glennan and Mark Povich read the experiments as interventions on stages of one process, so that none crosses levels. They add a matching condition: the activity blocked or driven from below must be the same activity, in the same range, as the one seen from above. The debate is open, and this page uses mutual manipulability as an account of the evidence, not of what a component is.
 

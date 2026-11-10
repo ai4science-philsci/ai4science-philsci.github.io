@@ -7,9 +7,9 @@ This page asks one question: **when does a model that predicts well also explain
 
 AI systems for science are judged by how well they predict. Three things prediction does not show:
 
-1. **Explanation runs from cause to effect.** An accurate predictor can run backwards, from effect to cause, and explain nothing. *In ML: leakage.*
-2. **Many models fit equally well.** Models with the same accuracy can tell different stories about which inputs matter. *In ML: underspecification.*
-3. **Predictive and explanatory power are separate.** Each is measured and reported on its own. *In ML: accuracy reported with no estimate of what causes the outcome.*
+1. **Explanation runs from cause to effect.** An accurate predictor can run backwards, from effect to cause, and explain nothing.
+2. **Many models fit equally well.** Models with the same accuracy can tell different stories about which inputs matter.
+3. **Predictive and explanatory power are separate.** Explanatory power and predictive accuracy are different qualities, and a model has some level of each. Shmueli holds that the two should be assessed and reported separately.
 
 ## From prediction to explanation
 
@@ -56,7 +56,7 @@ so which way explanation runs would depend on what the audience is interested in
 
 The builder's wish is a cause of the height; the shadow is an effect of it.
 
-**Breiman: accuracy leads to the mechanism.** Breiman wanted both prediction and knowledge of the mechanism, and he bet that the first leads to the second.
+**Breiman (2001): accuracy leads to the mechanism.** Breiman wanted both prediction and knowledge of the mechanism, and he bet that the first leads to the second.
 
 > Higher predictive accuracy is associated with more reliable information about the underlying data mechanism.
 >

@@ -15,3 +15,19 @@ claims:
     - exact: Symptoms can be used to predict, but they cannot be used to explain
       section: 13.2 The Rise and Fall of the Covering Law Theory of Explanation
       page: 193
+  no_criticism_of_prior:
+    quotes:
+    - exact: Bayesianism offers no criticism of this decision, so long as your probabilities are internally
+        coherent and you update properly.
+      section: '14.4'
+      page: 210
+  coherent_update:
+    quotes:
+    - exact: so long as your probabilities are internally coherent and you update properly
+      section: '14.4'
+      page: 210
+  offers_no_criticism:
+    quotes:
+    - exact: offers no criticism
+      section: '14.4'
+      page: 210

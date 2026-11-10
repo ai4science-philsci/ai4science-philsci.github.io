@@ -7,9 +7,9 @@ This page asks one question: **who decides when the evidence is enough?**
 
 AI systems for science do more than gather evidence. They report that a compound is safe, that a variant is pathogenic, that a hypothesis is supported, and the report is acted on. Three things decide when the evidence is enough:
 
-1. **Inductive risk.** Whether to accept a hypothesis depends on what a mistake would cost. *In ML: one threshold used for every application.*
-2. **Values set the standard, not the answer.** Values may decide how much evidence is enough; they may not stand in for evidence. *In ML: a result declared ready by the party that benefits from it.*
-3. **Objectivity is a property of a community.** A result is objective to the degree that others can criticize it and the criticism can change it. *In ML: an output reviewed only by the system that produced it.*
+1. **Inductive risk.** No hypothesis is ever certain, so a decision to accept or reject one depends on how serious each possible error would be.
+2. **Values set the standard, not the answer.** Values may decide how much evidence is enough; they may not stand in for evidence.
+3. **Objectivity is a property of a community.** Longino counts a method of inquiry as objective to the degree that it permits criticism that can transform scientific practice.
 
 ## From error costs to criticism
 
@@ -58,9 +58,9 @@ Her conditions are avenues for criticism, shared standards, equal intellectual a
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Jeffrey (1956) to Rudner.** Richard Jeffrey replied that scientists should report probabilities and leave acceptance to whoever acts on them.
+**Jeffrey (1956) to Rudner (1953).** The philosopher Richard Jeffrey replied that scientists should report probabilities and leave acceptance to whoever acts on them.
 
-**Levi (1960) to Rudner.** Isaac Levi replied that a profession's shared standards, such as a 5% significance level, remove the individual's judgment.
+**Levi (1960) to Rudner (1953).** The philosopher Isaac Levi replied that a profession's shared standards, such as a 5% significance level, remove the individual's judgment.
 
 > These community standards may eliminate any room for contextual ethical judgment on behalf of the scientist
 >

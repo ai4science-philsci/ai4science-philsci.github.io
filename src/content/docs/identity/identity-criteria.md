@@ -7,9 +7,9 @@ This page asks one question: **what changes when the rule for counting two cases
 
 AI systems for science count cases: how many cells are of one type, how many patients have the disease, how many samples carry the variant. Every count rests on a rule for when two cases count as the same, and the rule is usually inherited with the data. Three ideas, drawn from cases in medicine and psychiatry, say what changes when the rule does:
 
-1. **Changing the rule moves the numbers while nothing in the world changes.** Reclassify the same patients under a new rule and the outcome rate in each class moves, with no patient's course altered. *In ML: a benchmark relabeled under a new taxonomy, and every model's accuracy moving with no new predictions.*
-2. **Sameness under one kind of rule does not carry to another.** A symptom checklist, a brain-circuit dysfunction, a position in a factor space and a self-sustaining symptom network sort patients by different relations, and evidence gathered under one bears on another only through an argument that the two coincide. *In ML: results pooled across datasets whose labels were assigned by different rules.*
-3. **An agreement statistic hides whether two rules nest or cross.** The same agreement coefficient arises when one rule's positive class sits inside the other's and when each rule identifies cases the other does not; the cross-classification table shows which, and the coefficient does not. *In ML: two labelers' agreement reported as a kappa, with no table of which items each accepted.*
+1. **Changing the rule moves the numbers while nothing in the world changes.** Reclassify the same patients under a new rule and the outcome rate in each class moves, with no patient's course altered.
+2. **Sameness under one kind of rule does not carry to another.** Two classification rules can sort the same patients by different relations of sameness. Evidence gathered under one rule bears on another only through an argument that the two pick out the same patients.
+3. **An agreement statistic hides whether two rules nest or cross.** The same agreement coefficient arises when one rule's positive class sits inside the other's and when each rule identifies cases the other does not; the cross-classification table shows which, and the coefficient does not.
 
 ## From one rule to another
 
@@ -43,7 +43,7 @@ The 91.1% is carried by the 18,163 patients both definitions leave alone. Of the
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Robins and Guze (1970) to the whole page.** One rule is the right one, and research finds it. Eli Robins and Samuel Guze proposed five validators for a psychiatric diagnosis, from clinical description to family study, and the psychiatrist Kenneth Kendler reads the history since as epistemic iteration: each revision tested against the validators, spiraling toward the true disorder. The reply is Kendler's own condition, that iteration converges only if the validators stay fixed:
+**Robins and Guze (1970): one rule is the right one.** One rule is the right one, and research finds it. Eli Robins and Samuel Guze proposed five validators for a psychiatric diagnosis, from clinical description to family study, and the psychiatrist Kenneth Kendler reads the history since as epistemic iteration: each revision tested against the validators, spiraling toward the true disorder. The reply is Kendler's own condition, that iteration converges only if the validators stay fixed:
 
 > It will not work if our nosologic revisions reflect largely a power struggle between different branches of psychiatry, each with its own essentialist views of the true nature of mental illness
 >

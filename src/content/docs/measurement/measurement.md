@@ -7,15 +7,15 @@ This page asks one question: **when does a score measure the thing it is named f
 
 AI systems for science are compared by their scores on benchmarks named for capabilities: reasoning, protein design, molecular understanding. A score measures what it is named for only if three things hold:
 
-1. **Different operations are different concepts until shown to agree.** Two benchmarks measure one capability only if experiment shows their results agree. *In ML: a score on one benchmark reported as a general capability.*
-2. **Concept and instrument are built together.** Each round of measurement corrects the concept, and the corrected concept supports a better instrument. *In ML: no new or revised benchmark for a capability, so the measurement is never aligned to the capability.*
-3. **The property exists without the model; its value does not.** A measured value is what the measurand, the conditions and the process are modeled as, and a different defensible model gives a different value for the same property. *In ML: a score reported with no statement of what the benchmark is taken to model.*
+1. **Different operations define different concepts.** Taken strictly, each measuring operation defines its own concept. Bridgman conceded that where the results of two operations agree within experimental error, one name for both is pragmatically justified.
+2. **Concept and instrument are built together.** Each round of measurement corrects the concept, and the corrected concept supports a better instrument.
+3. **A property can be real while its values depend on models.** A measurement result is jointly determined by the state of the world and by how the property, the measurand, the environment and the measurement process are modeled. A different model of the same property can give a different value.
 
 What a score licenses you to infer and do once it is a measurement is the [Validity](/measurement/validity/) page's question.
 
 ## From operations to models
 
-**Bridgman (1927): different operations are different concepts until shown to agree.** The physicist Percy Bridgman proposed that a scientific concept means nothing beyond the operations used to measure it.
+**Bridgman (1927): different operations define different concepts.** The physicist Percy Bridgman proposed that a scientific concept means nothing beyond the operations used to measure it.
 
 > we mean by any concept nothing more than a set of operations; the concept is synonymous with the corresponding set of operations.
 >
@@ -31,7 +31,7 @@ Taken strictly, length measured with rulers and length measured by timing light 
 
 On his account the circle is not vicious. A crude sense of hot and cold made thermoscopes possible, thermoscopes corrected the concept, and the corrected concept supported better thermometers. Each round respected the last and corrected it.
 
-**Mari, Wilson and Maul (2023): the property exists without the model; its value does not.** The measurement scientist Luca Mari and the psychometricians Mark Wilson and Andrew Maul call their position model-dependent realism. It keeps what realism gets right and drops what it gets wrong:
+**Mari, Wilson and Maul (2023): a property can be real while its values depend on models.** The measurement scientist Luca Mari and the psychometricians Mark Wilson and Andrew Maul call their position model-dependent realism. It keeps what realism gets right and drops what it gets wrong:
 
 > it accepts from realism the position that some properties do exist in the world and are not just human constructs, but rejects the metaphysical claim that values of properties exist independently of our models
 >
@@ -48,7 +48,7 @@ The models can be compared and some are better than others; what cannot be done 
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Michell (1999) to all three.** Before a number can measure a property, the property has to have the structure of a quantity: differences in it must themselves be comparable, or adding and averaging scores means nothing. The psychologist Joel Michell argues that psychometrics never checked:
+**Michell (1999) on quantity.** Before a number can measure a property, the property has to have the structure of a quantity: differences in it must themselves be comparable, or adding and averaging scores means nothing. The psychologist Joel Michell argues that psychometrics never checked:
 
 > psychometricians have not made serious attempts to test whether the attributes they purport to measure have quantitative structure, and instead adopted an overly loose conception of measurement that disguises this neglect
 >
@@ -62,7 +62,7 @@ The reply, from Borsboom and Mellenbergh (2004), is that psychometric models do 
 
 A model that assumes the attribute is quantitative can fail to fit, and a fit is indirect evidence for the assumption. Michell's point survives as a demand: the test has to be run, and a fit to one model is not yet the structure. For benchmarks, the mean of accuracies across tasks assumes a quantity that nothing in the evaluation established.
 
-**Mari, Wilson and Maul (2023) to Bridgman.** The operationalist cannot say why a result should mean anything beyond the occasion of its measurement:
+**Mari, Wilson and Maul (2023) to Bridgman (1927).** The operationalist cannot say why a result should mean anything beyond the occasion of its measurement:
 
 > by defining what is measured by a given instrument as just the property that interacted here-and-now with the measuring instrument, it is not obvious on what basis the information obtained could be used in reference to anything other than the current conditions
 >
@@ -86,7 +86,7 @@ The reply is that transmission runs the wrong way. In communication an agent enc
 >
 > — [Mari, Wilson and Maul (2023), p. 87](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4)
 
-**Cartwright and Runhardt (2014) to all three.** The philosophers Nancy Cartwright and Rosa Runhardt argue that some concepts, such as poverty or social exclusion, are too many-sided for one number.
+**Cartwright and Runhardt (2014) on many-sided concepts.** The philosophers Nancy Cartwright and Rosa Runhardt argue that some concepts, such as poverty or social exclusion, are too many-sided for one number.
 
 > Such concepts are too multifaceted to be measured on a single metric without loss of meaning
 >

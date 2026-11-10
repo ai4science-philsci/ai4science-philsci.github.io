@@ -7,9 +7,9 @@ This page asks one question: **when does a fit to the data tell you something ab
 
 AI systems for science are trained on datasets and scored on datasets. A fit to the data says something about the world only if three things hold:
 
-1. **Data are evidence for phenomena.** A theory explains the stable phenomenon, not the readings used to detect it. *In ML: shortcut features.*
-2. **Data can travel.** Data prepared with a record of how they were made stay useful for a new question. *In ML: a dataset reused for a new question with no record of how it was made.*
-3. **Exclusions need reasons.** A data point is dropped for a reason independent of its effect on the result. *In ML: cleaning after the result is seen.*
+1. **Data are evidence for phenomena.** A theory explains the stable phenomenon, not the readings used to detect it.
+2. **Data can travel.** Packaged with information about how they were produced, data can be reused as evidence for new claims. Researchers in the new setting judge their reliability by matching that information against their own criteria.
+3. **Exclusions need reasons.** Excluding a data point requires an explanation of why it is spurious, beyond its disagreement with what was expected.
 
 ## From data to phenomena
 
@@ -50,7 +50,7 @@ The package carries a record of how the data were made, and a new user needs tha
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Leonelli to Bogen and Woodward.** Leonelli objected that Bogen and Woodward tied data too closely to the experiment that produced them.
+**Leonelli (2009) to Bogen and Woodward (1988).** Leonelli objected that Bogen and Woodward tied data too closely to the experiment that produced them.
 
 > B&W characterise data as unavoidably embedded in one experimental context
 >
@@ -79,7 +79,7 @@ The Millikan case cuts across both: which data count as noise is itself a decisi
 
 **"Then data never need explaining."** The same section says scientists sometimes must explain data: sources of noise, artifacts, and especially outliers, which can be dropped responsibly only once something explains them.
 
-**"Cleaning data is neutral."** The Millikan case shows a cleaning decision made after the result, with no recorded reason. The decision changed the published value.
+**"Cleaning data is neutral."** The Millikan case shows a cleaning decision made after the result, with no recorded reason. The decision did little to the value of the charge, but it shrank the reported error.
 
 </details>
 
