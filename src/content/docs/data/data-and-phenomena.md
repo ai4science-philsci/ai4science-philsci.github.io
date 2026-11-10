@@ -5,7 +5,7 @@ description: "When does a fit to the data tell you something about the world? Bo
 
 This page asks one question: **when does a fit to the data tell you something about the world?**
 
-AI systems for science are trained on datasets and scored on datasets. A fit to the data says something about the world only if three things hold:
+AI systems for science are trained on datasets and scored on datasets. This page covers three ideas from the philosophy of science about when a fit to the data says something about the world:
 
 1. **Data are evidence for phenomena.** A theory explains the stable phenomenon, not the readings used to detect it.
 2. **Data can travel.** Packaged with information about how they were produced, data can be reused as evidence for new claims. Researchers in the new setting judge their reliability by matching that information against their own criteria.

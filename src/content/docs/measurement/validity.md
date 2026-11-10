@@ -5,7 +5,7 @@ description: "What does a score license you to infer and do? Campbell and Fiske,
 
 This page asks one question: **what does a score license you to infer and do?**
 
-The [Measurement](/measurement/measurement/) page asks whether a score measures the thing it is named for. This page asks the next question. A benchmark score is reported, and a decision follows from it: which model to deploy, which result to trust, which capability to claim. The score licenses that decision only if three things hold:
+The [Measurement](/measurement/measurement/) page asks whether a score measures the thing it is named for. This page asks the next question. A benchmark score is reported, and a decision follows from it: which model to deploy, which result to trust, which capability to claim. This page covers three ideas from psychometrics about when the score licenses that decision:
 
 1. **Measures of the same attribute agree; measures of different attributes come apart.** Results from different instruments for one attribute should agree closely. Results for different attributes should not correlate so highly that the attributes cannot be told apart, even when the instruments are similar.
 2. **A score is valid for a use, not in itself.** Evidence has to support each inference from the score to the proposed use. A use other than the one intended requires the argument to be reexamined or a new one to be developed.

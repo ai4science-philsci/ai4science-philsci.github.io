@@ -5,7 +5,7 @@ description: "Does the evidence depend on when an experiment stops? Error statis
 
 This page asks one question: **does the evidence depend on when an experiment stops?**
 
-An AI system can check its result after every batch of data, every training step or every evaluation item, and stop as soon as the result looks good. What turns out to matter is not only when it stopped but the plan it was following: two researchers with identical data can hold different evidence because they planned to stop differently. Statistics has argued about this for eighty years, and there are three positions:
+An AI system can check its result after every batch of data, every training step or every evaluation item, and stop as soon as the result looks good. What turns out to matter is not only when it stopped but the plan it was following: two researchers with identical data can hold different evidence because they planned to stop differently. This page covers three positions from statistics:
 
 1. **The stopping rule changes the evidence.** A result reached by stopping when it looked good is weaker than the same result from a fixed plan.
 2. **Only the data observed count.** Two researchers with the same data have the same evidence, whatever each one planned.

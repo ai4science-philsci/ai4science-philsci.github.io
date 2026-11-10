@@ -5,7 +5,7 @@ description: "When does a result found in one setting hold in another? External 
 
 This page asks one question: **when does a result found in one setting hold in another?**
 
-AI systems for science produce results in one setting that are meant to be used in another: a drug effect found in cell lines and applied to patients, a model validated in one hospital and deployed in a second, a benchmark score read as a capability in the world. Three things stand between a result and the setting it is used in:
+AI systems for science produce results in one setting that are meant to be used in another: a drug effect found in cell lines and applied to patients, a model validated in one hospital and deployed in a second, a benchmark score read as a capability in the world. This page covers three ideas from the philosophy of science and causal inference about what stands between a result and the setting it is used in:
 
 1. **The result holds where it was tested.** A test establishes the effect in the population tested, and nothing beyond it.
 2. **The extrapolator's circle.** Checking that a model is relevantly similar to its target would require investigating the target. If that were possible, there would be no reason to study the model.

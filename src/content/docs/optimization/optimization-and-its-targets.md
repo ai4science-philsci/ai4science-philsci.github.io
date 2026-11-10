@@ -5,7 +5,7 @@ description: "When does optimizing a score bring you closer to what the score st
 
 This page asks one question: **when does optimizing a score bring you closer to what the score stands for?**
 
-AI systems for science are built and run by optimization: a model trained to lower a loss, an agent rewarded for a benchmark score, a design search that maximizes a predicted property. Three things optimization does to a score:
+AI systems for science are built and run by optimization: a model trained to lower a loss, an agent rewarded for a benchmark score, a design search that maximizes a predicted property. This page covers three ideas from economics, social science and machine learning about what optimization does to a score:
 
 1. **A regularity tends to collapse once pressure is placed on it.** For a score, the regularity is its relation to the goal it stands for, and the pressure is using the score for control.
 2. **Proxies fail in at least four ways.** Selecting on an imperfect proxy also selects for its noise, and selection can reach regions where the proxy's observed relation to the goal fails. Intervening on a proxy with an indirect link to the goal can change that link, and an agent whose goals differ from the optimizer's can cause the collapse.

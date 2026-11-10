@@ -5,7 +5,7 @@ description: "When does a model that predicts well also explain what it predicts
 
 This page asks one question: **when does a model that predicts well also explain what it predicts?**
 
-AI systems for science are judged by how well they predict. Three things prediction does not show:
+AI systems for science are judged by how well they predict. This page covers three ideas from the philosophy of science and statistics about what prediction does not show:
 
 1. **Explanation runs from cause to effect.** An accurate predictor can run backwards, from effect to cause, and explain nothing.
 2. **Many models fit equally well.** Models with the same accuracy can tell different stories about which inputs matter.

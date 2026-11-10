@@ -5,7 +5,7 @@ description: "What changes when the rule for counting two cases as the same chan
 
 This page asks one question: **what changes when the rule for counting two cases as the same changes?**
 
-AI systems for science count cases: how many cells are of one type, how many patients have the disease, how many samples carry the variant. Every count rests on a rule for when two cases count as the same, and the rule is usually inherited with the data. Three ideas, drawn from cases in medicine and psychiatry, say what changes when the rule does:
+AI systems for science count cases: how many cells are of one type, how many patients have the disease, how many samples carry the variant. Every count rests on a rule for when two cases count as the same, and the rule is usually inherited with the data. This page covers three ideas, drawn from cases in medicine and psychiatry, about what changes when the rule does:
 
 1. **Changing the rule moves the numbers while nothing in the world changes.** Reclassify the same patients under a new rule and the outcome rate in each class moves, with no patient's course altered.
 2. **Sameness under one kind of rule does not carry to another.** Two classification rules can sort the same patients by different relations of sameness. Evidence gathered under one rule bears on another only through an argument that the two pick out the same patients.

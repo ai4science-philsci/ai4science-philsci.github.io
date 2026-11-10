@@ -5,7 +5,7 @@ description: "What is a result's scope, and what decisions does it license? Wood
 
 This page asks one question: **what is a result's scope, and what decisions does it license?**
 
-A benchmark score is used to decide which model to deploy. An interpretability finding on one model is cited for another. A validated predictor is applied to a new hospital's patients. In each case the result was obtained under conditions, and the use assumes those conditions still hold. Three ideas govern that step:
+A benchmark score is used to decide which model to deploy. An interpretability finding on one model is cited for another. A validated predictor is applied to a new hospital's patients. In each case the result was obtained under conditions, and the use assumes those conditions still hold. This page covers three ideas, from the philosophy of science, psychometrics and regulation, about that step:
 
 1. **The domain is stated separately from the result.** The domain over which a generalization holds may be specified imprecisely. The generalization itself may not, since vague restrictions built into it leave it without definite content.
 2. **A decision is its own inference.** A score can be accurate and still not support the decision made with it; the decision needs evidence of its own.

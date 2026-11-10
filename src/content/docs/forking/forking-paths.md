@@ -5,7 +5,7 @@ description: "How many analyses stand behind the one reported? The file drawer, 
 
 This page asks one question: **how many analyses stand behind the one reported?**
 
-An AI system for science can run more analyses in an afternoon than a laboratory runs in a year: other datasets, other exclusion rules, other models, other seeds. Three things can stand behind the one analysis reported:
+An AI system for science can run more analyses in an afternoon than a laboratory runs in a year: other datasets, other exclusion rules, other models, other seeds. This page covers three ideas from statistics and metascience about what can stand behind the one analysis reported:
 
 1. **The file drawer.** Studies that fail to reach significance tend to stay unpublished, which distorts the published record and the meta-analyses built on it.
 2. **Researcher degrees of freedom.** Undisclosed flexibility in how data are collected and analyzed inflates the false positive rate. Simmons, Nelson and Simonsohn showed this by simulation.

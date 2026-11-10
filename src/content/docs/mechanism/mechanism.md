@@ -5,7 +5,7 @@ description: "When does a model say how something works, rather than only that i
 
 This page asks one question: **when does a model say how something works, rather than only that it happens?**
 
-AI systems for science increasingly report discoveries: a gene that drives a disease, a pathway that explains a response, a protein that controls a trait. Biologists want mechanisms, Carl Craver and Lindley Darden write, because knowing one serves prediction, explanation and control. Three things separate a mechanism from a pattern in the data:
+AI systems for science increasingly report discoveries: a gene that drives a disease, a pathway that explains a response, a protein that controls a trait. Biologists want mechanisms, Carl Craver and Lindley Darden write, because knowing one serves prediction, explanation and control. This page covers three ideas from the philosophy of science that separate a mechanism from a pattern in the data:
 
 1. **Entities and activities, organized.** A mechanism for a phenomenon consists of entities whose activities and interactions are organized so as to be responsible for the phenomenon. A correlational pattern is not a mechanism.
 2. **A mechanism is the mechanism for a phenomenon.** Mechanisms are defined only relative to the phenomenon they cause, underlie or explain. Discovering a mechanism typically revises the description of that phenomenon.

@@ -5,7 +5,7 @@ description: "When does a score measure the thing it is named for? Bridgman, Cha
 
 This page asks one question: **when does a score measure the thing it is named for?**
 
-AI systems for science are compared by their scores on benchmarks named for capabilities: reasoning, protein design, molecular understanding. A score measures what it is named for only if three things hold:
+AI systems for science are compared by their scores on benchmarks named for capabilities: reasoning, protein design, molecular understanding. This page covers three ideas from measurement science about when a score measures what it is named for:
 
 1. **Different operations define different concepts.** Taken strictly, each measuring operation defines its own concept. Bridgman conceded that where the results of two operations agree within experimental error, one name for both is pragmatically justified.
 2. **Concept and instrument are built together.** Each round of measurement corrects the concept, and the corrected concept supports a better instrument.

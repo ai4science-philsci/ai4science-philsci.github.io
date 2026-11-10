@@ -5,7 +5,7 @@ description: "When does a model of a mechanism describe how it actually works? C
 
 This page asks one question: **when does a model of a mechanism describe how it actually works?**
 
-A model can fit a system's behavior perfectly and say nothing about its parts. A diagram can name the parts and leave every arrow unexplained. A proposed mechanism can be one of many that would produce the same data. Three distinctions separate these cases:
+A model can fit a system's behavior perfectly and say nothing about its parts. A diagram can name the parts and leave every arrow unexplained. A proposed mechanism can be one of many that would produce the same data. This page covers three distinctions from the philosophy of science that separate these cases:
 
 1. **Phenomenal models.** A model can describe what goes in and what comes out without describing the causal structure in between.
 2. **Sketches and schemas.** A schema describes a mechanism with placeholders that can be filled in with known parts and activities. A sketch is incomplete, and its gaps can be marked by black boxes or masked by terms that name an activity without saying how it is carried out.

@@ -5,7 +5,7 @@ description: "Does a knockout show that the system uses the part? Hall on depend
 
 This page asks one question: **does a knockout show that the system uses the part?**
 
-Remove a component and the output changes. The sentence that reports this usually says more: that the system relies on the component when it runs on its own. The two can come apart, and the gap between them has a philosophy. Three ideas mark it:
+Remove a component and the output changes. The sentence that reports this usually says more: that the system relies on the component when it runs on its own. The two can come apart, and the gap between them has a philosophy. This page covers three ideas from the philosophy of science that mark it:
 
 1. **Dependence and production.** That the effect would not have happened without the part is one relation; that the part brought the effect about is another.
 2. **Potential and actual difference makers.** A part that would change the outcome if you changed it is one thing; a part whose variation accounts for the variation that actually occurs is another.

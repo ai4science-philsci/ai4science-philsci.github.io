@@ -5,7 +5,7 @@ description: "Who decides when the evidence is enough? Rudner, Hempel, Douglas a
 
 This page asks one question: **who decides when the evidence is enough?**
 
-AI systems for science do more than gather evidence. They report that a compound is safe, that a variant is pathogenic, that a hypothesis is supported, and the report is acted on. Three things decide when the evidence is enough:
+AI systems for science do more than gather evidence. They report that a compound is safe, that a variant is pathogenic, that a hypothesis is supported, and the report is acted on. This page covers three ideas from the philosophy of science about when the evidence is enough:
 
 1. **Inductive risk.** No hypothesis is ever certain, so a decision to accept or reject one depends on how serious each possible error would be.
 2. **Values set the standard, not the answer.** Values may decide how much evidence is enough; they may not stand in for evidence.

@@ -5,7 +5,7 @@ description: "When does a difference in the data show that one thing causes anot
 
 This page asks one question: **when does a difference in the data show that one thing causes another?**
 
-AI systems for science report causes: a drug that lowers risk, a gene that drives a trait, an exposure that harms. Philosophers have given three main answers to what such a claim means, and each answer says what evidence would support it:
+AI systems for science report causes: a drug that lowers risk, a gene that drives a trait, an exposure that harms. This page covers three answers philosophers have given to what such a claim means, each with the evidence it asks for:
 
 1. **Regularity.** A cause precedes its effect and is contiguous with it, and events like the cause are always followed by events like the effect. On this theory causation involves nothing more.
 2. **Counterfactual dependence.** One event depends causally on another when, had the second not occurred, the first would not have occurred. Lewis defined causation as a chain of such dependences.

@@ -5,7 +5,7 @@ description: "Can a model nobody can follow still give understanding? Humphreys 
 
 This page asks one question: **can a model nobody can follow still give understanding?**
 
-Simulation enters science in two ways. In the first, it is an instrument for checking methods: a simulated system whose causes are known in advance lets a causal method be tested against the truth. In the second, it is a source of knowledge about the world: a climate model, a molecular dynamics run or a trained network is used to learn what the real system will do. The second use raises three questions that philosophy of science has worked on since the 1990s:
+Simulation enters science in two ways. In the first, it is an instrument for checking methods: a simulated system whose causes are known in advance lets a causal method be tested against the truth. In the second, it is a source of knowledge about the world: a climate model, a molecular dynamics run or a trained network is used to learn what the real system will do. This page covers three questions about the second use that philosophy of science has studied since the 1990s:
 
 1. **Epistemic opacity.** A computation can be too large for anyone to know all the steps that matter.
 2. **Verification and validation.** Checking that the code solves the model and checking that the model fits the world are two tasks that cannot be cleanly separated.

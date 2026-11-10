@@ -5,7 +5,7 @@ description: "How do you tell whether a part belongs to the mechanism? Craver's 
 
 This page asks one question: **how do you tell whether a part belongs to the mechanism?**
 
-A knockout changes the phenotype. A stimulated region produces the behavior. A gene's expression rises while the response unfolds. Each is offered as evidence that the part is a component of the mechanism, and each falls short in a known way. Three ideas organize the tests:
+A knockout changes the phenotype. A stimulated region produces the behavior. A gene's expression rises while the response unfolds. Each is offered as evidence that the part is a component of the mechanism, and each falls short in a known way. This page covers three ideas from the philosophy of science that organize the tests:
 
 1. **Mutual manipulability.** A part within the system belongs to the mechanism if some intervention on the part changes the phenomenon and some intervention on the phenomenon changes the part. Craver offered this as a sufficient condition only.
 2. **Three interlevel experiments.** Interference and stimulation experiments act on the part, and activation experiments produce the phenomenon and watch the part. Known failures include redundancy or compensation for interference, spread to other parts or compensation for stimulation, and by-products for activation.

@@ -5,7 +5,7 @@ description: "When does a result that agrees with a hypothesis count as evidence
 
 This page asks one question: **when does a result that agrees with a hypothesis count as evidence for it?**
 
-An AI system reports that an analysis supports its hypothesis. The agreement is evidence only if three things hold:
+An AI system reports that an analysis supports its hypothesis. This page covers three ideas from the philosophy of science about when that agreement counts as evidence:
 
 1. **The prediction could have failed.** Agreement counts as support only when it comes from a prediction that might have been false. Popper held that what would count as a refutation has to be laid down beforehand.
 2. **The revisions predict something new.** Changing a hypothesis after the results is normal; the change counts as progress only when it predicts something new that is then found.
