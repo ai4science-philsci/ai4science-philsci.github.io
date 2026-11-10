@@ -15,7 +15,9 @@ Between data and a scientific conclusion sit four questions, each worked out by 
 - **Mechanism** *(philosophy of science, causal inference)*: what parts and activities produce it?
 - **Transfer** *(causal inference)*: when does a finding in one population or system hold in another?
 
-No single textbook covers all four questions; answering them requires methods spread across many fields. Current research in machine learning and AI for science often crosses all four questions while checking only some of them. AI evaluations commonly address **evidence**: measurement and validity, whereas mechanistic interpretability commonly addresses **mechanism** and **explanation**. **Transfer** is less often tested: results are often carried to new models, datasets and settings without a check that they hold. AI systems are now used throughout the scientific research process, from proposing hypotheses to interpreting results. This makes research methodology increasingly important.
+No single textbook covers all four questions; answering them requires methods spread across many fields. Current research in machine learning and AI for science often crosses all four questions while checking only some of them. AI evaluations commonly address **evidence**: measurement and validity, whereas mechanistic interpretability commonly addresses **mechanism** and **explanation**. **Transfer** is less often tested: results are often carried to new models, datasets and settings without a check that they hold.
+
+AI systems are now used throughout the scientific research process, from proposing hypotheses to interpreting results. This makes research methodology increasingly important.
 
 This site's chapters quote the Stanford Encyclopedia of Philosophy extensively, applying its concepts toward machine learning and AI for science research. Together, the chapters unify the fields above into a common vocabulary for empirical research methodology.
 
