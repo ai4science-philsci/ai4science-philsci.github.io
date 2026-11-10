@@ -26,8 +26,8 @@ This site's chapters quote the Stanford Encyclopedia of Philosophy extensively, 
 | # | Page | The question it asks |
 |---|---|---|
 | 1 | [Falsification and Severe Testing](/testing/falsification-and-severe-testing/) | When does a result that agrees with a hypothesis count as evidence for it? |
-| 2 | [Stopping and Evidence](/stopping/stopping-and-evidence/) | Does the evidence depend on when an experiment stops? |
-| 3 | [Forking Paths](/forking/forking-paths/) | How many analyses stand behind the one reported? |
+| 2 | [Forking Paths](/forking/forking-paths/) | How many analyses stand behind the one reported? |
+| 3 | [Stopping and Evidence](/stopping/stopping-and-evidence/) | Does the evidence depend on when an experiment stops? |
 | 4 | [Measurement](/measurement/measurement/) | When does a score measure the thing it is named for? |
 | 5 | [Validity](/measurement/validity/) | What does a score license you to infer and do? |
 | 6 | [Optimization and Its Targets](/optimization/optimization-and-its-targets/) | When does optimizing a score bring you closer to what the score stands for? |

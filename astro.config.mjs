@@ -15,8 +15,8 @@ const CHAPTERS = [
               label: 'Part 1: Evidence',
               items: [
                 { label: '1. Falsification and Severe Testing', link: '/testing/falsification-and-severe-testing/' },
-                { label: '2. Stopping and Evidence', link: '/stopping/stopping-and-evidence/' },
-                { label: '3. Forking Paths', link: '/forking/forking-paths/' },
+                { label: '2. Forking Paths', link: '/forking/forking-paths/' },
+                { label: '3. Stopping and Evidence', link: '/stopping/stopping-and-evidence/' },
                 { label: '4. Measurement', link: '/measurement/measurement/' },
                 { label: '5. Validity', link: '/measurement/validity/' },
                 { label: '6. Optimization and Its Targets', link: '/optimization/optimization-and-its-targets/' },
@@ -58,8 +58,8 @@ const FLAT = [
           label: 'Part 1: Evidence',
           items: [
             { label: '1. Falsification and Severe Testing', link: '/testing/falsification-and-severe-testing/' },
-            { label: '2. Stopping and Evidence', link: '/stopping/stopping-and-evidence/' },
-            { label: '3. Forking Paths', link: '/forking/forking-paths/' },
+            { label: '2. Forking Paths', link: '/forking/forking-paths/' },
+            { label: '3. Stopping and Evidence', link: '/stopping/stopping-and-evidence/' },
             { label: '4. Measurement', link: '/measurement/measurement/' },
             { label: '5. Validity', link: '/measurement/validity/' },
             { label: '6. Optimization and Its Targets', link: '/optimization/optimization-and-its-targets/' },
