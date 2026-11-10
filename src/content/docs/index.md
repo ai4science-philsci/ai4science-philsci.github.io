@@ -10,7 +10,7 @@ head:
 
 Between data and a scientific conclusion sit four questions, each worked out by different fields:
 
-- **Evidence** *(statistics, psychometrics, metrology)*: could the test have failed, and does the score measure what it is named for?
+- **Evidence** *(statistics, psychometrics)*: could the test have failed, and does the score measure what it is named for?
 - **Explanation** *(philosophy of science)*: why does the outcome occur, beyond predicting it?
 - **Mechanism** *(philosophy of science, causal inference)*: what parts and activities produce it?
 - **Transfer** *(causal inference)*: when does a finding in one population or system hold in another?

@@ -144,3 +144,10 @@ claims:
         a new theory about validity itself
       section: 4.3.3 An Argument-Based Approach to Validity
       page: 101
+  messick_types_replaced:
+    quotes:
+    - exact: The idea of distinct types of validity (e.g., criterion, content, construct) was replaced
+        with the notion of there being distinct types of evidence that could be brought to bear on the
+        validity of a given test
+      section: 4.3.3
+      page: 100

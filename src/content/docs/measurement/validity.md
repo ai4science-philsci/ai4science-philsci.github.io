@@ -5,13 +5,33 @@ description: "What does a score license you to infer and do? Campbell and Fiske,
 
 This page asks one question: **what does a score license you to infer and do?**
 
-The [Measurement](/measurement/measurement/) page asks whether a score measures the thing it is named for. This page asks the next question. A benchmark score is reported, and a decision follows from it: which model to deploy, which result to trust, which capability to claim. This page covers three ideas from psychometrics about when the score licenses that decision:
+The [Measurement](/measurement/measurement/) page asks whether a score measures the thing it is named for. This page asks the next question. A benchmark score is reported, and a decision follows from it: which model to deploy, which result to trust, which capability to claim. This page covers three ideas from psychometrics about construct validity: when the score licenses that decision.
 
 1. **Measures of the same attribute agree; measures of different attributes come apart.** Results from different instruments for one attribute should agree closely. Results for different attributes should not correlate so highly that the attributes cannot be told apart, even when the instruments are similar.
 2. **A score is valid for a use, not in itself.** Evidence has to support each inference from the score to the proposed use. A use other than the one intended requires the argument to be reexamined or a new one to be developed.
 3. **The attribute exists and causes the scores.** Whatever evidence has been gathered, the score measures the capability only if differences in the capability produce the differences in scores.
 
 Each answer was given in reply to the one before it: validity as a correlation, then as an argument about a use, then as a fact about what causes the score.
+
+## Kinds of validity
+
+This page covers the key ideas in construct validity, developed by the psychologists Lee Cronbach and Paul Meehl. Over the twentieth century, validity was also divided into other types:
+
+| Type | Introduced | What it asks | On this site |
+|---|---|---|---|
+| Criterion (predictive, concurrent) | [Kelley (1927)](https://catalog.hathitrust.org/Record/001280879); [American Psychological Association (1954)](https://psycnet.apa.org/doi/10.1037/h0053479) | Does the score correlate with an external criterion believed to be related to the attribute? | Misreadings, below |
+| Content | [American Psychological Association (1954)](https://psycnet.apa.org/doi/10.1037/h0053479) | Were the items representatively sampled from the domain of interest? | Kane's generalization link, below |
+| Construct | [American Psychological Association (1954)](https://psycnet.apa.org/doi/10.1037/h0053479); [Cronbach and Meehl (1955)](https://psychclassics.yorku.ca/Cronbach/construct.htm) | Does the score relate to other measures as the theory of the attribute predicts? | This page |
+| Consequential | [Messick (1989)](https://www.ets.org/research/policy_research_reports/publications/chapter/1989/hwrq.html); [Shepard (1993)](https://journals.sagepub.com/doi/10.3102/0091732X019001405) | Do the actions taken on the score achieve what they are for? | [Scope and Licensing](/scope/scope-and-licensing/) |
+| External | [Campbell (1957)](https://psycnet.apa.org/doi/10.1037/h0040950) | Does the result hold beyond the population and setting that produced it? | [Transfer and Scope](/transfer/transfer-and-scope/) |
+
+The textbook this page follows, [Mari, Wilson and Maul (2023), ch. 4](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4), gives an overview of this history.
+
+The psychometrician Samuel Messick later argued that validity is a single property of a test, a generalized construct validity, and that the older types are kinds of evidence for it:
+
+> The idea of distinct types of validity (e.g., criterion, content, construct) was replaced with the notion of there being distinct types of evidence that could be brought to bear on the validity of a given test
+>
+> — [Mari, Wilson and Maul (2023), p. 100](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4)
 
 ## From correlations to causes
 
@@ -29,7 +49,7 @@ Discriminant validity:
 
 Their example is extroversion and dominance, each assessed by self-report and by family report. Self-reports and family reports of extroversion should agree; self-reports of extroversion and of dominance should not agree so closely that the two traits cannot be told apart. The second test is the one that gets skipped. A score that correlates with everything measures something, and the agreement says nothing about what.
 
-**Messick (1989) and Kane (1992): a score is valid for a use, not in itself.** Correlations are evidence, and the psychometrician Samuel Messick asked what they are evidence for. His answer moved validity from a property of the test to a judgment about what is done with its scores.
+**Messick (1989) and Kane (1992): a score is valid for a use, not in itself.** Correlations are evidence, and Messick asked what they are evidence for. His answer moved validity from a property of the test to a judgment about what is done with its scores.
 
 > validity is an integrated evaluative judgment of the degree to which empirical evidence and theoretical rationales support the adequacy and appropriateness of inferences and actions based on test scores
 >
@@ -216,9 +236,14 @@ Mari, Wilson and Maul, *Measurement Across the Sciences* (Springer, 2nd ed., 202
 | [Mitchell et al., "Model Cards for Model Reporting"](https://arxiv.org/abs/1810.03993) | 2019 | Machine learning | **Intended use**: a model reported with the uses it was evaluated for |
 | [Raji et al., "AI and the Everything in the Whole Wide World Benchmark"](https://arxiv.org/abs/2111.15366) | 2021 | Machine learning | **Construct limits**: general-capability benchmarks claim more than their tasks can measure |
 | [Campbell and Fiske, "Convergent and Discriminant Validation by the Multitrait-Multimethod Matrix," *Psychological Bulletin* 56(2)](https://psycnet.apa.org/doi/10.1037/h0046016) | 1959 | Psychology | Original statement of convergent and discriminant validity. DOI [10.1037/h0046016](https://psycnet.apa.org/doi/10.1037/h0046016) |
+| Kelley, *Interpretation of Educational Measurements*, World Book ([HathiTrust](https://catalog.hathitrust.org/Record/001280879)) | 1927 | Psychometrics | Original statement of validity as whether a test measures what it purports to measure |
+| [American Psychological Association, "Technical Recommendations for Psychological Tests and Diagnostic Techniques," *Psychological Bulletin* 51(2, Pt. 2)](https://psycnet.apa.org/doi/10.1037/h0053479) | 1954 | Psychometrics | Original statement of the four types: predictive, concurrent, content and construct validity. DOI [10.1037/h0053479](https://psycnet.apa.org/doi/10.1037/h0053479) |
+| [Cronbach and Meehl, "Construct Validity in Psychological Tests," *Psychological Bulletin* 52(4)](https://psychclassics.yorku.ca/Cronbach/construct.htm) | 1955 | Psychometrics | Original elaboration of construct validity and the nomological network. DOI [10.1037/h0040957](https://psycnet.apa.org/doi/10.1037/h0040957) |
 | [Messick, "Validity," in Linn (ed.), *Educational Measurement*, 3rd ed., American Council on Education and Macmillan, pp. 13–103](https://www.ets.org/research/policy_research_reports/publications/chapter/1989/hwrq.html) | 1989 | Psychometrics | Original statement of validity as an evaluative judgment about inferences and actions |
 | [Kane, "An Argument-Based Approach to Validity," *Psychological Bulletin* 112](https://psycnet.apa.org/doi/10.1037/0033-2909.112.3.527) | 1992 | Psychometrics | Original statement of the argument-based approach. DOI [10.1037/0033-2909.112.3.527](https://psycnet.apa.org/doi/10.1037/0033-2909.112.3.527) |
 | Borsboom, Mellenbergh and van Heerden, "The Concept of Validity," *Psychological Review* (DOI [10.1037/0033-295X.111.4.1061](https://doi.apa.org/doi/10.1037/0033-295X.111.4.1061)) | 2004 | Psychometrics | Original statement of the causal account of validity |
+| [Shepard, "Evaluating Test Validity," *Review of Research in Education* 19](https://journals.sagepub.com/doi/10.3102/0091732X019001405) | 1993 | Psychometrics | Original statement of consequences as a primary source of validity evidence. DOI [10.3102/0091732X019001405](https://journals.sagepub.com/doi/10.3102/0091732X019001405) |
+| [Campbell, "Factors Relevant to the Validity of Experiments in Social Settings," *Psychological Bulletin* 54](https://psycnet.apa.org/doi/10.1037/h0040950) | 1957 | Psychology | Original statement of external validity. DOI [10.1037/h0040950](https://psycnet.apa.org/doi/10.1037/h0040950) |
 | [Borsboom, "Whose Consensus Is It Anyway? Scientific Versus Legalistic Conceptions of Validity," *Measurement: Interdisciplinary Research and Perspectives* 10](https://www.tandfonline.com/doi/abs/10.1080/15366367.2012.681971) | 2012 | Psychometrics | Original statement of the legalistic objection. DOI [10.1080/15366367.2012.681971](https://www.tandfonline.com/doi/abs/10.1080/15366367.2012.681971) |
 | [Alexandrova, *A Philosophy for the Science of Well-Being*, Oxford University Press](https://academic.oup.com/book/10358) | 2017 | Philosophy of science | Original statement of the objection to construct validation in practice. DOI [10.1093/oso/9780199300518.001.0001](https://academic.oup.com/book/10358) |
 | [American Educational Research Association, American Psychological Association and National Council on Measurement in Education, *Standards for Educational and Psychological Testing*](https://www.testingstandards.net/open-access-files.html) | 2014 | Psychometrics | The field's definition of validity |
