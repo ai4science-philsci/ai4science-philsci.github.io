@@ -90,4 +90,24 @@ Quotations are verified against their source text using the [`citations`](https:
 
 Claude Code (Anthropic) was used for assembling sources, extracting quotations and drafting text. Perplexity (Perplexity AI) was used for literature search and review of drafts. The author wrote, edited and revised the text and takes full responsibility for the work.
 
+**Citation**
+
+Tower, E. (2026). *AI for Science × Philosophy of Science* (Version 1.0). Zenodo. https://zenodo.org/records/24118273
+
+```bibtex
+@book{tower2026ai4sciphilsci,
+  author    = {Tower, Elliot},
+  title     = {{AI} for Science $\times$ Philosophy of Science},
+  year      = {2026},
+  publisher = {Zenodo},
+  version   = {1.0},
+  doi       = {10.5281/zenodo.24118273},
+  url       = {https://ai4science-philsci.github.io}
+}
+```
+
+**License**
+
+The text is licensed under [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/), and the site's code under the [MIT License](https://github.com/ai4science-philsci/ai4science-philsci.github.io/blob/main/LICENSE-CODE). Quoted passages remain under their authors' copyright.
+
 **Contact:** [elliot@elliottower.ai](mailto:elliot@elliottower.ai)
