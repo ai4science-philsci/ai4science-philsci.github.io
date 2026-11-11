@@ -92,7 +92,7 @@ Claude Code (Anthropic) was used for assembling sources, extracting quotations a
 
 **Citation**
 
-Tower, E. (2026). *AI for Science × Philosophy of Science* (Version 1.0). Zenodo. https://zenodo.org/records/24118273
+Tower, E. (2026). *AI for Science × Philosophy of Science*. Zenodo. https://zenodo.org/records/24118272
 
 ```bibtex
 @book{tower2026ai4sciphilsci,
@@ -100,8 +100,7 @@ Tower, E. (2026). *AI for Science × Philosophy of Science* (Version 1.0). Zenod
   title     = {{AI} for Science $\times$ Philosophy of Science},
   year      = {2026},
   publisher = {Zenodo},
-  version   = {1.0},
-  doi       = {10.5281/zenodo.24118273},
+  doi       = {10.5281/zenodo.24118272},
   url       = {https://ai4science-philsci.github.io}
 }
 ```
