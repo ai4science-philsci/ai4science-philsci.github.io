@@ -21,9 +21,11 @@ This page focuses primarily on construct validity, developed by the psychologist
 | Content | [American Psychological Association (1954)](https://psycnet.apa.org/doi/10.1037/h0053479) | Were the items representatively sampled from the domain of interest? | Kane's generalization link, below |
 | Construct | [American Psychological Association (1954)](https://psycnet.apa.org/doi/10.1037/h0053479); [Cronbach and Meehl (1955)](https://psychclassics.yorku.ca/Cronbach/construct.htm) | Does the score relate to other measures as the theory of the attribute predicts: agreeing with measures of the same attribute (convergent) and differing from measures of others (discriminant)? | This page |
 | Consequential | [Messick (1989)](https://www.ets.org/research/policy_research_reports/publications/chapter/1989/hwrq.html); [Shepard (1993)](https://journals.sagepub.com/doi/10.3102/0091732X019001405) | Do the actions taken on the score achieve what they are for? | [Scope and Licensing](/scope/scope-and-licensing/) |
+| Internal | [Campbell (1957)](https://psycnet.apa.org/doi/10.1037/h0040950) | Did the treatment, and not something else, cause the difference observed in this study? | [Causation and Intervention](/causation/causation-and-intervention/) |
 | External | [Campbell (1957)](https://psycnet.apa.org/doi/10.1037/h0040950) | Does the result hold beyond the population and setting that produced it? | [Transfer and Scope](/transfer/transfer-and-scope/) |
+| Statistical conclusion | Cook and Campbell (1979) | Do the statistical tests support the conclusion that the presumed cause and effect vary together? | [Forking Paths](/forking/forking-paths/), [Stopping and Evidence](/stopping/stopping-and-evidence/) |
 
-Psychometrics introduced criterion, content and construct validity (see [Mari, Wilson and Maul (2023), ch. 4](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4), for this history in more detail). Consequential validity comes from educational measurement, and external validity from experimental design in the social sciences.
+Psychometrics introduced criterion, content and construct validity (see [Mari, Wilson and Maul (2023), ch. 4](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4), for this history in more detail). Consequential validity comes from educational measurement. Internal, external and statistical conclusion validity come from experimental design in the social sciences: the psychologist Donald Campbell named internal and external validity in 1957, and Thomas Cook and Campbell added statistical conclusion validity in 1979.
 
 The psychometrician Samuel Messick later argued that validity is a single concept, a generalized construct validity, and that the older types are kinds of evidence for it:
 
@@ -216,10 +218,10 @@ Mari, Wilson and Maul, *Measurement Across the Sciences* (Springer, 2nd ed., 202
 
 | Chapter | Topics | Principle |
 |---|---|---|
-| 4.3.1, "Early Perspectives on Validity" | Kelley and Cureton; criterion correlations as validity coefficients; content validity | **Validity as correlation**: an early definition, and the one that blurs what we know with how we know it |
-| 4.3.2, "Construct Validity" | Cronbach and Meehl's nomological network; Campbell and Fiske's convergent and discriminant validity | **Many measures, one construct**: measures of the same attribute should agree and measures of different attributes should not |
-| 4.3.3, "An Argument-Based Approach to Validity" | Messick's evaluative judgment; Kane's validation argument; the testing standards; the legalistic objection | **Validity for a use**: an argument from score to a stated use, reopened when the use changes |
-| 4.3.4, "Causal Perspectives on Validity" | Borsboom's definition; the authors' own alignment with it; its standing in the field | **Validity as fact**: whether the attribute exists and causes the scores, independent of the evidence to hand |
+| [4.3.1](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4#Sec8), "Early Perspectives on Validity" | Kelley and Cureton; criterion correlations as validity coefficients; content validity | **Validity as correlation**: an early definition, and the one that blurs what we know with how we know it |
+| [4.3.2](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4#Sec9), "Construct Validity" | Cronbach and Meehl's nomological network; Campbell and Fiske's convergent and discriminant validity | **Many measures, one construct**: measures of the same attribute should agree and measures of different attributes should not |
+| [4.3.3](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4#Sec10), "An Argument-Based Approach to Validity" | Messick's evaluative judgment; Kane's validation argument; the testing standards; the legalistic objection | **Validity for a use**: an argument from score to a stated use, reopened when the use changes |
+| [4.3.4](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4#Sec11), "Causal Perspectives on Validity" | Borsboom's definition; the authors' own alignment with it; its standing in the field | **Validity as fact**: whether the attribute exists and causes the scores, independent of the evidence to hand |
 
 ## Sources
 

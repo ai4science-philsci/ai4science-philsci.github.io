@@ -64,6 +64,14 @@ The builder's wish is a cause of the height; the shadow is an effect of it.
 
 The flagpole and his own Rashomon effect show prediction succeeding in the wrong direction or with the wrong story. Shmueli keeps the two goals apart and asks for both to be measured.
 
+**Breiman (2001) to Occam's razor: in prediction, simplicity costs accuracy.** One answer to the Rashomon effect is Occam's razor: of the models that fit about equally well, choose the simplest. Breiman replied that in prediction other things are rarely equal.
+
+> Occam's Razor, long admired, is usually interpreted to mean that simpler is better. Unfortunately, in prediction, accuracy and simplicity (interpretability) are in conflict.
+>
+> — [Breiman (2001), §9, p. 206](https://projecteuclid.org/journals/statistical-science/volume-16/issue-3/Statistical-Modeling--The-Two-Cultures-with-comments-and-a/10.1214/ss/1009213726.full)
+
+A single decision tree is easy to interpret and predicts moderately well; a forest of a hundred trees predicts better and is nearly impossible to interpret. Breiman called this the Occam dilemma, and he chose accuracy first and understanding after. The philosophers Malcolm Forster and Elliott Sober argued that how much complexity should count against a model depends on the goal, because probable truth and predictive accuracy are distinct goals ([SEP, §5](https://plato.stanford.edu/entries/simplicity/#ProJusSim)). Sober also held that simplicity has no general justification: whether the simpler model of a mechanism is more likely to be right depends on facts about that mechanism ([SEP, §2](https://plato.stanford.edu/entries/simplicity/#OntPar)).
+
 **Van Fraassen (1989) to inference to the best explanation.** If explaining is a separate aim from predicting, a natural rule follows: accept the hypothesis that best explains the evidence. Philosophers call this abduction, or inference to the best explanation, and physicians use it whenever they settle on the diagnosis that best fits the symptoms. Van Fraassen objected that the rule compares only the hypotheses someone thought of. For it to be reliable,
 
 > it must hold that at least typically the absolutely best explanation of the evidence is to be found among the candidate explanations we have come up with, for else ABD1 may well lead us to believe “the best of a bad lot” (van Fraassen 1989, 143)
@@ -94,15 +102,15 @@ One reply is to weaken the conclusion: the best of the candidates is accepted as
 - **Shmueli** asks for predictive and explanatory quality to be reported separately. A high score on a benchmark says nothing, by itself, about why the outcome happens.
 
 <details class="worked-example">
-<summary>Illustrative example: an agent predicting drug response from health records</summary>
+<summary>Illustrative example: an agent explaining its own failed runs</summary>
 
-An agent trains models on electronic health records to predict which patients respond to a drug. Its best model is highly accurate, and its most important input is a lab value measured weeks into treatment, which falls when the drug works.
+An agent reviews 2,000 of its own runs on a coding benchmark to explain why it fails. Failed runs take three times as many steps as successful ones, and the number of steps alone tells successes from failures in held-out runs with 88% accuracy. The agent concludes that long runs cause failure and proposes a limit of 30 steps.
 
-**The flagpole.** The lab value is produced by the response, not a cause of it. The model predicts the outcome from its shadow.
+**The flagpole.** A run stops when the task is solved, so succeeding produces short runs and failing produces long ones, as the pole produces the shadow. A step limit shortens the shadow: runs that were going to fail fail sooner, and runs that needed more steps to succeed now fail too. Running the agent with and without the limit would show what the limit does.
 
-**Breiman.** Other models with nearly the same accuracy rank different inputs first. The accuracy does not say which ranking describes the patients.
+**Breiman.** The number of files opened, of test reruns and of tokens written each tell successes from failures almost as well, and each suggests a different reason the runs fail.
 
-**Shmueli.** The model has high predictive accuracy and no explanatory value about how the drug works. Reporting its accuracy alone would invite the reader to assume the second.
+**Shmueli.** Step count predicts failure well enough to stop a run early and retry, which is a predictive use. Whether it explains the failures is a separate question, and on Shmueli's account the report gives the 88% and assesses the explanation separately.
 
 </details>
 
@@ -149,7 +157,7 @@ Hernán and Robins, *Causal Inference: What If* (Chapman & Hall/CRC, 2020), writ
 | Source | Year | Field | Principle |
 |---|---|---|---|
 | [Woodward and Ross, "20th Century Theories of Scientific Explanation," *Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/entries/scientific-explanation-20th/) | 2025 | Philosophy of science | **Explanatory asymmetry**: a derivation can predict an outcome without explaining it |
-| [Breiman, "Statistical Modeling: The Two Cultures," *Statistical Science*](https://projecteuclid.org/journals/statistical-science/volume-16/issue-3/Statistical-Modeling--The-Two-Cultures-with-comments-and-a/10.1214/ss/1009213726.full) | 2001 | Statistics | **Rashomon effect**: many models of near-equal accuracy give different accounts of the data |
+| [Breiman, "Statistical Modeling: The Two Cultures," *Statistical Science*](https://projecteuclid.org/journals/statistical-science/volume-16/issue-3/Statistical-Modeling--The-Two-Cultures-with-comments-and-a/10.1214/ss/1009213726.full) | 2001 | Statistics | **Rashomon effect**: many models of near-equal accuracy give different accounts of the data; **Occam dilemma**: the most accurate predictors are the hardest to interpret |
 | [Shmueli, "To Explain or to Predict?," *Statistical Science*](https://arxiv.org/abs/1101.0891) | 2010 | Statistics | **Two dimensions**: explanatory and predictive power are separate and reported separately |
 | [Kapoor and Narayanan, "Leakage and the Reproducibility Crisis in ML-based Science," *Patterns*](https://arxiv.org/abs/2207.07048) | 2023 | Machine learning | **Leakage**: features that carry information about the outcome inflate accuracy in published ML-based science |
 | [D'Amour et al., "Underspecification Presents Challenges for Credibility in Modern Machine Learning"](https://arxiv.org/abs/2011.03395) | 2020 | Machine learning | **Underspecification**: equally accurate models behave differently outside the test data |
@@ -157,4 +165,5 @@ Hernán and Robins, *Causal Inference: What If* (Chapman & Hall/CRC, 2020), writ
 | [Godfrey-Smith, *Theory and Reality*, University of Chicago Press](https://press.uchicago.edu/ucp/books/book/chicago/T/bo37447570.html) | 2003 | Philosophy of science | Textbook statement of the asymmetry problem; credits the objection to Bromberger (1966). DOI [10.7208/chicago/9780226300610.001.0001](https://www.bibliovault.org/BV.landing.epl?ISBN=9780226300610) |
 | [Bromberger, "Why-Questions," in Colodny (ed.), *Mind and Cosmos*, University of Pittsburgh Press](https://archive.org/details/mindcosmosessays0000colo) | 1966 | Philosophy of science | Statement of the asymmetry objection to the covering-law model, as credited by Godfrey-Smith |
 | [Douven, "Abduction," *Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/entries/abduction/) | rev. 2025 | Philosophy | **Inference to the best explanation** and the bad-lot objection |
+| [Baker, "Simplicity," *Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/entries/simplicity/) | rev. 2022 | Philosophy of science | **Simplicity**: whether simpler theories are more likely to be true, and which goal a preference for them serves |
 | [Van Fraassen, *Laws and Symmetry*, Oxford University Press](https://academic.oup.com/book/12448) | 1989 | Philosophy of science | The best of a bad lot. DOI [10.1093/0198248601.001.0001](https://academic.oup.com/book/12448) |

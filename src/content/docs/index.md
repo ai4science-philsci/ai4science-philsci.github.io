@@ -13,13 +13,22 @@ Between data and a scientific conclusion sit four questions, each worked out by 
 - **Evidence** *(statistics, psychometrics)*: could the test have failed, and does the score measure what it is named for?
 - **Explanation** *(philosophy of science)*: why does the outcome occur, beyond predicting it?
 - **Mechanism** *(philosophy of science, causal inference)*: what parts and activities produce it?
-- **Transfer** *(causal inference)*: when does a finding in one population or system hold in another?
+- **Transfer** *(causal inference)*: when does a finding in one system or setting hold in another?
 
-No single textbook covers all four questions; answering them requires methods spread across many fields. Current research in machine learning and AI for science often crosses all four questions while checking only some of them. AI evaluations commonly address **evidence**: measurement and validity, whereas mechanistic interpretability commonly addresses **mechanism** and **explanation**. **Transfer** is less often tested: results are often carried to new models, datasets and settings without a check that they hold.
+No single textbook covers all four questions; answering them requires methods spread across many fields. Current research in machine learning and AI for science often spans all four questions. Testing applies to every experiment. AI evaluations commonly address **evidence**: measurement and validity, whereas mechanistic interpretability commonly addresses **mechanism** and **explanation**. **Transfer** is less often tested.
 
 AI systems are now used throughout the scientific research process, from proposing hypotheses to interpreting results. This makes research methodology increasingly important.
 
 This site's chapters quote the Stanford Encyclopedia of Philosophy extensively, applying its concepts toward machine learning and AI for science research. Together, the chapters unify the fields above into a common vocabulary for empirical research methodology.
+
+**Reading paths**
+
+The chapters below can be read in any order. For a particular topic, start here:
+
+- **Benchmarks and leaderboards:** [Measurement](/measurement/measurement/) → [Validity](/measurement/validity/) → [Optimization and Its Targets](/optimization/optimization-and-its-targets/)
+- **Experiments run and reported by an agent:** [Falsification and Severe Testing](/testing/falsification-and-severe-testing/) → [Forking Paths](/forking/forking-paths/) → [Stopping and Evidence](/stopping/stopping-and-evidence/)
+- **How a model works:** [Mechanism](/mechanism/mechanism/) → [Parts of a Mechanism](/mechanism/parts-of-a-mechanism/) → [Intervention and Use](/mechanism/intervention-and-use/)
+- **A result carried to a new model or dataset:** [Identity Across Systems](/identity/identity-across-systems/) → [Transfer and Scope](/transfer/transfer-and-scope/) → [Scope and Licensing](/scope/scope-and-licensing/)
 
 **Part 1: Evidence**
 

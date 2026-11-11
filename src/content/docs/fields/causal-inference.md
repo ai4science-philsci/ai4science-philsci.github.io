@@ -34,7 +34,7 @@ Two things sort the questions: how much of the causal structure is known in adva
 
 > In general, given a probability distribution $P$ on $\mathbf{V}$, it is only possible to identify a Markov equivalence class of causal structures.
 >
-> — [Hitchcock (2018), "Causal Models," SEP, §4.4](https://plato.stanford.edu/entries/causal-models/)
+> — [Hitchcock (2018), "Causal Models," SEP, §4.4](https://plato.stanford.edu/entries/causal-models/#IdenCausStru)
 
 Choosing among them takes knowledge of the subject, which the data cannot supply.
 
@@ -52,7 +52,7 @@ Wright's path diagrams became the causal graphs of Spirtes, Glymour and Scheines
 >
 > — [Hitchcock (2018), "Causal Models," SEP, §3.1](https://plato.stanford.edu/entries/causal-models/#IntrSEMs)
 
-Without randomization, education and insurance could also affect recovery, so a comparison of treated and untreated patients would mix their effects with the drug's. The potential outcomes tradition reads the coin as making the treated and untreated groups comparable on average, so the difference in their outcomes estimates the effect (Hernán and Robins, 2020, §2.1). The graphical tradition reads it as an intervention: the coin replaces the treatment's usual causes, which removes the arrows pointing into it in the graph (Hitchcock, 2018, §3.1; Peters, Janzing and Schölkopf, 2017; Bareinboim et al., 2022).
+Without randomization, education and insurance could also affect recovery, so a comparison of treated and untreated patients would mix their effects with the drug's. The potential outcomes tradition reads the coin as making the treated and untreated groups comparable on average, so the difference in their outcomes estimates the effect (Hernán and Robins, 2020, §2.1). The graphical tradition reads it as an intervention: the coin replaces the treatment's usual causes, which removes the arrows pointing into it in the graph (Hitchcock, 2018, [§3.1](https://plato.stanford.edu/entries/causal-models/#IntrSEMs); Peters, Janzing and Schölkopf, 2017; Bareinboim et al., 2022).
 
 **Triangulation.** Every observational method rests on assumptions the data cannot verify, so no single observational estimate settles a causal question. The field's remedy is to compare designs whose assumptions differ, for instance an instrumental-variable study and a cohort study adjusted for measured confounders:
 

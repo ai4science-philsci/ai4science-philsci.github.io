@@ -116,6 +116,7 @@ An agent develops a new method for predicting protein stability and compares it 
 | Analyses fixed before the data | [Preregistration](https://www.pnas.org/doi/10.1073/pnas.1708274114) of hypotheses and analysis plans | Choices nobody thought to register |
 | Results depend on run-to-run choices | Benchmarking that varies data splits, initialization and hyperparameters and reports the spread, as in [Bouthillier et al.](https://arxiv.org/abs/2103.03098) | Choices of dataset and metric |
 | Adaptive analyses use up a test set | Controlled reuse of a holdout set, as in [reusable-holdout methods](https://arxiv.org/abs/1506.02629) | Analyses run outside the controlled holdout |
+| Many tests run on one dataset | Dividing the significance level by the number of tests run, the Bonferroni correction (Dunn, 1961) | Analyses that would have been run had the data come out differently, which leave no count to divide by |
 
 ## Evidence patterns
 
@@ -123,6 +124,7 @@ An agent develops a new method for predicting protein stability and compares it 
 |---|---|---|
 | Best of many configurations reported, number not stated | Selection unknown | "The reported configuration is the best of an unstated number." |
 | Number of configurations and selection rule reported | Selection disclosed | "We tried N configurations and report the best by validation score." |
+| Number of tests stated and threshold corrected | False positives controlled across the tests run | "We ran N tests and judged each at α/N (Bonferroni)." |
 | Analysis choices fixed in a registered plan | Choices independent of the results | "Analyses followed the plan registered at R before the data were seen." |
 | Result reported across seeds, splits and reasonable alternatives | Robustness to forking choices | "Across K alternatives the effect ranged from A to B." |
 
@@ -138,8 +140,8 @@ Lakens, *Improving Your Statistical Inferences*, an open textbook written for re
 
 | Chapter | Topics | Principle |
 |---|---|---|
-| 13.1–13.2, "Preregistration of the Statistical Analysis Plan" and "The value of preregistration" | Bem's precognition studies; study registries; the drop in significant trial results after primary outcomes had to be registered | **Severity made visible**: preregistration lets a reader judge how severely a hypothesis was tested; it does not by itself make a study better |
-| 13.3–13.6, "How to preregister" through "What Does a Formalized Analytic Strategy Look Like?" | Reporting standards; sample size justification; analysis code run on simulated data; deviations and their effect on severity and validity | **Code before data**: the most transparent preregistration is the analysis code, written before the data exist |
+| [13.1–13.2](https://lakens.github.io/statistical_inferences/13-prereg.html#preregistration-of-the-statistical-analysis-plan), "Preregistration of the Statistical Analysis Plan" and "The value of preregistration" | Bem's precognition studies; study registries; the drop in significant trial results after primary outcomes had to be registered | **Severity made visible**: preregistration lets a reader judge how severely a hypothesis was tested; it does not by itself make a study better |
+| [13.3–13.6](https://lakens.github.io/statistical_inferences/13-prereg.html#how-to-preregister), "How to preregister" through "What Does a Formalized Analytic Strategy Look Like?" | Reporting standards; sample size justification; analysis code run on simulated data; deviations and their effect on severity and validity | **Code before data**: the most transparent preregistration is the analysis code, written before the data exist |
 
 ## Sources
 
@@ -154,3 +156,4 @@ Lakens, *Improving Your Statistical Inferences*, an open textbook written for re
 | Rosenthal, "The file drawer problem and tolerance for null results," *Psychological Bulletin* (DOI [10.1037/0033-2909.86.3.638](https://doi.apa.org/doi/10.1037/0033-2909.86.3.638)) | 1979 | Psychology | Original statement of the file-drawer problem |
 | Kerr, "HARKing: Hypothesizing After the Results are Known," *Personality and Social Psychology Review* (DOI [10.1207/s15327957pspr0203_4](https://journals.sagepub.com/doi/10.1207/s15327957pspr0203_4)) | 1998 | Psychology | Original account of HARKing |
 | [Hardwig, "Epistemic Dependence," *Journal of Philosophy* 82(7)](https://www.jstor.org/stable/2026523) | 1985 | Philosophy | **Epistemic dependence**: authors rely on results none of them can check alone |
+| Dunn, "Multiple Comparisons among Means," *Journal of the American Statistical Association* 56(293), pp. 52–64 | 1961 | Statistics | **Bonferroni correction**: each of N tests judged at the significance level divided by N |

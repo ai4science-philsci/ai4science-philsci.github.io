@@ -161,6 +161,10 @@
       "title": "AI for Science × Philosophy of Science"
     },
     {
+      "slug": "/measurement/validity/",
+      "title": "Validity"
+    },
+    {
       "slug": "/stopping/stopping-and-evidence/",
       "title": "Stopping and Evidence"
     },
@@ -309,6 +313,10 @@
     {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/measurement/validity/",
+      "title": "Validity"
     }
   ],
   "/causation/causation-and-intervention/": [
@@ -331,6 +339,10 @@
     {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/measurement/validity/",
+      "title": "Validity"
     }
   ],
   "/scope/scope-and-licensing/": [

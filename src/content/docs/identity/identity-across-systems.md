@@ -74,7 +74,7 @@ An agent is given gene-expression data from a fungus and asked whether the stres
 
 **Fisher and Scharff.** The report names a pathway. The evidence reaches a set of genes whose expression moves together under one condition, which is a role in a response, not a pathway with known parts and order.
 
-**Yarkoni and Nosek.** A later study knocks out one of the mapped genes in the fungus and finds no effect on heat survival, and reports that the yeast result failed to replicate. The yeast result stands in yeast. What failed is the belief that the differences between the organisms were irrelevant to the finding, which was never tested.
+**Yarkoni and Nosek.** A later study knocks out one of the mapped genes in the fungus and does not find an effect on heat survival, and reports that the yeast result failed to replicate. The yeast result stands in yeast. What failed is the belief that the differences between the organisms were irrelevant to the finding, which was never tested.
 
 </details>
 

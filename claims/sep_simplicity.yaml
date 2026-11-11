@@ -1,0 +1,20 @@
+source:
+  citation: sep_simplicity
+  url: https://plato.stanford.edu/entries/simplicity/
+  local: sources/sep_simplicity.html
+  extract_cmd: textutil -convert txt -stdout {}
+claims:
+  other_things_equal:
+    quotes:
+    - exact: Most philosophers believe that, other things being equal, simpler theories are better.
+      section: Preamble
+  forster_two_goals:
+    quotes:
+    - exact: Forster distinguishes two potential goals of model selection, namely probable truth and predictive
+        accuracy, and claims that these are importantly distinct
+      section: 5. Probabilistic/Statistical Justifications of Simplicity
+  sober_local:
+    quotes:
+    - exact: The legitimacy of parsimony stands or falls, in a particular research context, on subject
+        matter specific (and a posteriori) considerations.
+      section: 2. Ontological Parsimony

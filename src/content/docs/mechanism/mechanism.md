@@ -11,7 +11,7 @@ AI systems for science increasingly report discoveries: a gene that drives a dis
 2. **A mechanism is the mechanism for a phenomenon.** Mechanisms are defined only relative to the phenomenon they cause, underlie or explain (Glennan, 1996). Discovering a mechanism typically revises the description of that phenomenon.
 3. **The Russo–Williamson thesis: a causal claim typically needs two kinds of evidence.** A causal claim typically requires evidence that the cause makes a difference and evidence of how it produces the effect (Russo and Williamson, 2007).
 
-The next three pages take the questions this one opens: [what a model of a mechanism can be](/mechanism/models-of-mechanisms/), [how to tell whether a part belongs to one](/mechanism/parts-of-a-mechanism/), and [whether an intervention shows that the system uses the part](/mechanism/intervention-and-use/).
+The next three pages address the questions this page opens: [what a model of a mechanism can be](/mechanism/models-of-mechanisms/), [how to tell whether a part belongs to one](/mechanism/parts-of-a-mechanism/), and [whether an intervention shows that the system uses the part](/mechanism/intervention-and-use/).
 
 ## From correlation to mechanism
 

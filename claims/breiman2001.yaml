@@ -125,3 +125,14 @@ claims:
         data mechanism.
       section: 12. Final Remarks
       page: 214
+  occam_conflict:
+    quotes:
+    - exact: Occam's Razor, long admired, is usually interpreted to mean that simpler is better. Unfortunately,
+        in prediction, accuracy and simplicity (interpretability) are in conflict.
+      section: 9. Occam and Simplicity vs. Accuracy
+      page: 206
+  accuracy_first:
+    quotes:
+    - exact: the soundest path is to go for predictive accuracy first, then try to understand why.
+      section: 9.4 The Occam Dilemma
+      page: 208

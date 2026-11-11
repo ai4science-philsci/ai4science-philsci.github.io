@@ -107,7 +107,7 @@ Hall drew his distinction for events in general. Applying it to the parts of a s
 
 Craver and Darden, *In Search of Mechanisms* (University of Chicago Press, 2013), chapter 8, for the caveats on interference experiments: redundant parts and compensatory responses.
 
-The *Stanford Encyclopedia of Philosophy* entry ["Counterfactual Theories of Causation"](https://plato.stanford.edu/entries/causation-counterfactual/), §1.3, "Transitivity and Preemption," for the cases that drive Hall's distinction.
+The *Stanford Encyclopedia of Philosophy* entry ["Counterfactual Theories of Causation"](https://plato.stanford.edu/entries/causation-counterfactual/), [§1.3](https://plato.stanford.edu/entries/causation-counterfactual/#TraPre), "Transitivity and Preemption," for the cases that drive Hall's distinction.
 
 ## Sources
 
