@@ -10,3 +10,71 @@ claims:
     - exact: While explanatory power provides information about the strength of an underlying causal relationship,
         it does not imply its predictive power.
       section: 1.4 The Scientific Value of Predictive Modeling
+  assess_separately:
+    interpretation:
+      says: Shmueli holds that the two should be assessed and reported separately.
+      whose: ai4science-philsci
+    quotes:
+    - exact: A common misconception in various scientific fields is that predictive power can be inferred
+        from explanatory power. However, the two are different and should be assessed separately.
+      section: 2.6.2 Model evaluation
+      page: 12
+  report_both:
+    interpretation:
+      says: Shmueli holds that the two should be assessed and reported separately.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In terms of model evaluation and scientific reporting, researchers should report both the
+        explanatory and predictive qualities of their models.
+      section: '4.2 Explanatory and Predictive Power: Two Dimensions'
+      page: 18
+  two_dimensions:
+    interpretation:
+      says: The statistician Galit Shmueli treated explanatory power and predictive power as separate
+        qualities that a model has in different amounts, to be reported separately.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Explanatory power and predictive accuracy are different qualities; a model will possess some
+        level of each.
+      section: '4.2 Explanatory and Predictive Power: Two Dimensions'
+      page: 18
+  report_alongside:
+    interpretation:
+      says: The statistician Galit Shmueli treated explanatory power and predictive power as separate
+        qualities that a model has in different amounts, to be reported separately.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Even if prediction is not the goal, the predictive qualities of a model should be reported
+        alongside its explanatory power so that it can be fairly evaluated in terms of its capabilities
+        and compared to other models.
+      section: '4.2 Explanatory and Predictive Power: Two Dimensions'
+      page: 18
+  ptolemaic_navigation:
+    interpretation:
+      says: 'Her example runs the other way too: Ptolemaic astronomy predicted well enough to navigate
+        by, long after its theory was known to be wrong.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: One well-known example is Ptolemaic astronomy, which until recently was used for nautical
+        navigation but is based on a theory proven to be wrong long ago.
+      section: 4.1 The Cost of Indiscrimination to Scientific Research
+      page: 18
+  report_both_qualities:
+    interpretation:
+      says: Shmueli keeps the two goals apart and asks for both to be measured.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In terms of model evaluation and scientific reporting, researchers should report both the
+        explanatory and predictive qualities of their models.
+      section: '4.2 Explanatory and Predictive Power: Two Dimensions'
+      page: 18
+  social_sciences:
+    interpretation:
+      says: Breiman's evidence came from the models of 2001, and Shmueli wrote mainly about statistical
+        modeling in the social sciences.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In many scientific fields, and especially the social sciences, statistical methods are used
+        nearly exclusively for testing causal theory.
+      section: 1.1 Explanatory Modeling
+      page: 2

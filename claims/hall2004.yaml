@@ -37,3 +37,13 @@ claims:
     - exact: Nonsense; counterfactual dependence is too causation
       section: 6 Two Concepts
       page: 253
+  two_varieties:
+    interpretation:
+      says: '[Intervention and Use](/mechanism/intervention-and-use/) takes up one form of this objection,
+        Hall''s argument that "cause" names two relations.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Causation, understood as a relation between events, comes in at least two basic and fundamentally
+        di¤erent varieties.
+      section: 1 Introduction
+      page: 225

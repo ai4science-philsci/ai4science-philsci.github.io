@@ -18,3 +18,38 @@ claims:
     - exact: causation does not involve a necessary connection, a productive relation, causal powers,
         or the like
       section: 1.1 Humean Regularity Theory
+  hume_necessity_in_mind:
+    interpretation:
+      says: The philosopher David Hume held that we never observe a necessary connection between cause
+        and effect, only that events of one kind are followed by events of another.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'And indeed, Hume says that “[n]ecessity is something that exists in the minds, not in objects”
+        (1739: book I, part III, section XIV [1978: 165]). So there is no necessary connection in the
+        world which would go beyond regular association.'
+      section: 1.1 Humean Regularity Theory
+  observe_succession:
+    interpretation:
+      says: The philosopher David Hume held that we never observe a necessary connection between cause
+        and effect, only that events of one kind are followed by events of another.
+      whose: ai4science-philsci
+    quotes:
+    - exact: We may observe spatiotemporal contiguity, temporal precedence, and that a certain type of
+        event is generally followed by another type of event.
+      section: 1.1 Humean Regularity Theory
+  hrt_three_conditions:
+    interpretation:
+      says: On the regularity theory that bears his name, *c* causes *e* when the two are close together,
+        *c* comes first, and events like *c* are always followed by events like *e*.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Causation is thus analysed in terms of spatiotemporal contiguity, temporal precedence, and
+        regular connection.
+      section: 1.1 Humean Regularity Theory
+  hrt_nothing_more:
+    interpretation:
+      says: 'Nothing more is involved:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: There is nothing more to causation according to HRT.
+      section: 1.1 Humean Regularity Theory

@@ -17,3 +17,95 @@ claims:
     quotes:
     - exact: According to the LP, the stopping rule doesn’t alter evidence.
       page: 1
+  optional_stopping_high_probability:
+    interpretation:
+      says: 'A researcher who keeps testing until the result is significant has a procedure that almost
+        always gets there:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: If a tester tries and tries again until significance is reached–optional stopping–significance
+        will be attained erroneously with high probability.
+      page: 1
+  lp_holders_opposite:
+    interpretation:
+      says: Bayesian and likelihood statisticians hold the opposite view.
+      whose: ai4science-philsci
+    quotes:
+    - exact: According to the LP, the stopping rule doesn’t alter evidence. The irrelevance of optional
+        stopping is an asset for holders of the LP, it’s the opposite for a severe tester.
+      page: 1
+  lp_outcomes_drop_out:
+    interpretation:
+      says: 'Many Bayesian statisticians also hold the likelihood principle: the evidence depends only
+        on the data observed, so the analyses not reported, and the plan for when to stop, do not change
+        what the data show.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Logics of induction focus on the relationships between given data and hypotheses–so outcomes
+        other than the one observed drop out. This is captured in the Likelihood Principle (LP).
+      section: Excursion 1 Tour II summary
+      page: 1
+  lp_fishing_no_effect:
+    interpretation:
+      says: 'Many Bayesian statisticians also hold the likelihood principle: the evidence depends only
+        on the data observed, so the analyses not reported, and the plan for when to stop, do not change
+        what the data show.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Fishing for maximally fitting hypotheses and other gambits that alter error probabilities
+        do not affect the assessment of evidence; they may be blocked by moving to the “belief” category.
+      prefix: 'sample space.) '
+      suffix: ' to the error statistician'
+      section: 'Souvenir B: Likelihood versus Error Statistical'
+      page: 7
+  optional_stopping_case:
+    interpretation:
+      says: Mayo replies with the case of a researcher who keeps collecting data and testing until the
+        result is significant.
+      whose: ai4science-philsci
+    quotes:
+    - exact: If a tester tries and tries again until significance is reached–optional stopping–significance
+        will be attained erroneously with high probability.
+      section: Excursion 1 Tour II summary
+      page: 1
+  optional_stopping_vs_lp:
+    interpretation:
+      says: On the likelihood principle the stopping rule does not matter, yet the procedure will reach
+        significance with high probability even when there is no effect.
+      whose: ai4science-philsci
+    quotes:
+    - exact: If a tester tries and tries again until significance is reached–optional stopping–significance
+        will be attained erroneously with high probability. According to the LP, the stopping rule doesn’t
+        alter evidence.
+      section: Excursion 1 Tour II summary
+      page: 1
+  error_probabilities_evidential:
+    interpretation:
+      says: Mayo uses error probabilities to assess severity, but a method with good error rates can still
+        be applied in a way that could not have found the flaw.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'What’s distinctive about the severe testing account is that it uses error probabilities
+        evidentially: to assess how severely a claim has passed a test. Error control is necessary but
+        not sufficient for severity.'
+      section: Excursion 1 Tour II summary
+      page: 1
+  error_probabilities_invalidated:
+    interpretation:
+      says: Mayo uses error probabilities to assess severity, but a method with good error rates can still
+        be applied in a way that could not have found the flaw.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Error probabilities can be readily invalidated due to how the data (and hypotheses!) are
+        generated or selected for testing.
+      section: Notes from section 1.2
+      page: 3
+  selection_effects_alter_probing:
+    interpretation:
+      says: Mayo's account transfers most directly, since it was built for statistical procedures and
+        selection effects.
+      whose: ai4science-philsci
+    quotes:
+    - exact: (Failed statistical assumptions, selection effects alter a test’s error probing capacities).
+      section: Notes from section 1.2
+      page: 4

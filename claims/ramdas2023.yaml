@@ -39,3 +39,114 @@ claims:
     - exact: there may (or may not) be tradeoffs between safety and power
       section: 1. Introduction
       page: 2
+  feller_1940s_esp:
+    interpretation:
+      says: Statisticians have warned about this since the 1940s, when it was noticed in studies of extrasensory
+        perception, and it remains common.
+      whose: ai4science-philsci
+    quotes:
+    - exact: The fallacy of sampling until a significant result is obtained has been discussed by statisticians
+        at least since the 1940s, when Feller (1940) saw it happening in the study of extra-sensory perception.
+      section: 1. Introduction
+      page: 1
+  prevalence_undented:
+    interpretation:
+      says: Statisticians have warned about this since the 1940s, when it was noticed in studies of extrasensory
+        perception, and it remains common.
+      whose: ai4science-philsci
+    quotes:
+    - exact: But disapproval by statisticians has hardly dented the prevalence of the practice.
+      section: 1. Introduction
+      page: 1
+  john_survey_2000:
+    interpretation:
+      says: In a survey of over 2,000 psychologists by Leslie John and colleagues (2012), 56 percent admitted
+        deciding whether to collect more data after checking whether the results were significant.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Ten years ago, an anonymous survey of over 2000 psychologists found 56% admitting to “deciding
+        whether to collect more data after looking to see whether the results were significant” (John,
+        Loewenstein and Prelec, 2012).
+      section: 1. Introduction
+      page: 1
+  beyond_disapproval:
+    interpretation:
+      says: A newer line of work in statistics, summarized by the statisticians Aaditya Ramdas, Peter
+        Grünwald, Vladimir Vovk and Glenn Shafer, stops disapproving of peeking and builds tools that
+        allow it.
+      whose: ai4science-philsci
+    quotes:
+    - exact: we need to go beyond disapproval of peeking, and we instead should give researchers tools
+        to fully accommodate it
+      section: 1. Introduction
+      page: 1
+  wealth_process_betting_game:
+    interpretation:
+      says: 'Its measures of evidence, called e-values, come from a betting game: evidence against a hypothesis
+        is the money a gambler makes betting against it, starting from one dollar.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: These measures crucially rely on test martingales, which are nonnegative martingales starting
+        at one. Since a test martingale is the wealth process of a player in a betting game, SAVI centrally
+        employs game-theoretic intuition, language and mathematics.
+      section: Abstract
+      page: 1
+  more_money_more_evidence:
+    interpretation:
+      says: 'Its measures of evidence, called e-values, come from a betting game: evidence against a hypothesis
+        is the money a gambler makes betting against it, starting from one dollar.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Skeptic refutes the odds by making money betting at those odds; more money is more evidence
+        that the odds do not reflect reality.
+      section: 1. Introduction
+      page: 2
+  gamblers_ruin:
+    interpretation:
+      says: Money made by betting fairly cannot be inflated by choosing when to stop counting, so
+      whose: ai4science-philsci
+    quotes:
+    - exact: a gambler who begins with unit capital and keeps betting until he wins the casino’s entire
+        capital α has little chance of succeeding
+      section: 2.5 Ville’s Theorem and Ville’s Inequality
+      page: 6
+  valid_any_stopping_time:
+    interpretation:
+      says: The approach gives error control without depending on the stopping rule, which goes some way
+        toward dissolving the first two positions' quarrel.
+      whose: ai4science-philsci
+    quotes:
+    - exact: where a single stopping rule is replaced by notions of evidence that remain valid at any
+        stopping time not specified in advance
+      section: 1. Introduction
+      page: 2
+  safety_price_power:
+    interpretation:
+      says: 'The authors note that the safety may cost power: a test valid at every stopping time can
+        need more data than one built for a single fixed sample.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: This safety may come with a price, of course; there may (or may not) be tradeoffs between
+        safety and power; see Section B.
+      section: 1. Introduction
+      page: 2
+  prior_before_data_planned_peeking:
+    interpretation:
+      says: A prior fixed before any data are seen is indeed unaffected by peeking.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Bayesian inference with a prior defined by a statistician’s beliefs before seeing any of
+        the data is not affected by (planned) peeking.
+      section: 1. Introduction
+      page: 1
+  default_pragmatic_priors:
+    interpretation:
+      says: The trouble, they write, comes with the default or pragmatic priors used in practice, especially
+        priors that depend on the sample size or other features of the data.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Problems quickly arise, however, when default or pragmatic priors are used to test composite
+        null hypotheses. These problems are especially severe for commonly used pragmatic priors that
+        depend on the sample size, covariates, or other aspects of the data
+      section: 1. Introduction
+      page: 1

@@ -7,13 +7,13 @@ This page asks one question: **when does a fit to the data tell you something ab
 
 AI systems for science are trained on datasets and scored on datasets. This page covers three ideas from the philosophy of science about when a fit to the data says something about the world:
 
-1. **Data are evidence for phenomena.** A theory explains the stable phenomenon, not the readings used to detect it.
-2. **Data can travel.** Packaged with information about how they were produced, data can be reused as evidence for new claims. Researchers in the new setting judge their reliability by matching that information against their own criteria.
-3. **Exclusions need reasons.** Excluding a data point requires an explanation of why it is spurious, beyond its disagreement with what was expected.
+1. **The distinction between data and phenomena: data are evidence for phenomena.** A theory explains the stable phenomenon, not the readings used to detect it (Bogen and Woodward, 1988).
+2. **Data packaging: data can travel.** Packaged with information about how they were produced, data can be reused as evidence for new claims. Researchers in the new setting judge their reliability by matching that information against their own criteria (Leonelli, 2009).
+3. **Exclusions need reasons.** Excluding a data point requires an explanation of why it is spurious, beyond its disagreement with what was expected (Franklin, 1981, 1986).
 
 ## From data to phenomena
 
-**Bogen and Woodward (1988): data are evidence for phenomena.** The philosophers James Bogen and James Woodward argued that scientific theories do not explain data. They explain phenomena, which data are used to detect. Nobody measures the melting point of lead with a single thermometer reading. Each reading depends on the purity of the sample, the thermometer, the moment it was read and much else, and the melting point is inferred from the scatter. When Bernard Katz recorded electrical activity in nerve fibers, his numbers moved with his equipment, the placement of his electrodes, the nerve's slow deterioration, and vibrations from his teacher A. V. Hill walking on the stairs outside the lab. No theory of the nerve could predict those numbers. It could predict the regularities they were used to establish.
+**Bogen and Woodward (1988): data are evidence for phenomena.** The philosophers James Bogen and James Woodward argued that scientific theories do not explain data. They explain phenomena, which data are used to detect. Nobody measures the melting point of lead with a single thermometer reading. Each reading depends on the purity of the sample, the thermometer, the moment it was read and much else, and the melting point is inferred from the scatter. The SEP entry adds the case of Bernard Katz: when he recorded electrical activity in nerve fibers, his numbers moved with his equipment, the placement of his electrodes, the nerve's slow deterioration, and vibrations from his teacher A. V. Hill walking on the stairs outside the lab. No theory of the nerve could predict those numbers. It could predict the regularities they were used to establish.
 
 > investigators use data to infer facts about phenomena, i.e., events, regularities, processes, etc. whose instances are uniform and uncomplicated enough to make them susceptible to systematic prediction and explanation
 >
@@ -37,7 +37,7 @@ The package carries a record of how the data were made, and a new user needs tha
 >
 > — [Leonelli (2009), §2](https://www.cambridge.org/core/product/identifier/S0031824800012563/type/journal_article)
 
-**Franklin (1981) on Millikan: exclusions need reasons.** Sometimes scientists do have to explain particular data, and outliers are the main case. The philosopher of science Allan Franklin traced how Robert Millikan, measuring the charge of the electron in 1912, wrote “Publish” beside one set of observations, then wrote “Won’t work” once he had calculated the charge they gave and found it out of line. He never published the data or why he dropped them. Franklin recalculated every drop from the notebooks and found that the exclusions did little to the value of the charge; what they changed was how consistent the data looked, and so how small the reported error was.
+**Franklin (1981, 1986) on Millikan: exclusions need reasons.** Sometimes scientists do have to explain particular data, and outliers are the main case. The philosopher of science Allan Franklin traced how Robert Millikan, measuring the charge of the electron in 1912, wrote “Publish” beside one set of observations, then wrote “Won’t work” once he had calculated the charge they gave and found it out of line. He never published the data or why he dropped them. Franklin recalculated the drops from the notebooks and found that the exclusions did little to the value of the charge; what they changed was how consistent the data looked, and so how small the statistical error was.
 
 > the result of his tinkering is to reduce the statistical error rather than to change the mean value of e
 >
@@ -79,7 +79,7 @@ The Millikan case cuts across both: which data count as noise is itself a decisi
 
 **"Then data never need explaining."** The same section says scientists sometimes must explain data: sources of noise, artifacts, and especially outliers, which can be dropped responsibly only once something explains them.
 
-**"Cleaning data is neutral."** The Millikan case shows a cleaning decision made after the result, with no recorded reason. The decision did little to the value of the charge, but it shrank the reported error.
+**"Cleaning data is neutral."** The Millikan case shows a cleaning decision made after the result, with no published reason. The decision did little to the value of the charge, but it shrank the statistical error.
 
 </details>
 
@@ -121,7 +121,7 @@ An agent pools chest X-rays from two hospitals and trains a model to detect pneu
 
 ## Limitations
 
-Bogen and Woodward wrote about experimental sciences in which instruments produce data for a stated purpose. Many machine learning datasets were collected for other purposes and assembled later, so the line between data and phenomenon has to be drawn for each use. Leonelli's account comes from biological databases curated by specialists, which most training datasets are not.
+Bogen and Woodward wrote about experimental sciences in which instruments produce data. Many machine learning datasets were collected for other purposes and assembled later, so the line between data and phenomenon has to be drawn for each use. Leonelli's account comes from biological databases curated by specialists, which most training datasets are not.
 
 ## Sources
 
@@ -132,5 +132,5 @@ Bogen and Woodward wrote about experimental sciences in which instruments produc
 | [Leonelli, "On the Locality of Data and Claims about Phenomena," *Philosophy of Science* 76(5)](https://www.cambridge.org/core/product/identifier/S0031824800012563/type/journal_article) | 2009 | Philosophy of science | **Data travel**: packaged data can be reused as evidence for new claims; their reliability is judged from how they were produced. DOI [10.1086/605804](https://www.cambridge.org/core/product/identifier/S0031824800012563/type/journal_article) |
 | [Zech et al., "Variable generalization performance of a deep learning model to detect pneumonia in chest radiographs," *PLOS Medicine*](https://journals.plos.org/plosmedicine/article?id=10.1371/journal.pmed.1002683) | 2018 | Medical imaging | **Site effects**: performance measured within hospitals can fall at a new hospital |
 | [Gebru et al., "Datasheets for Datasets"](https://arxiv.org/abs/1803.09010) | 2018 | Machine learning | **Dataset documentation**: recording how a dataset was made and what it is suited for |
-| [Franklin, "Millikan's Published and Unpublished Data on Oil Drops," *Historical Studies in the Physical Sciences* 11(2)](https://www.jstor.org/stable/27757478) | 1981 | History of physics | **Exclusions and error bars**: recalculation of all 107 drops; the dropped drops moved the mean little and the reported error much |
-| [Franklin, *The Neglect of Experiment*, Cambridge University Press](https://www.cambridge.org/core/product/identifier/9780511624896/type/book) | 1986 | History and philosophy of science | Original analysis of Millikan's oil-drop notebooks and exclusions. DOI [10.1017/CBO9780511624896](https://www.cambridge.org/core/product/identifier/9780511624896/type/book) |
+| [Franklin, "Millikan's Published and Unpublished Data on Oil Drops," *Historical Studies in the Physical Sciences* 11(2)](https://www.jstor.org/stable/27757478) | 1981 | History of physics | **Exclusions and error bars**: recalculation of Millikan's drops from his notebooks; the dropped drops moved the mean little and the statistical error much |
+| [Franklin, *The Neglect of Experiment*, Cambridge University Press](https://www.cambridge.org/core/product/identifier/9780511624896/type/book) | 1986 | History and philosophy of science | Analysis of Millikan's oil-drop notebooks and exclusions. DOI [10.1017/CBO9780511624896](https://www.cambridge.org/core/product/identifier/9780511624896/type/book) |

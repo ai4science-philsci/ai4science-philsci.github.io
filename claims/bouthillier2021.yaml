@@ -10,3 +10,13 @@ claims:
         markedly the results
       section: Abstract
       page: 1
+  arbitrary_factors_drive_conclusions:
+    interpretation:
+      says: Bouthillier et al. find it can decide the comparison.
+      whose: ai4science-philsci
+    quotes:
+    - exact: As we will show, there are other, larger, sources of uncontrolled variation and the risk
+        is that conclusions are driven by differences due to arbitrary factors, such as data order, rather
+        than model improvements.
+      section: 1 Introduction
+      page: 1

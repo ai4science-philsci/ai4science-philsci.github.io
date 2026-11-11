@@ -5,11 +5,11 @@ description: "Can a model nobody can follow still give understanding? Humphreys 
 
 This page asks one question: **can a model nobody can follow still give understanding?**
 
-Simulation enters science in two ways. In the first, it is an instrument for checking methods: a simulated system whose causes are known in advance lets a causal method be tested against the truth. In the second, it is a source of knowledge about the world: a climate model, a molecular dynamics run or a trained network is used to learn what the real system will do. This page covers three questions about the second use that philosophy of science has studied since the 1990s:
+Explanation is supposed to produce understanding. Simulation enters science in two ways. In the first, it is an instrument for checking methods: a simulated system whose causes are known in advance lets a causal method be tested against the truth. In the second, it is a source of knowledge about the world: a climate model, a molecular dynamics run or a trained network is used to learn what the real system will do. This page covers three questions about the second use that philosophy of science has studied since the 1990s:
 
-1. **Epistemic opacity.** A computation can be too large for anyone to know all the steps that matter.
-2. **Verification and validation.** Checking that the code solves the model and checking that the model fits the world are two tasks that cannot be cleanly separated.
-3. **Understanding.** De Regt separates the feeling of understanding from understanding a phenomenon, which requires an empirically adequate and consistent explanation based on an intelligible theory. A theory is intelligible to scientists who can recognize its qualitatively characteristic consequences without exact calculation.
+1. **Epistemic opacity: a computation can be too large for anyone to know all the steps that matter** (Humphreys, 2004).
+2. **Verification and validation: checking that the code solves the model and checking that the model fits the world cannot be cleanly separated** (Winsberg, 2010).
+3. **Understanding: a theory is intelligible when its consequences can be seen without exact calculation.** Understanding a phenomenon, unlike the feeling of understanding, requires an empirically adequate and consistent explanation based on an intelligible theory (de Regt, 2017).
 
 ## From calculation to knowledge
 
@@ -19,15 +19,21 @@ Simulation enters science in two ways. In the first, it is an instrument for che
 >
 > — Humphreys (2004), §5.3, p. 148
 
-He named two sources. A computation can be too fast to follow, as in a computer-assisted proof. Or it can have no shortcut, so that the only way to learn what the system will do is to run it. He noted that the second kind is the one critics raise against neural network models of the mind. His conclusion was not to distrust such models but to give up on transparency for them. A model that cannot be followed is checked from outside instead: whether it stays stable under small changes, matches exact solutions where those exist, and fits the data.
+He named two sources. A computation can be too fast to follow, as in a computer-assisted proof. Or it can have no shortcut, so that the most efficient way to learn what the system will do is to run it. He noted that the second kind is the one critics raise against neural network models of the mind. His conclusion was not to distrust such models but to give up on transparency for them. A model that cannot be followed is checked from outside instead: whether it stays stable under small changes, matches exact solutions where those exist, and fits the data.
 
-**Winsberg (2010): how a simulation is trusted.** The philosopher Eric Winsberg noted that simulations are run where data are sparse, so their results cannot be checked entirely against observation. Practitioners split the check into two steps. Verification asks whether the code solves the model's equations correctly. Validation asks whether the model represents the real system well enough for the purpose. Winsberg argues that the two cannot be done one after the other:
+**Winsberg (2010): how a simulation is trusted.** The philosopher Eric Winsberg noted that simulations are run where data are sparse, so their results cannot be checked entirely against observation. Practitioners split the check into two steps. Verification asks whether the code solves the model's equations correctly. Validation asks whether the model represents the real system well enough for the purpose. Winsberg argues that the split is not as clean as it looks:
 
 > The sanctioning of simulations does not cleanly divide into verification and validation. In fact, simulation results are sanctioned all at once
 >
 > — Winsberg (2010), ch. 2, p. 23
 
-Model equations are often chosen to cancel numerical errors, and the simulation is tuned against data the way a new instrument is calibrated. Confidence comes from theory, mathematics, intuition and data agreeing at once, not from each being settled in turn. A simulation that matches observations may match them because it was fitted to them.
+Model equations are sometimes chosen to cancel numerical errors, and the model and the method of calculation are adjusted to each other by trial and error, the way a new instrument is calibrated. Confidence comes from theory, mathematics, intuition and data agreeing at once, not from each being settled in turn.
+
+Tuning a simulation to observations also uses up those observations as a test. Winsberg quotes the climate scientist Myles Allen:
+
+> If modelling groups, either consciously or by ‘natural selection,’ are tuning their flagship models to fit the same observations, spread of predictions becomes meaningless
+>
+> — Allen (2008), quoted in Winsberg (2010), ch. 6, p. 113
 
 **De Regt (2017) and Elgin (2017): understanding.** The philosopher of science Carl Hempel kept understanding out of the theory of explanation because it seemed to be a feeling: a wrong explanation can feel satisfying, and a right one can leave people cold. The philosopher of science Henk de Regt replied by separating the feeling of understanding from understanding a theory, which is a skill, and from understanding a phenomenon. He gives a test for the skill that does not depend on anyone's feelings:
 
@@ -37,10 +43,12 @@ Model equations are often chosen to cancel numerical errors, and the simulation 
 
 A model whose consequences can be found only by running it fails this test for whoever uses it, however accurate it is. Catherine Elgin and Angela Potochnik went further, arguing that idealized models give understanding by being false in the right places. Michael Strevens's version is that an idealization works when it sets aside only what makes no difference. The ideal gas law ignores long-range forces between molecules and still explains Boyle's law, because those forces do not affect it. An opaque model that predicts well has the opposite profile: it may track every difference maker and show none of them.
 
+Understanding in this sense is relative to the scientists using a model, unlike a mechanism, which is in the system (see [Mechanism](/mechanism/mechanism/)). The two come apart in both directions. A model can include every part and activity of a mechanism and still give no understanding, because nobody can follow it: a simulation detailed enough to reproduce a cell molecule by molecule would be as hard to grasp as the cell itself. A model can also give understanding while misdescribing the mechanism, as the ideal gas law does by leaving out the long-range forces between molecules. On Strevens's account, a model that gives understanding keeps the difference makers and drops the rest. The Mechanism page asks what the parts and activities are. This page asks whether anyone can see what follows from them.
+
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Frigg and Reiss (2009) on the novelty of simulation.** The philosophers of science Roman Frigg and Julian Reiss argued that simulation raises no new questions: every question splits into one about the model, which is old, and one about the solution, which is mathematics. Winsberg replied that the split fails when equations are chosen to suit the solver and tuned against data.
+**Frigg and Reiss (2009) on the novelty of simulation.** The philosophers of science Roman Frigg and Julian Reiss argued that simulation raises no new questions: every question splits into one about the model, which is old, and one about the solution, which is mathematics. Winsberg replied that the split fails when equations are chosen to suit the solver.
 
 **Computational reliabilism to Humphreys (2004).** Juan Durán and Nico Formanek argue that opacity need not block trust. A result can be trusted because the process that produced it has a good record, shown by outside signs such as track record and expert competence. Ramón Alvarado replies that a record says how often a process succeeds, not where it will fail next.
 
@@ -63,7 +71,7 @@ A model whose consequences can be found only by running it fails this test for w
 
 - **Epistemic opacity** asks what is known about where the model fails. A model trusted on its track record is trusted on the inputs that made the record; whether a new input is one of those is a separate question.
 - **Verification and validation** ask which data the model was checked against, and whether those data were used in building it. A model validated on held-out data from the training source is validated for that source only.
-- **Understanding** asks what difference makers the model has shown, not how convincing its explanation reads.
+- **Understanding** asks whether the people using a model can say what it will do in a new case without running it, and which factors make the difference to its output. A model that can only be run, never anticipated, gives predictions without understanding.
 
 <details class="worked-example">
 <summary>Illustrative example: an agent trusting a structure prediction</summary>
@@ -74,7 +82,7 @@ An agent designing a drug candidate uses a protein structure predictor with a st
 
 **Verification and validation.** The benchmark validates the predictor against experimentally solved structures. The agent's use, the shape of a binding pocket in a protein with no close relatives, is a different purpose. Validation is for a purpose, and this one was not tested.
 
-**Understanding.** The predicted structure gives a picture of the pocket. It does not say which residues make the difference to binding, which is what the drug design needs. The report should say that the binding prediction rests on a predicted structure, and how close the target is to the predictor's validated range.
+**Understanding.** The predicted structure gives the shape of the pocket, but not which residues make the difference to binding. Nobody can say from it how a change to the molecule would change the fit without docking it again. The report should say that the binding prediction rests on a predicted structure, and how close the target is to the predictor's validated range.
 
 </details>
 
@@ -115,7 +123,7 @@ Humphreys, *Extending Ourselves: Computational Science, Empiricism, and Scientif
 
 | Chapter | Topics | Principle |
 |---|---|---|
-| 2, "Sanctioning Models: Theories and Their Scope" | How simulation results are trusted; verification and validation; benchmarking | **Sanctioned all at once**: theory, mathematics, intuition and data are checked together, not in sequence |
+| 2, "Sanctioning Models: Theories and Their Scope" | How simulation results are trusted; verification and validation; benchmarking | **Sanctioned all at once**: confidence comes from theory, mathematics, intuition and data agreeing at once, not from each being settled in turn |
 | 3, "Methodology for a Virtual World" | What simulations share with laboratory experiments; borrowing the epistemology of experiment | **Simulation is checked like an experiment**: its results are trusted by the methods used to trust instruments |
 | 7, "Reliability without Truth" | Fictions inside trusted models: artificial viscosity and vorticity confinement in fluid dynamics | **Reliability is not truth**: a submodel that misdescribes its part of the world can make the whole simulation more reliable |
 

@@ -37,3 +37,154 @@ claims:
     - exact: there is no general answer to the question whether or not animal studies are valuable from
         a purely epistemic (as opposed to ethical, economic, or combined) view
       section: 6. Animal Models
+  rct_gold_standard:
+    interpretation:
+      says: A randomized trial is the standard of evidence in medicine, and philosophers of medicine point
+        out how little it establishes about anyone outside it.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Evidence produced by RCTs has thus been called the “gold standard” of evidence in EBM (e.g.,
+        by Timmermans and Berg 2003).
+      section: 5. Randomized Controlled Trials and Evidence-Based Medicine
+  rct_test_population_only:
+    interpretation:
+      says: A randomized trial is the standard of evidence in medicine, and philosophers of medicine point
+        out how little it establishes about anyone outside it.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Even under ideal conditions (i.e., when medical researchers have very strong reasons to presume
+        the assumptions under which an RCT works to be satisfied), the RCT can only establish that the
+        treatment is effective in the test population.
+      section: 5. Randomized Controlled Trials and Evidence-Based Medicine
+  rct_exclusions:
+    interpretation:
+      says: Trials often exclude elderly patients and patients with other conditions, and the treatment
+        is then marketed to them.
+      whose: ai4science-philsci
+    quotes:
+    - exact: For example, many RCTs will exclude elderly patients or patients with co-morbidities but
+        the treatment will be marketed to these patients.
+      section: 5. Randomized Controlled Trials and Evidence-Based Medicine
+  circle_any_model:
+    interpretation:
+      says: The philosopher Daniel Steel stated the problem for animal models, and it applies to any model
+        studied in place of a target.
+      whose: ai4science-philsci
+    quotes:
+    - exact: There is a fundamental inferential problem in transferring what has been learned in any model
+        (whether human, animal, or whatever) to some target population of interest has been described
+        as the “experimenter’s circle” (Steel 2008).
+      section: 6. Animal Models
+  study_target_directly:
+    interpretation:
+      says: The difficulty is that the model is studied because the target is hard to study.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Extrapolation—the inference from model to target—is therefore only worthwhile to the extent
+        that there are significant limitations in our ability to study the target directly.
+      section: 6. Animal Models
+  circle_no_grounds:
+    interpretation:
+      says: Checking the similarity directly would mean studying the target.
+      whose: ai4science-philsci
+    quotes:
+    - exact: If so, there can be no good grounds to decide whether a model is a good one for the target.
+        To do so, we would have to investigate whether the target is relevantly similar to the model;
+        but if we could do so, there would be no reason to study the model in the first place.
+      section: 6. Animal Models
+  tracing_downstream:
+    interpretation:
+      says: 'Steel''s way out is comparative process tracing: compare the causal process in model and
+        target only at the stages where they are likely to differ, on the assumption that differences
+        matter only downstream of where they occur.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Steel now argues that comparative process tracing avoids the extrapolator’s circle by demanding
+        processes to be compared only at stages where they are likely to differ and assuming that differences
+        between model and target matter only to stages that are downstream from where they obtain.
+      section: 6. Animal Models
+  capacity_cartwright:
+    interpretation:
+      says: The philosopher Nancy Cartwright grounds transfer in stable causal powers.
+      whose: ai4science-philsci
+    quotes:
+    - exact: If C has a causal capacity to bring about E, then C causes E in a somewhat stable or invariant
+        manner. Specifically, C will then continue to contribute to the production of E even when disturbing
+        factors are present (Cartwright 1989).
+      section: 6. Animal Models
+  capacity_disturbing:
+    interpretation:
+      says: A cause with a capacity keeps contributing to its effect when other factors interfere, so
+        evidence that it has the capacity is some reason to expect it to act in a new population.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Specifically, C will then continue to contribute to the production of E even when disturbing
+        factors are present (Cartwright 1989).
+      section: 6. Animal Models
+  capacity_transfer:
+    interpretation:
+      says: A cause with a capacity keeps contributing to its effect when other factors interfere, so
+        evidence that it has the capacity is some reason to expect it to act in a new population.
+      whose: ai4science-philsci
+    quotes:
+    - exact: And therefore, if C causes E in a model species or population and C has the causal capacity
+        to bring about E, then there is some reason to believe that C causes E also in the target species
+        or population (for a defense, see Cartwright 2011).
+      section: 6. Animal Models
+  lafollette_shanks_heuristic:
+    interpretation:
+      says: Hugh LaFollette and Niall Shanks argue that animal models can serve only as sources of hypotheses
+        to be tested in humans.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Hugh LaFollette and Niall Shanks argue that animal models cannot be reliably used for extrapolation
+        at all, but at best only heuristically, as sources of hypotheses that have to be tested on humans
+        (LaFollette and Shanks 1997).
+      section: 6. Animal Models
+  steel_too_stringent:
+    interpretation:
+      says: 'Steel replies that their condition is too strict and that the answer depends on how strong
+        a claim is being exported: a qualitative claim that a substance is poisonous travels further than
+        a percentage.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Daniel Steel (2008: ch. 5) argues that LaFollette and Shanks’ condition for reliable extrapolation
+        is too stringent. Whether a claim about a model can be extrapolated depends, he argues, also on
+        the strength of the claim to be exported.'
+      section: 6. Animal Models
+  steel_poison_example:
+    interpretation:
+      says: 'Steel replies that their condition is too strict and that the answer depends on how strong
+        a claim is being exported: a qualitative claim that a substance is poisonous travels further than
+        a percentage.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: quite another to reason from the quantitative claim to a qualitative claim such as “Substance
+        S is poisonous for the members of q”.
+      section: 6. Animal Models
+  tracing_compare_only:
+    interpretation:
+      says: Steel's process tracing requires comparison only where the two are likely to differ, and Pearl
+        and Bareinboim's method allows known differences, provided they are encoded and the effect can
+        still be derived.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Steel now argues that comparative process tracing avoids the extrapolator’s circle by demanding
+        processes to be compared only at stages where they are likely to differ
+      section: 6. Animal Models
+  tracing_case_dependent:
+    interpretation:
+      says: The SEP entry concludes that the value of animal models must be judged case by case.
+      whose: ai4science-philsci
+    quotes:
+    - exact: This is an issue that depends on the quality of the existing knowledge about a given case
+        and cannot be addressed for the biomedical sciences as a whole.
+      section: 6. Animal Models
+  capacity_case_dependent:
+    interpretation:
+      says: The SEP entry concludes that the value of animal models must be judged case by case.
+      whose: ai4science-philsci
+    quotes:
+    - exact: To what extent this method will be successful therefore similarly case-dependent as comparative
+        process tracing.
+      section: 6. Animal Models

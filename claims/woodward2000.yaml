@@ -9,3 +9,55 @@ claims:
     - exact: this sort of imprecision is allowable in the specification of the domain over which an explanatory
         generalization holds but not acceptable when specifying the generalization itself
       page: 235
+  domain_generalization_standards:
+    interpretation:
+      says: 'The philosopher James Woodward argued that a generalization and the range of cases it holds
+        over are two things, and that they are held to different standards:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: this sort of imprecision is allowable in the specification of the domain over which an explanatory
+        generalization holds but not acceptable when specifying the generalization itself. The informal
+        qualitative descriptions of the domain over which rational choice theory may be expected to hold
+        quoted above illustrate this basic idea—the imprecision of such descriptions is acceptable when
+        characterizing the domain of the theory, but would be unacceptable if built into the fundamental
+        generalizations of RCT.
+      page: 235
+  vague_limits_domain:
+    interpretation:
+      says: The domain can be described loosely, because the limits of a result are often not fully known.
+      whose: ai4science-philsci
+    quotes:
+    - exact: When our knowledge of the limits of validity of a generalization are vague, or when we know
+        or suspect it doesn’t hold exceptionlessly but are unable fully to enumerate the exceptions, we
+        build the vagueness into our characterization of its domain rather than building it into the antecedent
+        of the generalization itself.
+      page: 235
+  vague_boundaries_known_within:
+    interpretation:
+      says: 'Woodward''s distinction answers it: the domain may be stated imprecisely, because its limits
+        are often unknown, and only the result itself must be precise.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Nor is this arbitrary: as suggested above we can operate perfectly well with domains that
+        have vague boundaries since we can often know that we are within those boundaries even if we don’t
+        know exactly what they are.'
+      page: 235
+  unable_to_enumerate:
+    interpretation:
+      says: 'Woodward''s distinction answers it: the domain may be stated imprecisely, because its limits
+        are often unknown, and only the result itself must be precise.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: When our knowledge of the limits of validity of a generalization are vague, or when we know
+        or suspect it doesn’t hold exceptionlessly but are unable fully to enumerate the exceptions, we
+        build the vagueness into our characterization of its domain rather than building it into the antecedent
+        of the generalization itself.
+      page: 235
+  vague_restrictions_no_content:
+    interpretation:
+      says: A limitations section written as hedges inside the claim does what Woodward warns against.
+      whose: ai4science-philsci
+    quotes:
+    - exact: By contrast when vague and unclear domain restrictions are built into the antecedent of a
+        generalization we are left with a candidate for a law without any definite content at all.
+      page: 235

@@ -7,9 +7,9 @@ This page asks one question: **when does a model of a mechanism describe how it 
 
 A model can fit a system's behavior perfectly and say nothing about its parts. A diagram can name the parts and leave every arrow unexplained. A proposed mechanism can be one of many that would produce the same data. This page covers three distinctions from the philosophy of science that separate these cases:
 
-1. **Phenomenal models.** A model can describe what goes in and what comes out without describing the causal structure in between.
-2. **Sketches and schemas.** A schema describes a mechanism with placeholders that can be filled in with known parts and activities. A sketch is incomplete, and its gaps can be marked by black boxes or masked by terms that name an activity without saying how it is carried out.
-3. **How-possibly, how-plausibly, how-actually.** Schemas range from how-possibly, a loosely constrained conjecture, through how-plausibly, consistent with the known evidence, to how-actually, a description of how the mechanism in fact works. Nonstandard tests, under which rival schemas diverge, are frequently what sorts them.
+1. **Phenomenal models: a model can describe what goes in and what comes out without describing the causal structure in between** (Craver and Kaplan, 2020).
+2. **Sketches and schemas: a schema has placeholders, and a sketch has gaps.** A schema describes a mechanism with placeholders that can be filled in with known parts and activities. A sketch is incomplete, and its gaps can be marked by black boxes or masked by terms that name an activity without saying how it is carried out (Craver and Darden, 2013).
+3. **How-possibly, how-plausibly, how-actually: models of a mechanism range from conjecture to established description.** Schemas range from how-possibly, a loosely constrained conjecture, through how-plausibly, consistent with the known evidence, to how-actually, a description of how the mechanism in fact works. Nonstandard tests, under which rival schemas diverge, are frequently what sorts them (Craver and Darden, 2013).
 
 ## From a model that fits to a model of how it works
 
@@ -27,7 +27,7 @@ Their example is old: saying a powder causes hallucinations because it has a hal
 >
 > — Craver and Darden (2013), ch. 3
 
-Their example is the central dogma, DNA to RNA to protein. Pinned above James Watson's desk in 1952 it was a sketch, since nothing was known about the structures of RNA or what the arrows stood for. By 1965 the same three words were a schema whose boxes could be opened. Discovery, in their phrase, is the work of turning black boxes into gray boxes into glass boxes.
+Their example is the central dogma, DNA to RNA to protein. Pinned above James Watson's desk in 1952 it was a sketch, since nothing was known about the structures of RNA or what the arrows stood for. By 1965 the same three words were a schema whose boxes could be opened. They count turning black boxes into gray boxes into glass boxes among the crucial tasks of discovery.
 
 **Craver and Darden (2013): how-possibly, how-plausibly, how-actually.** A schema also varies in how well it is supported. A how-possibly schema is a loosely constrained guess at how the mechanism works. A how-actually schema describes the parts and activities that are in fact there. Between them lies a range of how-plausibly schemas, each consistent with more or fewer of the known constraints. Two mechanisms can account equally well for a rat learning a maze under normal conditions and come apart under drugs, lesions or unusual training. Those conditions are what move a schema along the range:
 
@@ -97,7 +97,7 @@ An agent is given single-cell expression data from a tissue before and after a d
 |---|---|---|
 | Phenomenal models | Systems neuroscience's distinction between descriptive models of a response and mechanistic models of the circuit that produces it; Hodgkin and Huxley's independent measurements of each variable | Whether a model's variables can be mapped onto parts without opening the system |
 | Sketches and schemas | Pathway databases that annotate the evidence behind each edge, so that an arrow with no mechanism is visible as one | How to treat a pathway most of whose edges are filler terms |
-| How-possibly and how-actually | Perturbation experiments that block or stimulate each step of a proposed pathway, the strategies described in [SEP §4.1](https://plato.stanford.edu/entries/science-mechanisms/#StraDisc); causal inference's insistence on interventional data for interventional claims | Whether the steps tested are the whole mechanism |
+| How-possibly and how-actually | Perturbation experiments that block or stimulate each step of a proposed pathway, the strategies described in [SEP §4.1](https://plato.stanford.edu/entries/science-mechanisms/#StraDisc); [causal inference](/fields/causal-inference/)'s insistence on interventional data for interventional claims | Whether the steps tested are the whole mechanism |
 
 ## Evidence patterns
 

@@ -7,13 +7,13 @@ This page asks one question: **when does a model that predicts well also explain
 
 AI systems for science are judged by how well they predict. This page covers three ideas from the philosophy of science and statistics about what prediction does not show:
 
-1. **Explanation runs from cause to effect.** An accurate predictor can run backwards, from effect to cause, and explain nothing.
-2. **Many models fit equally well.** Models with the same accuracy can tell different stories about which inputs matter.
-3. **Predictive and explanatory power are separate.** Explanatory power and predictive accuracy are different qualities, and a model has some level of each. Shmueli holds that the two should be assessed and reported separately.
+1. **Explanatory asymmetry: explanation runs from cause to effect.** An accurate predictor can run backwards, from effect to cause, and explain nothing (Bromberger, 1966).
+2. **The Rashomon effect: many models fit equally well.** Models with the same accuracy can tell different stories about which inputs matter (Breiman, 2001).
+3. **Predictive and explanatory power are separate.** Explanatory power and predictive accuracy are different qualities, and a model has some level of each. The two should be assessed and reported separately (Shmueli, 2010).
 
 ## From prediction to explanation
 
-**The flagpole (1966): explanation runs from cause to effect.** The philosopher of science Carl Hempel held that to explain an event is to show it had to happen, given the laws of nature and the circumstances. On that view, explaining and predicting are the same calculation, done after or before the event. The flagpole is the best-known counterexample; the objection was first made, with a slightly different example, by Sylvain Bromberger in 1966. A flagpole 10 meters tall, with the sun at 45 degrees, casts a shadow 10 meters long. The same trigonometry gives the shadow from the height and the angle, and the height from the shadow and the angle. Both derivations predict correctly. Only the first explains: the pole's height and the sun's position produce the shadow, and the shadow produces nothing about the pole, which is as tall as it was built.
+**Bromberger (1966): explanation runs from cause to effect.** The philosopher of science Carl Hempel held that to explain an event is to show it was to be expected, given the laws of nature and the circumstances. On that view, explaining and predicting are the same calculation, done after or before the event. The flagpole is the best-known counterexample; the objection was made, with a slightly different example, by Sylvain Bromberger in 1966. A flagpole 10 meters tall, with the sun at 45 degrees, casts a shadow 10 meters long. The same trigonometry gives the shadow from the height and the angle, and the height from the shadow and the angle. Both derivations predict correctly. Only the first explains: the pole's height and the sun's position produce the shadow, and the shadow produces nothing about the pole, which is as tall as it was built.
 
 > the shadow does not cause the flagpole and consequently cannot explain its height.
 >
@@ -70,7 +70,7 @@ The flagpole and his own Rashomon effect show prediction succeeding in the wrong
 >
 > — [Douven (2025), "Abduction," SEP, §2](https://plato.stanford.edu/entries/abduction/#ExpAbd)
 
-The defenders' reply is to weaken the conclusion: the best of the candidates is accepted as better than its rivals, not as true. An agent that generates five hypotheses and ranks them has found the best of five, and the quality of the winner depends on the quality of the five.
+One reply is to weaken the conclusion: the best of the candidates is accepted as closer to the truth than its rivals, not as true. An agent that generates five hypotheses and ranks them has found the best of five, and the quality of the winner depends on the quality of the five.
 
 </details>
 
@@ -155,6 +155,6 @@ Hernán and Robins, *Causal Inference: What If* (Chapman & Hall/CRC, 2020), writ
 | [D'Amour et al., "Underspecification Presents Challenges for Credibility in Modern Machine Learning"](https://arxiv.org/abs/2011.03395) | 2020 | Machine learning | **Underspecification**: equally accurate models behave differently outside the test data |
 | Hempel and Oppenheim, "Studies in the Logic of Explanation," *Philosophy of Science* (DOI [10.1086/286983](https://www.cambridge.org/core/product/identifier/S003182480002273X/type/journal_article)) | 1948 | Philosophy of science | Original statement of the deductive-nomological model |
 | [Godfrey-Smith, *Theory and Reality*, University of Chicago Press](https://press.uchicago.edu/ucp/books/book/chicago/T/bo37447570.html) | 2003 | Philosophy of science | Textbook statement of the asymmetry problem; credits the objection to Bromberger (1966). DOI [10.7208/chicago/9780226300610.001.0001](https://www.bibliovault.org/BV.landing.epl?ISBN=9780226300610) |
-| [Bromberger, "Why-Questions," in Colodny (ed.), *Mind and Cosmos*, University of Pittsburgh Press](https://archive.org/details/mindcosmosessays0000colo) | 1966 | Philosophy of science | Original statement of the asymmetry objection to the covering-law model, as credited by Godfrey-Smith |
+| [Bromberger, "Why-Questions," in Colodny (ed.), *Mind and Cosmos*, University of Pittsburgh Press](https://archive.org/details/mindcosmosessays0000colo) | 1966 | Philosophy of science | Statement of the asymmetry objection to the covering-law model, as credited by Godfrey-Smith |
 | [Douven, "Abduction," *Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/entries/abduction/) | rev. 2025 | Philosophy | **Inference to the best explanation** and the bad-lot objection |
 | [Van Fraassen, *Laws and Symmetry*, Oxford University Press](https://academic.oup.com/book/12448) | 1989 | Philosophy of science | The best of a bad lot. DOI [10.1093/0198248601.001.0001](https://academic.oup.com/book/12448) |

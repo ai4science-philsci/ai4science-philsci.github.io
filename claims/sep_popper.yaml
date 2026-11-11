@@ -23,3 +23,120 @@ claims:
     - exact: Every test of a theory, whether resulting in its corroboration or falsification, must stop
         at some basic statement or other which we decide to accept.
       section: 4. Basic Statements, Falsifiability and Convention
+  refutation_criteria_fixed_first:
+    interpretation:
+      says: Popper held that what would count as a refutation has to be laid down beforehand.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'real support can be obtained only from observations undertaken as tests (by ‘attempted refutations’);
+        and for this purpose criteria of refutation have to be laid down beforehand: it must be agree
+        which observable situations, if actually observed, mean that the theory is refuted.'
+      section: 2. Backdrop to Popper's Thought
+  easy_evidence_risky_prediction:
+    interpretation:
+      says: The philosopher of science Karl Popper held that evidence for almost any theory is easy to
+        find, so agreement counts only when it comes from a prediction that might have been false.
+      whose: ai4science-philsci
+    quotes:
+    - exact: It is easy, he argues, to obtain evidence in favour of virtually any theory, and he consequently
+        holds that such “corroboration”, as he terms it, should count scientifically only if it is the
+        positive result of a genuinely “risky” prediction, which might conceivably have been false.
+      section: 3. The Problem of Demarcation
+  psychoanalysis_irrefutable:
+    interpretation:
+      says: He contrasted it with psychoanalysis as he saw it, a theory that could explain any behavior
+        and so could not be refuted by any.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'nothing could, even in principle, falsify psychoanalytic theories. They were, Popper argues,
+        “simply non-testable, irrefutable. There was no conceivable human behaviour which could contradict
+        them” (1963: 37).'
+      section: 2. Backdrop to Popper's Thought
+  psychoanalysis_explains_everything:
+    interpretation:
+      says: He contrasted it with psychoanalysis as he saw it, a theory that could explain any behavior
+        and so could not be refuted by any.
+      whose: ai4science-philsci
+    quotes:
+    - exact: What is apparently the chief source of strength of psychoanalysis, he concluded, viz. its
+        capability to accommodate and explain every possible form of human behaviour, is in fact a critical
+        weakness, for it entails that it is not, and could not be, genuinely predictive.
+      section: 2. Backdrop to Popper's Thought
+  refutation_decided_before_test:
+    interpretation:
+      says: 'He also held that what counts as a refutation has to be decided before the test:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'real support can be obtained only from observations undertaken as tests (by ‘attempted refutations’);
+        and for this purpose criteria of refutation have to be laid down beforehand: it must be agree
+        which observable situations, if actually observed, mean that the theory is refuted.'
+      section: 2. Backdrop to Popper's Thought
+  testing_ends_in_decision:
+    interpretation:
+      says: 'Popper agreed that a test ends in a decision, not a proof:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Where testing ends, he argues, is in a convention-based decision to accept a basic statement
+        or statements; it is at that point that convention and intersubjective human agreement play an
+        indispensable role in science
+      section: 4. Basic Statements, Falsifiability and Convention
+  decision_not_justified_by_experience:
+    interpretation:
+      says: 'Popper agreed that a test ends in a decision, not a proof:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: However, Popper contends that while such a decision is usually causally related to perceptual
+        experience, it is not and cannot be justified by such experience; basic statements are experientially
+        underdetermined.
+      section: 4. Basic Statements, Falsifiability and Convention
+  predictive_only_with_auxiliaries:
+    interpretation:
+      says: 'Popper agreed that a test ends in a decision, not a proof:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: he recognises that scientific theories are predictive, and consequently prohibitive, only
+        when taken in conjunction with auxiliary hypotheses, and he also recognises that readjustment
+        or modification of the latter is an integral part of scientific practice.
+      section: 12. Critical Evaluation
+  logic_versus_methodology:
+    interpretation:
+      says: 'His reply was that this makes falsification a rule scientists commit to, not one that logic
+        forces on them: decide in advance what would count against the theory, and keep to it.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Popper draws a clear distinction between the logic of falsifiability and its applied methodology.
+        The logic of his theory is utterly simple: a universal statement is falsified by a single genuine
+        counter-instance. Methodologically, however, the situation is complex'
+      section: 4. Basic Statements, Falsifiability and Convention
+  retained_despite_anomalies:
+    interpretation:
+      says: Popper allowed that scientists keep theories despite anomalies, and that deciding whether
+        an observation really refutes a theory is itself a judgment.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Thus, while advocating falsifiability as the criterion of demarcation for science, Popper
+        explicitly allows for the fact that in practice a single conflicting or counter-instance is never
+        sufficient methodologically for falsification, and that scientific theories are often retained
+        even though much of the available evidence conflicts with them, or is anomalous with respect to
+        them.
+      section: 4. Basic Statements, Falsifiability and Convention
+  accepting_falsification_problematic:
+    interpretation:
+      says: Popper allowed that scientists keep theories despite anomalies, and that deciding whether
+        an observation really refutes a theory is itself a judgment.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Methodologically, however, the situation is complex: decisions about whether to accept an
+        apparently falsifying observation as an actual falsification can be problematic, as observational
+        bias and measurement error, for example, can yield results which are only apparently incompatible
+        with the theory under scrutiny.'
+      section: 4. Basic Statements, Falsifiability and Convention
+  popper_einstein_example:
+    interpretation:
+      says: His example was Einstein's prediction that light passing the sun would bend, which Newtonian
+        physics made improbable and which the 1919 eclipse observations could have refuted.
+      whose: ai4science-philsci
+    quotes:
+    - exact: highly improbable (e.g., that light is deflected towards solid bodies—confirmed by Eddington’s
+        experiments in 1919), and which would, if they turned out to be false, falsify the whole theory
+      section: 2. Backdrop to Popper’s Thought

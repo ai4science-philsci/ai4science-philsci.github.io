@@ -11,3 +11,77 @@ claims:
   discover:
     quotes:
     - exact: We want AI agents that can discover like we can, not which contain what we have discovered.
+  seventy_years:
+    interpretation:
+      says: 'The computer scientist Rich Sutton draws a different lesson from seventy years of AI research:
+        methods built on human knowledge of a domain lose, in the long run, to search and learning at
+        scale.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: The biggest lesson that can be read from 70 years of AI research is that general methods
+        that leverage computation are ultimately the most effective, and by a large margin.
+  four_observations:
+    interpretation:
+      says: 'The computer scientist Rich Sutton draws a different lesson from seventy years of AI research:
+        methods built on human knowledge of a domain lose, in the long run, to search and learning at
+        scale.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: The bitter lesson is based on the historical observations that 1) AI researchers have often
+        tried to build knowledge into their agents, 2) this always helps in the short term, and is personally
+        satisfying to the researcher, but 3) in the long run it plateaus and even inhibits further progress,
+        and 4) breakthrough progress eventually arrives by an opposing approach based on scaling computation
+        by search and learning.
+  case_chess:
+    interpretation:
+      says: His cases are chess, Go, speech recognition and computer vision, where the objective was fixed
+        and well defined, and his conclusion is about how systems should discover.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In computer chess, the methods that defeated the world champion, Kasparov, in 1997, were
+        based on massive, deep search.
+  case_go:
+    interpretation:
+      says: His cases are chess, Go, speech recognition and computer vision, where the objective was fixed
+        and well defined, and his conclusion is about how systems should discover.
+      whose: ai4science-philsci
+    quotes:
+    - exact: A similar pattern of research progress was seen in computer Go, only delayed by a further
+        20 years.
+  case_speech:
+    interpretation:
+      says: His cases are chess, Go, speech recognition and computer vision, where the objective was fixed
+        and well defined, and his conclusion is about how systems should discover.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In speech recognition, there was an early competition, sponsored by DARPA, in the 1970s.
+  case_vision:
+    interpretation:
+      says: His cases are chess, Go, speech recognition and computer vision, where the objective was fixed
+        and well defined, and his conclusion is about how systems should discover.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In computer vision, there has been a similar pattern.
+  general_vs_built_in:
+    interpretation:
+      says: Sutton's argument is about general methods versus built-in knowledge in domains where success
+        was well defined.
+      whose: ai4science-philsci
+    quotes:
+    - exact: We have to learn the bitter lesson that building in how we think we think does not work in
+        the long run.
+  examples_games_perception_chess:
+    interpretation:
+      says: Sutton's examples are games and perception tasks with fixed objectives, and whether scientific
+        discovery has an objective of that kind is the open question this page turns on.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In computer chess, the methods that defeated the world champion, Kasparov, in 1997, were
+        based on massive, deep search.
+  examples_games_perception_vision:
+    interpretation:
+      says: Sutton's examples are games and perception tasks with fixed objectives, and whether scientific
+        discovery has an objective of that kind is the open question this page turns on.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In computer vision, there has been a similar pattern.

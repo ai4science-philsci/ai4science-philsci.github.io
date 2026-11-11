@@ -1,0 +1,26 @@
+source:
+  citation: bareinboim2022
+  url: https://causalai.net/r60.pdf
+  local: sources/bareinboim_2022_pearls_hierarchy.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  fisher_randomization_basis:
+    interpretation:
+      says: The statistician Ronald Fisher made randomization the basis of experimental design.
+      whose: ai4science-philsci
+    quotes:
+    - exact: This physical procedure is the very basis for the discipline of experimental design [Fisher
+        1936], which is realized through randomization of the treatment assignment in a sample of the
+        population.
+      section: note 19
+      page: 15
+  randomization_replaces_fx:
+    interpretation:
+      says: 'The graphical tradition reads it as an intervention: the coin replaces the treatment''s usual
+        causes'
+      whose: ai4science-philsci
+    quotes:
+    - exact: is replaced with an alternative source of randomness that is uncorrelated with any other
+        variable in the system.
+      section: note 19
+      page: 15

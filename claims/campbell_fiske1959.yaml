@@ -1,0 +1,6 @@
+source:
+  citation: campbell_fiske1959
+  doi: 10.1037/h0046016
+  local: sources/campbell_fiske_1959_multitrait_multimethod.pdf
+  extract_cmd: pdftotext {} -
+claims: {}

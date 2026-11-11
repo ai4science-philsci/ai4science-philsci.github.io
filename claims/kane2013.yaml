@@ -49,3 +49,113 @@ claims:
     quotes:
     - exact: Score-based decision procedures require evidence that the procedure achieves its goals without
         unacceptable negative consequences.
+  reliability_not_sufficient:
+    interpretation:
+      says: Construct validation (Cronbach and Meehl, 1955) and argument-based validation (Messick, 1989;
+        Kane, 2013) separate statistical scaling from what a score means ([Validity](/measurement/validity/)).
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Under the argument-based approach, generalizability/reliability is not a sufficient
+
+        condition for the validity of most test score interpretations because these interpretations involve
+        additional inferences (e.g., extrapolation) that are not addressed by
+
+        reliability or generalizability evidence; to establish the validity of an interpretation,
+
+        we need adequate backing for all of the inferences in the interpretation.'
+      section: Reliability as a Necessary Condition for Validity?
+      page: 29
+  scaling_in_validity_argument:
+    interpretation:
+      says: Construct validation (Cronbach and Meehl, 1955) and argument-based validation (Messick, 1989;
+        Kane, 2013) separate statistical scaling from what a score means ([Validity](/measurement/validity/)).
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'The scaling models add warrants to the IUA which allow for
+
+        additional inferences from the scores and which need to be evaluated as part of the
+
+        validity argument.'
+      section: Some Additional Claims that Can be Attached to Observable Attributes
+      page: 31
+  decision_capstone:
+    interpretation:
+      says: 'The psychometrician Michael Kane, whose chain of inferences appears on [Validity](/measurement/validity/),
+        ends the chain with a step most evaluations never examine:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: The decision rule tends to be the capstone of the IUA for score-based decisions, and in many
+        cases the rest of the IUA is developed to support the decision rule.
+      page: 46
+  decision_rule_goals:
+    interpretation:
+      says: 'The decision link asks something else: whether acting on the score achieves what the action
+        is for.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Decision rules are evaluated in terms of their expected success in achieving their goals
+        at a reasonable cost and with acceptable consequences.
+      page: 46
+  decision_own_evidence:
+    interpretation:
+      says: Kane is explicit that this needs its own evidence, that the procedure "achieves its goals
+        without unacceptable negative consequences."
+      whose: ai4science-philsci
+    quotes:
+    - exact: Score-based decision procedures require evidence that the procedure achieves its goals without
+        unacceptable negative consequences.
+      page: 15
+  accuracy_not_sufficient:
+    interpretation:
+      says: A score can pass every earlier test and fail this one.
+      whose: ai4science-philsci
+    quotes:
+    - exact: However, even indisputable evidence for the validity of a proposed test-score interpretation
+        does not, in itself, justify a score-based decision rule (Cascio, 1993; Cronbach, 1971, 1988;
+        Cronbach & Gleser, 1965).
+      page: 47
+  messick_consequences:
+    interpretation:
+      says: In the vocabulary of validity, this is the consequential side, which Messick tied to the actions
+        taken on scores; whether the result holds in a new population is external validity, the subject
+        of [Transfer and Scope](/transfer/transfer-and-scope/).
+      whose: ai4science-philsci
+    quotes:
+    - exact: both Cronbach (1971, 1980, 1988) and Messick (1975, 1980, 1989, 1994) included both interpretive
+        accuracy and the consequences of score-based decisions under the heading of validity.
+      page: 59
+  accuracy_relevant_to_decision:
+    interpretation:
+      says: Accuracy is evidence for the earlier links in Kane's chain.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Evidence for the accuracy of the information on which decisions are based is clearly relevant
+        to the evaluation of a decision rule, mainly because the use of inaccurate information as the
+        basis for a decision would be unacceptable ethically, legally, and socially, and because more
+        accurate information generally should lead to better outcomes.
+      page: 47
+  decision_success_failure:
+    interpretation:
+      says: The decision link asks whether acting on the score achieves its goal, and that is a separate
+        question with separate evidence.
+      whose: ai4science-philsci
+    quotes:
+    - exact: A decision rule that achieves its goals at an acceptable cost and with acceptable consequences
+        is considered a success. A decision rule that does not achieve its goals or has unacceptable consequences
+        is considered a failure. The backing for a decision warrant is derived from analyses of its consequences.
+      page: 47
+  decisions_about_individuals:
+    interpretation:
+      says: Kane wrote for educational and psychological tests, where decisions are made about people;
+        applying the decision inference to the choice of a model is an extension.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Test scores typically are used to make decisions (e.g., selection, instructional planning,
+        accountability) about individuals (or groups).
+      page: 46
+  interpretations_not_test:
+    quotes:
+    - exact: it is the proposed score interpretations and uses that are validated and not the test or
+        the test scores
+      section: Abstract
+      page: 1

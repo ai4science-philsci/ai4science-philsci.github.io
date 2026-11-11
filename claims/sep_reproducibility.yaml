@@ -32,3 +32,71 @@ claims:
     - exact: the Questionable Research Practices above are not typically counted as “fraud” or even “scientific
         misconduct” despite their ethically dubious status
       section: 2.5 Scientific Fraud
+  simmons_simulated:
+    interpretation:
+      says: Simmons, Nelson and Simonsohn showed this by simulation.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Simmons, Nelson, and Simonsohn (2011) explained and demonstrated with simulated results how
+        engaging in such practices inflates the false positive error rate of the published literature,
+        leading to a lower rate of reproducible results.
+      section: 2.3 Questionable Research Practices
+  file_drawer_distorts:
+    interpretation:
+      says: Studies that fail to reach significance tend not to be published, so the published record
+        overstates what was found.
+      whose: ai4science-philsci
+    quotes:
+    - exact: The associated file-drawer problem (Rosenthal 1979)—where researchers relegate failed statistically
+        non-significant studies to their file drawers, hidden from public view—has long been established
+        in psychology and others disciplines, and is known to lead to distortions in meta-analysis
+      section: 2.2 Publication Bias, Low Statistical Power and Inflated False Positive Rates
+  excess_significance_bias:
+    interpretation:
+      says: Studies that fail to reach significance tend not to be published, so the published record
+        overstates what was found.
+      whose: ai4science-philsci
+    quotes:
+    - exact: If there was no bias towards publishing statistically significant results, the proportion
+        of significant results should roughly match the average statistical power of the discipline.
+      section: 2.2 Publication Bias, Low Statistical Power and Inflated False Positive Rates
+  simmons_simulated_flexibility:
+    interpretation:
+      says: The psychologists Joseph Simmons, Leif Nelson and Uri Simonsohn showed by simulation what
+        ordinary flexibility in analysis does to error rates.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Simmons, Nelson, and Simonsohn (2011) explained and demonstrated with simulated results how
+        engaging in such practices inflates the false positive error rate of the published literature,
+        leading to a lower rate of reproducible results.
+      section: 2.3 Questionable Research Practices
+  phacking_list:
+    interpretation:
+      says: The SEP entry lists the practices, among them
+      whose: ai4science-philsci
+    quotes:
+    - exact: '“P hacking” refers to a set of practices which include: checking the statistical significance
+        of results before deciding whether to collect more data; stopping data collection early because
+        results have reached statistical significance; deciding whether to exclude data points (e.g.,
+        outliers) only after checking the impact on statistical significance and not reporting the impact
+        of the data exclusion'
+      section: 2.3 Questionable Research Practices
+  harking_kerr:
+    interpretation:
+      says: 'The psychologist Norbert Kerr (1998) named a related practice, hypothesizing after the results
+        are known (HARKing): reporting a hypothesis found in the data as if it had been the plan.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: “HARKing” (Hypothesising After Results are Known) includes presenting ad hoc and/or unexpected
+        findings as though they had been predicted all along (Kerr 1998)
+      section: 2.3 Questionable Research Practices
+  qrps_not_fraud:
+    interpretation:
+      says: The SEP entry separates these practices from fraud.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Often these cases (e.g., Diederik Stapel in psychology) are used as a hook for media coverage,
+        even though the crisis itself has very little to do with scientific fraud. (Note also that the
+        Questionable Research Practices above are not typically counted as “fraud” or even “scientific
+        misconduct” despite their ethically dubious status.)
+      section: 2.5 Scientific Fraud

@@ -7,9 +7,9 @@ This page asks one question: **when does a difference in the data show that one 
 
 AI systems for science report causes: a drug that lowers risk, a gene that drives a trait, an exposure that harms. This page covers three answers philosophers have given to what such a claim means, each with the evidence it asks for:
 
-1. **Regularity.** A cause precedes its effect and is contiguous with it, and events like the cause are always followed by events like the effect. On this theory causation involves nothing more.
-2. **Counterfactual dependence.** One event depends causally on another when, had the second not occurred, the first would not have occurred. Lewis defined causation as a chain of such dependences.
-3. **Intervention.** A variable X causes Y when some intervention that sets X, and reaches Y only through X, would change Y.
+1. **Regularity: events like the cause are always followed by events like the effect.** A cause also precedes its effect and is contiguous with it. On this theory causation involves nothing more (Hume, 1739).
+2. **Counterfactual dependence: had the cause not occurred, the effect would not have occurred.** On this view causation is a chain of such dependences (Lewis, 1973).
+3. **Intervention: X causes Y when an intervention on X would change Y.** An intervention sets X and reaches Y only through X (Woodward, 2003; Pearl, 2000).
 
 ## From association to intervention
 
@@ -21,7 +21,7 @@ AI systems for science report causes: a drug that lowers risk, a gene that drive
 
 The regularity theory makes causation something that can be read from the data, given enough of it. It cannot tell a cause from a second effect of a common cause, since a falling barometer is regularly followed by rain.
 
-**Lewis (1973): counterfactual dependence.** Hume gave a second definition in the same breath as the first: a cause is something without which the effect would never have existed. The philosopher David Lewis built a theory of causation on that second clause:
+**Lewis (1973): counterfactual dependence.** In *An Enquiry concerning Human Understanding* (1748), Hume gave a second definition in the same breath as the first: a cause is something without which the effect would never have existed. The philosopher David Lewis built a theory of causation on that second clause:
 
 > Where c and e are two distinct actual events, e causally depends on c if and only if, if c were not to occur e would not occur.
 >
@@ -50,7 +50,7 @@ A randomized experiment is an intervention, which is why its association can be 
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**The anthropocentrism objection to Woodward (2003).** If causation is what manipulation would change, causes seem to need someone to manipulate them, yet the moon causes the tides. Woodward replies that an intervention is defined by its structure, not by whether anyone could carry it out. The claim is about what would happen to the tides if the moon's mass were changed surgically.
+**The anthropocentrism objection to manipulability theories.** If causation is what manipulation would change, causes seem to need someone to manipulate them, yet the moon causes the tides. Woodward replies that an intervention is defined by its structure, not by whether anyone could carry it out. The claim is about what would happen to the tides if the moon's gravitational attraction were changed surgically.
 
 **Cartwright to Woodward.** The philosopher Nancy Cartwright calls the account monolithic: it lets one mark of causation, usefulness for manipulation, override the others, such as contact or the transfer of energy. [Intervention and Use](/mechanism/intervention-and-use/) takes up one form of this objection, Hall's argument that "cause" names two relations.
 
@@ -130,6 +130,7 @@ Pearl and Mackenzie, *The Book of Why* (Basic Books, 2018), chapter 1, "The Ladd
 | [Woodward, "Causation and Manipulability," *Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/entries/causation-mani/) | rev. 2023 | Philosophy | **Intervention**: a cause is what changing would change the effect |
 | [Hitchcock, "Causal Models," *Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/entries/causal-models/) | 2018 | Philosophy | **Seeing versus doing**; Markov equivalence |
 | [Hume, *A Treatise of Human Nature*](https://davidhume.org/texts/t/) | 1739 | Philosophy | The regularity definition |
+| [Hume, *An Enquiry concerning Human Understanding*](https://davidhume.org/texts/e/) | 1748 | Philosophy | The regularity definition restated, with a counterfactual definition given beside it |
 | [Lewis, "Causation," *Journal of Philosophy* 70(17)](https://www.jstor.org/stable/2025310) | 1973 | Philosophy | Causal dependence defined by counterfactuals. DOI [10.2307/2025310](https://www.jstor.org/stable/2025310) |
 | [Woodward, *Making Things Happen: A Theory of Causal Explanation*, Oxford University Press](https://academic.oup.com/book/4324) | 2003 | Philosophy | The interventionist account. DOI [10.1093/0195155270.001.0001](https://academic.oup.com/book/4324) |
 | [Pearl, *Causality: Models, Reasoning, and Inference*, Cambridge University Press](https://www.cambridge.org/core/product/identifier/9780511803161/type/book) | 2000 | Computer science | The do-operator and causal graphs. DOI [10.1017/CBO9780511803161](https://www.cambridge.org/core/product/identifier/9780511803161/type/book) (2nd ed., 2009) |

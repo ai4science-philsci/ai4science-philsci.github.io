@@ -23,3 +23,75 @@ claims:
     quotes:
     - exact: Cartwright contends that the interventionist account is “monolithic”
       section: 13. Some Criticisms of Interventionist Accounts
+  pearl_woodward_formulations:
+    interpretation:
+      says: The philosopher James Woodward and the computer scientist Judea Pearl made the manipulation
+        precise.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Section 5 considers Pearl’s “interventionist” formulation of a manipulability theory and
+        an alternative to it, due to Woodward (2003).
+      section: 1. Introduction
+  surgical_change:
+    interpretation:
+      says: 'An intervention is a surgical change: it sets A, and anything that then happens to B happens
+        only by way of A.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: The basic idea that all of these discussions attempt to capture is that of a “surgical” change
+        in \(A\) which is of such a character that if any change occurs in \(B\), it occurs only as a
+        result of its causal connection, if any, to \(A\) and not in any other way.
+      section: 4. Interventions
+  anthropocentric_objection:
+    interpretation:
+      says: If causation is what manipulation would change, causes seem to need someone to manipulate
+        them, yet the moon causes the tides.
+      whose: ai4science-philsci
+    quotes:
+    - exact: two standard complaints have been that manipulability theories are unilluminatingly circular
+        and that they lead to a conception of causation that is unacceptably anthropocentric or at least
+        insufficiently general in the sense that it is linked much too closely to the practical possibility
+        of human manipulation (see, e.g., Hausman 1986, 1998).
+      section: 1. Introduction
+  moon_tides_no_manipulation:
+    interpretation:
+      says: If causation is what manipulation would change, causes seem to need someone to manipulate
+        them, yet the moon causes the tides.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Moreover, it is uncontroversial that causal relationships can obtain in circumstances in
+        which manipulation of the cause by human beings is not practically possible—think of the causal
+        relationship between the gravitational attraction of the moon and the tides or causal relationships
+        in the very early universe.
+      section: 1. Introduction
+  no_reference_to_humans:
+    interpretation:
+      says: Woodward replies that an intervention is defined by its structure, not by whether anyone could
+        carry it out.
+      whose: ai4science-philsci
+    quotes:
+    - exact: This should be apparent from the way in which the notion of an intervention has been characterized,
+        for this is entirely in terms of causal and correlational concepts and makes no reference to human
+        beings or their activities.
+      section: 8. Interventions That Do Not Involve Human Action
+  moon_surgical_intervention:
+    interpretation:
+      says: The claim is about what would happen to the tides if the moon's mass were changed surgically.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Woodward (2003) argues that nonetheless we have a principled basis in Newtonian mechanics
+        and gravitational theory themselves for answering questions about what would happen if such a
+        surgical intervention were to occur and that this is enough to vindicate the causal claim (G).
+      section: 10. Possible and Impossible Interventions
+  monolithic_trumps:
+    interpretation:
+      says: 'The philosopher Nancy Cartwright calls the account monolithic: it lets one mark of causation,
+        usefulness for manipulation, override the others, such as contact or the transfer of energy.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'In a related criticism, Cartwright contends that the interventionist account is “monolithic”:
+        it takes just one of the criteria commonly thought to be relevant to whether a relationship is
+        causal—whether it is potentially exploitable for purposes of manipulation—and gives it a privileged
+        or pre-eminent place, allowing it to trump other criteria (like spatio-temporal contiguity or
+        transmission of energy-momentum), when it comes into conflict with them.'
+      section: 13. Some Criticisms of Interventionist Accounts

@@ -7,9 +7,9 @@ This page asks one question: **how do you tell whether a part belongs to the mec
 
 A knockout changes the phenotype. A stimulated region produces the behavior. A gene's expression rises while the response unfolds. Each is offered as evidence that the part is a component of the mechanism, and each falls short in a known way. This page covers three ideas from the philosophy of science that organize the tests:
 
-1. **Mutual manipulability.** A part within the system belongs to the mechanism if some intervention on the part changes the phenomenon and some intervention on the phenomenon changes the part. Craver offered this as a sufficient condition only.
-2. **Three interlevel experiments.** Interference and stimulation experiments act on the part, and activation experiments produce the phenomenon and watch the part. Known failures include redundancy or compensation for interference, spread to other parts or compensation for stimulation, and by-products for activation.
-3. **Criteria for causation are distinctions among causes.** On Woodward's minimal notion, X causes Y if, in some background circumstances, an intervention on X alone would change Y or its probability. Stability, specificity and the choice of level distinguish among causal relationships, and a relationship can lack them and still be causal.
+1. **Mutual manipulability: a part belongs if changing it changes the phenomenon, and changing the phenomenon changes it.** The condition is sufficient, not necessary (Craver, 2007).
+2. **Three interlevel experiments: interference, stimulation and activation each fail in known ways.** Interference and stimulation experiments act on the part, and activation experiments produce the phenomenon and watch the part. Known failures include redundancy or compensation for interference, spread to other parts or compensation for stimulation, and by-products for activation (Craver and Darden, 2013).
+3. **Criteria for causation are distinctions among causes.** On the minimal notion, X causes Y if, in some background circumstances, an intervention on X alone would change Y or its probability (Woodward, 2010). Stability, specificity and the choice of level distinguish among causal relationships, and a relationship can lack them and still be causal.
 
 ## From a knockout to a component
 
@@ -27,7 +27,7 @@ A part belongs to the mechanism when it sits inside the system, when changing th
 >
 > — Craver and Darden (2013), ch. 8
 
-Activation experiments fail when the part is a by-product of the mechanism. Their example is a flywheel, which keeps turning whether or not the machine is doing any work.
+Activation experiments fail when the part is a by-product of the mechanism, or when a component need not change while the mechanism works. Their example of the second is a flywheel, which keeps turning even when the machine's energy input is disengaged.
 
 **Woodward (2010): distinctions among causes.** The philosopher James Woodward separated two projects: saying what makes a relationship causal, and saying what distinguishes one causal relationship from another. Stability, specificity and the choice of level belong to the second. He objects to the habit, common in epidemiology since Hill, of treating them as tests of whether a relationship is causal at all:
 
@@ -62,7 +62,7 @@ Together the three ideas give four tests, each with a source and a known gap:
 
 **"It is active during the task, so it is a component."** The activation experiment is one direction of the test. A by-product changes with the phenomenon without contributing to it, and so does a part that reads the phenomenon's output. Mutual manipulability asks for the other direction as well.
 
-**"Hill's considerations are a checklist for causation."** Woodward's point is that strength, specificity and the rest sort causal relationships into kinds. A relationship can fail several of them and be causal. The considerations tell you what sort of cause you have found, not whether you have found one.
+**"Hill's considerations are a checklist for causation."** Woodward's point is that stability, specificity and the rest sort causal relationships into kinds. A relationship can fail several of them and be causal. The considerations tell you what sort of cause you have found, not whether you have found one.
 
 </details>
 

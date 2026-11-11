@@ -35,3 +35,111 @@ claims:
     - exact: The importance of Goodhart effects depends on the amount of power directed towards optimizing
         the proxy
       page: 1
+  goodhart_original_formulation:
+    interpretation:
+      says: The economist Charles Goodhart observed, about monetary targets, that
+      whose: ai4science-philsci
+    quotes:
+    - exact: As a historical note, Goodharts Law [1] as originally formulated states that “any observed
+        statistical regularity will tend to collapse once pressure is placed upon it for control purposes.”
+      page: 1
+  campbell_closely_related:
+    interpretation:
+      says: The social scientist Donald Campbell had made a parallel point about indicators used to run
+        institutions, such as test scores and crime statistics.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Other closely related formulations, such as Campbell’s law (which arguably has scholarly
+        precedence[3]) and the Lucas critique, were also initially specific
+      page: 1
+  explore_mechanisms:
+    interpretation:
+      says: The policy researcher David Manheim and the AI researcher Scott Garrabrant separate the mechanisms
+        behind the law.
+      whose: ai4science-philsci
+    quotes:
+    - exact: This paper is intended to explore these mechanisms further, and specify more clearly how
+        they occur.
+      page: 1
+  selection_without_intervention:
+    interpretation:
+      says: The first mechanism needs no one to misbehave.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In the above cases of regressional and extremal Goodhart, there are issues with selection
+        pressure for even simple systems when proxies are used. These two classes require selection pressure,
+        but do not involve an intervention on the part of the regulator.
+      page: 4
+  noise_large_values:
+    interpretation:
+      says: Any proxy has noise, and selecting on the proxy selects on the noise too.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Due to the noise, a point with a large M value will likely have a large G value, but also
+        a large noise value.
+      page: 2
+  regressional_unavoidable:
+    interpretation:
+      says: They call this regressional Goodhart and hold that it cannot be avoided, since
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'While this is the simplest Goodhart effect, it is also the most fundamental: it cannot be
+        avoided.'
+      page: 2
+  extremal_causal_adversarial:
+    interpretation:
+      says: The other three mechanisms are extremal, where optimization pushes into a region where the
+        proxy's relation to the goal was never observed; causal, where intervening to raise the proxy
+        breaks its link to the goal; and adversarial, where another agent exploits the proxy.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 2) Extremal, where selection for the metric pushes the state distribution into a region where
+        old relationships no longer hold, 3) Causal, where an action on the part of the regulator causes
+        the collapse, and 4) Adversarial, where an agent with different goals than the regulator causes
+        the collapse.
+      page: 2
+  causal_pathway_changes:
+    interpretation:
+      says: The other three mechanisms are extremal, where optimization pushes into a region where the
+        proxy's relation to the goal was never observed; causal, where intervening to raise the proxy
+        breaks its link to the goal; and adversarial, where another agent exploits the proxy.
+      whose: ai4science-philsci
+    quotes:
+    - exact: If a regulator intervenes to maximize a metric, the causal pathway can change such that the
+        proxy no longer tracks the goal.
+      page: 4
+  power_ai_critical:
+    interpretation:
+      says: 'Manheim and Garrabrant connect them: the more optimization power is applied, the more the
+        gap matters.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: The importance of Goodhart effects depends on the amount of power directed towards optimizing
+        the proxy, and so the increased optimizationpower offered by artificial intelligence makes it
+        especially critical for that field.
+      page: 1
+  campbell_agents_corrupt:
+    interpretation:
+      says: Campbell's version is about people, but the regressional mechanism needs no agent at all.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In this case, the choice of measurement affects the outcome because agents attempt to corrupt
+        the measure.
+      page: 8
+  regressional_no_intervention:
+    interpretation:
+      says: Campbell's version is about people, but the regressional mechanism needs no agent at all.
+      whose: ai4science-philsci
+    quotes:
+    - exact: These two classes require selection pressure, but do not involve an intervention on the part
+        of the regulator.
+      page: 4
+  adversarial_multiple_actors:
+    interpretation:
+      says: An optimizer with no goals of its own does not respond in that sense, and only some of Manheim
+        and Garrabrant's mechanisms apply to it.
+      whose: ai4science-philsci
+    quotes:
+    - exact: The discussion of causal relationships is important for a different class of situations where
+        there are multiple actors.
+      page: 7

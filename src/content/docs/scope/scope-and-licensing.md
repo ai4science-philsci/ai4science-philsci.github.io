@@ -5,11 +5,11 @@ description: "What is a result's scope, and what decisions does it license? Wood
 
 This page asks one question: **what is a result's scope, and what decisions does it license?**
 
-A benchmark score is used to decide which model to deploy. An interpretability finding on one model is cited for another. A validated predictor is applied to a new hospital's patients. In each case the result was obtained under conditions, and the use assumes those conditions still hold. This page covers three ideas, from the philosophy of science, psychometrics and regulation, about that step:
+A benchmark score is used to decide which model to deploy. An interpretability finding on one model is cited for another. A validated predictor is applied to a new hospital's patients. In each case the result was obtained under conditions, and the use assumes those conditions still hold. This page covers three ideas, from the philosophy of science, [psychometrics](/fields/psychometrics/) and regulation, about that step:
 
-1. **The domain is stated separately from the result.** The domain over which a generalization holds may be specified imprecisely. The generalization itself may not, since vague restrictions built into it leave it without definite content.
-2. **A decision is its own inference.** A score can be accurate and still not support the decision made with it; the decision needs evidence of its own.
-3. **A result is licensed for a context of use.** The FDA qualifies a biomarker as reliable within a stated context of use, and asks each qualification effort to identify a single one. A biomarker qualified for a limited context can later be qualified for an expanded one as evidence accumulates.
+1. **The domain is stated separately from the result.** The domain over which a generalization holds may be specified imprecisely. The generalization itself may not, since vague restrictions built into it leave it without definite content (Woodward, 2000).
+2. **The decision inference: a score can be accurate and still not support the decision made with it.** The decision needs evidence of its own (Kane, 2013).
+3. **Context of use: a result is licensed for one stated use.** Regulators qualify a biomarker as reliable within a stated context of use, and ask each qualification effort to identify a single one (FDA, 2018). A biomarker qualified for a limited context can later be qualified for an expanded one as evidence accumulates.
 
 ## From a result to its use
 
@@ -21,7 +21,7 @@ A benchmark score is used to decide which model to deploy. An interpretability f
 
 The domain can be described loosely, because the limits of a result are often not fully known. The result itself cannot be. A result reported as holding subject to prompt sensitivity and possible distribution shift has put its uncertainty inside the claim, where nothing can check it. The same result stated plainly, with its known conditions recorded alongside, can be compared with any new setting it is carried to.
 
-**Kane (2013): a decision is its own inference.** The psychometrician Michael Kane, whose chain of inferences appears on [Validity](/measurement/validity/), ends the chain with a step most evaluations never examine:
+**Kane (2013): a decision is its own inference.** The psychometrician Michael Kane, whose chain of inferences appears on [Validity](/measurement/validity/), ends the chain with a decision:
 
 > The decision inference takes us from a person’s score to a decision about the person
 >
@@ -35,7 +35,7 @@ The earlier links ask whether the score is right and what it says about the pers
 >
 > — [U.S. Food and Drug Administration, *Biomarker Qualification: Evidentiary Framework*](https://www.fda.gov/media/119271/download)
 
-and the guidance asks that "Each biomarker qualification effort should identify a single COU." Outside that context the biomarker is unqualified, however good the evidence inside it. Other regulated fields do the same with models. The bank regulators' guidance on model risk warns that a model can be sound and still dangerous:
+and the guidance asks that "Each biomarker qualification effort should identify a single COU." Outside that context the biomarker is unqualified. Other regulated fields do the same with models. The bank regulators' guidance on model risk warns that a model can be sound and still dangerous:
 
 > Even a fundamentally sound model producing accurate outputs consistent with the design objective of the model may exhibit high model risk if it is misapplied or misused.
 >
@@ -53,7 +53,7 @@ and the guidance asks that "Each biomarker qualification effort should identify 
 <details class="worked-example">
 <summary>Misreadings</summary>
 
-**"A validated model is valid for any use."** Validation is for a purpose. The model-risk guidance puts it directly: a model producing accurate outputs can still carry high risk "if it is misapplied or misused," and more so "if a model is used outside the environment for which it was designed."
+**"A validated model is valid for any use."** Validation is for a purpose. The model-risk guidance puts it directly: a model producing accurate outputs can still carry high risk "if it is misapplied or misused." The guidance adds that models are simplifications that events can show to be inappropriate, a risk "even more of a concern if a model is used outside the environment for which it was designed."
 
 **"Listing limitations in the paper bounds the result."** A limitations section written as hedges inside the claim does what Woodward warns against. A result is bounded when its conditions are recorded as conditions, separately, in a form a reader can compare with their own setting.
 

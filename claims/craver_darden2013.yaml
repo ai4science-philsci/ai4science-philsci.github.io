@@ -70,3 +70,177 @@ claims:
     - exact: mechanism schemas frequently contain idealized (that is, false) assumptions about the entities,
         activities, and organizational features of the mechanism
       section: Chapter 3
+  search_not_fashion:
+    interpretation:
+      says: Biologists want mechanisms, Carl Craver and Lindley Darden write, because knowing one serves
+        prediction, explanation and control.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'The fact that biology has become a search for mechanisms is not merely a matter of fashion.
+        Biologists look for mechanisms because they serve the three central aims of science: prediction,
+        explanation, and control.'
+      section: Chapter 1
+  first_stage:
+    interpretation:
+      says: Craver and Darden devote a chapter to characterizing the phenomenon before searching for its
+        mechanism, because the characterization constrains what could count as an answer.
+      whose: ai4science-philsci
+    quotes:
+    - exact: The first stage, characterizing the phenomenon, frames the problem to be solved in the search
+        for mechanisms.
+      section: Chapter 1
+  phenomenon_constrains:
+    interpretation:
+      says: Craver and Darden devote a chapter to characterizing the phenomenon before searching for its
+        mechanism, because the characterization constrains what could count as an answer.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Mechanisms and phenomena are reciprocally related to one another in that the character of
+        the phenomenon constrains what will count as an adequate explanation for that phenomenon.
+      section: Chapter 4
+  schema_placeholders:
+    interpretation:
+      says: Craver and Lindley Darden call a description of a mechanism a schema when its placeholders
+        can be filled in with known parts and activities, and a sketch when they cannot.
+      whose: ai4science-philsci
+    quotes:
+    - exact: A mechanism schema is a description of a mechanism, the entities, activities, and organizational
+        features of which are known with sufficient detail that the placeholders in the schema can be
+        filled in as needed.
+      section: Chapter 3
+  sketch_or_schema:
+    interpretation:
+      says: Craver and Lindley Darden call a description of a mechanism a schema when its placeholders
+        can be filled in with known parts and activities, and a sketch when they cannot.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Whether such a drawing counts as a sketch or a schema depends ultimately on whether the represented
+        black boxes and question marks can be replaced at a given stage in the historical development
+        of a model with a more detailed description of the underlying mechanisms.
+      section: Chapter 3
+  gaps_marked_masked:
+    interpretation:
+      says: 'A diagram can mark its gaps with a black box or a question mark. It can also hide them:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Sometimes gaps are marked in visual diagrams by black boxes or question marks. Other times,
+        gaps are masked by filler terms.
+      section: Chapter 3
+  watson_desk:
+    interpretation:
+      says: Pinned above James Watson's desk in 1952 it was a sketch, since nothing was known about the
+        structures of RNA or what the arrows stood for.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'In 1952 James Watson put a piece of paper above his desk with this sketch of the protein
+        synthesis mechanism:'
+      section: Chapter 3
+  rna_unknown:
+    interpretation:
+      says: Pinned above James Watson's desk in 1952 it was a sketch, since nothing was known about the
+        structures of RNA or what the arrows stood for.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Nothing was known about the structures and types of RNA and their various roles in the protein
+        synthesis mechanism.
+      section: Chapter 3
+  schema_by_1965:
+    interpretation:
+      says: By 1965 the same three words were a schema whose boxes could be opened.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'By 1965, when Watson wrote the textbook, Molecular Biology of the Gene, that same drawing
+        was an abstract schema that could be filled with more detail about the structures of the molecules
+        and the activities represented by the arrows: transcription from DNA to messenger RNA and translation
+        from messenger RNA to the order of amino acids in a protein.'
+      section: Chapter 3
+  support_varies:
+    interpretation:
+      says: A schema also varies in how well it is supported.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Mechanism schemas also vary in their degree of evidential support and accuracy.
+      section: Chapter 3
+  how_possibly_conjecture:
+    interpretation:
+      says: A how-possibly schema is a loosely constrained guess at how the mechanism works.
+      whose: ai4science-philsci
+    quotes:
+    - exact: How-possibly schemas are loosely constrained conjectures about how the mechanism works. They
+        describe how a set of parts and activities might be organized such that they exhibit the explanandum
+        phenomenon.
+      section: Chapter 3
+  how_actually_real:
+    interpretation:
+      says: A how-actually schema describes the parts and activities that are in fact there.
+      whose: ai4science-philsci
+    quotes:
+    - exact: How-actually schemas describe real components, activities, and organizational features of
+        the mechanism.
+      section: Chapter 3
+  how_plausibly_range:
+    interpretation:
+      says: Between them lies a range of how-plausibly schemas, each consistent with more or fewer of
+        the known constraints.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Between how-possibly and how-actually lies a range of how-plausibly schemas that are more
+        or less consistent with more or fewer known constraints on the components of the mechanism.
+      section: Chapter 3
+  maze_rivals:
+    interpretation:
+      says: Two mechanisms can account equally well for a rat learning a maze under normal conditions
+        and come apart under drugs, lesions or unusual training.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Two how-possibly mechanisms might account equally well for the capacity of a rat to learn
+        how to run a maze under environmentally normal precipitating conditions. However, they may diverge
+        considerably in their ability to account for features of maze-learning that show up in the inhibiting,
+        modulating, and otherwise nonstandard conditions that are so frequently the basis of experimental
+        design.
+      section: Chapter 4
+  idealized_examples:
+    interpretation:
+      says: 'Models of mechanisms assume things known to be false: uniform concentrations, cylindrical
+        axons, random mating.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: One might assume, for example, that the concentration of an ion in a cell is everywhere uniform,
+        or that the axon of a cell is shaped like a cylinder, or that organisms in a population mate perfectly
+        randomly.
+      section: Chapter 3
+  idealization_purpose:
+    interpretation:
+      says: Craver and Darden accept this and loosen the standard. A false assumption is acceptable when
+        it makes no difference to what the model is being used for.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In such cases, the scientist has to make a decision about whether the idealizing assumptions
+        matter (that is, make a difference) for the purpose to which the schema is to be put. A literally
+        false schema, that is, might be plausible enough for a given purpose even if it is not, technically,
+        a how-actually schema.
+      section: Chapter 3
+  hh_measured:
+    interpretation:
+      says: Hodgkin and Huxley's model of the action potential counts as a model of the mechanism because
+        they measured its variables, the ion concentrations and membrane conductances, independently in
+        the nerve.
+      whose: ai4science-philsci
+    quotes:
+    - exact: It was especially important to Hodgkin and Huxley that these variables describing components
+        be filled with values that conform to the results of their experiments. That is, the concentrations
+        determining the driving force on potassium had to match the measured concentrations, and the changes
+        in membrane conductance had to match the results of Hodgkin and Huxley’s laborious voltage clamp
+        experiments.
+      section: Chapter 3
+  hh_good_reason:
+    interpretation:
+      says: Hodgkin and Huxley's model of the action potential counts as a model of the mechanism because
+        they measured its variables, the ion concentrations and membrane conductances, independently in
+        the nerve.
+      whose: ai4science-philsci
+    quotes:
+    - exact: And given that Hodgkin and Huxley had independent evidence that the values and relations
+        in the model in fact corresponded to the magnitudes and regularities observed in this mechanism,
+        they had good reason to embrace their schema
+      section: Chapter 3

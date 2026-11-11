@@ -7,9 +7,9 @@ This page asks one question: **does a knockout show that the system uses the par
 
 Remove a component and the output changes. The sentence that reports this usually says more: that the system relies on the component when it runs on its own. The two can come apart, and the gap between them has a philosophy. This page covers three ideas from the philosophy of science that mark it:
 
-1. **Dependence and production.** That the effect would not have happened without the part is one relation; that the part brought the effect about is another.
-2. **Potential and actual difference makers.** A part that would change the outcome if you changed it is one thing; a part whose variation accounts for the variation that actually occurs is another.
-3. **Decodable is not used.** That you can read a variable off a part's activity does not show that anything downstream reads it.
+1. **Dependence and production: needing a part and being brought about by it are different relations.** That the effect would not have happened without the part is one relation; that the part brought the effect about is another (Hall, 2004).
+2. **Potential and actual difference makers: what could change the outcome is not always what does.** A part that would change the outcome if you changed it is one thing; a part whose variation accounts for the variation that actually occurs is another (Waters, 2007).
+3. **The decoder's dictum is false: decodable is not used.** That you can read a variable off a part's activity does not show that anything downstream reads it (Ritchie, Kaplan and Klein, 2019).
 
 ## From a knockout to a role
 
@@ -25,7 +25,7 @@ Production is what runs along a connected process from cause to effect; dependen
 
 > identifying a mere cause (a potential difference maker) and identifying the cause that makes the actual difference (the actual difference maker)
 >
-> — Waters (2007), p. 4
+> — Waters (2007), p. 5
 
 Every gene needed for eye color is a potential difference maker: change it and the color changes. In Morgan's flies the purple gene was the actual difference maker because it was the gene that actually varied in the population and whose variation accounted for the variation in eye color. The other genes did not vary, so differences in them could not explain the differences in eye color. The definition therefore needs a population. An actual difference maker accounts for a difference among individuals, not for a property of one. A knockout manufactures a difference that the population did not contain. It shows that the gene is a potential difference maker. Whether it is an actual one depends on whether the gene varies, and whether that variation reaches the trait, in the organisms the claim is about.
 
@@ -40,7 +40,7 @@ They argue that it is false, and that decodability is a poor guide to what the a
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**The counterfactual theorist to Hall (2004).** If the effect would not have happened without the cause, the cause is a cause. Hall grants this: dependence is causation in one sense. His point is that the word names two relations, and evidence for one is not evidence for the other.
+**The counterfactual theorist to Hall (2004).** If the effect would not have happened without the cause, the cause is a cause. Hall grants this: dependence is causation in one sense. His point is that the word names two relations, and each can hold without the other.
 
 **Waters (2007) to Woodward (2003).** Interventionism says what it is for a variable to be a cause, but not which of many causes made the difference that occurred. Waters offers the actual difference maker as the missing concept, added inside Woodward's framework rather than replacing it.
 

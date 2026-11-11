@@ -16,3 +16,58 @@ claims:
         in the study population
       section: Abstract
       page: 1
+  formal_representation:
+    interpretation:
+      says: The computer scientists Judea Pearl and Elias Bareinboim gave the problem a formal treatment.
+      whose: ai4science-philsci
+    quotes:
+    - exact: We introduce a formal representation called “selection diagrams” for expressing knowledge
+        about differences and commonalities between populations of interest and, using this representation,
+        we reduce questions of transportability to symbolic derivations in the do-calculus.
+      section: Abstract
+      page: 1
+  selection_diagrams_encode:
+    interpretation:
+      says: Their method encodes what is known about how two populations differ in a selection diagram,
+        and decides from the diagram, before any data are seen,
+      whose: ai4science-philsci
+    quotes:
+    - exact: We introduce a formal representation called “selection diagrams” for expressing knowledge
+        about differences and commonalities between populations of interest
+      section: Abstract
+      page: 1
+  decide_prior_to_data:
+    interpretation:
+      says: Their method encodes what is known about how two populations differ in a selection diagram,
+        and decides from the diagram, before any data are seen,
+      whose: ai4science-philsci
+    quotes:
+    - exact: This reduction yields graph-based procedures for deciding, prior to observing any data, whether
+        causal effects in the target population can be inferred from experimental findings in the study
+        population.
+      section: Abstract
+      page: 1
+  deciding_given_differences:
+    interpretation:
+      says: Steel's process tracing requires comparison only where the two are likely to differ, and Pearl
+        and Bareinboim's method allows known differences, provided they are encoded and the effect can
+        still be derived.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Given judgements of how target populations may differ from those under study, the paper offers
+        a formal representational language for making these assessments precise and for deciding whether
+        causal relations in the target population can be inferred from those obtained in an experimental
+        study.
+      section: 6. Conclusions
+      page: 14
+  invariance_knowledge_encoded:
+    interpretation:
+      says: Pearl and Bareinboim's method also requires a causal diagram of how the settings differ, which
+        for many AI applications nobody can write down.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In this paper, we will address the issue of transportability assuming that scientific knowledge
+        about invariance of certain mechanisms is available and encoded in the selection diagram through
+        the S nodes.
+      section: 4.1 Selection Diagrams and Selection Variables
+      page: 11

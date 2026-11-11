@@ -300,3 +300,136 @@ claims:
   fail_to_forbid:
     quotes:
     - exact: may fail to forbid any observable state of affairs
+  no_falsification_by_experiment_alone:
+    interpretation:
+      says: The philosopher of science Imre Lakatos argued that a failed prediction cannot by itself refute
+        a theory.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Contrary to naive falsificationism, no experiment, experimental report, observation statement
+        or well-corroborated low-level falsifying hypothesis alone can lead to falsification.
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 184
+  story_small_planet_deviates:
+    interpretation:
+      says: His example is a newly discovered small planet that deviates from the path Newton's theory
+        predicts.
+      whose: ai4science-philsci
+    quotes:
+    - exact: A physicist of the pre-Einsteinian era takes Newton's mechanics and his law of gravitation
+        (N), the accepted initial conditions, l, and calculates, with their help, the path of a newly
+        discovered small planet, p. But the planet deviates from the calculated path.
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 174
+  story_unseen_planet:
+    interpretation:
+      says: A Newtonian physicist proposes an unseen planet perturbing it, too small for any existing
+        telescope.
+      whose: ai4science-philsci
+    quotes:
+    - exact: He suggests that there must be a hitherto unknown planet p' which perturbs the path of p.
+        He calculates the mass, orbit, etc., of this hypothetical planet and then asks an experimental
+        astronomer to test his hypothesis. The planet p' is so small that even the biggest available telescopes
+        cannot possibly observe it
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 174
+  story_bigger_telescope_dust:
+    interpretation:
+      says: A bigger telescope is built and does not find it, so he proposes a cloud of cosmic dust hiding
+        it.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In three years' time the new telescope is ready. Were the unknown planet p' to be discovered,
+        it would be hailed as a new victory of Newtonian science. But it is not. Does our scientist abandon
+        Newton's theory and his idea of the perturbing planet? No. He suggests that a cloud of cosmic
+        dust hides the planet from us.
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 174
+  story_cloud_not_found:
+    interpretation:
+      says: A satellite does not find the cloud, so he proposes a magnetic field that disturbed the satellite's
+        instruments, and a second satellite does not find the field.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Were the satellite's instruments (possibly new ones, based on a little-tested theory) to
+        record the existence of the conjectural cloud, the result would be hailed as an outstanding victory
+        for Newtonian science. But the cloud is not found.
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 174
+  story_field_not_found:
+    interpretation:
+      says: A satellite does not find the cloud, so he proposes a magnetic field that disturbed the satellite's
+        instruments, and a second satellite does not find the field.
+      whose: ai4science-philsci
+    quotes:
+    - exact: there is some magnetic field in that region of the universe which disturbed the instruments
+        of the satellite. A new satellite is sent up. Were the magnetic field to be found, Newtonians
+        would celebrate a sensational victory. But it is not.
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 175
+  story_moral_concludes:
+    interpretation:
+      says: Lakatos concludes that even Newton's theory "may fail to forbid any observable state of affairs".
+      whose: ai4science-philsci
+    quotes:
+    - exact: This story strongly suggests that even a most respected scientific theory, like Newton's
+        dynamics and theory of gravitation, may fail to forbid any observable state of affairs.
+      section: Dogmatic (or Naturalistic) Falsificationism
+      page: 175
+  demarcate_adjustments:
+    interpretation:
+      says: Whether a theory survives a failed prediction therefore cannot separate good research from
+        bad.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Popper agrees with the conventionalists that theories and factual propositions can always
+        be harmonized with the help of auxiliary hypotheses: He agrees that the problem is how to demarcate
+        between scientific and pseudoscientific adjustments, between rational and irrational changes of
+        theory.'
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 183
+  story_progressive_each_link:
+    interpretation:
+      says: Lakatos counts the planet story itself as progressive, because each new hypothesis predicted
+        something that could be checked.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'If we analyse it, it turns out that each successive link in this exercise predicts some
+        new fact; each step represents an increase in empirical content: The example constitutes a consistently
+        progressive theoretical shift.'
+      section: 'Negative Heuristic: The "Hard Core" of the Programme'
+      page: 192
+  auxiliary_save_any_theory:
+    interpretation:
+      says: Since a failed prediction implicates the auxiliary assumptions as well as the theory, a scientist
+        can always blame an assumption instead.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'First, we have to remember the conventionalists'' methodological discovery that no experimental
+        result can ever kill a theory: any theory can be saved from counterinstances either by some auxiliary
+        hypothesis or by a suitable reinterpretation of its terms.'
+      section: Sophisticated versus Naive Methodological Falsificationism. Progressive and Degenerating
+        Problemshifts
+      page: 182
+  rejection_not_disproof:
+    interpretation:
+      says: 'His reply was that this makes falsification a rule scientists commit to, not one that logic
+        forces on them: decide in advance what would count against the theory, and keep to it.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: The methodological falsificationist separates rejection and disproof, which the dogmatic
+        falsificationist had conflated.
+      section: Methodological Falsificationism. The Empirical Basis
+      page: 179
+  specify_in_advance_given_up:
+    interpretation:
+      says: 'His reply was that this makes falsification a rule scientists commit to, not one that logic
+        forces on them: decide in advance what would count against the theory, and keep to it.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: consists in specifying, in advance, an experiment such that if the result contradicts the
+        theory, the theory has to be given up.
+      section: Methodological Falsificationism. The Empirical Basis
+      page: 180

@@ -1,0 +1,47 @@
+source:
+  citation: achinstein2010
+  url: https://api.pageplace.de/preview/DT0400.9780199755738_A23609439/preview-9780199755738_A23609439.pdf
+  local: sources/achinstein_2010_evidence_explanation_realism_preview.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  increase_not_enough:
+    interpretation:
+      says: The philosopher of science Peter Achinstein argued that raising a hypothesis's probability is
+        not enough to make a result evidence for it.
+      whose: ai4science-philsci
+    quotes:
+    - exact: for e to be evidence that h it is not sufficient that e increase h’s (prior) probability.
+      section: 1. Concepts of Evidence, 2. The Probability Definition
+      page: 9
+  lottery_case:
+    interpretation:
+      says: In his lottery case, 1,000 tickets are sold, and John buys 100 while Bill buys 1. All the other
+        tickets are then destroyed, and one ticket will still be drawn at random. Bill's chance of winning
+        has risen about tenfold, from 1 in 1,000 to 1 in 101, but the news is no evidence that Bill will
+        win. If anything, it is evidence that John will, whose chance is now 100 in 101.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Let b be the background information that on Monday 1,000 lottery tickets were sold and that
+        John bought 100 and Bill bought 1.
+      section: 1. Concepts of Evidence, 2. The Probability Definition
+      page: 9
+    - exact: has been increased approximately tenfold over its prior probability. But surely e is not
+        evidence that Bill will win. If anything it is evidence that John will win.
+      section: 1. Concepts of Evidence, 2. The Probability Definition
+      page: 9
+    - exact: On the other hand it is evidence that John will win, since p(John will win/e&b) = 100/101.
+      section: 1. Concepts of Evidence, 2. The Probability Definition
+      page: 11
+  must_be_probable:
+    interpretation:
+      says: On Achinstein's account, evidence must make the hypothesis probable, not just more probable
+        than it was.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In the lottery case, although h’s probability is increased by e, the probability of h given
+        e and b is not high.
+      section: 1. Concepts of Evidence, 2. The Probability Definition
+      page: 11
+    - exact: One is that the probability of h given e be high.
+      section: 1. Concepts of Evidence, 4. A New Proposal
+      page: 15

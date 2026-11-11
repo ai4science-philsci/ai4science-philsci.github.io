@@ -18,3 +18,28 @@ claims:
     quotes:
     - exact: physicians tend to go for the hypothesis that best explains the patient’s symptoms
       section: 1.2 The ubiquity of abduction
+  abduction_ibe:
+    interpretation:
+      says: Philosophers call this abduction, or inference to the best explanation, and physicians use
+        it whenever they settle on the diagnosis that best fits the symptoms.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In the latter sense, abduction is also often called “Inference to the Best Explanation.”
+      section: Introduction
+  medical_diagnosis:
+    interpretation:
+      says: Philosophers call this abduction, or inference to the best explanation, and physicians use
+        it whenever they settle on the diagnosis that best fits the symptoms.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Abduction is also said to be the predominant mode of reasoning in medical diagnosis: physicians
+        tend to go for the hypothesis that best explains the patient’s symptoms'
+      section: 1.2 The ubiquity of abduction
+  compares_given_set:
+    interpretation:
+      says: Van Fraassen objected that the rule compares only the hypotheses someone thought of.
+      whose: ai4science-philsci
+    quotes:
+    - exact: For ABD1 takes as its premise only that some hypothesis is the best explanation of the evidence
+        as compared to other hypotheses in a given set.
+      section: 2. Explicating Abduction

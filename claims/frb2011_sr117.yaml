@@ -12,3 +12,12 @@ claims:
     quotes:
     - exact: This is even more of a concern if a model is used outside the environment for which it was
         designed.
+  sound_model_risk:
+    interpretation:
+      says: 'The bank regulators'' guidance on model risk warns that a model can be sound and still dangerous:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: The model may be used incorrectly or inappropriately. Even a fundamentally sound model producing
+        accurate outputs consistent with the design objective of the model may exhibit high model risk
+        if it is misapplied or misused.
+      page: 4

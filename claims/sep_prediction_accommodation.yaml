@@ -19,3 +19,67 @@ claims:
     - exact: if we know a theorist built her theory to accommodate data, we may well worry that she has
         overfit the data and thus constructed a flawed theory
       section: 6.7 The Akaike Approach
+  keynes_not_occasion:
+    interpretation:
+      says: If a theory fits the evidence, it should not matter whether the theory came before the evidence
+        or after.
+      whose: ai4science-philsci
+    quotes:
+    - exact: It is the union of prior knowledge, with the inductive grounds which arise out of the immediate
+        instances, that lends weight to any hypothesis, and not the occasion on which the hypothesis is
+        first proposed.
+      section: 1. Historical Introduction
+  mill_denied:
+    interpretation:
+      says: 'John Stuart Mill thought the preference for prediction was a popular superstition:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: But John Stuart Mill (in his debate with Whewell) categorically denied this claim, affirming
+        that
+      section: 1. Historical Introduction
+  mill_strange_stress:
+    interpretation:
+      says: 'John Stuart Mill thought the preference for prediction was a popular superstition:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: But it is strange that any considerable stress should be laid upon such a coincidence by
+        scientific thinkers.
+      section: 1. Historical Introduction
+  keynes_agreed_imaginary:
+    interpretation:
+      says: John Maynard Keynes agreed, calling the advantage of prediction over accommodation "altogether
+        imaginary."
+      whose: ai4science-philsci
+    quotes:
+    - exact: The peculiar virtue of prediction or predesignation is altogether imaginary
+      section: 1. Historical Introduction
+  hitchcock_sober_overfitting:
+    interpretation:
+      says: The reply that ML readers will recognize comes from Christopher Hitchcock and Elliott Sober
+        (2004).
+      whose: ai4science-philsci
+    quotes:
+    - exact: Hitchcock and Sober (2004) provide an original theory of weak heuristic predictivism that
+        is based on a particular worry about accommodation.
+      section: 6.7 The Akaike Approach
+  noisy_data_overfit:
+    interpretation:
+      says: Data are noisy, so a theory built to fit them may fit the noise.
+      whose: ai4science-philsci
+    quotes:
+    - exact: On the assumption that data are noisy (i.e. imbued with observational error), a good theory
+        will almost never fit the data perfectly. To construct a theory that fits the data better than
+        a good theory should, given noisy data, is to be guilty of “overfitting”—if we know a theorist
+        built her theory to accommodate data, we may well worry that she has overfit the data and thus
+        constructed a flawed theory.
+      section: 6.7 The Akaike Approach
+  built_without_data_no_overfit:
+    interpretation:
+      says: A theory that predicted the data before seeing them cannot have been tuned to their noise,
+        which is why a held-out test set counts for more than a good fit.
+      whose: ai4science-philsci
+    quotes:
+    - exact: If we know however that a theorist built her theory without access to such data, or without
+        using it in the process of theory construction, we need not worry that overfitting that data has
+        occurred.
+      section: 6.7 The Akaike Approach

@@ -29,3 +29,132 @@ claims:
     quotes:
     - exact: And so the controversy over the relevance of the stopping rule continues
       section: '3.2.3 Excursion: optional stopping'
+  bayesian_uphold_lp:
+    interpretation:
+      says: Bayesian and likelihood statisticians hold the opposite view.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'The Bayesian procedures discussed in Section 4, on the other hand, uphold the likelihood
+        principle: in determining the posterior distribution over hypotheses only the prior and the likelihood
+        of the observed data matter.'
+      section: 3.2.2 The nature of evidence
+  tea_student:
+    interpretation:
+      says: The entry's example is a student who claims to taste whether milk or tea went into the cup
+        first.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Imagine two researchers who are both testing the same student on his ability to determine
+        the order in which milk and tea were poured in his cup.
+      section: 3.2.2 The nature of evidence
+  diligent_six_trials:
+    interpretation:
+      says: One researcher plans six cups.
+      whose: ai4science-philsci
+    quotes:
+    - exact: The more diligent researcher of the two decides to record six trials.
+      section: 3.2.2 The nature of evidence
+  impatient_stops_first_failure:
+    interpretation:
+      says: Another plans to stop at the first wrong answer.
+      whose: ai4science-philsci
+    quotes:
+    - exact: The more impatient researcher, on the other hand, records at most six trials, but decides
+        to stop recording the first trial that the student guesses incorrectly.
+      section: 3.2.2 The nature of evidence
+  five_successes_one_failure:
+    interpretation:
+      says: The student gets five right and then one wrong, so both researchers have the same six results.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Now imagine that, in actual fact, the man guesses all but the last of the cups correctly.
+        Both researchers then have the exact same data of five successes and one failure
+      section: 3.2.2 The nature of evidence
+  diligent_cannot_impatient_can:
+    interpretation:
+      says: The first cannot reject the hypothesis that the student is guessing, and the second can, because
+        the two plans make different results possible.
+      whose: ai4science-philsci
+    quotes:
+    - exact: However, while the diligent researcher cannot reject the null hypothesis, the impatient researcher
+        can.
+      section: 3.2.2 The nature of evidence
+  unobserved_samples_plan:
+    interpretation:
+      says: The first cannot reject the hypothesis that the student is guessing, and the second can, because
+        the two plans make different results possible.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In virtue of the sampling plan, the other samples with five successes, namely the ones which
+        kept the diligent researcher from including the observed sample in the region of rejection on
+        pain of exceeding the error probability, could not have been observed.
+      section: '3.2.3 Excursion: optional stopping'
+  intentions_irrelevant_some:
+    interpretation:
+      says: To a Bayesian, evidence that depends on what was in the researcher's head is not evidence
+        about the student.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Some will find this dependence unacceptable: the intentions and plans of the researcher
+        are irrelevant to the evidential value of the data.'
+      section: 3.2.2 The nature of evidence
+  jeffreys_remarkable:
+    interpretation:
+      says: The statistician Harold Jeffreys called the classical procedure "remarkable."
+      whose: ai4science-philsci
+    quotes:
+    - exact: As Jeffreys (1961, p. 385) famously quipped, this is indeed a “remarkable procedure”.
+      section: '3.2.3 Excursion: optional stopping'
+  persistent_not_guaranteed_kadane:
+    interpretation:
+      says: Kadane and colleagues (1996) showed that, under standard assumptions, persistent sampling
+        is not guaranteed to reach a chosen result when the evidence is computed the Bayesian or likelihood
+        way.
+      whose: ai4science-philsci
+    quotes:
+    - exact: However, as shown in Kadane et al. (1996a and 1996b) and further discussed in Steele (2012),
+        persistent experimentation is not guaranteed to yield any desired outcome, as long as we make
+        sure to align the procedures with the appropriate evidence conception, e.g., likelihoodist or
+        Bayesian.
+      section: 3.2.2 The nature of evidence
+  lp_upholders_stopping_informative:
+    interpretation:
+      says: 'Romeijn''s entry notes a case where even Bayesians agree the stopping rule matters: when
+        the reason for stopping depends on the thing being studied.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Moreover, in some cases this intuition is shared by those who uphold the likelihood principle,
+        namely when the stopping rule depends on the process being recorded in a way not already expressed
+        by the hypotheses at issue
+      section: '3.2.3 Excursion: optional stopping'
+  peckish_boredom:
+    interpretation:
+      says: A researcher who stops because the student's guesses are boring her has learned something
+        about the student.
+      whose: ai4science-philsci
+    quotes:
+    - exact: if the student is merely guessing and hence gets it right only by chance, then it may be
+        more probable that the researcher gets peckish out of sheer boredom, than if the student performs
+        far below or above chance level. In such a case the act of stopping itself reveals something about
+        the hypotheses at issue
+      section: '3.2.3 Excursion: optional stopping'
+  controversy_continues_stopping:
+    interpretation:
+      says: The entry concludes that the controversy continues.
+      whose: ai4science-philsci
+    quotes:
+    - exact: And so the controversy over the relevance of the stopping rule continues
+      section: '3.2.3 Excursion: optional stopping'
+  mayo_among_defenders:
+    interpretation:
+      says: Defenders of classical statistics, Mayo among them, hold that treating the stopping rule as
+        irrelevant opens the way to opportunistic choices in data collection.
+      whose: ai4science-philsci
+    quotes:
+    - exact: They maintain that the impact of data on the hypotheses should depend on the stopping rule
+        or protocol that is followed in obtaining it, and not only on the likelihoods that the hypotheses
+        have for those data (e.g. Mayo 1996). The motivating intuition is that upholding the irrelevance
+        of the stopping rule opens up the possibility for opportunistic choices in data collection. In
+        fact, defenders of classical statistics turn the table on those who maintain that optional stopping
+        is irrelevant.
+      section: 3.2.2 The nature of evidence

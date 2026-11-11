@@ -5,6 +5,14 @@
       "title": "AlphaFold at CASP14"
     },
     {
+      "slug": "/cases/covid-imaging/",
+      "title": "COVID-19 Imaging Models"
+    },
+    {
+      "slug": "/cases/google-flu-trends/",
+      "title": "Google Flu Trends"
+    },
+    {
       "slug": "/checklist/",
       "title": "Checklist"
     },
@@ -17,6 +25,26 @@
     {
       "slug": "/cases/alphafold/",
       "title": "AlphaFold at CASP14"
+    },
+    {
+      "slug": "/cases/amyloid-surrogate/",
+      "title": "Amyloid as a Surrogate Endpoint"
+    },
+    {
+      "slug": "/cases/candidate-genes-depression/",
+      "title": "Candidate Genes for Depression"
+    },
+    {
+      "slug": "/cases/covid-imaging/",
+      "title": "COVID-19 Imaging Models"
+    },
+    {
+      "slug": "/cases/google-flu-trends/",
+      "title": "Google Flu Trends"
+    },
+    {
+      "slug": "/cases/health-risk-score/",
+      "title": "A Health Risk Score"
     },
     {
       "slug": "/checklist/",
@@ -45,18 +73,46 @@
       "title": "AlphaFold at CASP14"
     },
     {
+      "slug": "/cases/amyloid-surrogate/",
+      "title": "Amyloid as a Surrogate Endpoint"
+    },
+    {
+      "slug": "/cases/google-flu-trends/",
+      "title": "Google Flu Trends"
+    },
+    {
+      "slug": "/cases/health-risk-score/",
+      "title": "A Health Risk Score"
+    },
+    {
       "slug": "/checklist/",
       "title": "Checklist"
     },
     {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/testing/falsification-and-severe-testing/",
+      "title": "Falsification and Severe Testing"
     }
   ],
   "/testing/falsification-and-severe-testing/": [
     {
       "slug": "/cases/alphafold/",
       "title": "AlphaFold at CASP14"
+    },
+    {
+      "slug": "/cases/candidate-genes-depression/",
+      "title": "Candidate Genes for Depression"
+    },
+    {
+      "slug": "/cases/covid-imaging/",
+      "title": "COVID-19 Imaging Models"
+    },
+    {
+      "slug": "/cases/google-flu-trends/",
+      "title": "Google Flu Trends"
     },
     {
       "slug": "/checklist/",
@@ -81,6 +137,22 @@
       "title": "AlphaFold at CASP14"
     },
     {
+      "slug": "/cases/amyloid-surrogate/",
+      "title": "Amyloid as a Surrogate Endpoint"
+    },
+    {
+      "slug": "/cases/candidate-genes-depression/",
+      "title": "Candidate Genes for Depression"
+    },
+    {
+      "slug": "/cases/covid-imaging/",
+      "title": "COVID-19 Imaging Models"
+    },
+    {
+      "slug": "/cases/google-flu-trends/",
+      "title": "Google Flu Trends"
+    },
+    {
       "slug": "/checklist/",
       "title": "Checklist"
     },
@@ -91,12 +163,24 @@
     {
       "slug": "/stopping/stopping-and-evidence/",
       "title": "Stopping and Evidence"
+    },
+    {
+      "slug": "/testing/falsification-and-severe-testing/",
+      "title": "Falsification and Severe Testing"
     }
   ],
   "/explanation/prediction-and-explanation/": [
     {
       "slug": "/cases/alphafold/",
       "title": "AlphaFold at CASP14"
+    },
+    {
+      "slug": "/cases/covid-imaging/",
+      "title": "COVID-19 Imaging Models"
+    },
+    {
+      "slug": "/cases/google-flu-trends/",
+      "title": "Google Flu Trends"
     },
     {
       "slug": "/checklist/",
@@ -113,6 +197,14 @@
       "title": "AlphaFold at CASP14"
     },
     {
+      "slug": "/cases/amyloid-surrogate/",
+      "title": "Amyloid as a Surrogate Endpoint"
+    },
+    {
+      "slug": "/cases/candidate-genes-depression/",
+      "title": "Candidate Genes for Depression"
+    },
+    {
       "slug": "/checklist/",
       "title": "Checklist"
     },
@@ -127,12 +219,32 @@
     {
       "slug": "/measurement/validity/",
       "title": "Validity"
+    },
+    {
+      "slug": "/simulation/simulation-and-understanding/",
+      "title": "Simulation and Understanding"
     }
   ],
   "/transfer/transfer-and-scope/": [
     {
       "slug": "/cases/alphafold/",
       "title": "AlphaFold at CASP14"
+    },
+    {
+      "slug": "/cases/amyloid-surrogate/",
+      "title": "Amyloid as a Surrogate Endpoint"
+    },
+    {
+      "slug": "/cases/candidate-genes-depression/",
+      "title": "Candidate Genes for Depression"
+    },
+    {
+      "slug": "/cases/covid-imaging/",
+      "title": "COVID-19 Imaging Models"
+    },
+    {
+      "slug": "/cases/google-flu-trends/",
+      "title": "Google Flu Trends"
     },
     {
       "slug": "/checklist/",
@@ -155,6 +267,10 @@
       "title": "AI for Science × Philosophy of Science"
     },
     {
+      "slug": "/measurement/validity/",
+      "title": "Validity"
+    },
+    {
       "slug": "/scope/scope-and-licensing/",
       "title": "Scope and Licensing"
     }
@@ -165,12 +281,158 @@
       "title": "AlphaFold at CASP14"
     },
     {
+      "slug": "/cases/amyloid-surrogate/",
+      "title": "Amyloid as a Surrogate Endpoint"
+    },
+    {
+      "slug": "/cases/covid-imaging/",
+      "title": "COVID-19 Imaging Models"
+    },
+    {
+      "slug": "/cases/health-risk-score/",
+      "title": "A Health Risk Score"
+    },
+    {
       "slug": "/checklist/",
       "title": "Checklist"
     },
     {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"
+    }
+  ],
+  "/stopping/stopping-and-evidence/": [
+    {
+      "slug": "/cases/amyloid-surrogate/",
+      "title": "Amyloid as a Surrogate Endpoint"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    }
+  ],
+  "/causation/causation-and-intervention/": [
+    {
+      "slug": "/cases/amyloid-surrogate/",
+      "title": "Amyloid as a Surrogate Endpoint"
+    },
+    {
+      "slug": "/cases/candidate-genes-depression/",
+      "title": "Candidate Genes for Depression"
+    },
+    {
+      "slug": "/cases/covid-imaging/",
+      "title": "COVID-19 Imaging Models"
+    },
+    {
+      "slug": "/fields/causal-inference/",
+      "title": "Causal Inference"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    }
+  ],
+  "/scope/scope-and-licensing/": [
+    {
+      "slug": "/cases/amyloid-surrogate/",
+      "title": "Amyloid as a Surrogate Endpoint"
+    },
+    {
+      "slug": "/cases/covid-imaging/",
+      "title": "COVID-19 Imaging Models"
+    },
+    {
+      "slug": "/cases/google-flu-trends/",
+      "title": "Google Flu Trends"
+    },
+    {
+      "slug": "/cases/health-risk-score/",
+      "title": "A Health Risk Score"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/measurement/validity/",
+      "title": "Validity"
+    }
+  ],
+  "/mechanism/models-of-mechanisms/": [
+    {
+      "slug": "/cases/candidate-genes-depression/",
+      "title": "Candidate Genes for Depression"
+    },
+    {
+      "slug": "/causation/causation-and-intervention/",
+      "title": "Causation and Intervention"
+    },
+    {
+      "slug": "/fields/causal-inference/",
+      "title": "Causal Inference"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/mechanism/mechanism/",
+      "title": "Mechanism"
+    }
+  ],
+  "/identity/identity-criteria/": [
+    {
+      "slug": "/cases/candidate-genes-depression/",
+      "title": "Candidate Genes for Depression"
+    },
+    {
+      "slug": "/identity/identity-across-systems/",
+      "title": "Identity Across Systems"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    }
+  ],
+  "/measurement/measurement/": [
+    {
+      "slug": "/cases/google-flu-trends/",
+      "title": "Google Flu Trends"
+    },
+    {
+      "slug": "/cases/health-risk-score/",
+      "title": "A Health Risk Score"
+    },
+    {
+      "slug": "/fields/psychometrics/",
+      "title": "Psychometrics"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/measurement/validity/",
+      "title": "Validity"
+    }
+  ],
+  "/identity/identity-across-systems/": [
+    {
+      "slug": "/cases/google-flu-trends/",
+      "title": "Google Flu Trends"
+    },
+    {
+      "slug": "/identity/identity-criteria/",
+      "title": "Identity Criteria"
+    },
+    {
+      "slug": "/index/",
+      "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/transfer/transfer-and-scope/",
+      "title": "Transfer and Scope"
     }
   ],
   "/mechanism/intervention-and-use/": [
@@ -203,34 +465,14 @@
     {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"
-    }
-  ],
-  "/mechanism/models-of-mechanisms/": [
-    {
-      "slug": "/causation/causation-and-intervention/",
-      "title": "Causation and Intervention"
     },
     {
-      "slug": "/fields/causal-inference/",
-      "title": "Causal Inference"
+      "slug": "/mechanism/models-of-mechanisms/",
+      "title": "Models of Mechanisms"
     },
     {
-      "slug": "/index/",
-      "title": "AI for Science × Philosophy of Science"
-    },
-    {
-      "slug": "/mechanism/mechanism/",
-      "title": "Mechanism"
-    }
-  ],
-  "/causation/causation-and-intervention/": [
-    {
-      "slug": "/fields/causal-inference/",
-      "title": "Causal Inference"
-    },
-    {
-      "slug": "/index/",
-      "title": "AI for Science × Philosophy of Science"
+      "slug": "/transfer/transfer-and-scope/",
+      "title": "Transfer and Scope"
     }
   ],
   "/mechanism/parts-of-a-mechanism/": [
@@ -247,63 +489,31 @@
       "title": "Mechanism"
     }
   ],
-  "/measurement/measurement/": [
-    {
-      "slug": "/fields/psychometrics/",
-      "title": "Psychometrics"
-    },
-    {
-      "slug": "/index/",
-      "title": "AI for Science × Philosophy of Science"
-    },
-    {
-      "slug": "/measurement/validity/",
-      "title": "Validity"
-    }
-  ],
-  "/identity/identity-criteria/": [
-    {
-      "slug": "/identity/identity-across-systems/",
-      "title": "Identity Across Systems"
-    },
-    {
-      "slug": "/index/",
-      "title": "AI for Science × Philosophy of Science"
-    }
-  ],
-  "/identity/identity-across-systems/": [
-    {
-      "slug": "/identity/identity-criteria/",
-      "title": "Identity Criteria"
-    },
-    {
-      "slug": "/index/",
-      "title": "AI for Science × Philosophy of Science"
-    },
-    {
-      "slug": "/transfer/transfer-and-scope/",
-      "title": "Transfer and Scope"
-    }
-  ],
-  "/stopping/stopping-and-evidence/": [
-    {
-      "slug": "/index/",
-      "title": "AI for Science × Philosophy of Science"
-    }
-  ],
   "/simulation/simulation-and-understanding/": [
     {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"
     }
   ],
-  "/scope/scope-and-licensing/": [
+  "/fields/psychometrics/": [
     {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"
+    },
+    {
+      "slug": "/measurement/measurement/",
+      "title": "Measurement"
+    },
+    {
+      "slug": "/measurement/validity/",
+      "title": "Validity"
+    },
+    {
+      "slug": "/scope/scope-and-licensing/",
+      "title": "Scope and Licensing"
     }
   ],
-  "/fields/psychometrics/": [
+  "/mailto:elliot@elliottower.ai/": [
     {
       "slug": "/index/",
       "title": "AI for Science × Philosophy of Science"

@@ -13,3 +13,29 @@ claims:
     quotes:
     - exact: must end with someone who possesses the necessary evidence
       page: 337
+  ninety_nine_authors:
+    interpretation:
+      says: 'The philosopher John Hardwig studied a physics paper with 99 authors and found that this
+        assumption already failed there:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Finally, Bugg notes that the article's 99 authors represent different specializations with
+        particle physics, but all are experimentalists
+      page: 347
+  no_one_person:
+    interpretation:
+      says: 'The philosopher John Hardwig studied a physics paper with 99 authors and found that this
+        assumption already failed there:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Obviously, no one person could have done this experiment
+      page: 347
+  rests_on_others_unverified:
+    interpretation:
+      says: The authors relied on each other for results none of them could check alone.
+      whose: ai4science-philsci
+    quotes:
+    - exact: each researcher is forced to acknowledge the extent to which his own work rests on the work
+        of others-work which he has not and could not (if only for reasons of time and expense) verify
+        for himself.
+      page: 348

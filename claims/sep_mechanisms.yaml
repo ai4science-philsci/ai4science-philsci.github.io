@@ -103,3 +103,214 @@ claims:
     quotes:
     - exact: The distinction between sketches and schemas is perhaps too dichotomous
       section: 3.5.1 Completeness
+  rw_thesis:
+    interpretation:
+      says: Russo and Williamson argued that a causal claim typically requires evidence that the cause
+        makes a difference and evidence of how it produces the effect.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Russo and Williamson argue that both types of evidence are typically required to justify
+        causal inference; the correlational evidence establishes that there is a difference-making relation
+        between some cause and some effect, while the mechanistic evidence establishes how exactly the
+        cause produces its effect
+      section: 4.2 Mechanistic Evidence and Medical Discoveries
+  mdc_definition:
+    interpretation:
+      says: Peter Machamer, Lindley Darden and Carl Craver gave an influential answer in terms of entities,
+        their activities and their organization.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Mechanisms are entities and activities organized such that they are productive of regular
+        changes from start or set-up to termination conditions. (Machamer, Darden, & Craver 2000: 3)'
+      section: 2. What Is a Mechanism?
+  definitions_multiplied:
+    interpretation:
+      says: 'After a decade of competing definitions, most of the field settled on a minimal version:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Within a decade, definitions multiplied, each with its own commitments and implications:'
+      section: 2. What Is a Mechanism?
+  minimal_adopted:
+    interpretation:
+      says: 'After a decade of competing definitions, most of the field settled on a minimal version:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: To capture what is common across this diversity, Glennan and others adopted a “minimal mechanism”
+        definition that has broadly been adopted
+      section: 2. What Is a Mechanism?
+  greenhouse:
+    interpretation:
+      says: 'The greenhouse effect is the entry''s example: the sun, the Earth and the atmosphere, what
+        each does to radiation, and how they are arranged together produce the warming.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Figure 4 depicts some key components in this mechanism (e.g., the sun, Earth, the atmosphere),
+        the relevant operations of those parts (e.g., radiating solar energy, re-radiating heat, trapping
+        heat), and the organizational relationship between those elements of the mechanism (e.g., that
+        earth is surrounded by the atmosphere, which is made of gasses as parts).
+      section: 2.1 Depicting Mechanisms
+  relative_to_phenomenon:
+    interpretation:
+      says: 'The philosopher of science Stuart Glennan stated a point now repeated across the literature:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: A central claim across many areas of the mechanism literature is that mechanisms are defined
+        only relative to a phenomenon.
+      section: 5.1 Mechanisms Are Defined Relative to Phenomena
+  rw_both_required:
+    interpretation:
+      says: The philosophers Federica Russo and Jon Williamson argued that a causal claim in the health
+        sciences usually needs two kinds of evidence.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Russo and Williamson argue that both types of evidence are typically required to justify
+        causal inference
+      section: 4.2 Mechanistic Evidence and Medical Discoveries
+  pylori:
+    interpretation:
+      says: The discovery that *H. pylori* causes stomach ulcers rested on an association between the
+        bacterium and ulcers, and on evidence of how the bacterium could survive in the stomach's acid.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Thagard draws attention to both statistical evidence that ulcers are associated with H. pylori
+        and to mechanistic evidence that can explain how the agent of infection could persist in a hostile
+        environment, to argue for the causal hypothesis.
+      section: 4.2 Mechanistic Evidence and Medical Discoveries
+  ebm_on_par:
+    interpretation:
+      says: Evidence-based medicine ranks randomized trials and meta-analyses above mechanistic evidence,
+        while Russo, Williamson and others argue the two kinds are on a par and should be combined.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Evidence-based medicine hierarchies, which rank different kinds of evidence in terms of their
+        epistemic strength, tend to prioritize evidence from difference-making methodologies (such as
+        randomized controlled trials and meta-analyses) over mechanistic evidence; in reply, these philosophers
+        argue that the different types of evidence are on a par (each with its own strengths and weaknesses)
+        and advocate for integrating difference-making and mechanistic evidence
+      section: 4.2 Mechanistic Evidence and Medical Discoveries
+  perspectival_matter:
+    interpretation:
+      says: The entry grants the first step and denies the conclusion.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Which phenomena we are interested in causing, creating, or explaining is surely a perspectival
+        matter.
+      section: 5.1 Mechanisms Are Defined Relative to Phenomena
+  not_arbitrary_exist:
+    interpretation:
+      says: The phenomenon has to exist and have effects, and the search for its mechanism can show that
+        it was carved wrongly.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Notice, however, that the choice of phenomenon is not entirely arbitrary. For example, the
+        phenomenon has to exist (unlike the id or witches), it has to have causal powers, it has to survive
+        the kind of scrutiny that scientific constructs routinely survive.
+      section: 5.1 Mechanisms Are Defined Relative to Phenomena
+  phenomena_empirical:
+    interpretation:
+      says: The phenomenon has to exist and have effects, and the search for its mechanism can show that
+        it was carved wrongly.
+      whose: ai4science-philsci
+    quotes:
+    - exact: We should not forget that the choice of which phenomena are appropriate targets for explanation
+        is in part an empirical matter, a matter of how things have to go when you look at things more
+        closely and try to explain them.
+      section: 5.1 Mechanisms Are Defined Relative to Phenomena
+  multilevel_fields:
+    interpretation:
+      says: The mechanists built their account for biology and psychology, where explanations span several
+        levels, and the entry says so directly.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Much of the early work by philosophers of mechanism focused on fields like biology and psychology,
+        where the express purpose was to make sense of how mechanisms scaffold the effort to build multilevel
+        explanations
+      section: 2.2 What Mechanisms Are Not
+  literal_parts:
+    interpretation:
+      says: 'The new mechanists mean it literally: there are parts and activities organized so that they
+        produce the phenomenon.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: When a scientist says that there is a mechanism that makes proteins in living organisms,
+        she is not just using a machine metaphor; rather, she is saying that there are in fact parts and
+        activities organized in living organisms such that they produce proteins.
+      section: 2.2 What Mechanisms Are Not
+  three_m_mapping:
+    interpretation:
+      says: To be more than phenomenal, Kaplan and Craver had argued earlier, a model's variables must
+        correspond to parts, activities and features of the mechanism, and its equations to the causal
+        relations among them.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'In successful explanatory models in cognitive and systems neuroscience (a) the variables
+        in the model correspond to components, activities, properties, and organizational features of
+        the target mechanism that produces, maintains or underlies the phenomenon, and (b) the (perhaps
+        mathematical) dependencies posited among these variables in the model correspond to the (perhaps
+        quantifiable) causal relations among the components of the target mechanism. (Kaplan & Craver
+        2011: 611)'
+      section: 3.3 Purely Phenomenal Models
+  detail_objection:
+    interpretation:
+      says: Critics argue that the mechanists overvalue detail, as if every explanation had to descend
+        to the molecules.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Some object to what they see as the mechanist’s emphasis on detail (Chirimuuta 2014; Levy
+        & Bechtel 2013; Batterman & Rice 2014; Weiskopf 2011; Woodward 2017). They associate mechanism
+        with an obsessive focus on smallest details without regard to relevance
+      section: 3.5.1 Completeness
+  not_all_details:
+    interpretation:
+      says: The entry replies that the requirement is for some details, not all, and that the objection
+        targets a caricature of the view.
+      whose: ai4science-philsci
+    quotes:
+    - exact: It does not assert that a model must describe all the details of a mechanism to count as
+        explanatory.
+      section: 3.3 Purely Phenomenal Models
+  caricature_reply:
+    interpretation:
+      says: The entry replies that the requirement is for some details, not all, and that the objection
+        targets a caricature of the view.
+      whose: ai4science-philsci
+    quotes:
+    - exact: But this objection appears to be directed at a common caricature of the mechanist rather
+        than at anything any new mechanist has asserted.
+      section: 3.5.1 Completeness
+  some_details_necessary:
+    interpretation:
+      says: The requirement is that a constitutive explanation give some details of the mechanism.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'The 3M requirement is nothing more or less than the inverse of the truism that a constitutive
+        explanation must convey some information about the underlying mechanism (Craver & Kaplan 2020
+        call this SDN: Some details are necessary).'
+      section: 3.3 Purely Phenomenal Models
+  misread_3m:
+    interpretation:
+      says: The entry calls the stronger "more details better" thesis a misreading ([Craver, Tabery and
+        Illari (2024), SEP, §3.3](https://plato.stanford.edu/entries/science-mechanisms/#PurePhenMode)).
+      whose: ai4science-philsci
+    quotes:
+    - exact: This passage has been misread in many telling ways.
+      section: 3.3 Purely Phenomenal Models
+  more_details_better:
+    interpretation:
+      says: The entry calls the stronger "more details better" thesis a misreading ([Craver, Tabery and
+        Illari (2024), SEP, §3.3](https://plato.stanford.edu/entries/science-mechanisms/#PurePhenMode)).
+      whose: ai4science-philsci
+    quotes:
+    - exact: Nor does it assert that a model that contains more details about a mechanism is always better
+        or more explanatory than a model that contains fewer details (the so-called “more details better”
+        thesis
+      section: 3.3 Purely Phenomenal Models
+  dichotomous_degree:
+    interpretation:
+      says: The sketch–schema and how-possibly–how-actually distinctions are continua, and the entry says
+        the first "is perhaps too dichotomous" for what is always a matter of degree.
+      whose: ai4science-philsci
+    quotes:
+    - exact: The distinction between sketches and schemas is perhaps too dichotomous to accommodate what
+        is in fact always a matter of relative completeness and abstraction.
+      section: 3.5.1 Completeness

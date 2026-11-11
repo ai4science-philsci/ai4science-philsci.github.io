@@ -1,0 +1,23 @@
+source:
+  citation: cronbach_meehl1955
+  doi: 10.1037/h0040957
+  local: sources/cronbach_meehl_1955_construct_validity.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  internal_consistency_not_validity:
+    interpretation:
+      says: Construct validation (Cronbach and Meehl, 1955) and argument-based validation (Messick, 1989;
+        Kane, 2013) separate statistical scaling from what a score means ([Validity](/measurement/validity/)).
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'It is unwise to list uninterpreted data of this sort under the heading
+
+        “validity” in test manuals, as some authors have done. High internal consistency
+
+        may lower validity. Only if the underlying theory of the trait being measured
+
+        calls for high item intercorrelations do the correlations support construct
+
+        validity.'
+      section: Studies of internal structure
+      page: 9

@@ -11,3 +11,110 @@ claims:
         0, and to satisfy Probabilism, the remaining credences should be scaled up—rescaled to sum to
         1.
       section: 1.1 A Case Study
+  conditionalization_credence_rises:
+    interpretation:
+      says: 'On the Bayesian account, evidence works by revising degrees of belief: when evidence arrives,
+        the possibilities incompatible with it drop to zero credence and the remaining credences are rescaled,
+        so credence in a hypothesis that fits the evidence rises (Lin, "Bayesian Epistemology," SEP, §1.1).'
+      whose: ai4science-philsci
+    quotes:
+    - exact: According to the second norm, called the Principle of Conditionalization, the possibility
+        incompatible with E (i.e., the rightmost possibility) should have its credence dropped down to
+        0, and to satisfy Probabilism, the remaining credences should be scaled up—rescaled to sum to
+        1. So this person’s credence in hypothesis H has to rise in a way such as that depicted in figure
+        2.
+      section: 1.1 A Case Study
+  credence_defined:
+    interpretation:
+      says: A Bayesian represents how confident a person is in each hypothesis as a number between 0 and
+        1, called a degree of belief or credence, with the credences across all the possibilities summing
+        to 1.
+      whose: ai4science-philsci
+    quotes:
+    - exact: say that this person’s degree of belief, or credence, in that possibility is equal to 0.8.
+      section: 1.1 A Case Study
+    - exact: one’s credences in the three possibilities in figure 1 ought to fit together so nicely that
+        they are non-negative and sum to 1.
+      section: 1.1 A Case Study
+  confirmation_as_raised_credence:
+    interpretation:
+      says: A result confirms a hypothesis when it raises the credence in it, and the more surprising the
+        result, the more it raises it.
+      whose: ai4science-philsci
+    quotes:
+    - exact: a hypothesis H is confirmed by new evidence E exactly when one’s credence in H ought to increase
+        in response to the acquisition of E.
+      section: 1.3 Applications
+    - exact: the more surprising the evidence E is, the higher the credence in H ought to be raised.
+      section: 1.1 A Case Study
+  eddington_case:
+    interpretation:
+      says: The result surprised the physics community, so it raised confidence in Einstein's theory sharply.
+      whose: ai4science-philsci
+    quotes:
+    - exact: This result surprised the physics community and was deemed a significant confirmation of Einstein’s
+        theory.
+      section: 1.1 A Case Study
+    - exact: In particular, the credence in H is raised significantly, unless it is zero to begin with.
+        This vindicates the intuition reported in the case of Eddington’s Observation.
+      section: 1.1 A Case Study
+  subjective_objective_priors:
+    interpretation:
+      says: Subjective Bayesians accept any starting credences that are consistent with each other. Objective
+        Bayesians add further rules, such as spreading credence evenly when there is no reason not to.
+      whose: ai4science-philsci
+    quotes:
+    - exact: subjective Bayesians, who hold that every prior is permitted unless it fails to be coherent.
+      section: 1.5 Bayesians Divided, The Problem of the Priors
+    - exact: one’s credences be evenly distributed to certain possibilities unless there is a reason not
+        to.
+      section: 1.5 Bayesians Divided, The Problem of the Priors
+  zero_and_rescale:
+    interpretation:
+      says: When evidence arrives, any possibility it rules out gets credence 0, because it is incompatible
+        with what the person now knows. The credences left over no longer add up to 1, so each is scaled
+        up by the same factor.
+      whose: ai4science-philsci
+    quotes:
+    - exact: (Zeroing) For each possibility incompatible with evidence E, drop its credence down to zero.
+      section: 1.2 Two Core Norms
+    - exact: (Rescaling) For the possibilities compatible with evidence E, rescale their credences by a
+        common factor to make them sum to 1.
+      section: 1.2 Two Core Norms
+  ratios_kept:
+    interpretation:
+      says: Scaling them all by one factor keeps their ratios, because the evidence gave no reason to favor
+        one remaining possibility over another. A hypothesis that fits the evidence therefore gains the
+        credence that the ruled-out possibilities lost.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Thus the new evidence alone cannot distinguish those two possibilities and, hence, it seems
+        to favor the two equally.
+      section: 1.2 Two Core Norms
+    - exact: The essence of conditionalization is preservation of certain ratios of credences
+      section: 1.2 Two Core Norms
+    - exact: So this person’s credence in hypothesis H has to rise in a way such as that depicted in figure
+        2.
+      section: 1.1 A Case Study
+  surprising_counts_more:
+    interpretation:
+      says: The more credence the ruled-out possibilities had, the more the rest gain, so a surprising result
+        counts for more.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Then conditionalization on E requires a total credence collapse followed by a dramatic scaling-up
+        of the other credences.
+      section: 1.1 A Case Study
+  priors_defined:
+    interpretation:
+      says: The credences a person starts with, before the evidence arrives, are called priors. The Bayesian
+        account does not say what they should be. Subjective Bayesians accept any priors that obey the
+        rules of probability, such as adding up to 1.
+      whose: ai4science-philsci
+    quotes:
+    - exact: the prior, which is shorthand for the assignment of credences that one has before one acquires
+        the new evidence in question.
+      section: 1.5 Bayesians Divided, The Problem of the Priors
+    - exact: So, to those Bayesians, the correct norms for priors are exhausted by Probabilism and the other
+        coherence norms if any.
+      section: 1.5 Bayesians Divided, The Problem of the Priors

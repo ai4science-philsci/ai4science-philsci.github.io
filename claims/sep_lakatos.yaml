@@ -39,3 +39,102 @@ claims:
     quotes:
     - exact: it is still, very much, an open problem
       section: '4. Mincemeat Unmade: Lakatos versus Feyerabend'
+  auxiliaries_entail_predictions:
+    interpretation:
+      says: A theory makes predictions only together with auxiliary assumptions, so when a prediction
+        fails, a scientist can keep the theory's core claims and revise an assumption instead.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'For Lakatos an individual theory within a research programme typically consists of two components:
+        the (more or less) irrefutable hard core plus a set of auxiliary hypotheses. Together with the
+        hard core these auxiliary hypotheses entail empirical predictions, thus making the theory as a
+        whole—hard core plus auxiliary hypotheses—a falsifiable affair.'
+      section: 2.2 Improving on Popper in the Philosophy of Science
+  retain_core_modify_auxiliaries:
+    interpretation:
+      says: A theory makes predictions only together with auxiliary assumptions, so when a prediction
+        fails, a scientist can keep the theory's core claims and revise an assumption instead.
+      whose: ai4science-philsci
+    quotes:
+    - exact: But logic leaves us with a choice. The conjunction of the hard core plus the auxiliary hypotheses
+        has to go, but we can retain either the hard core or the auxiliary hypotheses. What Lakatos calls
+        the negative heuristic of the research programme, bids us retain the hard core but modify the
+        auxiliary hypotheses
+      section: 2.2 Improving on Popper in the Philosophy of Science
+  progressive_two_conditions:
+    interpretation:
+      says: A research program is progressive when its revisions predict new facts, some of which are
+        then found, and degenerating when its revisions predict nothing new or their new predictions fail.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Firstly it must be theoretically progressive. That is, each new theory in the sequence must
+        have excess empirical content over its predecessor; it must predict novel and hitherto unexpected
+        facts (FMSRP: 33). Secondly it must be empirically progressive. Some of that novel content has
+        to be corroborated, that is, some of the new “facts” that the theory predicts must turn out to
+        be true.'
+      section: 2.2 Improving on Popper in the Philosophy of Science
+  degenerating_no_novel_predictions:
+    interpretation:
+      says: A research program is progressive when its revisions predict new facts, some of which are
+        then found, and degenerating when its revisions predict nothing new or their new predictions fail.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Thus a research programme is degenerating if the successive theories do not deliver novel
+        predictions or if the novel predictions that they deliver turn out to be false.
+      section: 2.2 Improving on Popper in the Philosophy of Science
+  feyerabend_anything_goes:
+    interpretation:
+      says: The philosopher Paul Feyerabend objected that Lakatos gives no rule for when to abandon a
+        degenerating program, so his method permits holding on to any theory forever.
+      whose: ai4science-philsci
+    quotes:
+    - exact: For Feyerabend argues that a Demarcation Criterion that cannot tell anyone what to do or
+        not to do is scarcely distinguishable from “Anything goes”.
+      section: '4. Mincemeat Unmade: Lakatos versus Feyerabend'
+  honesty_then_persist:
+    interpretation:
+      says: On Lakatos's view, scientists may keep working on a degenerating program, provided they admit
+        its failures, such as the lack of novel predictions.
+      whose: ai4science-philsci
+    quotes:
+    - exact: The MSRP does enjoin a principle of scientific honesty, namely that the adherents of degenerating
+        research programmes should own up to their methodological shortcomings, such as the lack of novel
+        predictions or the falsification of the predictions that they have made. However, so long as they
+        admit to these failures they can (rationally?) persist in their degenerate ways.
+      section: '4. Mincemeat Unmade: Lakatos versus Feyerabend'
+  answer_open_problem:
+    interpretation:
+      says: Musgrave and Pigden call Feyerabend's objection still an open problem.
+      whose: ai4science-philsci
+    quotes:
+    - exact: The upshot is that if there is a Lakatosian answer to Feyerabend’s dilemma, it is an answer
+        that has to be concocted on his behalf. One of us has a go in Musgrave 1976, but for the Methodology
+        of Scientific Research Programmes, it is still, very much, an open problem.
+      section: '4. Mincemeat Unmade: Lakatos versus Feyerabend'
+  unit_is_programme:
+    interpretation:
+      says: Lakatos judged research programs over years, across many theories and many scientists, and
+        Popper wrote about theories rather than analyses.
+      whose: ai4science-philsci
+    quotes:
+    - exact: To begin with, the unit of scientific evaluation is no longer the individual theory (as with
+        Popper), but the sequence of theories, the research programme.
+      section: 2.2 Improving on Popper in the Philosophy of Science
+  status_determined_by_history:
+    interpretation:
+      says: Lakatos judged research programs over years, across many theories and many scientists, and
+        Popper wrote about theories rather than analyses.
+      whose: ai4science-philsci
+    quotes:
+    - exact: For Lakatos our best guesses might turn out to be mistaken, since the scientific status of
+        a research programme is determined, in part, by its history, not just by its logical character
+      section: 2.2 Improving on Popper in the Philosophy of Science
+  einstein_eclipse_sun:
+    interpretation:
+      says: Einstein's prediction that light passing the sun would bend, which the 1919 eclipse observations
+        could have refuted.
+      whose: ai4science-philsci
+    quotes:
+    - exact: during the day (when they are visible during an eclipse of the sun), the two measurements
+        will be different.
+      section: 2.2 Improving on Popper in the Philosophy of Science

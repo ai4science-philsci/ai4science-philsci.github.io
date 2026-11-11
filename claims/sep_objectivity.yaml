@@ -40,3 +40,330 @@ claims:
     quotes:
     - exact: criticism must be able to transform scientific practice in the long run
       section: 5.2 Feminist and Standpoint Epistemology
+  longino_transformative_criticism:
+    interpretation:
+      says: Longino counts a method of inquiry as objective to the degree that it permits criticism that
+        can transform scientific practice.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Specifically, she develops an epistemology which regards a method of inquiry as “objective
+        to the degree that it permits transformative criticism” (Longino 1990: 76).'
+      section: 5.2 Feminist and Standpoint Epistemology
+  longino_uptake_condition:
+    interpretation:
+      says: Longino counts a method of inquiry as objective to the degree that it permits criticism that
+        can transform scientific practice.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'uptake of criticism: criticism must be able to transform scientific practice in the long
+        run;'
+      section: 5.2 Feminist and Standpoint Epistemology
+  rudner_scientist_accepts:
+    interpretation:
+      says: The philosopher of science Richard Rudner argued that scientists, as scientists, accept and
+        reject hypotheses, and that no hypothesis is ever certain.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'no analysis of what constitutes the method of science would be satisfactory unless it comprised
+        some assertion to the effect that the scientist as scientist accepts or rejects hypotheses. (1953:
+        2)'
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  rudner_no_certainty:
+    interpretation:
+      says: The philosopher of science Richard Rudner argued that scientists, as scientists, accept and
+        reject hypotheses, and that no hypothesis is ever certain.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Second, he notes that no scientific hypothesis is ever confirmed beyond reasonable doubt—some
+        probability of error always remains.
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  rudner_error_seriousness:
+    interpretation:
+      says: Whether to accept one therefore depends on what a mistake would cost.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Hence, our decision is also “a function of the importance, in the typically ethical sense,
+        of making a mistake in accepting or rejecting a hypothesis” (1953: 2): we are balancing the seriousness
+        of two possible errors (erroneous acceptance/rejection of the hypothesis) against each other.'
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  drug_example:
+    interpretation:
+      says: 'The entry''s example is a drug: people may die of side effects if it is wrongly judged safe,
+        and others may die of their disease if it is wrongly judged unsafe.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'The decision to accept or reject a hypothesis involves a value judgment (at least implicitly)
+        because scientists have to judge which of the consequences of an erroneous decision they deem
+        more palatable: (1) some individuals die of the side effects of a drug erroneously judged to be
+        safe; or (2) other individuals die of a condition because they did not have access to a treatment
+        that was erroneously judged to be unsafe.'
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  hempel_confirmation_acceptance:
+    interpretation:
+      says: The philosopher of science Carl Hempel kept the degree of confirmation free of values and
+        placed them in the decision to accept.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Hempel (1965: 91–92) gives a modified account of Rudner’s argument by distinguishing between
+        judgments of confirmation, which are free of contextual values, and judgments of acceptance.'
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  douglas_beyond_acceptance:
+    interpretation:
+      says: 'The philosopher Heather Douglas extended the argument from acceptance to the whole of a study:
+        the design, the characterization of the data, the choice of statistical method, the interpretation.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Douglas (2000: 563–565) points out, however, that the “acceptance” of scientific theories
+        is only one of several places for values to enter scientific reasoning, albeit an especially prominent
+        and explicit one.'
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  douglas_decision_list:
+    interpretation:
+      says: 'The philosopher Heather Douglas extended the argument from acceptance to the whole of a study:
+        the design, the characterization of the data, the choice of statistical method, the interpretation.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Many decisions in the process of scientific inquiry may conceal implicit value judgments:
+        the design of an experiment, the methodology for conducting it, the characterization of the data,
+        the choice of a statistical method for processing and analyzing data, the interpretational process
+        findings, etc.'
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  dioxin_case:
+    interpretation:
+      says: Her case was a series of studies of dioxin in rats, where pathologists disagreed over which
+        tissue samples were cancerous and the results had to be extrapolated from high doses to low ones.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Douglas gives, as a case study, a series of experiments where carcinogenic effects of dioxin
+        exposure on rats were probed.
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  dioxin_stages:
+    interpretation:
+      says: Her case was a series of studies of dioxin in rats, where pathologists disagreed over which
+        tissue samples were cancerous and the results had to be extrapolated from high doses to low ones.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Contextual values such as safety and risk aversion affected the conducted research at various
+        stages: first, in the classification of pathological samples as benign or cancerous (over which
+        a lot of expert disagreement occurred), second, in the extrapolation from the high-dose experimental
+        conditions to the more realistic low-dose conditions.'
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  direct_indirect_roles:
+    interpretation:
+      says: Douglas distinguishes two roles.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'To save the epistemic authority of science, Douglas (2009: 7–8) proposes to detach it from
+        its autonomy by reformulating the VFI and distinguishing between direct and indirect roles of
+        values in science.'
+      section: 3.3 Science, Policy and the Value-Free Ideal
+  direct_role_illegitimate:
+    interpretation:
+      says: Values may not stand in for evidence.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Values should, however, not be “reasons in themselves”, that is, evidence or defeaters for
+        evidence (direct role, illegitimate)
+      section: 3.3 Science, Policy and the Value-Free Ideal
+  indirect_role_legitimate:
+    interpretation:
+      says: They may legitimately help in
+      whose: ai4science-philsci
+    quotes:
+    - exact: and as “helping to decide what should count as a sufficient reason for a choice” (indirect
+        role, legitimate)
+      section: 3.3 Science, Policy and the Value-Free Ideal
+  longino_social_product:
+    interpretation:
+      says: The philosopher Helen Longino locates objectivity in the social process that produces knowledge
+        rather than in any one inquirer.
+      whose: ai4science-philsci
+    quotes:
+    - exact: but unlike Popper, she conceives scientific knowledge essentially as a social product. Thus,
+        our conception of scientific objectivity must directly engage with the social process that generates
+        knowledge.
+      section: 5.2 Feminist and Standpoint Epistemology
+  condition_avenues:
+    interpretation:
+      says: Her conditions are avenues for criticism, shared standards, equal intellectual authority among
+        qualified practitioners, and uptake.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'avenues for criticism: criticism is an essential part of scientific institutions (e.g.,
+        peer review);'
+      section: 5.2 Feminist and Standpoint Epistemology
+  condition_shared_standards:
+    interpretation:
+      says: Her conditions are avenues for criticism, shared standards, equal intellectual authority among
+        qualified practitioners, and uptake.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'shared standards: the community must share a set of cognitive values for assessing theories
+        (more on this in section 3.1);'
+      section: 5.2 Feminist and Standpoint Epistemology
+  condition_uptake:
+    interpretation:
+      says: Her conditions are avenues for criticism, shared standards, equal intellectual authority among
+        qualified practitioners, and uptake.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'uptake of criticism: criticism must be able to transform scientific practice in the long
+        run;'
+      section: 5.2 Feminist and Standpoint Epistemology
+  condition_equality:
+    interpretation:
+      says: Her conditions are avenues for criticism, shared standards, equal intellectual authority among
+        qualified practitioners, and uptake.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'equality of intellectual authority: intellectual authority must be shared equally among
+        qualified practitioners.'
+      section: 5.2 Feminist and Standpoint Epistemology
+  levi_profession_standards:
+    interpretation:
+      says: The philosopher Isaac Levi replied that a profession's shared standards, such as a 5% significance
+        level, remove the individual's judgment.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Second, Isaac Levi (1960) observes that scientists commit themselves to certain standards
+        of inference when they become a member of the profession. This may, for example, lead to the statistical
+        rejection of a hypothesis when the observed significance level is smaller than 5%.
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  community_sets_standards:
+    interpretation:
+      says: The entry notes that the values then sit in how the community sets its standards.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Value judgments may be implicit in how a scientific community sets standards of inference
+        (compare section 5.1), but not in the daily work of an individual scientist (cf. Wilholt 2013).
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  douglas_balancing:
+    interpretation:
+      says: The entry also notes that Douglas's account says little about how competing values should
+        be balanced.
+      whose: ai4science-philsci
+    quotes:
+    - exact: That said, Douglas’ proposal is not very concrete when it comes to implementation, e.g.,
+        regarding the way diverse values should be balanced.
+      section: 3.3 Science, Policy and the Value-Free Ideal
+  douglas_forbids_direct:
+    interpretation:
+      says: Douglas's account forbids values from serving as evidence and allows them to set how much
+        evidence is enough.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Values should, however, not be “reasons in themselves”, that is, evidence or defeaters for
+        evidence (direct role, illegitimate)
+      section: 3.3 Science, Policy and the Value-Free Ideal
+  standard_of_evidence:
+    interpretation:
+      says: Douglas's account forbids values from serving as evidence and allows them to set how much
+        evidence is enough.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Contextual values may legitimately affect the assessment of evidence by indicating the appropriate
+        standard of evidence, the representation of complex processes, the severity of consequences of
+        a decision, the interpretation of noisy datasets, and so on (see also Winsberg 2012).
+      section: 3.3 Science, Policy and the Value-Free Ideal
+  levi_restricts_to_individual:
+    interpretation:
+      says: On Levi's own account, a shared threshold moves the value judgment from the individual to
+        the community that set the standard.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Both defenses of the VNT focus on the impact of values in theory choice, either by denying
+        that scientists actually choose theories (Jeffrey), or by referring to community standards and
+        restricting the VNT to the individual scientist (Levi).
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  levi_community_values:
+    interpretation:
+      says: On Levi's own account, a shared threshold moves the value judgment from the individual to
+        the community that set the standard.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Value judgments may be implicit in how a scientific community sets standards of inference
+        (compare section 5.1), but not in the daily work of an individual scientist (cf. Wilholt 2013).
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  longino_check_avenues:
+    interpretation:
+      says: 'For Longino, objectivity depends on who could check it: criticism must be possible, shared
+        standards must exist, and criticism must be able to change the result.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'avenues for criticism: criticism is an essential part of scientific institutions (e.g.,
+        peer review);'
+      section: 5.2 Feminist and Standpoint Epistemology
+  longino_check_standards:
+    interpretation:
+      says: 'For Longino, objectivity depends on who could check it: criticism must be possible, shared
+        standards must exist, and criticism must be able to change the result.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'shared standards: the community must share a set of cognitive values for assessing theories
+        (more on this in section 3.1);'
+      section: 5.2 Feminist and Standpoint Epistemology
+  longino_check_uptake:
+    interpretation:
+      says: 'For Longino, objectivity depends on who could check it: criticism must be possible, shared
+        standards must exist, and criticism must be able to change the result.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'uptake of criticism: criticism must be able to transform scientific practice in the long
+        run;'
+      section: 5.2 Feminist and Standpoint Epistemology
+  jeffrey_accept_defined:
+    interpretation:
+      says: 'Rudner''s argument assumes that scientists accept or reject hypotheses: they declare, for instance,
+        that a drug is safe, so that others can act on it.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: it is often necessary to accept or to reject a hypothesis (e.g., the efficacy of a drug) in
+        order to make effective decisions.
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+    - exact: some individuals die of the side effects of a drug erroneously judged to be safe
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  jeffrey_general_scope:
+    interpretation:
+      says: The philosopher Richard Jeffrey replied that in fundamental research they should not. A law
+        such as Newton's law of gravity is used in so many settings that no scientist could weigh the cost
+        of being wrong in all of them.
+      whose: ai4science-philsci
+    quotes:
+    - exact: (e.g., the gravitational law in Newtonian mechanics) are characterized by their general scope
+        and not confined to a particular application. Obviously, a scientist cannot fine-tune her decisions
+        to their possible consequences in a wide variety of different contexts.
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  jeffrey_instead:
+    interpretation:
+      says: Scientists should instead report the evidence and, at most, how probable the hypothesis is,
+        and stay out of the practical decision to accept or reject it.
+      whose: ai4science-philsci
+    quotes:
+    - exact: So she should just refrain from the essentially pragmatic decision to accept or reject hypotheses.
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+    - exact: By restricting scientific reasoning to gathering and interpreting evidence, possibly supplemented
+        by assessing the probability of a hypothesis
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+  jeffrey_reply_dioxin:
+    interpretation:
+      says: Reiss and Sprenger reply with Douglas's dioxin studies. Pathologists had to decide whether borderline
+        tissue samples counted as cancer, and how cautiously to classify them depended on the harm that
+        underestimating the risk could do. Counting the borderline samples as cancer makes dioxin look
+        more dangerous, and counting them as benign makes it look safer. Reporting a probability instead
+        of declaring dioxin safe or dangerous does not avoid the judgment about which mistake is worse,
+        because the probability comes from samples already classified with that judgment in mind.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Douglas gives, as a case study, a series of experiments where carcinogenic effects of dioxin
+        exposure on rats were probed.
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+    - exact: first, in the classification of pathological samples as benign or cancerous (over which a
+        lot of expert disagreement occurred)
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+    - exact: the choice of a conservative classification or model had to be weighed against the adverse
+        consequences for society that could result from underestimating the risks
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality
+    - exact: These diagnoses cast a gloomy light on attempts to divide scientific labor between gathering
+        evidence and determining the degree of confirmation (value-free) on the one hand and accepting
+        scientific theories (value-laden) on the other.
+      section: 3.2 Acceptance of Scientific Hypotheses and Value Neutrality

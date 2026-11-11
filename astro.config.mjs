@@ -27,8 +27,8 @@ const CHAPTERS = [
               items: [
                 { label: '7. Prediction and Explanation', link: '/explanation/prediction-and-explanation/' },
                 { label: '8. Causation and Intervention', link: '/causation/causation-and-intervention/' },
-                { label: '9. Simulation and Understanding', link: '/simulation/simulation-and-understanding/' },
-                { label: '10. Data and Phenomena', link: '/data/data-and-phenomena/' },
+                { label: '9. Data and Phenomena', link: '/data/data-and-phenomena/' },
+                { label: '10. Simulation and Understanding', link: '/simulation/simulation-and-understanding/' },
                 { label: '11. Values and Evidence', link: '/values/values-and-evidence/' },
               ],
             },
@@ -70,8 +70,8 @@ const FLAT = [
           items: [
             { label: '7. Prediction and Explanation', link: '/explanation/prediction-and-explanation/' },
             { label: '8. Causation and Intervention', link: '/causation/causation-and-intervention/' },
-            { label: '9. Simulation and Understanding', link: '/simulation/simulation-and-understanding/' },
-            { label: '10. Data and Phenomena', link: '/data/data-and-phenomena/' },
+            { label: '9. Data and Phenomena', link: '/data/data-and-phenomena/' },
+            { label: '10. Simulation and Understanding', link: '/simulation/simulation-and-understanding/' },
             { label: '11. Values and Evidence', link: '/values/values-and-evidence/' },
           ],
         },

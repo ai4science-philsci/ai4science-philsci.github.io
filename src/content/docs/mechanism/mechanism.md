@@ -7,9 +7,9 @@ This page asks one question: **when does a model say how something works, rather
 
 AI systems for science increasingly report discoveries: a gene that drives a disease, a pathway that explains a response, a protein that controls a trait. Biologists want mechanisms, Carl Craver and Lindley Darden write, because knowing one serves prediction, explanation and control. This page covers three ideas from the philosophy of science that separate a mechanism from a pattern in the data:
 
-1. **Entities and activities, organized.** A mechanism for a phenomenon consists of entities whose activities and interactions are organized so as to be responsible for the phenomenon. A correlational pattern is not a mechanism.
-2. **A mechanism is the mechanism for a phenomenon.** Mechanisms are defined only relative to the phenomenon they cause, underlie or explain. Discovering a mechanism typically revises the description of that phenomenon.
-3. **Two kinds of evidence.** Russo and Williamson argued that a causal claim typically requires evidence that the cause makes a difference and evidence of how it produces the effect.
+1. **Entities and activities, organized: a mechanism is parts doing things, arranged to produce a phenomenon.** A mechanism for a phenomenon consists of entities whose activities and interactions are organized so as to be responsible for the phenomenon (Machamer, Darden and Craver, 2000). A correlational pattern is not a mechanism.
+2. **A mechanism is the mechanism for a phenomenon.** Mechanisms are defined only relative to the phenomenon they cause, underlie or explain (Glennan, 1996). Discovering a mechanism typically revises the description of that phenomenon.
+3. **The Russo–Williamson thesis: a causal claim typically needs two kinds of evidence.** A causal claim typically requires evidence that the cause makes a difference and evidence of how it produces the effect (Russo and Williamson, 2007).
 
 The next three pages take the questions this one opens: [what a model of a mechanism can be](/mechanism/models-of-mechanisms/), [how to tell whether a part belongs to one](/mechanism/parts-of-a-mechanism/), and [whether an intervention shows that the system uses the part](/mechanism/intervention-and-use/).
 
@@ -21,7 +21,7 @@ The next three pages take the questions this one opens: [what a model of a mecha
 >
 > — [Craver, Tabery and Illari (2024), "Mechanisms in Science," SEP, §2](https://plato.stanford.edu/entries/science-mechanisms/#WhatMech)
 
-The greenhouse effect is the entry's example: the sun, the Earth and the atmosphere, what each does to radiation, and how they are arranged together produce the warming. The same entry lists what does not count, starting with one that matters for data-driven science:
+The greenhouse effect is the entry's example: the sun, the Earth and the atmosphere, what each does to radiation, and how they are arranged together produce the warming. The same entry lists what does not count, including a case that matters for data-driven science:
 
 > Correlational patterns are not mechanisms.
 >
@@ -50,7 +50,7 @@ The mechanism for a disease is not one thing. The mechanism for its onset, for i
 
 **Evidence-based medicine to Russo and Williamson (2007).** Evidence-based medicine ranks randomized trials and meta-analyses above mechanistic evidence, while Russo, Williamson and others argue the two kinds are on a par and should be combined.
 
-**The perspectivalist to Glennan (1996).** If a mechanism is defined only relative to a phenomenon, and which phenomena interest us is up to us, then what counts as the mechanism is up to us too. The entry grants the first step and denies the conclusion. The phenomenon has to exist and have effects, and the search for its mechanism can show that it was carved wrongly.
+**The perspectivalist to Glennan (1996).** If a mechanism is defined only relative to a phenomenon, and which phenomena interest us is up to us, then what counts as the mechanism is up to us too. The entry grants the first step and replies that the choice of phenomenon is not entirely arbitrary. The phenomenon has to exist and have effects, and the search for its mechanism can show that it was carved wrongly.
 
 </details>
 

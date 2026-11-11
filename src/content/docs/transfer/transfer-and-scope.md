@@ -5,11 +5,11 @@ description: "When does a result found in one setting hold in another? External 
 
 This page asks one question: **when does a result found in one setting hold in another?**
 
-AI systems for science produce results in one setting that are meant to be used in another: a drug effect found in cell lines and applied to patients, a model validated in one hospital and deployed in a second, a benchmark score read as a capability in the world. This page covers three ideas from the philosophy of science and causal inference about what stands between a result and the setting it is used in:
+AI systems for science produce results in one setting that are meant to be used in another: a drug effect found in cell lines and applied to patients, a model validated in one hospital and deployed in a second, a benchmark score read as a capability in the world. This page covers three ideas from the philosophy of science and [causal inference](/fields/causal-inference/) about what stands between a result and the setting it is used in:
 
-1. **The result holds where it was tested.** A test establishes the effect in the population tested, and nothing beyond it.
-2. **The extrapolator's circle.** Checking that a model is relevantly similar to its target would require investigating the target. If that were possible, there would be no reason to study the model.
-3. **Transfer is licensed by stable capacities or known differences.** A cause with a capacity continues to contribute to its effect when disturbing factors are present, which gives some reason to expect it to act in a new population. When the differences between two populations are encoded in a selection diagram, the diagram decides whether the effect in the target can be inferred from the study.
+1. **External validity: the result holds where it was tested.** A test establishes the effect in the population tested, and nothing beyond it (Campbell, 1957).
+2. **The extrapolator's circle: checking that a model resembles its target requires studying the target.** If the target could be investigated that way, there would be no reason to study the model (Steel, 2008).
+3. **Capacities and transportability: transfer is licensed by stable capacities or known differences.** A cause with a capacity continues to contribute to its effect when disturbing factors are present, which gives some reason to expect it to act in a new population (Cartwright, 1989). When the differences between two populations are encoded in a selection diagram, the diagram decides whether the effect in the target can be inferred from the study (Pearl and Bareinboim, 2014).
 
 ## From test population to target
 
@@ -19,7 +19,7 @@ AI systems for science produce results in one setting that are meant to be used 
 >
 > — [Reiss and Ankeny (2016), "Philosophy of Medicine," SEP, §5](https://plato.stanford.edu/entries/medicine/#RandContTriaEvidBaseMedi)
 
-The entry's examples are ordinary. Trials often exclude elderly patients and patients with other conditions, and the treatment is then marketed to them. The inference from the trial to the people who receive the treatment rests on a claim about similarity that the trial does not test.
+The entry's examples are ordinary. Trials often exclude elderly patients and patients with other conditions, and the treatment is then marketed to them. The inference from the trial to the people who receive the treatment rests on clinical judgment.
 
 > Typical test populations differ from the target populations
 >
@@ -64,9 +64,9 @@ Their method encodes what is known about how two populations differ in a selecti
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**LaFollette and Shanks (1997) on animal models.** Hugh LaFollette and Niall Shanks argue that animal models can serve only as sources of hypotheses to be tested in humans. Steel replies that their condition is too strict and that the answer depends on how strong a claim is being exported: a qualitative claim that a substance is poisonous travels further than a percentage.
+**LaFollette and Shanks (1997) on animal models.** Hugh LaFollette and Niall Shanks argue that animal models can serve only as sources of hypotheses to be tested in humans. Steel replies that their condition is too strict and that the answer depends also on how strong a claim is being exported: the claim that a stated percentage of a population will show poisoning is stronger than the qualitative claim that a substance is poisonous.
 
-**Pearl and Bareinboim (2014) against the mechanism accounts.** Pearl and Bareinboim make transfer a derivation from assumptions about differences, while the capacity and process-tracing accounts rest it on knowledge of mechanisms that may not be available.
+**Pearl and Bareinboim (2014) on mechanisms.** Pearl and Bareinboim hold that a transfer is licensed only by knowing the mechanisms that make the two populations differ.
 
 </details>
 

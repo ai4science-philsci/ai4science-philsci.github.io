@@ -16,3 +16,9 @@ claims:
         one separately, that ultimately gives us confidence in the results
       section: 2. Sanctioning Models
       page: 23
+  allen_tuning_flagship:
+    quotes:
+    - exact: If modelling groups, either consciously or by ‘natural selection,’ are tuning their flagship
+        models to fit the same observations, spread of predictions becomes meaningless
+      section: ch. 6
+      page: 113

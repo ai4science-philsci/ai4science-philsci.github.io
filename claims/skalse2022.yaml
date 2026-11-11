@@ -13,3 +13,49 @@ claims:
     - exact: We say that a proxy is unhackable if increasing the expected proxy return can never decrease
         the expected true return.
       page: 1
+  first_formal_definition:
+    interpretation:
+      says: The computer scientist Joar Skalse and colleagues give the machine-learning version a formal
+        definition.
+      whose: ai4science-philsci
+    quotes:
+    - exact: We provide the first formal definition of reward hacking, a phenomenon where optimizing an
+        imperfect proxy reward function, R̃, leads to poor performance according to the true reward function,
+        R.
+      section: Abstract
+      page: 1
+  all_policies_equivalent:
+    interpretation:
+      says: 'They show that the condition is very strong: for the full set of stochastic policies, two
+        reward functions can be unhackable only if one of them is constant or both order the policies
+        the same way.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Corollary 1. In any M DP \ R, any pair of reward functions that are unhackable and non-trivial
+        on the set of all (stationary) policies Π are equivalent on Π.
+      prefix: 'and that π ⊂ π. '
+      suffix: ' theorem 1 can also'
+      section: '5.1'
+      page: 6
+  very_strong_condition:
+    interpretation:
+      says: 'They show that the condition is very strong: for the full set of stochastic policies, two
+        reward functions can be unhackable only if one of them is constant or both order the policies
+        the same way.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: A key insight is that the linearity of reward (in state-action visit counts) makes unhackability
+        a very strong condition.
+      section: Abstract
+      page: 1
+  narrower_usually_hackable:
+    interpretation:
+      says: Skalse et al. show that the condition for an unhackable proxy is very strong, and that leaving
+        terms out of a reward to make it narrower usually does not meet it.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Intuitively, it might be possible to create an unhackable proxy by leaving some terms out
+        of the reward function (making it “narrower”) or overlooking fine-grained distinctions between
+        roughly equivalent outcomes, but we show this is usually not the case.
+      section: Abstract
+      page: 1

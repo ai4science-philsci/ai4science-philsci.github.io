@@ -19,3 +19,24 @@ claims:
     quotes:
     - exact: there can be no experiment with outcome X designed
       page: 1229
+  foregone_conclusion_conditions:
+    interpretation:
+      says: Kadane and colleagues (1996) showed that, under standard assumptions, persistent sampling
+        is not guaranteed to reach a chosen result when the evidence is computed the Bayesian or likelihood
+        way.
+      whose: ai4science-philsci
+    quotes:
+    - exact: We discuss an elementary result that establishes sufficient conditions under which this reasoning
+        to a foregone conclusion cannot occur.
+      section: Abstract
+      page: 1228
+  significance_ignoring_stopping_rule:
+    interpretation:
+      says: The foregone conclusion is a property of p-values.
+      whose: ai4science-philsci
+    quotes:
+    - exact: If, contrary to traditional theory, significance is calculated independent of the stopping
+        rule for the experiment-a mistake by traditional theory-then when the inquiry halts, Ho has achieved
+        an observed significance of a! or less.
+      section: 1. Introduction
+      page: 1228

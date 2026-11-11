@@ -14,3 +14,68 @@ claims:
     quotes:
     - exact: Each biomarker qualification effort should identify a single COU
       page: 8
+  qualification_within_cou:
+    interpretation:
+      says: The FDA qualifies a biomarker as reliable within a stated context of use, and asks each qualification
+        effort to identify a single one.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Qualification of a biomarker is a determination that within the stated COU, the biomarker
+        can be relied on to have a specific interpretation and application in drug development and regulatory
+        review.
+      section: I. Introduction
+      page: 1
+  one_cou_per_effort:
+    interpretation:
+      says: The FDA qualifies a biomarker as reliable within a stated context of use, and asks each qualification
+        effort to identify a single one.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Each biomarker qualification effort should identify a single COU.
+      section: B. Context of Use
+      page: 5
+  limited_then_expanded:
+    interpretation:
+      says: A biomarker qualified for a limited context can later be qualified for an expanded one as
+        evidence accumulates.
+      whose: ai4science-philsci
+    quotes:
+    - exact: One approach is to initially qualify a biomarker for a COU that is limited in scope to facilitate
+        the integration of the biomarker in drug development, which could result in the accumulation of
+        additional evidence that can help qualify the biomarker for a COU with a more expanded scope in
+        the future.
+      section: B. Context of Use
+      page: 5
+  qualified_for_cou:
+    interpretation:
+      says: A biomarker is not qualified in general but for a context of use, defined as
+      whose: ai4science-philsci
+    quotes:
+    - exact: Qualification of a biomarker is a determination that within the stated COU, the biomarker
+        can be relied on to have a specific interpretation and application in drug development and regulatory
+        review.
+      section: I. Introduction
+      page: 1
+  qualification_only_within_cou:
+    interpretation:
+      says: Outside that context the biomarker is unqualified, however good the evidence inside it.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Qualification of a biomarker is a determination that within the stated COU, the biomarker
+        can be relied on to have a specific interpretation and application in drug development and regulatory
+        review.
+      section: I. Introduction
+      page: 1
+  scope_grows_with_evidence:
+    interpretation:
+      says: 'The FDA''s answer is that scope grows with evidence: the guidance allows a sponsor to "qualify
+        a biomarker for a COU that is limited in scope" and to qualify it for an expanded scope as evidence
+        accumulates.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: One approach is to initially qualify a biomarker for a COU that is limited in scope to facilitate
+        the integration of the biomarker in drug development, which could result in the accumulation of
+        additional evidence that can help qualify the biomarker for a COU with a more expanded scope in
+        the future.
+      section: B. Context of Use
+      page: 5

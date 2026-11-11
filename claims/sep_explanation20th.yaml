@@ -14,9 +14,130 @@ claims:
       section: 2.5 Explanatory Understanding and Nomic Expectability
   tower_objection:
     quotes:
-    - exact: the height of the tower is “explained” by the fact that it was designed to cast a shadow of a certain length
+    - exact: the height of the tower is “explained” by the fact that it was designed to cast a shadow
+        of a certain length
       section: 6.2 Constructive Empiricism and the Pragmatic Theory of Explanation
   tower_reply:
     quotes:
-    - exact: it is (something like) the desire for a shadow of length S (rather than S itself) that explains (or at least causally explains) the height (or the choice of height) for the tower.
+    - exact: it is (something like) the desire for a shadow of length S (rather than S itself) that explains
+        (or at least causally explains) the height (or the choice of height) for the tower.
       section: 6.2 Constructive Empiricism and the Pragmatic Theory of Explanation
+  dn_deductive:
+    interpretation:
+      says: The philosopher of science Carl Hempel held that to explain an event is to show it had to
+        happen, given the laws of nature and the circumstances.
+      whose: ai4science-philsci
+    quotes:
+    - exact: That is, the explanation should take the form of a sound deductive argument in which the
+        explanandum follows as a conclusion from the premises in the explanans.
+      section: 2.1 The Basic Idea
+  dn_expected:
+    interpretation:
+      says: The philosopher of science Carl Hempel held that to explain an event is to show it had to
+        happen, given the laws of nature and the circumstances.
+      whose: ai4science-philsci
+    quotes:
+    - exact: By pointing this out, the argument shows that, given the particular circumstances and the
+        laws in question, the occurrence of the phenomenon was to be expected; and it is in this sense
+        that the explanation enables us to understand why the phenomenon occurred.
+      section: '2.4 Motivation for the DN Model: Nomic Expectability and a Regularity Account of Causation'
+  flagpole_both_derivations:
+    interpretation:
+      says: Both derivations predict correctly.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'For example, one can derive the length s of the shadow cast by a flagpole from the height
+        h of the pole and the angle θ of the sun above the horizon and laws about the rectilinear propagation
+        of light. This derivation meets the DN criteria and seems explanatory. On the other hand, the
+        following derivation from the same laws also meets the DN criteria but does not seem explanatory:'
+      section: 2.5 Explanatory Understanding and Nomic Expectability
+  flagpole_causes_shadow:
+    interpretation:
+      says: 'Only the first explains: the pole''s height and the sun''s position produce the shadow, and
+        the shadow produces nothing about the pole, which is as tall as it was built.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: a flagpole of a certain height causes a shadow of a given length and thereby explains the
+        length of the shadow.
+      section: 2.5 Explanatory Understanding and Nomic Expectability
+  tower_story:
+    interpretation:
+      says: Bas van Fraassen told the flagpole story with a tower built to cast a shadow of a chosen length.
+      whose: ai4science-philsci
+    quotes:
+    - exact: In van Fraassen’s story, a straightforward causal explanation of the usual sort of S in terms
+        of H (although the object in question is a tower rather than a flagpole) is first offered.
+      section: 6.2 Constructive Empiricism and the Pragmatic Theory of Explanation
+  tower_designed:
+    interpretation:
+      says: Bas van Fraassen told the flagpole story with a tower built to cast a shadow of a chosen length.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Then a second explanation, according to which the height of the tower is “explained” by the
+        fact that it was designed to cast a shadow of a certain length is advanced.
+      section: 6.2 Constructive Empiricism and the Pragmatic Theory of Explanation
+  audience_interests:
+    interpretation:
+      says: so which way explanation runs would depend on what the audience is interested in.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Moreover, since these variations in context and relevance relation turn on variations in
+        what is of interest to the explainer and his audience, we are further encouraged to conclude that
+        explanatory asymmetries have their source in psychological facts about people’s interests and
+        background beliefs, rather than in, say, some asymmetry that exits in nature independently of
+        these.
+      section: 6.2 Constructive Empiricism and the Pragmatic Theory of Explanation
+  kitcher_salmon_reply:
+    interpretation:
+      says: 'The philosophers Philip Kitcher and Wesley Salmon (1987) replied that the shadow still explains
+        nothing:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'One obvious response to this claim, made by several critics (e.g., Kitcher & Salmon 1987:
+        317), is that the example does not really involve a case in which, depending on context, H causally
+        explains S and S causally explains H.'
+      section: 6.2 Constructive Empiricism and the Pragmatic Theory of Explanation
+  accidental_vs_law:
+    interpretation:
+      says: Hempel required laws, not accidental regularities.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Within the class of true generalizations, we may distinguish between those that are only
+        “accidentally true” and those that are “laws”.
+      section: 2.2 The Role of Laws in the DN Model
+  law_required:
+    interpretation:
+      says: Hempel required laws, not accidental regularities.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Second, the explanans must contain at least one “law of nature” and this must be an essential
+        premise in the derivation in the sense that the derivation of the explanandum would not be valid
+        if this premise were removed.
+      section: 2.1 The Basic Idea
+  school_board_example:
+    interpretation:
+      says: His own example of an accidental one is that every member of a particular school board in
+        1964 was bald, which cannot explain why any one of them is bald.
+      whose: ai4science-philsci
+    quotes:
+    - exact: To use Hempel’s examples, the generalization (1) All members of the Greensbury School Board
+        for 1964 are bald is, if true, only accidentally so.
+      section: 2.2 The Role of Laws in the DN Model
+  school_board_no_explanation:
+    interpretation:
+      says: His own example of an accidental one is that every member of a particular school board in
+        1964 was bald, which cannot explain why any one of them is bald.
+      whose: ai4science-philsci
+    quotes:
+    - exact: By contrast, the former generalization (1) in conjunction with the information that a particular
+        person n is a member of the 1964 Greensbury school board, cannot be used to explain why n is bald.
+      section: 2.2 The Role of Laws in the DN Model
+  asymmetry_same_law:
+    interpretation:
+      says: The flagpole is a counterexample even with a genuine law.
+      whose: ai4science-philsci
+    quotes:
+    - exact: There are many cases in which a derivation of an explanandum E from a law L and initial conditions
+        I seems explanatory but a “backward” derivation of I from E and the same law L does not seem explanatory,
+        even though the latter, like the former, appears to meet the criteria for successful DN explanation.
+      section: 2.5 Explanatory Understanding and Nomic Expectability

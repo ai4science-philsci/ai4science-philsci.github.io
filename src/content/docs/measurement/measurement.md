@@ -7,9 +7,9 @@ This page asks one question: **when does a score measure the thing it is named f
 
 AI systems for science are compared by their scores on benchmarks named for capabilities: reasoning, protein design, molecular understanding. This page covers three ideas from measurement science about when a score measures what it is named for:
 
-1. **Different operations define different concepts.** Taken strictly, each measuring operation defines its own concept. Bridgman conceded that where the results of two operations agree within experimental error, one name for both is pragmatically justified.
-2. **Concept and instrument are built together.** Each round of measurement corrects the concept, and the corrected concept supports a better instrument.
-3. **A property can be real while its values depend on models.** A measurement result is jointly determined by the state of the world and by how the property, the measurand, the environment and the measurement process are modeled. A different model of the same property can give a different value.
+1. **Operationalism: different operations define different concepts.** Taken strictly, each measuring operation defines its own concept. Where the results of two operations agree within experimental error, one name for both is pragmatically justified (Bridgman, 1927).
+2. **Epistemic iteration: concept and instrument are built together.** Each round of measurement corrects the concept, and the corrected concept supports a better instrument (Chang, 2004).
+3. **Model-dependent realism: a property can be real while its values depend on models.** A measurement result is jointly determined by the state of the world and by how the property, the measurand, the environment and the measurement process are modeled. A different model of the same property can give a different value (Mari, Wilson and Maul, 2023).
 
 What a score licenses you to infer and do once it is a measurement is the [Validity](/measurement/validity/) page's question.
 
@@ -48,7 +48,7 @@ The models can be compared and some are better than others; what cannot be done 
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Michell (1999) on quantity.** Before a number can measure a property, the property has to have the structure of a quantity: differences in it must themselves be comparable, or adding and averaging scores means nothing. The psychologist Joel Michell argues that psychometrics never checked:
+**Michell (2000) on quantity.** Before a number can measure a property, the property has to have the structure of a quantity: differences in it must themselves be comparable, or adding and averaging scores means nothing. The psychologist Joel Michell argues that [psychometrics](/fields/psychometrics/) never checked:
 
 > psychometricians have not made serious attempts to test whether the attributes they purport to measure have quantitative structure, and instead adopted an overly loose conception of measurement that disguises this neglect
 >
@@ -97,7 +97,7 @@ The reply is that transmission runs the wrong way. In communication an agent enc
 <details class="worked-example">
 <summary>Misreadings</summary>
 
-**"Operationalism means any procedure defines a valid concept."** Bridgman himself warned against assuming a concept stays unified across different operations, and allowed one name only where the operations agree within experimental error.
+**"Operationalism means any procedure defines a valid concept."** Bridgman himself warned against assuming a concept stays unified across different operations, and allowed one name where the operations agree within experimental error.
 
 **"Theory-laden measurement can't test anything."** Current accounts treat some theory as a condition of measurement having evidential force at all.
 
@@ -153,7 +153,7 @@ An agent assembles a benchmark of "scientific reasoning" from graduate exam ques
 
 ## Limitations
 
-Bridgman and Chang wrote about physical quantities such as length and temperature. Mari, Wilson and Maul write for the physical and human sciences together, and their examples of model-dependent properties are human ones, such as reading comprehension and nursing competence. Whether a capability of an AI system is a property in their sense, with a model of the measurand that can be stated and compared, is open. Questions about what a score licenses, including Borsboom's causal definition of validity, are on the [Validity](/measurement/validity/) page.
+Bridgman and Chang wrote about physical quantities such as length and temperature. Mari, Wilson and Maul write for the physical and human sciences together, and most of their examples of model-dependent properties are human ones, such as reading comprehension and nursing competence. Whether a capability of an AI system is a property in their sense, with a model of the measurand that can be stated and compared, is open. Questions about what a score licenses, including Borsboom's causal definition of validity, are on the [Validity](/measurement/validity/) page.
 
 ---
 
@@ -178,6 +178,6 @@ Mari, Wilson and Maul, *Measurement Across the Sciences* (Springer, 2nd ed., 202
 | [Jacobs and Wallach, "Measurement and Fairness"](https://arxiv.org/abs/1912.05511) | 2021 | Machine learning | **Measurement modeling**: constructs in computational systems, and the mismatches between a construct and its operationalization |
 | Chang, *Inventing Temperature*, Oxford University Press (DOI [10.1093/0195171276.001.0001](https://academic.oup.com/book/5530)) | 2004 | History and philosophy of science | Original account of epistemic iteration |
 | [Bridgman, *The Logic of Modern Physics*, Macmillan](https://archive.org/details/logicofmodernphy00brid) | 1927 | Philosophy of physics | Original statement of operationalism |
-| [Michell, *Measurement in Psychology: A Critical History of a Methodological Concept*, Cambridge University Press](https://www.cambridge.org/core/product/identifier/9780511490040/type/book) | 1999 | Psychology | Original statement of the quantity objection. DOI [10.1017/CBO9780511490040](https://www.cambridge.org/core/product/identifier/9780511490040/type/book) |
+| [Michell, "Normal Science, Pathological Science and Psychometrics," *Theory & Psychology* 10(5)](https://journals.sagepub.com/doi/10.1177/0959354300105004) | 2000 | Psychology | Original statement of the quantity objection. DOI [10.1017/CBO9780511490040](https://www.cambridge.org/core/product/identifier/9780511490040/type/book) |
 | [Cartwright and Runhardt, "Measurement," in Cartwright and Montuschi (eds.), *Philosophy of Social Science: A New Introduction*, Oxford University Press, pp. 265–287](https://global.oup.com/academic/product/philosophy-of-social-science-9780199645107) | 2014 | Philosophy of social science | Original statement that some concepts are too many-sided for one metric |
 | [JCGM, *Evaluation of Measurement Data: Guide to the Expression of Uncertainty in Measurement* (JCGM 100:2008)](https://www.bipm.org/documents/20126/2071204/JCGM_100_2008_E.pdf) | 2008 | Metrology | **Type A and Type B uncertainty**: repetition reveals only part of a measurement's uncertainty |

@@ -3,7 +3,7 @@ title: "Causal Inference"
 description: "A map of causal inference: identifying and estimating effects, learning causal structure, and carrying findings across populations, with the assumptions each step needs and the textbook that teaches it."
 ---
 
-Causal inference is the methodology field, developed across statistics, epidemiology, econometrics and computer science, that studies when and how a causal conclusion can be drawn from experimental or observational data. It is not one method. Causal questions sit on different rungs of Judea Pearl's hierarchy, association, intervention and counterfactual, and each rung needs different assumptions before any calculation begins. In a randomized experiment the assumptions hold by design. Every other method trades randomization for assumptions the data cannot check:
+Causal inference is the methodology field, developed across statistics, epidemiology, econometrics and computer science, that studies when and how a causal conclusion can be drawn from experimental or observational data. It is not one method. Causal questions sit on different rungs of Judea Pearl's hierarchy, association, intervention and counterfactual, and a question on one rung can be answered only with information from that rung or a higher one. A randomized experiment supplies interventional information by design. Every other method trades randomization for assumptions the data cannot check:
 
 > Causal inference from observational data requires two elements: data and identifiability conditions.
 >
@@ -38,13 +38,21 @@ Two things sort the questions: how much of the causal structure is known in adva
 
 Choosing among them takes knowledge of the subject, which the data cannot supply.
 
-**Graphs and potential outcomes.** The field has two roots that grew separately for half a century. One is the graphical tradition:
+**Graphs and potential outcomes.** The field has two roots. One is the graphical tradition:
 
 > Causal modeling is an interdisciplinary field that has its origin in the statistical revolution of the 1920s, especially in the work of the American biologist and statistician Sewall Wright (1921).
 >
 > — [Hitchcock (2018), "Causal Models," SEP, §1](https://plato.stanford.edu/entries/causal-models/#Intr)
 
-Wright's path diagrams became the causal graphs of Spirtes, Glymour and Scheines and of Pearl. The other root is the potential outcomes tradition of Neyman (1923), Rubin (1974) and Robins (1986), in which an effect is the difference between what would happen to the same units under two treatments. Fisher's randomized experiment sits between them, as the design that makes the contrast estimable without a model. The two traditions now share most of their results and differ mainly in notation and in which assumptions they treat as primitive.
+Wright's path diagrams became the causal graphs of Spirtes, Glymour and Scheines and of Pearl. The other root is the potential outcomes tradition of Neyman (1923), Rubin (1974) and Robins (1986), in which an effect is the difference between what would happen to the same units under two treatments. The two traditions now share most of their results and differ mainly in notation and in which assumptions they treat as primitive.
+
+**Randomized experiments.** In a randomized experiment, a chance process, such as a coin flip, decides which units receive the treatment. The statistician Ronald Fisher made randomization the basis of experimental design. Hitchcock's example is a trial of a drug for hypertension:
+
+> Factors such as education and health insurance that normally influence whether someone takes the drug no longer play this role for subjects in the trial population.
+>
+> — [Hitchcock (2018), "Causal Models," SEP, §3.1](https://plato.stanford.edu/entries/causal-models/#IntrSEMs)
+
+Without randomization, education and insurance could also affect recovery, so a comparison of treated and untreated patients would mix their effects with the drug's. The potential outcomes tradition reads the coin as making the treated and untreated groups comparable on average, so the difference in their outcomes estimates the effect (Hernán and Robins, 2020, §2.1). The graphical tradition reads it as an intervention: the coin replaces the treatment's usual causes, which removes the arrows pointing into it in the graph (Hitchcock, 2018, §3.1; Peters, Janzing and Schölkopf, 2017; Bareinboim et al., 2022).
 
 **Triangulation.** Every observational method rests on assumptions the data cannot verify, so no single observational estimate settles a causal question. The field's remedy is to compare designs whose assumptions differ, for instance an instrumental-variable study and a cohort study adjusted for measured confounders:
 
@@ -71,5 +79,6 @@ Wright's path diagrams became the causal graphs of Spirtes, Glymour and Scheines
 | [Hitchcock, "Causal Models," *Stanford Encyclopedia of Philosophy*](https://plato.stanford.edu/entries/causal-models/) | 2018 | Philosophy | **Markov equivalence**; the history of causal modeling |
 | [Pearl, "The Seven Tools of Causal Inference, with Reflections on Machine Learning," *Communications of the ACM* 62(3) (free reprint)](https://ftp.cs.ucla.edu/pub/stat_ser/r481-reprint.pdf) | 2019 | Computer science | **The causal hierarchy**: association, intervention, counterfactual. DOI [10.1145/3241036](https://dl.acm.org/doi/10.1145/3241036) |
 | [Pearl and Bareinboim, "External Validity: From Do-Calculus to Transportability Across Populations," *Statistical Science* 29(4)](https://projecteuclid.org/journals/statistical-science/volume-29/issue-4/External-Validity-From-Do-Calculus-to-Transportability-Across-Populations/10.1214/14-STS486.full) | 2014 | Causal inference | **Transportability**: when an effect carries to a new population, decided from a selection diagram. DOI [10.1214/14-STS486](https://projecteuclid.org/journals/statistical-science/volume-29/issue-4/External-Validity-From-Do-Calculus-to-Transportability-Across-Populations/10.1214/14-STS486.full) |
+| [Bareinboim, Correa, Ibeling and Icard, "On Pearl's Hierarchy and the Foundations of Causal Inference," in *Probabilistic and Causal Inference: The Works of Judea Pearl*, ACM Books, pp. 507–556 (free preprint)](https://causalai.net/r60.pdf) | 2022 | Causal inference | **Randomization as intervention**: assigning the treatment by a random source replaces the treatment's usual causes. DOI [10.1145/3501714.3501743](https://dl.acm.org/doi/10.1145/3501714.3501743) |
 | [VanderWeele and Ding, "Sensitivity Analysis in Observational Research: Introducing the E-Value," *Annals of Internal Medicine* 167(4)](https://www.acpjournals.org/doi/10.7326/M16-2607) | 2017 | Epidemiology | **E-value**: the minimum confounder strength that would explain an effect away. DOI [10.7326/M16-2607](https://www.acpjournals.org/doi/10.7326/M16-2607) |
 | [Rosenbaum, *Observational Studies*, 2nd ed., Springer](https://link.springer.com/book/10.1007/978-1-4757-3692-2) | 2002 | Statistics | **Sensitivity bounds**: how far hidden bias could move an estimate. DOI [10.1007/978-1-4757-3692-2](https://link.springer.com/book/10.1007/978-1-4757-3692-2) |

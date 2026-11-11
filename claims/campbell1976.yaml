@@ -1,0 +1,37 @@
+source:
+  citation: campbell1976
+  url: https://jmde.journals.publicknowledgeproject.org/index.php/jmde_1/article/download/297/292
+  local: sources/campbell_1976_assessing_impact_planned_social_change_jmde2011.pdf
+  extract_cmd: pdftotext {} -
+  note: Campbell, "Assessing the Impact of Planned Social Change," Occasional Paper Series no. 8, Public
+    Affairs Center, Dartmouth College, December 1976, as reprinted in Journal of MultiDisciplinary Evaluation
+    7(15), February 2011. The site cites the 1979 Evaluation and Program Planning version (DOI 10.1016/0149-7189(79)90048-X),
+    which is paywalled.
+claims:
+  crime_rates_corruptible:
+    interpretation:
+      says: The social scientist Donald Campbell had made a parallel point about indicators used to run
+        institutions, such as test scores and crime statistics.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Crime rates are in general very corruptible indicators.
+      page: 35
+  test_scores_lose_value:
+    interpretation:
+      says: The social scientist Donald Campbell had made a parallel point about indicators used to run
+        institutions, such as test scores and crime statistics.
+      whose: ai4science-philsci
+    quotes:
+    - exact: But when test scores become the goal of the teaching process, they both lose their value
+        as indicators of educational status and distort the educational process in undesirable ways.
+      page: 35
+  indicators_used_corrupted:
+    interpretation:
+      says: Goodhart and Campbell wrote about economic and social indicators in institutions, where the
+        people measured respond to the measurement.
+      whose: ai4science-philsci
+    quotes:
+    - exact: The more any quantitative social indicator is used for social decision-making, the more subject
+        it will be to corruption pressures and the more apt it will be to distort and corrupt the social
+        processes it is intended to monitor.
+      page: 34

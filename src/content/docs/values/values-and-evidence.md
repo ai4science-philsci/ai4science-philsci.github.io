@@ -7,9 +7,9 @@ This page asks one question: **who decides when the evidence is enough?**
 
 AI systems for science do more than gather evidence. They report that a compound is safe, that a variant is pathogenic, that a hypothesis is supported, and the report is acted on. This page covers three ideas from the philosophy of science about when the evidence is enough:
 
-1. **Inductive risk.** No hypothesis is ever certain, so a decision to accept or reject one depends on how serious each possible error would be.
-2. **Values set the standard, not the answer.** Values may decide how much evidence is enough; they may not stand in for evidence.
-3. **Objectivity is a property of a community.** Longino counts a method of inquiry as objective to the degree that it permits criticism that can transform scientific practice.
+1. **Inductive risk: how much evidence is enough depends on the cost of being wrong.** No hypothesis is ever certain, so a decision to accept or reject one depends on how serious each possible error would be (Rudner, 1953; Hempel, 1965).
+2. **The direct and indirect roles of values: values set the standard, not the answer.** Values may decide how much evidence is enough; they may not stand in for evidence (Douglas, 2000, 2009).
+3. **Transformative criticism: objectivity is a property of a community.** A method of inquiry is objective to the degree that it permits criticism that can transform scientific practice (Longino, 1990).
 
 ## From error costs to criticism
 
@@ -25,7 +25,7 @@ The entry's example is a drug: people may die of side effects if it is wrongly j
 >
 > — [Reiss and Sprenger (2020), "Scientific Objectivity," SEP, §3.2](https://plato.stanford.edu/entries/scientific-objectivity/#AcceScieHypoValuNeut)
 
-**Douglas (2009): values set the standard, not the answer.** The philosopher Heather Douglas extended the argument from acceptance to the whole of a study: the design, the characterization of the data, the choice of statistical method, the interpretation.
+**Douglas (2000, 2009): values set the standard, not the answer.** The philosopher Heather Douglas extended the argument from acceptance to the whole of a study: the design, the characterization of the data, the choice of statistical method, the interpretation.
 
 > Many decisions in the process of scientific inquiry may conceal implicit value judgments
 >
@@ -58,9 +58,9 @@ Her conditions are avenues for criticism, shared standards, equal intellectual a
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Jeffrey (1956) to Rudner (1953).** The philosopher Richard Jeffrey replied that scientists should report probabilities and leave acceptance to whoever acts on them.
+**Jeffrey (1956) to Rudner (1953).** Rudner's argument assumes that scientists accept or reject hypotheses: they declare, for instance, that a drug is safe, so that others can act on it. The philosopher Richard Jeffrey replied that in fundamental research they should not. A law such as Newton's law of gravity is used in so many settings that no scientist could weigh the cost of being wrong in all of them. Scientists should instead report the evidence and, at most, how probable the hypothesis is, and stay out of the practical decision to accept or reject it. Reiss and Sprenger reply with Douglas's dioxin studies. Pathologists had to decide whether borderline tissue samples counted as cancer, and how cautiously to classify them depended on the harm that underestimating the risk could do. Counting the borderline samples as cancer makes dioxin look more dangerous, and counting them as benign makes it look safer. Reporting a probability instead of declaring dioxin safe or dangerous does not avoid the judgment about which mistake is worse, because the probability comes from samples already classified with that judgment in mind.
 
-**Levi (1960) to Rudner (1953).** The philosopher Isaac Levi replied that a profession's shared standards, such as a 5% significance level, remove the individual's judgment.
+**Levi (1960) to Rudner (1953).** The philosopher Isaac Levi replied that a profession's shared standards, such as a 5% significance level, may leave the individual scientist no room for ethical judgment.
 
 > These community standards may eliminate any room for contextual ethical judgment on behalf of the scientist
 >
@@ -79,7 +79,7 @@ The entry notes that the values then sit in how the community sets its standards
 >
 > — [Reiss and Sprenger (2020), "Scientific Objectivity," SEP, §3.3](https://plato.stanford.edu/entries/scientific-objectivity/#SciePoliValuFreeIdea)
 
-**"A standard threshold keeps values out."** On Levi's own account, a shared threshold moves the value judgment from the individual to the community that set the standard. It does not remove the judgment.
+**"A standard threshold keeps values out."** On Reiss and Sprenger's reading of Levi, a shared threshold moves the value judgment from the individual to the community that set the standard. It does not remove the judgment.
 
 **"Objectivity means the result does not depend on who checked it."** For Longino, objectivity depends on who could check it: criticism must be possible, shared standards must exist, and criticism must be able to change the result.
 
@@ -127,7 +127,7 @@ An agent searches a database of adverse-event reports for a signal that a market
 
 ## Limitations
 
-The inductive-risk argument applies most clearly where a result is accepted for a decision, such as a drug, a policy or a diagnosis. Jeffrey's reply, that fundamental research can report probabilities and accept nothing, is still defended. Longino's conditions describe communities of human inquirers, and whether an AI system's outputs can be part of such a community, or only objects of its criticism, is open.
+The inductive-risk argument applies most clearly where a result is accepted for a decision, such as a drug, a policy or a diagnosis. Longino's conditions describe communities of human inquirers, and whether an AI system's outputs can be part of such a community, or only objects of its criticism, is open.
 
 ---
 
@@ -150,5 +150,6 @@ Godfrey-Smith, *Theory and Reality: An Introduction to the Philosophy of Science
 | [Raji and Buolamwini, "Actionable Auditing"](https://www.media.mit.edu/publications/actionable-auditing-investigating-the-impact-of-publicly-naming-biased-performance-results-of-commercial-ai-products/) | 2019 | Machine learning | **External criticism with uptake**: audits of commercial systems and the companies' responses |
 | Rudner, "The Scientist Qua Scientist Makes Value Judgments," *Philosophy of Science* (DOI [10.1086/287231](https://www.cambridge.org/core/product/identifier/S0031824800036801/type/journal_article)) | 1953 | Philosophy of science | Original argument from inductive risk |
 | [Hempel, *Aspects of Scientific Explanation*, Free Press](https://archive.org/details/aspectsofscienti0000carl) | 1965 | Philosophy of science | Source of Hempel's placement of values in the decision to accept a hypothesis |
+| Douglas, "Inductive Risk and Values in Science," *Philosophy of Science* 67(4), pp. 559–579 (DOI [10.1086/392855](https://www.cambridge.org/core/product/identifier/S003182480005858X/type/journal_article)) | 2000 | Philosophy of science | **Inductive risk throughout a study**: values enter the design, the classification of data and the interpretation, not only the decision to accept |
 | [Douglas, *Science, Policy, and the Value-Free Ideal*, University of Pittsburgh Press](https://upittpress.org/books/9780822960263/) | 2009 | Philosophy of science | Original account of direct and indirect roles of values. DOI [10.2307/j.ctt6wrc78](https://www.jstor.org/stable/10.2307/j.ctt6wrc78) |
 | [Longino, *Science as Social Knowledge*, Princeton University Press](https://press.princeton.edu/books/paperback/9780691020518/science-as-social-knowledge) | 1990 | Philosophy of science | Original account of objectivity as transformative criticism. DOI [10.2307/j.ctvx5wbfz](https://www.jstor.org/stable/10.2307/j.ctvx5wbfz) |

@@ -7,9 +7,9 @@ This page asks one question: **when does optimizing a score bring you closer to 
 
 AI systems for science are built and run by optimization: a model trained to lower a loss, an agent rewarded for a benchmark score, a design search that maximizes a predicted property. This page covers three ideas from economics, social science and machine learning about what optimization does to a score:
 
-1. **A regularity tends to collapse once pressure is placed on it.** For a score, the regularity is its relation to the goal it stands for, and the pressure is using the score for control.
-2. **Proxies fail in at least four ways.** Selecting on an imperfect proxy also selects for its noise, and selection can reach regions where the proxy's observed relation to the goal fails. Intervening on a proxy with an indirect link to the goal can change that link, and an agent whose goals differ from the optimizer's can cause the collapse.
-3. **Over all policies, only trivial or equivalent proxies are unhackable.** Over the set of all stochastic policies, a proxy and the true reward are unhackable only if one gives every policy the same return or both order the policies the same way. Over finite sets of policies, nontrivial unhackable pairs that order them differently always exist.
+1. **Goodhart's and Campbell's laws: a regularity tends to collapse once pressure is placed on it.** For a score, the regularity is its relation to the goal it stands for, and the pressure is using the score for control (Goodhart, 1975; Campbell, 1979).
+2. **Goodhart effects: proxies fail in at least four ways.** Selecting on an imperfect proxy also selects for its noise, and selection can reach regions where the proxy's observed relation to the goal fails. Intervening on a proxy with an indirect link to the goal can change that link, and an agent whose goals differ from the optimizer's can cause the collapse (Manheim and Garrabrant, 2018).
+3. **Reward hacking: over all policies, only trivial or equivalent proxies are unhackable.** Over the set of all stochastic policies, a proxy and the true reward are unhackable only if one gives every policy the same return or both order the policies the same way. Over finite sets of policies, nontrivial unhackable pairs that order them differently always exist (Skalse et al., 2022).
 
 ## From indicators to proxies
 
@@ -65,13 +65,13 @@ They show that the condition is very strong: for the full set of stochastic poli
 >
 > — [Sutton, "The Bitter Lesson" (2019)](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 
-His cases are chess, Go, speech recognition and computer vision, where the objective was fixed and well defined, and his conclusion is about how systems should discover.
+His cases are chess, Go, speech recognition and computer vision, and his conclusion is about how systems should discover. In each of these cases the objective was fixed and well defined, a feature his essay does not discuss.
 
 > We want AI agents that can discover like we can, not which contain what we have discovered.
 >
 > — [Sutton (2019)](http://www.incompleteideas.net/IncIdeas/BitterLesson.html)
 
-The two lines of argument answer different questions. Sutton's concerns which methods reach an objective. Goodhart's and Campbell's concern whether reaching the measured objective reaches the intended one. Manheim and Garrabrant connect them: the more optimization power is applied, the more the gap matters.
+The two lines of argument answer different questions. Sutton's concerns which methods reach an objective. Goodhart's and Campbell's concern whether reaching the measured objective reaches the intended one. A point Manheim and Garrabrant make links them: the more optimization power is applied, the more the gap matters.
 
 > The importance of Goodhart effects depends on the amount of power directed towards optimizing the proxy
 >
@@ -88,7 +88,7 @@ The two lines of argument answer different questions. Sutton's concerns which me
 
 **"A better-designed reward can rule out hacking."** Skalse et al. show that the condition for an unhackable proxy is very strong, and that leaving terms out of a reward to make it narrower usually does not meet it.
 
-**"The Bitter Lesson says optimization solves the problem."** Sutton's argument is about general methods versus built-in knowledge in domains where success was well defined.
+**"The Bitter Lesson says optimization solves the problem."** Sutton's argument is about general methods versus built-in knowledge, and his examples are domains where success was well defined.
 
 > general methods that leverage computation are ultimately the most effective, and by a large margin
 >

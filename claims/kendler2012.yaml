@@ -9,4 +9,4 @@ claims:
   true_disorder:
     quotes:
     - exact: we expect that the true disorder will perform better on our key validators
-      section: 15.5
+      section: "15.5"

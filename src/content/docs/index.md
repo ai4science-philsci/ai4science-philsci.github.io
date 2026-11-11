@@ -38,8 +38,8 @@ This site's chapters quote the Stanford Encyclopedia of Philosophy extensively, 
 |---|---|---|
 | 7 | [Prediction and Explanation](/explanation/prediction-and-explanation/) | When does a model that predicts well also explain what it predicts? |
 | 8 | [Causation and Intervention](/causation/causation-and-intervention/) | When does a difference in the data show that one thing causes another? |
-| 9 | [Simulation and Understanding](/simulation/simulation-and-understanding/) | Can a model nobody can follow still give understanding? |
-| 10 | [Data and Phenomena](/data/data-and-phenomena/) | When does a fit to the data tell you something about the world? |
+| 9 | [Data and Phenomena](/data/data-and-phenomena/) | When does a fit to the data tell you something about the world? |
+| 10 | [Simulation and Understanding](/simulation/simulation-and-understanding/) | Can a model nobody can follow still give understanding? |
 | 11 | [Values and Evidence](/values/values-and-evidence/) | Who decides when the evidence is enough? |
 
 **Part 3: Mechanism**
@@ -69,10 +69,16 @@ Beyond the philosophy of science, the chapters rely on two additional foundation
 | [Psychometrics](/fields/psychometrics/) | Reliability, item response theory, factor analysis and validity, and which textbook teaches it |
 | [Causal Inference](/fields/causal-inference/) | The kinds of causal question, what each assumes, and which textbook teaches it |
 
+**Limitations**
+
+The chapters cover the standard positions in each debate, but do not constitute a complete survey of the literature.
+
 **Sources and quotations**
 
 Quotations are verified against their source text using the [`citations`](https://reproducible.science/tools/citations/) CLI tool, visible in the repository's [claims folder](https://github.com/ai4science-philsci/ai4science-philsci.github.io/tree/main/claims).
 
-**Limitations**
+**Use of AI tools**
 
-The chapters cover the standard positions in each debate, but do not constitute a complete survey of the literature.
+Claude Code (Anthropic) was used for assembling sources, extracting quotations and drafting text. Perplexity (Perplexity AI) was used for literature search and review of drafts. The author wrote, edited and revised the text and takes full responsibility for the work.
+
+**Contact:** [elliot@elliottower.ai](mailto:elliot@elliottower.ai)

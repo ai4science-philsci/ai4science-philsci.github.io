@@ -24,3 +24,92 @@ claims:
     - exact: without the researcher performing any conscious procedure of fishing or examining multiple
         p-values
       page: 1
+  single_analysis_contingent:
+    interpretation:
+      says: The statistician Andrew Gelman and Eric Loken argued that the problem does not require anyone
+        to try many analyses.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Researcher degrees of freedom can lead to a multiple comparisons problem, even in settings
+        where researchers perform only a single analysis on their data. The problem is there can be a
+        large number of potential comparisons when the details of data analysis are highly contingent
+        on data, without the researcher having to perform any conscious procedure of fishing or examining
+        multiple p-values.
+      section: Abstract
+      page: 1
+  single_analysis_same_problem:
+    interpretation:
+      says: A single analysis, chosen in light of the data, has the same problem.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Researcher degrees of freedom can lead to a multiple comparisons problem, even in settings
+        where researchers perform only a single analysis on their data. The problem is there can be a
+        large number of potential comparisons when the details of data analysis are highly contingent
+        on data, without the researcher having to perform any conscious procedure of fishing or examining
+        multiple p-values.
+      section: Abstract
+      page: 1
+  model_alternative_data:
+    interpretation:
+      says: 'The reason is counterfactual: what matters for the error rate is what the researcher would
+        have done with other data.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'But this is the (somewhat paradoxical) nature of frequentist reasoning: if you accept the
+        concept of the p-value, you have to respect the legitimacy of modeling what would have been done
+        under alternative data.'
+      page: 2
+  regret_fishing_terms:
+    interpretation:
+      says: Gelman and Loken regret the terms "fishing" and "p-hacking" because they imply a conscious
+        search, and they place the problem in any analysis whose details depend on the data, which preregistration
+        addresses and good intentions do not.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'We regret the spread of the terms “fishing” and “p-hacking” (and even “researcher degrees
+        of freedom”) for two reasons: first, because when such terms are used to describe a study, there
+        is the misleading implication that researchers were consciously trying out many different analyses
+        on a single data set'
+      page: 2
+  contingent_without_fishing:
+    interpretation:
+      says: Gelman and Loken regret the terms "fishing" and "p-hacking" because they imply a conscious
+        search, and they place the problem in any analysis whose details depend on the data, which preregistration
+        addresses and good intentions do not.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Our key point here is that it is possible to have multiple potential comparisons, in the
+        sense of a data analysis whose details are highly contingent on data, without the researcher performing
+        any conscious procedure of fishing or examining multiple p-values.
+      page: 2
+  absent_preregistration:
+    interpretation:
+      says: Gelman and Loken regret the terms "fishing" and "p-hacking" because they imply a conscious
+        search, and they place the problem in any analysis whose details depend on the data, which preregistration
+        addresses and good intentions do not.
+      whose: ai4science-philsci
+    quotes:
+    - exact: We must realize, though, that absent pre-registration, our data analysis choices will be
+        data-dependent, even when they are motivated directly from theoretical concerns.
+      page: 15
+  single_analysis_point:
+    interpretation:
+      says: Gelman and Loken's point is that a single data-dependent analysis has the problem too.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Researcher degrees of freedom can lead to a multiple comparisons problem, even in settings
+        where researchers perform only a single analysis on their data.
+      section: Abstract
+      page: 1
+  simmons_not_cheating:
+    interpretation:
+      says: They add that Simmons, Nelson and Simonsohn did not say that p-hacking implies cheating, or
+        even awareness of running data-dependent analyses.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Just to be clear: we are not saying that Simmons et al. (2001), Vul et al. (2009), Francis
+        (2013), and others who have written about researcher degrees of freedom were themselves saying
+        that p-hacking implies that researchers are cheating or are even aware of performing data-dependent
+        analyses.'
+      section: '1.1'
+      page: 2

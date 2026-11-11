@@ -18,3 +18,53 @@ claims:
     - exact: if c had not occurred, then d would not have occurred; and if d had not occurred, e would
         not have occurred
       section: 1.1 Counterfactuals and Causal Dependence
+  lewis_causal_chain:
+    interpretation:
+      says: Lewis defined causation as a chain of such dependences.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'He defines a causal chain as a finite sequence of actual events c, d, e, … where d causally
+        depends on c, e on d, and so on throughout the sequence. Then causation is finally defined in
+        these terms:'
+      section: 1.3 Transitivity and Preemption
+  hume_two_definitions:
+    interpretation:
+      says: 'Hume gave a second definition in the same breath as the first: a cause is something without
+        which the effect would never have existed.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'The first explicit definition of causation in terms of counterfactuals was, surprisingly
+        enough, given by Hume, when he wrote: “We may define a cause to be an object followed by another,
+        and where all the objects, similar to the first, are followed by objects similar to the second.
+        Or, in other words, where, if the first object had not been, the second never had existed” (1748,
+        Section VII).'
+      section: 1. Lewis’s 1973 Counterfactual Analysis
+  lewis_best_known:
+    interpretation:
+      says: 'The philosopher David Lewis built a theory of causation on that second clause:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: The best known and most thoroughly elaborated counterfactual theory of causation is David
+        Lewis’s theory in his (1973b).
+      section: 1. Lewis’s 1973 Counterfactual Analysis
+  backtracking_ruled_out:
+    interpretation:
+      says: 'Lewis had to rule out one tempting line of reasoning: had the barometer not fallen, the pressure
+        would not have dropped, so the rain would not have come.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'It is tempting to reason that there must be a causal dependence between c and e by engaging
+        in the following piece of counterfactual reasoning: if c had not occurred, then d would not have
+        occurred; and if d had not occurred, e would not have occurred. But Lewis says the former counterfactual,
+        which he calls a backtracking counterfactual, is not to be used in the assessment of causal dependence.'
+      section: 1.1 Counterfactuals and Causal Dependence
+  spurious_common_cause:
+    interpretation:
+      says: That counterfactual runs backward through the common cause, and if it were allowed, every
+        pair of effects of one cause would depend on each other.
+      whose: ai4science-philsci
+    quotes:
+    - exact: There are several possible ways of interpreting counterfactuals; and some interpretations
+        give rise to spurious non-causal dependences between events. For example, suppose that the events
+        c and e are effects of a common cause d.
+      section: 1.1 Counterfactuals and Causal Dependence

@@ -67,3 +67,23 @@ claims:
     - exact: The sort of statistical calibration (or “scaling”) provided by Rasch models yields repeatable
         results, but it is often only a first step towards full-fledged psychological measurement.
       section: 7.3 Psychometric models and construct validity
+  michell_untested_quantity:
+    interpretation:
+      says: Joel Michell (2000) argued that psychometricians assume, without testing, that the attributes
+        they measure come in quantities.
+      whose: ai4science-philsci
+    quotes:
+    - exact: A more fundamental criticism leveled against psychometrics is that it dogmatically presupposes
+        that psychological attributes can be quantified. Michell (2000, 2004b) argues that psychometricians
+        have not made serious attempts to test whether the attributes they purport to measure have quantitative
+        structure, and instead adopted an overly loose conception of measurement that disguises this neglect.
+      section: 7.3 Psychometric models and construct validity
+  irt_tests_quantity:
+    interpretation:
+      says: Denny Borsboom and Gideon Mellenbergh (2004) replied that item response theory supplies such
+        tests ([Measurement](/measurement/measurement/)).
+      whose: ai4science-philsci
+    quotes:
+    - exact: In response, Borsboom and Mellenbergh (2004) argue that Item Response Theory provides probabilistic
+        tests of the quantifiability of attributes.
+      section: 7.3 Psychometric models and construct validity

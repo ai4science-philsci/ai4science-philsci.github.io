@@ -25,3 +25,67 @@ claims:
     - exact: Counterfactuals play a central role in the potential outcome framework for causal models
         pioneered by Neyman (1923), and developed by Rubin (1974) and Robins (1986), among others.
       section: 4.10 Counterfactuals
+  do_notation:
+    interpretation:
+      says: Pearl's notation separates seeing from doing.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Often, however, we are interested in predicting the value of Y that will result if we intervene
+        to set the value of X equal to some particular value x. Pearl (2009) writes \(\Pr(Y = y \mid \ido(X
+        = x))\) to characterize this probability.
+      section: 4.7 Interventions
+  observation_informs_causes:
+    interpretation:
+      says: Observing a value tells you about its causes.
+      whose: ai4science-philsci
+    quotes:
+    - exact: When we merely observe the value that a variable takes, we are learning about the value of
+        the variable when it is caused in the normal way, as represented in our causal model. Information
+        about the value of the variable will also provide us with information about its causes, and about
+        other effects of those causes.
+      section: 4.7 Interventions
+  markov_class_same_independencies:
+    interpretation:
+      says: 'From observational data alone, discovery can narrow the structures only to a set that make
+        the same predictions:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: In general, given a probability distribution P on \(\bV\), it is only possible to identify
+        a Markov equivalence class of causal structures. This will be the set of all DAGs on \(\bV\) that
+        (together with MC) imply all and only the conditional independence relations contained in P.
+      section: 4.4 Identifiability of Causal Structure
+  potential_outcomes_tradition:
+    interpretation:
+      says: The other root is the potential outcomes tradition of Neyman (1923), Rubin (1974) and Robins
+        (1986), in which an effect is the difference between what would happen to the same units under
+        two treatments.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Counterfactuals play a central role in the potential outcome framework for causal models
+        pioneered by Neyman (1923), and developed by Rubin (1974) and Robins (1986), among others.
+      section: 4.10 Counterfactuals
+  rct_education_insurance:
+    quotes:
+    - exact: Factors such as education and health insurance that normally influence whether someone takes
+        the drug no longer play this role for subjects in the trial population.
+      section: 3.1 Introduction to SEMs
+  rct_coin_flip:
+    interpretation:
+      says: In a randomized experiment, a chance process, such as a coin flip, decides which units receive
+        the treatment.
+      whose: ai4science-philsci
+    quotes:
+    - exact: a randomized controlled trial to test the efficacy of a drug for hypertension aims to determine
+        whether each subject takes the drug (rather than a placebo) by a random process such as a coin
+        flip.
+      section: 3.1 Introduction to SEMs
+  rct_intervention_breaks_arrows:
+    interpretation:
+      says: 'The graphical tradition reads it as an intervention: the coin replaces the treatment''s usual
+        causes, which removes the arrows pointing into it in the graph'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Randomized controlled trials aim to intervene in this sense.
+      section: 3.1 Introduction to SEMs
+    - exact: graphically, we can think of the intervention as “breaking the arrows” pointing into Flame.
+      section: 3.1 Introduction to SEMs

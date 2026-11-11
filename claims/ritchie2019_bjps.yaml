@@ -1,0 +1,6 @@
+source:
+  citation: ritchie2019
+  url: https://pmc.ncbi.nlm.nih.gov/articles/PMC6505581/
+  local: sources/ritchie_2019_decoding_the_brain_europepmc.txt
+  extract_cmd: cat {}
+claims: {}

@@ -14,3 +14,28 @@ claims:
       prefix: goodhart's law, "
       suffix: '" (goodhart 2015'
       page: 1
+  goodhart_monetary_1975:
+    interpretation:
+      says: The economist Charles Goodhart observed, about monetary targets, that
+      whose: ai4science-philsci
+    quotes:
+    - exact: This law has appeared in various forms since economist Charles Goodhart first proposed it
+        in 1975 in response to how monetary metrics broke down after central banks adopted them as targets.
+      page: 2
+  strathern_popular_phrasing:
+    interpretation:
+      says: The version usually quoted is the anthropologist Marilyn Strathern's.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Goodhart refers to the popular phrasing of his namesake law, “When a measure becomes a target,
+        it ceases to be a good measure” (Strathern 1997).
+      page: 2
+  goodhart_central_banks_targets:
+    interpretation:
+      says: Goodhart and Campbell wrote about economic and social indicators in institutions, where the
+        people measured respond to the measurement.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Central banks from a number of countries did this, and in most cases the relationship between
+        inflation and the metric chosen broke down once that metric became a target.
+      page: 2

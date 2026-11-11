@@ -44,3 +44,22 @@ claims:
         conditions.'
       section: 3.1 Identifiability conditions
       page: 28
+  triangulation_designs:
+    interpretation:
+      says: 'The field''s remedy is to compare designs whose assumptions differ, for instance an instrumental-variable
+        study and a cohort study adjusted for measured confounders:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Causal inference relies on transparency of assumptions and on triangulation of results from
+        methods that depend on different sets of assumptions
+      section: '16.5'
+      page: 217
+  randomization_exchangeability:
+    interpretation:
+      says: The potential outcomes tradition reads the coin as making the treated and untreated groups
+        comparable on average, so the difference in their outcomes estimates the effect.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Randomization is so highly valued because it is expected to produce exchangeability.
+      section: 2.1 Randomization
+      page: 14

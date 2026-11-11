@@ -7,13 +7,13 @@ This page asks one question: **does the evidence depend on when an experiment st
 
 An AI system can check its result after every batch of data, every training step or every evaluation item, and stop as soon as the result looks good. What turns out to matter is not only when it stopped but the plan it was following: two researchers with identical data can hold different evidence because they planned to stop differently. This page covers three positions from statistics:
 
-1. **The stopping rule changes the evidence.** A result reached by stopping when it looked good is weaker than the same result from a fixed plan.
-2. **Only the data observed count.** Two researchers with the same data have the same evidence, whatever each one planned.
-3. **Evidence can be made valid at any stopping time.** Some measures of evidence stay valid however often the data are checked.
+1. **Optional stopping: the stopping rule changes the evidence.** A result reached by stopping when it looked good is weaker than the same result from a fixed plan (Mayo, 2018).
+2. **The likelihood principle: only the data observed count.** Two researchers with the same data have the same evidence, whatever each one planned (Birnbaum, 1962).
+3. **Anytime-valid inference: evidence can be made valid at any stopping time.** Some measures of evidence stay valid however often the data are checked (Ramdas et al., 2023).
 
 ## From the stopping rule to anytime validity
 
-**Mayo (2018): the stopping rule changes the evidence.** On the error-statistical view of Neyman, Pearson and the philosopher Deborah Mayo, a result is evidence only if the procedure that produced it would rarely have produced it in error. A researcher who keeps testing until the result is significant has a procedure that almost always gets there:
+**Mayo (2018): the stopping rule changes the evidence.** On the error-statistical view of the philosopher Deborah Mayo, a result is evidence only if the procedure that produced it would rarely have produced it in error. A researcher who keeps testing until the result is significant has a procedure that almost always gets there:
 
 > If a tester tries and tries again until significance is reached–optional stopping–significance will be attained erroneously with high probability.
 >
@@ -21,13 +21,13 @@ An AI system can check its result after every batch of data, every training step
 
 Statisticians have warned about this since the 1940s, when it was noticed in studies of extrasensory perception, and it remains common. In a survey of over 2,000 psychologists by Leslie John and colleagues (2012), 56 percent admitted deciding whether to collect more data after checking whether the results were significant.
 
-**The likelihood principle (Birnbaum, 1962): only the data observed count.** Bayesian and likelihood statisticians hold the opposite view. The statistician Allan Birnbaum showed in 1962 that it follows from two principles most statisticians already accept:
+**The likelihood principle (Birnbaum, 1962): only the data observed count.** Bayesian and likelihood statisticians hold the opposite view. The statistician Allan Birnbaum argued in 1962 that it follows from two principles many statisticians are inclined to accept:
 
 > This principle has it that the likelihoods of hypotheses for the observed data completely fix the evidential impact of those data on the hypotheses.
 >
 > — [Romeijn, "Philosophy of Statistics," SEP, §3.2.2](https://plato.stanford.edu/entries/statistics/#NatEvi)
 
-The entry's example is a student who claims to taste whether milk or tea went into the cup first. One researcher plans six cups. Another plans to stop at the first wrong answer. The student gets five right and then one wrong, so both researchers have the same six results. The first cannot reject the hypothesis that the student is guessing, and the second can, because the two plans make different results possible. A third researcher who would have stopped if she got hungry, and did not, gets a third answer. To a Bayesian, evidence that depends on what was in the researcher's head is not evidence about the student. The statistician Harold Jeffreys called the classical procedure "remarkable."
+The entry's example is a student who claims to taste whether milk or tea went into the cup first. One researcher plans six cups. Another plans to stop at the first wrong answer. The student gets five right and then one wrong, so both researchers have the same six results. The first cannot reject the hypothesis that the student is guessing, and the second can, because the two plans make different results possible. A third researcher who would have stopped if she got hungry, and did not, can reject the hypothesis too. To a Bayesian, evidence that depends on what was in the researcher's head is not evidence about the student. The statistician Harold Jeffreys called the classical procedure "remarkable."
 
 **Ramdas, Grünwald, Vovk and Shafer (2023): evidence valid at any stopping time.** A newer line of work in statistics, summarized by the statisticians Aaditya Ramdas, Peter Grünwald, Vladimir Vovk and Glenn Shafer, stops disapproving of peeking and builds tools that allow it. Its measures of evidence, called e-values, come from a betting game: evidence against a hypothesis is the money a gambler makes betting against it, starting from one dollar. Money made by betting fairly cannot be inflated by choosing when to stop counting, so
 
@@ -40,9 +40,9 @@ The approach gives error control without depending on the stopping rule, which g
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Bayesian statisticians to Mayo (2018).** The foregone conclusion is a property of p-values. Kadane and colleagues (1996) showed that, under standard assumptions, persistent sampling is not guaranteed to reach a chosen result when the evidence is computed the Bayesian or likelihood way. Mayo replies that the likelihood principle still makes opportunistic data collection invisible to the reader, who sees only the data and not the plan.
+**Bayesian statisticians to Mayo (2018).** The foregone conclusion is a property of p-values. Kadane and colleagues (1996) showed that, under standard assumptions, persistent sampling is not guaranteed to reach a chosen result when the evidence is computed the Bayesian or likelihood way. Defenders of classical statistics, Mayo among them, hold that treating the stopping rule as irrelevant opens the way to opportunistic choices in data collection.
 
-**Ramdas and colleagues (2023) to the Bayesians.** A prior fixed before any data are seen is indeed unaffected by peeking. The trouble, they write, comes with the default or pragmatic priors used in practice, especially priors that depend on the sample size or other features of the data. Those priors lose the protection the principle promised.
+**Ramdas and colleagues (2023) to the Bayesians.** Bayesian inference with a prior that states the statistician's beliefs before any data are seen is indeed unaffected by planned peeking. The trouble, they write, comes when default or pragmatic priors are used to test composite null hypotheses, especially priors that depend on the sample size or other features of the data. Those priors lose the protection the principle promised.
 
 **The stopping rule as information.** Romeijn's entry notes a case where even Bayesians agree the stopping rule matters: when the reason for stopping depends on the thing being studied. A researcher who stops because the student's guesses are boring her has learned something about the student. The entry concludes that the controversy continues.
 
@@ -51,7 +51,7 @@ The approach gives error control without depending on the stopping rule, which g
 <details class="worked-example">
 <summary>Misreadings</summary>
 
-**"Bayesian methods are immune to peeking."** Only with a prior fixed before the data. With priors chosen from the data, as is common, peeking can mislead a Bayesian analysis too.
+**"Bayesian methods are immune to peeking."** Only with a prior that states beliefs held before the data. With default or pragmatic priors, as are common for composite null hypotheses, and especially priors that depend on the data, peeking can mislead a Bayesian analysis too.
 
 **"Anytime-valid methods let you stop whenever you like at no cost."** The cost is power. The error rate holds at every stopping time, but reaching a given level of evidence can take more data.
 
@@ -62,7 +62,7 @@ The approach gives error control without depending on the stopping rule, which g
 ## AI for Science
 
 - **Error statistics** asks how often the system looked before it stopped. A comparison checked after every batch and stopped when significant has a false positive rate far above the one it reports. [Preregistering](/testing/falsification-and-severe-testing/#in-current-practice) the stopping rule is what lets a reader check which plan the system followed.
-- **The likelihood principle** asks whether the analysis is one whose evidence really does not depend on the stopping rule, which means a prior fixed before the data.
+- **The likelihood principle** asks whether the analysis is one whose evidence really does not depend on the stopping rule, which means a prior that states beliefs held before the data.
 - **Anytime-valid inference** asks whether the measure of evidence was built for continuous monitoring. Systems that check results as they arrive, as agents and online experiments do, need measures that stay valid when checked.
 
 <details class="worked-example">
@@ -72,7 +72,7 @@ An agent compares two prompting strategies for a protein-function prediction tas
 
 **Error statistics.** The agent tested seven times and stopped on the first success. The chance of at least one false positive across seven looks is far above 5 percent, so the reported p-value overstates the evidence.
 
-**The likelihood principle.** A Bayesian comparison of the 350 items would give the same answer however the agent decided to stop, provided its prior was fixed before the first batch. The agent's significance test has no such property.
+**The likelihood principle.** A Bayesian comparison of the 350 items would give the same answer however the agent decided to stop, provided its prior stated beliefs held before the first batch. The agent's significance test has no such property.
 
 **Anytime-valid inference.** An e-value computed after each batch could have been checked seven times, or seven hundred, and the agent could have stopped whenever the evidence was strong, with the error rate it reports still holding.
 
@@ -83,7 +83,7 @@ An agent compares two prompting strategies for a protein-function prediction tas
 | Idea | Where practitioners already do it | What it doesn't cover |
 |---|---|---|
 | The stopping rule changes the evidence | [Preregistered](/testing/falsification-and-severe-testing/) sample sizes and stopping rules; clinical trials with interim analyses planned in advance and the error rate spent across them | Stopping that was not planned |
-| Only the data observed count | Bayesian analyses with priors registered before the data | Priors chosen in light of the data |
+| Only the data observed count | Bayesian analyses with priors that state beliefs held before the data | Default priors for composite nulls, and priors chosen in light of the data |
 | Evidence valid at any stopping time | Online experimentation platforms that report always-valid p-values for continuously monitored tests | Power: the tests can need larger samples |
 
 ## Evidence patterns
@@ -92,7 +92,7 @@ An agent compares two prompting strategies for a protein-function prediction tas
 |---|---|---|
 | Fixed sample size, one test at the end | The reported error rate holds | "One test, at the planned sample size n." |
 | Repeated tests, stopped at the first significant one | Less than the p-value says | "Tested after each of k batches and stopped at the first p below 0.05; the error rate is not 5 percent." |
-| Bayesian analysis with a prior fixed before the data | Evidence unaffected by when the analysis stopped | "The prior was registered before data collection." |
+| Bayesian analysis with a prior that states beliefs held before the data | Evidence unaffected by when the analysis stopped | "The prior states beliefs held before data collection and was registered then." |
 | E-value or confidence sequence monitored throughout | Error control at any stopping time | "Monitored continuously with an anytime-valid test; stopped at e above 20." |
 
 ## Limitations

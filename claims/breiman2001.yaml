@@ -20,3 +20,108 @@ claims:
     - exact: The goals in statistics are to use data to predict and to get information about the underlying
         data mechanism.
       section: 12. Final Remarks
+  data_model_culture:
+    interpretation:
+      says: 'The statistician Leo Breiman described two cultures in statistics: one that assumes a model
+        of how the data were generated, and one that treats the process as unknown and judges models by
+        how well they predict.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: The analysis in this culture starts with assuming a stochastic data model for the inside
+        of the black box.
+      section: 1. Introduction
+      page: 199
+  algorithmic_culture:
+    interpretation:
+      says: 'The statistician Leo Breiman described two cultures in statistics: one that assumes a model
+        of how the data were generated, and one that treats the process as unknown and judges models by
+        how well they predict.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: The analysis in this culture considers the inside of the box complex and unknown. Their approach
+        is to find a function f(x)-an algorithm that operates on x to predict the responses y.
+      section: 1. Introduction
+      page: 199
+  validation_predictive_accuracy:
+    interpretation:
+      says: 'The statistician Leo Breiman described two cultures in statistics: one that assumes a model
+        of how the data were generated, and one that treats the process as unknown and judges models by
+        how well they predict.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Model validation. Measured by predictive accuracy.
+      section: 1. Introduction
+      page: 199
+  rashomon_film:
+    interpretation:
+      says: In the same paper he described what he called the Rashomon effect, after Kurosawa's film in
+        which witnesses agree on the facts and disagree on the story.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Rashomon is a wonderful Japanese movie in which four people, from different vantage points,
+        witness an incident in which one person dies and another is supposedly raped. When they come to
+        testify in court, they all report the same facts, but their stories of what happened are very
+        different.
+      section: 8. Rashomon and the Multiplicity of Good Models
+      page: 206
+  three_pictures:
+    interpretation:
+      says: His first example is three linear regressions on the same data, with about the same error
+        and different variables in each, and he says each one tells a different story about which variables
+        are important.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'So here are three possible pictures with RSS or test set error within 1.0% of each other:'
+      section: 8. Rashomon and the Multiplicity of Good Models
+      page: 206
+  different_story:
+    interpretation:
+      says: His first example is three linear regressions on the same data, with about the same error
+        and different variables in each, and he says each one tells a different story about which variables
+        are important.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Which one is better? The problem is that each one tells a different story about which variables
+        are important.
+      section: 8. Rashomon and the Multiplicity of Good Models
+      page: 206
+  neural_net_minima:
+    interpretation:
+      says: He also ran a small neural network a hundred times on the same data and found 32 distinct
+        solutions with about equal test error, each giving a different picture.
+      whose: ai4science-philsci
+    quotes:
+    - exact: I once ran a small neural net 100 times on simple three-dimensional data reselecting the
+        initial weights to be small and random on each run. I found 32 distinct minima, each of which
+        gave a different picture, and having about equal test set error.
+      section: 8. Rashomon and the Multiplicity of Good Models
+      page: 206
+  goals_predict_and_mechanism:
+    interpretation:
+      says: Breiman wanted both prediction and knowledge of the mechanism, and he bet that the first leads
+        to the second.
+      whose: ai4science-philsci
+    quotes:
+    - exact: The goals in statistics are to use data to predict and to get information about the underlying
+        data mechanism.
+      section: 12. Final Remarks
+      page: 214
+  accuracy_reliable_information:
+    interpretation:
+      says: Breiman wanted both prediction and knowledge of the mechanism, and he bet that the first leads
+        to the second.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Higher predictive accuracy is associated with more reliable information about the underlying
+        data mechanism. Weak predictive accuracy can lead to questionable conclusions.
+      section: 11. Information from a Black Box
+      page: 214
+  closing_two_goals:
+    interpretation:
+      says: His closing section names two goals.
+      whose: ai4science-philsci
+    quotes:
+    - exact: The goals in statistics are to use data to predict and to get information about the underlying
+        data mechanism.
+      section: 12. Final Remarks
+      page: 214

@@ -31,3 +31,50 @@ claims:
     - exact: offers no criticism
       section: '14.4'
       page: 210
+  arbitrary_prior_no_criticism:
+    interpretation:
+      says: 'The main alternative, Bayesian confirmation, treats evidence as the revision of degrees of
+        belief and constrains how those degrees change, not where they start: Godfrey-Smith notes that
+        Bayesianism "offers no criticism" of an arbitrary prior, "so long as your probabilities are internally
+        coherent and you update properly" (2003, p. 210).'
+      whose: ai4science-philsci
+    quotes:
+    - exact: Suppose you have never had a single thought about emeralds in your life, and you arbitrarily
+        decide to set a higher prior for the grue-emerald hypothesis. Bayesianism offers no criticism
+        of this decision, so long as your probabilities are internally coherent and you update properly.
+      section: '14.4'
+      page: 210
+  explanation_like_prediction:
+    interpretation:
+      says: On that view, explaining and predicting are the same calculation, done after or before the
+        event.
+      whose: ai4science-philsci
+    quotes:
+    - exact: For the covering law theory, there is not much difference between explanation and prediction.
+        To predict something, we put together an argument and try to show that it is to be expected, though
+        we don’t know for sure yet whether it is going to happen. When we explain something, we know that
+        it has happened already, and we show that it could have been predicted, using an argument containing
+        a law.
+      section: 13.2 The Rise and Fall of the Covering Law Theory of Explanation
+      page: 192
+  flagpole_most_famous:
+    interpretation:
+      says: The flagpole is the best-known counterexample; the objection was first made, with a slightly
+        different example, by Sylvain Bromberger in 1966.
+      whose: ai4science-philsci
+    quotes:
+    - exact: And the most famous illustration of the asymmetry problem is the case of the ﬂagpole and
+        the shadow.
+      section: 13.2 The Rise and Fall of the Covering Law Theory of Explanation
+      page: 193
+  flagpole_both_directions:
+    interpretation:
+      says: The same trigonometry gives the shadow from the height and the angle, and the height from
+        the shadow and the angle.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Just as we can deduce the length of the shadow from the height of the pole (plus optics and
+        trigonometry), we can deduce the height of the pole from the length of the shadow (and the same
+        laws).
+      section: 13.2 The Rise and Fall of the Covering Law Theory of Explanation
+      page: 193

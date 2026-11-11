@@ -12,3 +12,27 @@ claims:
     quotes:
     - exact: Lemma2. (L) implies,and is impliedby,(S) and (C).
       page: 284
+  conditionality_widely_accepted:
+    interpretation:
+      says: 'The statistician Allan Birnbaum showed in 1962 that it follows from two principles most statisticians
+        already accept:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'These include
+
+        the likelihoodprinciple,which has not hithertobeen very widely
+
+        accepted, in contrast with the conditionalityconcept which many
+
+        statisticiansare inclinedto accept forpurposesof "informative
+
+        inference."'
+      page: 269
+  sufficiency_conditionality_imply_lp:
+    interpretation:
+      says: 'The statistician Allan Birnbaum showed in 1962 that it follows from two principles most statisticians
+        already accept:'
+      whose: ai4science-philsci
+    quotes:
+    - exact: (S) and (C) together are mathematically equivalent to (L)
+      page: 271

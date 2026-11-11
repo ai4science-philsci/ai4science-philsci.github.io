@@ -1,0 +1,24 @@
+source:
+  citation: peters2017
+  url: https://library.oapen.org/bitstream/handle/20.500.12657/26040/11283.pdf
+  local: sources/peters_janzing_schoelkopf_2017_elements_of_causal_inference_oapen.pdf
+  extract_cmd: pdftotext {} -
+claims:
+  randomization_removes_influence:
+    interpretation:
+      says: the coin replaces the treatment's usual causes, which removes the arrows pointing into it
+        in the graph
+      whose: ai4science-philsci
+    quotes:
+    - exact: The randomization over T removes the influence of any other variable on T
+      section: 6.3 Interventions, Figure 6.3
+      page: 93
+  neyman_fisher_randomized:
+    interpretation:
+      says: The potential outcomes tradition goes back to Neyman and Fisher, who mainly discussed randomized
+        experiments.
+      whose: ai4science-philsci
+    quotes:
+    - exact: The ideas date back to Neyman [1923] and Fisher [1925] who mainly discussed randomized experiments.
+      section: 6.9 Potential Outcomes
+      page: 123

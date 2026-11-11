@@ -5,29 +5,27 @@ description: "What does a score license you to infer and do? Campbell and Fiske,
 
 This page asks one question: **what does a score license you to infer and do?**
 
-The [Measurement](/measurement/measurement/) page asks whether a score measures the thing it is named for. This page asks the next question. A benchmark score is reported, and a decision follows from it: which model to deploy, which result to trust, which capability to claim. This page covers three ideas from psychometrics about construct validity: when the score licenses that decision.
+The [Measurement](/measurement/measurement/) page asks whether a score measures the thing it is named for. This page asks the next question. A benchmark score is reported, and a decision follows from it: which model to deploy, which result to trust, which capability to claim. This page covers three ideas from [psychometrics](/fields/psychometrics/) about construct validity: when the score licenses that decision.
 
-1. **Measures of the same attribute agree; measures of different attributes come apart.** Results from different instruments for one attribute should agree closely. Results for different attributes should not correlate so highly that the attributes cannot be told apart, even when the instruments are similar.
-2. **A score is valid for a use, not in itself.** Evidence has to support each inference from the score to the proposed use. A use other than the one intended requires the argument to be reexamined or a new one to be developed.
-3. **The attribute exists and causes the scores.** Whatever evidence has been gathered, the score measures the capability only if differences in the capability produce the differences in scores.
-
-Each answer was given in reply to the one before it: validity as a correlation, then as an argument about a use, then as a fact about what causes the score.
+1. **Convergent and discriminant validity: measures of one attribute agree, and measures of different attributes differ.** Results from different instruments for one attribute should agree closely. Results for different attributes should not correlate so highly that the attributes cannot be told apart, even when the instruments are similar (Campbell and Fiske, 1959).
+2. **The argument-based approach: a score is valid for a use, not in itself.** Evidence has to support each inference from the score to the proposed use. A use other than the one intended requires the argument to be reexamined or a new one to be developed (Messick, 1989; Kane, 1992).
+3. **The causal account: the attribute exists and causes the scores.** Whatever evidence has been gathered, the score measures the capability only if differences in the capability produce the differences in scores (Borsboom, 2004).
 
 ## Kinds of validity
 
-This page covers the key ideas in construct validity, developed by the psychologists Lee Cronbach and Paul Meehl. Over the twentieth century, validity was also divided into other types:
+This page focuses primarily on construct validity, developed by the psychologists Lee Cronbach and Paul Meehl. Over the twentieth century, validity was divided into several types:
 
 | Type | Introduced | What it asks | On this site |
 |---|---|---|---|
 | Criterion (predictive, concurrent) | [Kelley (1927)](https://catalog.hathitrust.org/Record/001280879); [American Psychological Association (1954)](https://psycnet.apa.org/doi/10.1037/h0053479) | Does the score correlate with an external criterion believed to be related to the attribute? | Misreadings, below |
 | Content | [American Psychological Association (1954)](https://psycnet.apa.org/doi/10.1037/h0053479) | Were the items representatively sampled from the domain of interest? | Kane's generalization link, below |
-| Construct | [American Psychological Association (1954)](https://psycnet.apa.org/doi/10.1037/h0053479); [Cronbach and Meehl (1955)](https://psychclassics.yorku.ca/Cronbach/construct.htm) | Does the score relate to other measures as the theory of the attribute predicts? | This page |
+| Construct | [American Psychological Association (1954)](https://psycnet.apa.org/doi/10.1037/h0053479); [Cronbach and Meehl (1955)](https://psychclassics.yorku.ca/Cronbach/construct.htm) | Does the score relate to other measures as the theory of the attribute predicts: agreeing with measures of the same attribute (convergent) and differing from measures of others (discriminant)? | This page |
 | Consequential | [Messick (1989)](https://www.ets.org/research/policy_research_reports/publications/chapter/1989/hwrq.html); [Shepard (1993)](https://journals.sagepub.com/doi/10.3102/0091732X019001405) | Do the actions taken on the score achieve what they are for? | [Scope and Licensing](/scope/scope-and-licensing/) |
 | External | [Campbell (1957)](https://psycnet.apa.org/doi/10.1037/h0040950) | Does the result hold beyond the population and setting that produced it? | [Transfer and Scope](/transfer/transfer-and-scope/) |
 
-The textbook this page follows, [Mari, Wilson and Maul (2023), ch. 4](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4), gives an overview of this history.
+Psychometrics introduced criterion, content and construct validity (see [Mari, Wilson and Maul (2023), ch. 4](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4), for this history in more detail). Consequential validity comes from educational measurement, and external validity from experimental design in the social sciences.
 
-The psychometrician Samuel Messick later argued that validity is a single property of a test, a generalized construct validity, and that the older types are kinds of evidence for it:
+The psychometrician Samuel Messick later argued that validity is a single concept, a generalized construct validity, and that the older types are kinds of evidence for it:
 
 > The idea of distinct types of validity (e.g., criterion, content, construct) was replaced with the notion of there being distinct types of evidence that could be brought to bear on the validity of a given test
 >
@@ -47,15 +45,15 @@ Discriminant validity:
 >
 > — [Mari, Wilson and Maul (2023), p. 100](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4)
 
-Their example is extroversion and dominance, each assessed by self-report and by family report. Self-reports and family reports of extroversion should agree; self-reports of extroversion and of dominance should not agree so closely that the two traits cannot be told apart. The second test is the one that gets skipped. A score that correlates with everything measures something, and the agreement says nothing about what.
+Mari, Wilson and Maul give a classic example: extroversion and dominance, each assessed by self-report and by family report. Self-reports and family reports of extroversion should agree; self-reports of extroversion and of dominance should not agree so closely that the two traits cannot be told apart. The second test is the one that gets skipped. A score that correlates with everything measures something, and the agreement says nothing about what.
 
-**Messick (1989) and Kane (1992): a score is valid for a use, not in itself.** Correlations are evidence, and Messick asked what they are evidence for. His answer moved validity from a property of the test to a judgment about what is done with its scores.
+**Messick (1989) and Kane (1992): a score is valid for a use, not in itself.** Correlations are evidence, and Messick asked what they are evidence for. His answer moved validity from the test to the inferences and actions based on its scores:
 
 > validity is an integrated evaluative judgment of the degree to which empirical evidence and theoretical rationales support the adequacy and appropriateness of inferences and actions based on test scores
 >
 > — Messick (1989), quoted in [Mari, Wilson and Maul (2023), p. 100](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4)
 
-Michael Kane turned the judgment into a procedure: state the proposed use, lay out the chain of inferences from score to use, and collect evidence for each link. He names four links. Scoring takes the observed performances to a score. Generalization takes the score to expected performance over a universe of tasks like the ones tested; it
+Michael Kane turned the judgment into a procedure: state the proposed use, lay out the chain of inferences from score to use, and collect evidence for each link. Kane states the principle directly: it is "the proposed score interpretations and uses that are validated and not the test or the test scores." He offers four common links as examples, not as a checklist. Scoring takes the observed performances to a score. Generalization takes the score to expected performance over a universe of tasks like the ones tested; it
 
 > may or may not change the numerical value of the score, but it greatly expands its implications
 >
@@ -67,7 +65,7 @@ Extrapolation carries the claim into a different domain of performance, and a de
 >
 > — [Kane (2013), p. 13](https://onlinelibrary.wiley.com/doi/10.1111/jedm.12000)
 
-The testing standards in education and psychology adopted this view, defining validity as "the degree to which evidence and theory support the interpretations of test scores for proposed uses of tests" ([AERA, APA and NCME 2014, quoted in Mari, Wilson and Maul 2023, p. 101](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4)). On this account there is no validity coefficient to report. There is an argument, and a new use needs a new argument.
+Messick's and Kane's views helped shape the testing standards in education and psychology, which define validity as "the degree to which evidence and theory support the interpretations of test scores for proposed uses of tests" ([AERA, APA and NCME 2014, quoted in Mari, Wilson and Maul 2023, p. 101](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4)). On this account validity rests on an argument, and a new use reopens the argument.
 
 **Borsboom (2004): the attribute exists and causes the scores.** The psychometrician Denny Borsboom replied that an argument, however well supported, is not what makes a test valid. Validity is a fact about the world:
 
@@ -81,7 +79,7 @@ On his view the argument-based conception mistakes the evidence for the thing. M
 >
 > — [Mari, Wilson and Maul (2023), p. 102](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4)
 
-Borsboom later argued that mental disorders do not fit his own definition: there is no common cause behind the symptoms, and the symptoms cause one another. From 2008 he described disorders through
+Borsboom later argued that mental disorders may not fit his own definition: their symptoms can cause one another instead of sharing a common cause. From 2008 he described disorders through
 
 > a causal systems perspective, which holds that disorders are causal networks consisting of symptoms and direct causal relations between them
 >
@@ -98,7 +96,7 @@ Where the parts of a construct cause one another, there is no attribute behind t
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**The argument-based reply to Borsboom.** The reply from the argument-based side is that validation is a practical task done with the evidence a validator has, and truth is not something that can be collected. Mari, Wilson and Maul note that
+**The argument-based reply to Borsboom.** The reply from the argument-based side is that validation is a practical task done with the evidence a validator has. Mari, Wilson and Maul note that
 
 > Kane’s argument-based approach is targeted to the practical problem of validation and not a new theory about validity itself
 >
@@ -110,9 +108,13 @@ Borsboom's own words for the standard the argument-based view sets are that test
 >
 > — Borsboom (2012), quoted in [Mari, Wilson and Maul (2023), p. 102](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4)
 
-Mari, Wilson and Maul side with Borsboom's definition as the one closest to measurement science, and record that it "still stands outside the mainstream of thinking and discourse about validity."
+Mari, Wilson and Maul find Borsboom's definition the most compatible with the framework of their book, and record that it "still stands outside the mainstream of thinking and discourse about validity."
 
-**Alexandrova (2017) to construct validation.** The philosopher Anna Alexandrova accepts construct validation in principle, since it checks a measure against theory and background knowledge about the attribute. Her objection is to practice: psychometricians measuring well-being often avoid saying what well-being is and defer to respondents' own understanding instead.
+**Alexandrova (2017) to construct validation.** The philosopher Anna Alexandrova accepts construct validation in principle, since it checks a measure against theory and background knowledge about the attribute. Her objection is to practice: psychometricians measuring well-being often avoid saying what well-being is and defer to respondents' own understanding instead. Tal summarizes Alexandrova's conclusion:
+
+> This defeats the purpose of construct validation and turns it into a narrow, technical exercise
+>
+> — [Tal (2020), "Measurement in Science," SEP, §7.3](https://plato.stanford.edu/entries/measurement-science/#PsyModConVal)
 
 **Collins (1985) to validation by agreement.** The sociologist Harry Collins argued that when nothing independent checks an instrument, the result and the instrument vouch for each other. He called this the experimenters' regress:
 
@@ -121,10 +123,6 @@ Mari, Wilson and Maul side with Borsboom's definition as the one closest to meas
 > — [Franklin and Perovic (2023), "Experiment in Physics," SEP, §2.2.1](https://plato.stanford.edu/entries/physics-experiment/#ExpeRegr)
 
 A new benchmark is in the same position when it is validated by agreeing with old ones: it is trusted because it ranks the trusted models first. The philosopher of physics Allan Franklin replied, from Collins's own case of the search for gravity waves, that the regress was broken by checks that did not depend on the disputed result. The critics of the claimed detection had calibrated their apparatus with signals of known size and found they could detect them. For a benchmark, the counterpart is a check whose answer is known in advance, such as items an agent without the capability is certain to fail.
-
-> This defeats the purpose of construct validation and turns it into a narrow, technical exercise
->
-> — [Tal (2020), "Measurement in Science," SEP, §7.3](https://plato.stanford.edu/entries/measurement-science/#PsyModConVal)
 
 **Mari, Wilson and Maul (2023) on the whole debate.** The validity literature grew while the question it was meant to serve went unasked:
 
@@ -143,7 +141,7 @@ A new benchmark is in the same position when it is validated by agreeing with ol
 >
 > — [Tal (2020), "Measurement in Science," SEP, §7.3](https://plato.stanford.edu/entries/measurement-science/#PsyModConVal)
 
-**"Validity is a correlation with a criterion."** That was the first definition, and it is still the usual shortcut: correlate the score with an outside measure and report the coefficient.
+**"Validity is a correlation with a criterion."** That was an early definition. A correlation can still serve as a tool for evaluating validity, but
 
 > speaking of such a correlation as definitional of validity blurs the distinction between what we know and how we know it
 >
@@ -157,7 +155,7 @@ A coefficient is evidence in an argument; it is not the validity.
 >
 > — [Mari, Wilson and Maul (2023), p. 101](https://link.springer.com/chapter/10.1007/978-3-031-22448-5_4)
 
-**"Agreement between two measures shows they measure the same thing."** Convergent validity is half of Campbell and Fiske's test. Without the discriminant half, two measures can agree because both track a third thing, such as general ability, test-taking skill or the length of the items. Epidemiologists reached the same point from the other side. Debbie Lawlor and colleagues count agreement between methods as evidence only when the methods could not share a bias:
+**"Agreement between two measures shows they measure the same thing."** Convergent validity is half of Campbell and Fiske's test. Without the discriminant half, two measures can agree because both track a third thing, such as general ability, test-taking skill or the length of the items. Epidemiologists reached the same point from the other side. Debbie Lawlor and colleagues count agreement between methods as evidence when the methods' key sources of bias are unrelated:
 
 > Triangulation is the practice of obtaining more reliable answers to research questions through integrating results from several different approaches, where each approach has different key sources of potential bias that are unrelated to each other.
 >
@@ -170,7 +168,7 @@ The strongest case is two methods whose biases would push the result in opposite
 ## AI for Science
 
 - **Campbell and Fiske** ask whether other benchmarks for the same capability agree with this one, and whether benchmarks for different capabilities can be told apart by their scores.
-- **Messick and Kane** ask what use the score is for and which of Kane's four links the evidence reaches. A leaderboard supports scoring and, if the tasks were sampled from the domain, generalization. "The model can do X" is an extrapolation. Deployment is a decision. Each link beyond the first needs its own evidence, and a mean across tasks is a generalization claim that assumes the tasks were sampled from something.
+- **Messick and Kane** ask what use the score is for and which links in Kane's chain the evidence reaches. A leaderboard supports scoring and, if the tasks were sampled from the domain, generalization. "The model can do X" is an extrapolation. Deployment is a decision. Each link beyond the first needs its own evidence, and a mean across tasks is a generalization claim that assumes the tasks were sampled from something.
 - **Borsboom** asks whether the capability exists as an attribute of the system and whether differences in it cause the differences in scores. A validation argument that never checks what produces the score has skipped his question.
 
 <details class="worked-example">
@@ -208,7 +206,7 @@ An agent evaluates six models on eight benchmarks labeled as scientific capabili
 
 ## Limitations
 
-Campbell and Fiske's tests were designed for personality traits measured by several methods. Messick, Kane and the testing standards wrote about tests given to people, where a use means a decision about a person, such as admission or placement. Borsboom wrote about psychological attributes. Whether an AI system's capability has intended uses in Kane's sense, or is an attribute in Borsboom's, is open. Mari, Wilson and Maul also record that Borsboom's causal definition, this page's third idea, is a minority position in the validity literature.
+Campbell and Fiske's tests were designed for traits measured by several methods. Messick, Kane and the testing standards wrote about tests given to people, where a use means a decision about a person, such as admission or placement. Borsboom wrote about psychological attributes. Whether an AI system's capability has intended uses in Kane's sense, or is an attribute in Borsboom's, is open. Mari, Wilson and Maul also record that Borsboom's causal definition, this page's third idea, is a minority position in the validity literature.
 
 ---
 
@@ -218,7 +216,7 @@ Mari, Wilson and Maul, *Measurement Across the Sciences* (Springer, 2nd ed., 202
 
 | Chapter | Topics | Principle |
 |---|---|---|
-| 4.3.1, "Early Perspectives on Validity" | Kelley and Cureton; criterion correlations as validity coefficients; content validity | **Validity as correlation**: the first definition, and the one that blurs what we know with how we know it |
+| 4.3.1, "Early Perspectives on Validity" | Kelley and Cureton; criterion correlations as validity coefficients; content validity | **Validity as correlation**: an early definition, and the one that blurs what we know with how we know it |
 | 4.3.2, "Construct Validity" | Cronbach and Meehl's nomological network; Campbell and Fiske's convergent and discriminant validity | **Many measures, one construct**: measures of the same attribute should agree and measures of different attributes should not |
 | 4.3.3, "An Argument-Based Approach to Validity" | Messick's evaluative judgment; Kane's validation argument; the testing standards; the legalistic objection | **Validity for a use**: an argument from score to a stated use, reopened when the use changes |
 | 4.3.4, "Causal Perspectives on Validity" | Borsboom's definition; the authors' own alignment with it; its standing in the field | **Validity as fact**: whether the attribute exists and causes the scores, independent of the evidence to hand |

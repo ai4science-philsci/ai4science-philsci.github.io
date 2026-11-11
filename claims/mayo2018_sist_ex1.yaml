@@ -38,3 +38,66 @@ claims:
     - exact: He shoots all his bullets any old way into the side of a barn and then paints a bull’s-eye
         in spots where the bullet holes are clustered.
       page: 19
+  immune_to_flaws:
+    interpretation:
+      says: 'The philosopher of science Deborah Mayo asks about the method rather than the theory: whether
+        the procedure that produced the agreement could have shown the claim to be wrong.'
+      whose: ai4science-philsci
+    quotes:
+    - exact: If it is predetermined that a way will be found to either obtain or interpret data as evidence
+        for H, then data are not being taken seriously in appraising H. H is essentially immune to having
+        its flaws uncovered by the data. H might be said to have “passed” the test, but it is a test that
+        lacks stringency or severity.
+      section: 1.1 Severity Requirement
+      page: 5
+  texas_marksman_example:
+    interpretation:
+      says: Her example is the Texas marksman, who fires at a barn and then paints bull's-eyes where the
+        holes cluster.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'It is my favorite: the Texas Marksman. A Texan wants to demonstrate his shooting prowess.
+        He shoots all his bullets any old way into the side of a barn and then paints a bull’s-eye in
+        spots where the bullet holes are clustered.'
+      page: 19
+  replication_not_enough:
+    interpretation:
+      says: She also argues that replication is not a severe test when every study shares the same bias,
+        and uses hormone replacement therapy as the example.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Big Data scientists are discovering there may be something in the data collection that results
+        in the bias being “hard-wired” into the data, and therefore even into successful replications.
+        So replication is not enough.
+      page: 21
+  replicability_misses_bias:
+    interpretation:
+      says: She also argues that replication is not a severe test when every study shares the same bias,
+        and uses hormone replacement therapy as the example.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'Replicable results from high-quality research are sound, except for the sin that replicability
+        fails to uncover: systematic bias.'
+      page: 20
+  hrt_observational_confounding:
+    interpretation:
+      says: Observational studies reproducibly found that the therapy protected against heart disease,
+        but the women taking it were healthier, better educated and less obese than those who were not,
+        and none of the studies could detect that bias.
+      whose: ai4science-philsci
+    quotes:
+    - exact: 'The observational studies on HRT, despite reproducibly showing a benefit, had little capacity
+        to unearth biases due to “the healthy women’s syndrome.” There were confounding factors separately
+        correlated with the beneficial outcomes enjoyed by women given HRT: they were healthier, better
+        educated, and less obese than women not taking HRT.'
+      page: 21
+  hrt_rct_increased_risks:
+    interpretation:
+      says: When a large randomized trial was finally run, it found increased risks of heart disease and
+        breast cancer.
+      whose: ai4science-philsci
+    quotes:
+    - exact: Nevertheless, when a large randomized controlled trial (RCT) was finally done, it revealed
+        statistically significant increased risks of heart disease, breast cancer, and other diseases
+        that HRT was to have helped prevent.
+      page: 21

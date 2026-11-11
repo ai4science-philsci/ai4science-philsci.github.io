@@ -16,3 +16,32 @@ claims:
         of how big the data.
       section: The Causal Hierarchy
       page: 56
+  hierarchy_big_data:
+    interpretation:
+      says: Pearl's hierarchy says it does not, however big the data ([Models of Mechanisms](/mechanism/models-of-mechanisms/)).
+      whose: ai4science-philsci
+    quotes:
+    - exact: Interventional expressions cannot be inferred from passive observations alone, regardless
+        of how big the data.
+      section: The Causal Hierarchy
+      page: 56
+  hierarchy_levels_named:
+    interpretation:
+      says: Causal questions sit on different rungs of Judea Pearl's hierarchy, association, intervention
+        and counterfactual, and each rung needs different assumptions before any calculation begins.
+      whose: ai4science-philsci
+    quotes:
+    - exact: I call the levels 1. Association, 2. Intervention, and 3. Counterfactual, to match their
+        usage.
+      section: The Three-Level Causal Hierarchy
+      page: 56
+  hierarchy_information:
+    interpretation:
+      says: Causal questions sit on different rungs of Judea Pearl's hierarchy, association, intervention
+        and counterfactual, and each rung needs different assumptions before any calculation begins.
+      whose: ai4science-philsci
+    quotes:
+    - exact: The classification forms a three-level hierarchy in the sense that questions at level i (i
+        = 1, 2, 3) can be answered only if information from level j (j > i) is available.
+      section: The Three-Level Causal Hierarchy
+      page: 56

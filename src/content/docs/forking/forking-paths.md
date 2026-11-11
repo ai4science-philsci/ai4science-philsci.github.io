@@ -7,9 +7,9 @@ This page asks one question: **how many analyses stand behind the one reported?*
 
 An AI system for science can run more analyses in an afternoon than a laboratory runs in a year: other datasets, other exclusion rules, other models, other seeds. This page covers three ideas from statistics and metascience about what can stand behind the one analysis reported:
 
-1. **The file drawer.** Studies that fail to reach significance tend to stay unpublished, which distorts the published record and the meta-analyses built on it.
-2. **Researcher degrees of freedom.** Undisclosed flexibility in how data are collected and analyzed inflates the false positive rate. Simmons, Nelson and Simonsohn showed this by simulation.
-3. **The garden of forking paths.** A single analysis chosen in light of the data has the same problem as many.
+1. **The file drawer: null results stay unpublished.** The missing studies distort the published record and the meta-analyses built on it (Rosenthal, 1979).
+2. **Researcher degrees of freedom: undisclosed choices inflate false positives.** A simulation showed that flexibility in how data are collected and analyzed inflates the false positive rate (Simmons, Nelson and Simonsohn, 2011).
+3. **The garden of forking paths: one analysis chosen after seeing the data has the same problem as many.** What matters for the error rate is what the researcher would have done had the data turned out differently, so the problem needs no conscious fishing (Gelman and Loken, 2013).
 
 ## From the file drawer to the garden
 
@@ -49,7 +49,7 @@ The reason is counterfactual: what matters for the error rate is what the resear
 >
 > — [Gelman and Loken (2013), p. 1](https://sites.stat.columbia.edu/gelman/research/unpublished/p_hacking.pdf#page=1)
 
-**Hardwig (1985): the reporter did not see the paths.** All three accounts assume the person reporting the result chose the analyses and could list them. The philosopher John Hardwig studied a physics paper with 99 authors and found that this assumption already failed there:
+**Hardwig (1985): the reporter did not see the paths.** All three accounts assume the person reporting the result chose the analyses and could list them. The philosopher John Hardwig described a physics paper with 99 authors, drawing on one author's account of how the work was done, and found that this assumption already failed there:
 
 > many of the authors of an article like this will not even know how a given number in the article was arrived at
 >
@@ -60,7 +60,7 @@ The authors relied on each other for results none of them could check alone. Whe
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Gelman and Loken (2013) to Simmons, Nelson and Simonsohn (2011).** The accounts differ on where the fault lies. Simmons, Nelson and Simonsohn, and the surveys the SEP entry reports, describe practices researchers choose and could stop. Gelman and Loken regret the terms "fishing" and "p-hacking" because they imply a conscious search, and they place the problem in any analysis whose details depend on the data, which preregistration addresses and good intentions do not.
+**Gelman and Loken (2013) to Simmons, Nelson and Simonsohn (2011).** The accounts differ on where the fault lies. Simmons, Nelson and Simonsohn, and the surveys the SEP entry reports, describe particular practices, such as excluding data after checking the effect on significance. Gelman and Loken regret the terms "fishing" and "p-hacking" because they imply a conscious search. They add that Simmons, Nelson and Simonsohn did not say that p-hacking implies cheating, or even awareness of running data-dependent analyses. Gelman and Loken place the problem in any analysis whose details depend on the data, which preregistration addresses and good intentions do not.
 
 </details>
 

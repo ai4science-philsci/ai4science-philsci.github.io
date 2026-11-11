@@ -19,7 +19,7 @@ This page asks one question: **what evidence shows that a name used in a new sys
 >
 > — [Hickok (2009), "Eight Problems for the Mirror Neuron Theory," *Journal of Cognitive Neuroscience*](https://direct.mit.edu/jocn/article/21/7/1229/4778/Eight-Problems-for-the-Mirror-Neuron-Theory-of)
 
-Imaging cannot see single cells, so the human evidence showed only a region active during both doing and watching. The claim that the same kind of cell does the same work in both species was never tested, and Hickok concludes the system was generalized to humans without validation. The asymmetry also runs the other way in his argument: human lesion data that separate understanding an action from performing it count against the identity, because a difference at any level is a difference.
+Imaging cannot see single cells, so the human evidence showed only a region active during both doing and watching. The claim that the same kind of cell does the same work in both species has not been shown, and Hickok concludes the system was generalized to humans without systematic validation. The asymmetry also runs the other way in his argument: human lesion data that separate understanding an action from performing it count against the theory that the mirror system is the basis of action understanding, because a difference at any level is a difference.
 
 **Fisher and Scharff (2009): a name can sit at the wrong level in a single system.** FOXP2 is popularly "the language gene." The geneticist Simon Fisher and the behavioral biologist Constance Scharff describe what the evidence reaches. Rare mutations in FOXP2 cause a syndrome of impaired speech and language, but FOXP2 is a transcription factor, a gene that regulates other genes:
 
@@ -29,7 +29,7 @@ Imaging cannot see single cells, so the human evidence showed only a region acti
 
 The label names a component. The evidence reaches a role near the top of a regulatory cascade, with language far downstream.
 
-**Yarkoni (2022) and Nosek (2022): a failed replication may be a failure of the name to carry.** The psychologist Tal Yarkoni's case is verbal overshadowing. A 1990 experiment found that describing a face in words made it harder to recognize later, and a 31-site replication in 2014 found the same, using the same single video and the same lineup. Yarkoni argues that the design licenses only a claim about that one video and that one lineup. The name "verbal overshadowing" was carried to a general effect neither study measured, so a later study with other faces that fails need not mean either earlier study was wrong. The psychologist Brian Nosek and colleagues make the point from the other side:
+**Yarkoni (2022) and Nosek (2022): a failed replication may be a failure of the name to carry.** The psychologist Tal Yarkoni's case is verbal overshadowing. A 1990 experiment found that describing a face in words made it harder to recognize later, and a 31-site replication in 2014 found the same in one of its two tested conditions, using the same single video and the same lineup. Yarkoni argues that the design licenses only a claim about that one video and that one lineup. The name "verbal overshadowing" was carried to a general effect neither study measured, so a later study with other faces that fails need not mean either earlier study was wrong. The psychologist Brian Nosek and colleagues make the point from the other side:
 
 > A study is a replication when the innumerable differences from the original study are believed to be irrelevant for obtaining the evidence about the same finding.
 >
@@ -40,7 +40,7 @@ A failed replication can mean the finding is false, or that the differences beli
 <details class="worked-example">
 <summary>Objections and replies</summary>
 
-**Dinstein and colleagues (2007) to the mirror-system claim.** The imaging studies were not naive about their limits. Ilan Dinstein and colleagues, with a protocol built to find areas selective for both seen and performed movements, concluded only that six areas "may contain mirror neurons," and declined to draw strong conclusions about the cells themselves. The reply is that this is Hickok's point: the instrument's own authors drew the line that later users crossed.
+**Dinstein and colleagues (2007) to the mirror-system claim.** The imaging studies were not naive about their limits. Ilan Dinstein and colleagues, with a protocol built to find areas selective for both seen and performed movements, proposed that six areas contain neurons selective for both and "may contain mirror neurons." They declined to draw strong conclusions about the cells from one negative result: no adaptation carried over between seeing a movement and performing it. The reply is that this is Hickok's point: the instrument's own authors drew the line that later users crossed.
 
 **Pearl and Bareinboim (2014): this is just transportability.** Carrying a result to a new population is what [Transfer and Scope](/transfer/transfer-and-scope/) covers. The difference is that transportability fixes the variables and asks whether an effect carries. Reusing a name assumes the variables mean the same thing in both systems, which is the question that has to be settled first.
 
@@ -55,7 +55,7 @@ A failed replication can mean the finding is false, or that the differences beli
 
 **"The language gene explains language."** Fisher and Scharff judge the evolutionary changes in FOXP2 unlikely to be the sole or main driver of spoken language. A name at the level of one component invites a claim the evidence at that level cannot carry.
 
-**"A name failing to carry is a philosophers' problem."** Hickok's eight problems are empirical: dissociations, lesion data and species differences, each bearing on whether one name picks out one thing.
+**"A name failing to carry is a philosophers' problem."** Hickok's eight problems are empirical: dissociations, lesion data and species differences. The fourth, on how macaque mirror neurons relate to the human mirror system, bears on whether one name picks out one thing.
 
 </details>
 
